@@ -1,0 +1,149 @@
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Gert Stulp"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "enough about me, let's talk about me"
+  logo = "img/Zorro.jpg"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Gert Stulp"
+  website = "yourwebsite.com"
+  email = "g.stulp@rug.nl"
+  #facebook = "username"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "gertstulp"
+  #gitlab = "username"
+  twitter = "Gert_Stulp_or_G"
+  #reddit = "username"
+  #linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #googlescholar: "https://scholar.google.nl/citations?user=fFcVaEYAAAAJ&hl=nl"
+  #orcid: "https://orcid.org/0000-0003-0173-5554"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    identifier = "research"
+    name = "research"
+    weight = 2
+
+[[menu.main]]
+    parent = "research"
+    name = "Bio"
+    url = "page/bio/"
+    weight = 1
+
+[[menu.main]]
+    parent = "research"
+    name = "Bio"
+    url = "page/bio/"
+    weight = 1
+    
+[[menu.main]]
+    parent = "research"
+    name = "Publications"
+    url = "page/publications/"
+    weight = 2    
+
+[[menu.main]]
+    parent = "research"
+    name = "CV"
+    url = "page/cv/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "R"
+    name = "R"
+    weight = 3
+
+[[menu.main]]
+    parent = "R"
+    name = "R for Sociology"
+    url = "page/sociology/"
+    weight = 1   
+
+[[menu.main]]
+    parent = "R"
+    name = "visualization"
+    url = "page/visualization/"
+    weight = 2
+
+[[menu.main]]
+    parent = "R"
+    name = "shiny apps"
+    url = "page/shiny/"
+    weight = 3
+
+[[menu.main]]
+    parent = "R"
+    name = "workshops"
+    url = "page/workshops/"
+    weight = 4
+
+[[menu.main]]
+    name = "teaching"
+    url = "page/teaching/"
+    weight = 4
+
+[[menu.main]]
+    identifier = "Other"
+    name = "Other"
+    weight = 5
+
+[[menu.main]]
+    parent = "Other"
+    name = "Cats"
+    url = "page/Cats/"
+    weight = 1
+    
+[[menu.main]]
+    name = "Contact"
+    url = "page/contact/"
+    weight = 6
