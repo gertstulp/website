@@ -237,6 +237,16 @@ Schedule We&amp;rsquo;ll always be in computer room Hv.0307.
     </item>
     
     <item>
+      <title>about me</title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>g.stulp@rug.nl (Gert Stulp)</author>
+      <guid>/</guid>
+      <description>My name is Gert Stulp. I like:
+ cats visualisations in R Gary Larson Arnold Schwarzenegger  </description>
+    </item>
+    
+    <item>
       <title>bio</title>
       <link>/page/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
