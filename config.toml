@@ -1,22 +1,22 @@
-baseurl = "http://www.gertstulp.com"
+baseurl = "https://username.github.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Gert Stulp"
+title = "Beautiful Hugo"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
-  subtitle = "enough about me, let's talk about me"
-  logo = "img/Zorro.jpg"
+  subtitle = "Build a beautiful and simple website in minutes"
+  logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -39,111 +39,63 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #  desc = "Hexagon"
 
 [Author]
-  name = "Gert Stulp"
+  name = "Some Person"
   website = "yourwebsite.com"
-  email = "g.stulp@rug.nl"
-  #facebook = "username"
-  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  github = "gertstulp"
-  #gitlab = "username"
-  twitter = "Gert_Stulp_or_G"
-  #reddit = "username"
-  #linkedin = "username"
-  #xing = "username"
-  #stackoverflow = "users/XXXXXXX/username"
-  #snapchat = "username"
-  #instagram = "username"
-  #youtube = "user/username" # or channel/channelname
-  #soundcloud = "username"
-  #spotify = "username"
-  #bandcamp = "username"
-  #itchio = "username"
-  #vk = "username"
-  #paypal = "username"
-  #telegram = "username"
-  #googlescholar: "https://scholar.google.nl/citations?user=fFcVaEYAAAAJ&hl=nl"
-  #orcid: "https://orcid.org/0000-0003-0173-5554"
+  email = "youremail@domain.com"
+  facebook = "username"
+  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "username"
+  gitlab = "username"
+  twitter = "username"
+  reddit = "username"
+  linkedin = "username"
+  xing = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  snapchat = "username"
+  instagram = "username"
+  youtube = "user/username" # or channel/channelname
+  soundcloud = "username"
+  spotify = "username"
+  bandcamp = "username"
+  itchio = "username"
+  vk = "username"
+  paypal = "username"
+  telegram = "username"
 
 [[menu.main]]
-    name = "news"
-    url = "post/"
+    name = "Blog"
+    url = ""
     weight = 1
 
 [[menu.main]]
-    identifier = "research"
-    name = "research"
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "samples"
+    name = "Samples"
     weight = 2
 
 [[menu.main]]
-    parent = "research"
-    name = "Bio"
-    url = "page/bio/"
+    parent = "samples"
+    name = "Big Image Sample"
+    url = "post/2017-03-07-bigimg-sample"
     weight = 1
 
 [[menu.main]]
-    parent = "research"
-    name = "Bio"
-    url = "page/bio/"
-    weight = 1
-    
-[[menu.main]]
-    parent = "research"
-    name = "Publications"
-    url = "page/publications/"
-    weight = 2    
-
-[[menu.main]]
-    parent = "research"
-    name = "CV"
-    url = "page/cv/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "R"
-    name = "R"
-    weight = 3
-
-[[menu.main]]
-    parent = "R"
-    name = "R for Sociology"
-    url = "page/sociology/"
-    weight = 1   
-
-[[menu.main]]
-    parent = "R"
-    name = "visualization"
-    url = "page/visualization/"
+    parent = "samples"
+    name = "Math Sample"
+    url = "post/2017-03-05-math-sample"
     weight = 2
 
 [[menu.main]]
-    parent = "R"
-    name = "shiny apps"
-    url = "page/shiny/"
+    parent = "samples"
+    name = "Code Sample"
+    url = "post/2016-03-08-code-sample"
     weight = 3
 
 [[menu.main]]
-    parent = "R"
-    name = "workshops"
-    url = "page/workshops/"
-    weight = 4
-
-[[menu.main]]
-    name = "teaching"
-    url = "page/teaching/"
-    weight = 4
-
-[[menu.main]]
-    identifier = "Other"
-    name = "Other"
-    weight = 5
-
-[[menu.main]]
-    parent = "Other"
-    name = "Cats"
-    url = "page/Cats/"
-    weight = 1
-    
-[[menu.main]]
-    name = "Contact"
-    url = "page/contact/"
-    weight = 6
+    name = "Tags"
+    url = "tags"
+    weight = 3
