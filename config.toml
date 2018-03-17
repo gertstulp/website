@@ -1,4 +1,4 @@
-baseurl = "https://www.gertstulp.com"
+baseurl = "http://www.gertstulp.com"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Gert Stulp"
@@ -65,8 +65,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   #orcid: "https://orcid.org/0000-0003-0173-5554"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
+    name = "news"
+    url = "post/"
     weight = 1
 
 [[menu.main]]
