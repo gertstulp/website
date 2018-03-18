@@ -23,7 +23,7 @@ blogdown::new_site(theme = "halogenica/beautifulhugo")
 I did run into some problems when doing it this way, though, which perhaps mostly relate to my limited experience with Hugo, blogdown, and making websites. How I got this website to work, was by first of all finding Emily Riederer's [website](https://emilyriederer.netlify.com/) and [Github](https://github.com/emilyriederer/emilyriederer). I copied her files into my blogdown-Rstudio-folder and adapted them. Setting up the netlify account was easy. [This](https://gertstulp.netlify.com/) is my (new) webite.
 
 ### Outstanding issues
-I currently struggling with the following issues:
+I currently struggle with the following issues:
 
 - I don't quite understand what the `_index.md` file is doing, and more so, why it seems required. I tried to change it to a `index.md` file, but then the website crashes. I am sure that some theme documents expect the file. I want to change it because I don't want the "blogs" to be present on the very first page. It probably means I have to dig a bit deeper into all the CSS and html-things. I did get this to work on my older [website](https://gertstulp.github.io/) using the jekyll theme and Github pages
 - I want more of these circle-thingies in the footer. There are currently 'only' four. I want to add the scholar google and researcher orchid one. This will involve some html-additions. I remember I also fixed this for my older website, but obviously I don't remember. I also don't want the RSS-feed thingy. 
