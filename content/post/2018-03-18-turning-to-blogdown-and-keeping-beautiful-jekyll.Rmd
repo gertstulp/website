@@ -11,7 +11,7 @@ tags:
 ---
 
 ### beautiful-jekyll & blogdown.
-I love the beautiful-jekyll website made by [Dean Attali](https://github.com/daattali/beautiful-jekyll). However, most of the stuff I want to blog about are about **R**, and visualisations in **R**, which is more easily done in RMarkdown than in Markdown. With the original jekyll theme and Github pages, transforming from an Rmarkdown to a Markdown file that is styled appropriately according to the beautiful-jekyll theme is a painfull process (for me at least!). This is why I have converted to [blogdown](https://bookdown.org/yihui/blogdown/). 
+I love the beautiful-jekyll website made by [Dean Attali](https://github.com/daattali/beautiful-jekyll). However, most of the stuff I want to blog about involves **R** and visualisations in **R**, which is more easily done in RMarkdown than in Markdown. With the original jekyll theme and Github pages, transforming from an Rmarkdown to a Markdown file that is styled appropriately according to the beautiful-jekyll theme is a painfull process (for me at least!). This is why I have converted to [blogdown](https://bookdown.org/yihui/blogdown/). 
 
 Thankfully, [somebody](http://halogenica.net/) already made a beautiful-jekyll [Hugo-theme](https://themes.gohugo.io/beautifulhugo/) that is handy for blogdown. If you have installed the blogdown package already, you can simply do:
 
