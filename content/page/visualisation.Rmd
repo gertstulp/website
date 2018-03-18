@@ -3,8 +3,5 @@ layout: page
 title: visualisations
 ---
 
-These are the **R**-workshops I have given:
-
-link1
-link2
-
+- Nathan Yau visualisation stuff
+- present visualisations I've done.

@@ -5,6 +5,9 @@ title: workshops
 
 These are the **R**-workshops I have given:
 
-link1
-link2
+|Date               |What        |Link        
+|--------           |--------    |--------    
+|Januari 22, 2018   |basic R     |[here](http://stulp.gmw.rug.nl/22-01-2018/Rworkshop/)           
+|Januari 11, 2018   |basic R     |[here](http://stulp.gmw.rug.nl/11-01-2018/Rworkshop/)        
+|October 13, 2017   |ggplot      |[here](http://stulp.gmw.rug.nl/ggplotworkshop/)           
 

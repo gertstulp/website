@@ -35,3 +35,4 @@ Some other Hugo-blogdown-themes that I like are:
 
 - https://amber.rbind.io/about/
 - https://tranquilpeak.kakawait.com/archives/
+- for more themes: https://themes.gohugo.io/theme/beautifulhugo/
