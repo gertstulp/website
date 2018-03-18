@@ -1,7 +1,7 @@
 baseurl = "https://emilyriederer.netlify.com"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Emily Riederer"
+title = "Gert Stulp"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -15,9 +15,9 @@ pygmentsCodefencesGuessSyntax = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
-  subtitle = "All things data - the art and the science"
-  logo = "/EmilyRiederer.jpg"
-  favicon = "/favicon.png"
+  subtitle = "enough about me, let's talk about me"
+  logo = "/Zorro.jpg"
+  favicon = "/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
@@ -39,14 +39,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #  desc = "Hexagon"
 
 [Author]
-  name = "Emily Riederer"
-  website = "emilyriederer.netlify.com"
-  email = "emilyriederer@gmail.com"
-  facebook = "emilyriederer"
-  github = "emilyriederer"
-  twitter = "emilyriederer"
-  linkedin = "emilyriederer"
-  stackoverflow = "users/XXXXXXX/username"
+  name = "Gert Stulp"
+  website = "www.gertstulp.com"
+  email = "g.stulp@rug.nl"
+  github = "gertstulp"
+  twitter = "Gert_Stulp_or_G"
+  #googlescholar: "https://scholar.google.nl/citations?user=fFcVaEYAAAAJ&hl=nl"
+  #orcid: "https://orcid.org/0000-0003-0173-5554"
+
+
 
 [[menu.main]]
     name = "Blog"
