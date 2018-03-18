@@ -14,6 +14,9 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
 [Params]
   subtitle = "enough about me, let's talk about me"
   logo = "/Zorro.jpg"
