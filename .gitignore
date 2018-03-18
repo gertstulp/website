@@ -2,4 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-.public/*
+public
+website.Rproj
+.DS_Store

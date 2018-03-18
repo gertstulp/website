@@ -1,16 +1,11 @@
 ---
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Who am I?
 comments: false
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am a passionate explorer of all things data, statistics, and [#rstats](https://twitter.com/hashtag/rstats). Lately, I've been focused on incorporating best practices from open science and reproducible research to the corporate world through workflow improvement and internal tool development. More broadly, I love exploratory data anaylsis and modeling. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Previously, I studied at the University of North Carolina at Chapel Hill where I earned degrees in Mathematics and Mathematical Decision Sciences (Stats/OR) and completed my Honors Thesis on discrete event simulation in emergency medicene. My professional experience has focused on consumer credit domain, but I'm eager to continue learning and exploring areas such as healthcare and transportation as well.
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+When I'm not crunching numbers, I enjoy reading, weightlifting, and watching college basketball (Go Tar Heels!)
