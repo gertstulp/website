@@ -50,16 +50,86 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
+    name = "news"
+    url = "post/"
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
+    identifier = "research"
+    name = "research"
+    weight = 2
+
+[[menu.main]]
+    parent = "research"
+    name = "Bio"
+    url = "page/bio/"
+    weight = 1
+
+[[menu.main]]
+    parent = "research"
+    name = "Bio"
+    url = "page/bio/"
+    weight = 1
+    
+[[menu.main]]
+    parent = "research"
+    name = "Publications"
+    url = "page/publications/"
+    weight = 2    
+
+[[menu.main]]
+    parent = "research"
+    name = "CV"
+    url = "page/cv/"
     weight = 3
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
+    identifier = "R"
+    name = "R"
     weight = 3
+
+[[menu.main]]
+    parent = "R"
+    name = "R for Sociology"
+    url = "page/sociology/"
+    weight = 1   
+
+[[menu.main]]
+    parent = "R"
+    name = "visualisation"
+    url = "page/visualisation/"
+    weight = 2
+
+[[menu.main]]
+    parent = "R"
+    name = "shiny apps"
+    url = "page/shiny/"
+    weight = 3
+
+[[menu.main]]
+    parent = "R"
+    name = "workshops"
+    url = "page/workshops/"
+    weight = 4
+
+[[menu.main]]
+    name = "teaching"
+    url = "page/teaching/"
+    weight = 4
+
+[[menu.main]]
+    identifier = "Other"
+    name = "Other"
+    weight = 5
+
+[[menu.main]]
+    parent = "Other"
+    name = "Cats"
+    url = "page/Cats/"
+    weight = 1
+    
+[[menu.main]]
+    name = "Contact"
+    url = "page/contact/"
+    weight = 6
+
