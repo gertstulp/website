@@ -1,4 +1,4 @@
-baseurl = "https://emilyriederer.netlify.com"
+baseurl = "https://gertstulp.netlify.com/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Gert Stulp"
@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
   subtitle = "enough about me, let's talk about me"
-  logo = "/EmilyRiederer.jpg"
+  logo = "/Zorro.jpg"
   favicon = "/favicon.png"
   dateFormat = "January 2, 2006"
   commit = false
