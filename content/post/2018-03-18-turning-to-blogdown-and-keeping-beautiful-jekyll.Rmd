@@ -10,10 +10,28 @@ tags:
   - website
 ---
 
-### beautiful-jekyll
-I love the beautiful-jekyll website made by Dean Attali [https://github.com/daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll). However, most of the stuff I want to blog about are about R, and visualisations in R. Transforming from an Rmarkdown to a Markdown file to the website on github is a painfull process (for me at least!). This is why I will convert to blogdown (by Yihui). Yet I need to figure out how to get some of the beautiful-jekyll themed elements to the new blogdown website. 
+### beautiful-jekyll & blogdown.
+I love the beautiful-jekyll website made by [Dean Attali](https://github.com/daattali/beautiful-jekyll). However, most of the stuff I want to blog about are about **R**, and visualisations in **R**, which is more easily done in RMarkdown than in Markdown. With the original jekyll theme and Github pages, transforming from an Rmarkdown to a Markdown file that is styled appropriately according to the beautiful-jekyll theme is a painfull process (for me at least!). This is why I have converted to [blogdown](https://bookdown.org/yihui/blogdown/). 
 
-These are some useful websites:
-https://github.com/rstudio/blogdown
-https://github.com/ColinFay/jekyllthat
-https://www.r-bloggers.com/blogging-with-rmarkdown-knitr-and-jekyll/
+Thankfully, [somebody](http://halogenica.net/) already made a beautiful-jekyll [Hugo-theme](https://themes.gohugo.io/beautifulhugo/) that is handy for blogdown. If you have installed the blogdown package already, you can simply do:
+
+```{r, eval = FALSE}
+library(blogdown)
+blogdown::new_site(theme = "halogenica/beautifulhugo")
+```
+
+I did run into some problems when doing it this way, though, which perhaps mostly relate to my limited experience with Hugo, blogdown, and making websites. How I got this website to work, was by first of all finding Emily Riederer's [website](https://emilyriederer.netlify.com/) and [Github](https://github.com/emilyriederer/emilyriederer). I copied her files into my blogdown-Rstudio-folder and adapted them. Setting up the netlify account was easy. [This](https://gertstulp.netlify.com/) is my (new) webite.
+
+### Outstanding issues
+I currently struggling with the following issues:
+
+- I don't quite understand what the `_index.md` file is doing, and more so, why it seems required. I tried to change it to a `index.md` file, but then the website crashes. I am sure that some theme documents expect the file. I want to change it because I don't want the "blogs" to be present on the very first page. It probably means I have to dig a bit deeper into all the CSS and html-things. I did get this to work on my older [website](https://gertstulp.github.io/) using the jekyll theme and Github pages
+- I want more of these circle-thingies in the footer. There are currently 'only' four. I want to add the scholar google and researcher orchid one. This will involve some html-additions. I remember I also fixed this for my older website, but obviously I don't remember. I also don't want the RSS-feed thingy. 
+- Check how I can add pdfs to the website. 
+
+
+### Themes if I get bored by beautiful-jekyll
+Some other Hugo-blogdown-themes that I like are:
+
+- https://amber.rbind.io/about/
+- https://tranquilpeak.kakawait.com/archives/
