@@ -88,7 +88,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     identifier = "R"
-    name = "R"
+    name = "R[esources]"
     weight = 3
 
 [[menu.main]]
@@ -116,23 +116,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 4
 
 [[menu.main]]
+    parent = "R"
+    name = "cats"
+    url = "page/cats/"
+    weight = 5
+
+[[menu.main]]
     name = "teaching"
     url = "page/teaching/"
     weight = 4
 
-[[menu.main]]
-    identifier = "Other"
-    name = "Other"
-    weight = 5
 
-[[menu.main]]
-    parent = "Other"
-    name = "Cats"
-    url = "page/Cats/"
-    weight = 1
-    
 [[menu.main]]
     name = "Contact"
     url = "page/contact/"
-    weight = 6
+    weight = 5
 
