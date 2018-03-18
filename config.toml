@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
   subtitle = "enough about me, let's talk about me"
-  logo = "Zorro.jpg"
+  logo = "/EmilyRiederer.jpg"
   favicon = "/favicon.png"
   dateFormat = "January 2, 2006"
   commit = false
