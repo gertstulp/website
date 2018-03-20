@@ -176,40 +176,40 @@ defaultContentLanguageInSubdir = false
     parent = "Research"
     name = "Overview"
     url = "#projects"
-    weight = 1
+    weight = 4
 
 [[menu.main]]
     parent = "Research"
     name = "Publications"
     url = "#publications"
-    weight = 2
+    weight = 5
 
 [[menu.main]]
   identifier = "Resources"
   name = "R[esources]"
-  weight = 4
+  weight = 6
 
 [[menu.main]]
   parent = "Resources"
   name = "Workshops"
   url = "#talks"
-  weight = 1
+  weight = 7
 
 [[menu.main]]
   parent = "Resources"
   name = "R for Sociology"
   url = "sociology/"
-  weight = 2
+  weight = 8
 
 [[menu.main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 6
+  weight = 9
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 10
 
 # Taxonomies.
 [taxonomies]
