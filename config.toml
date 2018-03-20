@@ -1,4 +1,4 @@
-baseurl = "https://alison.rbind.io/"
+baseurl = "https://gertstulp.netlify.com"
 title = "Gert Stulp"
 copyright = "&copy; 2018 Gert Stulp"
 theme = "hugo-academic"
