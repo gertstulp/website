@@ -1,7 +1,0 @@
----
-layout: page
-title: visualisations
----
-
-- Nathan Yau visualisation stuff
-- present visualisations I've done.
