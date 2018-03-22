@@ -22,8 +22,8 @@ We'll always be in computer room **Hv.0307**.
 
 |Date        |Day         |Chapters    |In charge
 |--------    |--------    |--------    |---------
-|March 20    |Tuesday     |1-2         |Gert
-|March 27    |Tuesday     |3-4         |Gert
+|March 20    |Tuesday     |1-2 <sup>a</sup>         |Gert
+|March 27    |Tuesday     |3-4 <sup>b</sup>         |Robert
 |April 3     |Tuesday     |5-6           |Robert
 |April 10    |Tuesday     |7-10         |Robert
 |April 17    |Tuesday     |11-12        |
@@ -42,3 +42,7 @@ We'll always be in computer room **Hv.0307**.
 |July 17     |Tuesday     |TBA         |
 |July 24     |Tuesday     |TBA         |
 |July 31     |Tuesday     |TBA         |
+
+<sup>a</sup> [This page](http://stulp.gmw.rug.nl/22-01-2018/Rworkshop/) may be helpful for loading in data.
+
+<sup>b</sup> [This page](http://stulp.gmw.rug.nl/ggplotworkshop/) may be helpful if you want to know more about visualising.
