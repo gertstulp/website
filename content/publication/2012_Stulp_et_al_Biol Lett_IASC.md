@@ -1,29 +1,26 @@
 +++
-abstract = "Human male height is associated with mate choice and intra-sexual competition, and therefore potentially with reproductive success. A literature review (n = 18) on the relationship between male height and reproductive success revealed a variety of relationships ranging from negative to curvilinear to positive. Some of the variation in results may stem from methodological issues, such as low power, including men in the sample who have not yet ended their reproductive career, or not controlling for important potential confounders (e.g. education and income). We investigated the associations between height, education, income and the number of surviving children in a large longitudinal sample of men (n = 3,578; Wisconsin Longitudinal Study), who likely had ended their reproductive careers (e.g. > 64 years). There was a curvilinear association between height and number of children, with men of average height attaining the highest reproductive success. This curvilinear relationship remained after controlling for education and income, which were associated with both reproductive success and height. Average height men also married at a younger age than shorter and taller men, and the effect of height diminished after controlling for this association. Thus, average height men partly achieved higher reproductive success by marrying at a younger age. On the basis of our literature review and our data, we conclude that men of average height most likely have higher reproductive success than either short or tall men."
+abstract = "Intralocus sexual conflict (IASC) occurs when a trait under selection in one sex constrains the other sex from achieving its sex-specific fitness optimum. Selection pressures on body size often differ between the sexes across many species, including humans: among men individuals of average height enjoy the highest reproductive success, while shorter women have the highest reproductive success. Given its high heritability, IASC over human height is likely. Using data from sibling pairs from the Wisconsin Longitudinal Study, we present evidence for IASC over height: in shorter sibling pairs (relatively) more reproductive success (number of children) was obtained through the sister than through the brother of the sibling pair. By contrast, in average height sibling pairs most reproductive success was obtained through the brother relative to the sister. In conclusion, we show that IASC over a heritable, sexually dimorphic physical trait (human height) affects Darwinian fitness in a contemporary human population."
 
-authors = ["Gert Stulp", "Thomas V. Pollet", "Simon Verhulst", "Abraham P. Buunk"]
-date = "2011-05-11"
+authors = ["Gert Stulp", "Bram Kuijper", "Thomas V. Pollet", "Abraham P. Buunk", "Simon Verhulst"]
+date = "2012-08-08"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = "In *Behavioral Ecology and Sociobiology*"
-publication_short = "BES"
+publication = "In *Biology Letters*"
+publication_short = "Biol Lett"
 selected = false
-title = "A curvilinear effect of height on reproductive success in human males"
+title = "Intralocus sexual conflict over human height"
 url_code = ""
 url_dataset = ""
-url_pdf = "https://link.springer.com/article/10.1007/s00265-011-1283-2"
+url_pdf = "pdf/2012_Stulp_et_al_Biol Lett_IASC.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
 
 [[url_custom]]
 name = "View Journal Article"
-url = "https://link.springer.com/article/10.1007/s00265-011-1283-2"
+url = "http://rsbl.royalsocietypublishing.org/content/8/6/976"
 
-[[url_custom]]
-name = "Supplementary Material"
-url = "pdf/2012_Stulp_et_al_BES_Curvilinear_ESM.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
