@@ -205,7 +205,13 @@ defaultContentLanguageInSubdir = false
   parent = "Resources"
   name = "YAG"
   url = "yag/"
-  weight = 2
+  weight = 3
+
+[[menu.main]]
+  parent = "Resources"
+  name = "FLAG"
+  url = "flag/"
+  weight = 4
 
 [[menu.main]]
   name = "Teaching"
