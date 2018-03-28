@@ -14,7 +14,7 @@ caption = "kaRl maRx"
 
 Here you can find the schedule and the contents of the **R for Sociology** meetings. 
 
-We'll work through the book **R for Data Science** by Grolemund and Hadwick (2017). The book is freely available: http://r4ds.had.co.nz/ (for a pdf version click [here](http://www.allitebooks.in/r-data-science/))
+We'll work through the book **R for Data Science** by Grolemund and Hadwick (2017). The book is freely available: http://r4ds.had.co.nz/ (for a pdf version click [here](http://www.allitebooks.in/r-data-science/)). For solutions to the assignments, click [here](https://jrnold.github.io/r4ds-exercise-solutions/).
 
 ### Schedule
 We'll always be in computer room **Hv.0307**.
