@@ -16,3 +16,16 @@ You can download my CV here:
 <a class="btn btn-primary btn-outline" href="pdf/CV Gert Stulp 2018.pdf">
   CV
 </a>
+
+<a class="btn btn-primary btn-outline" href="/pdf/CV Gert Stulp 2018.pdf">
+  CV2
+</a>
+
+<a class="btn btn-primary btn-outline" href="/static/pdf/CV Gert Stulp 2018.pdf">
+  CV3
+</a>
+
+
+<a class="btn btn-primary btn-outline" href="static/pdf/CV Gert Stulp 2018.pdf">
+  CV4
+</a>
