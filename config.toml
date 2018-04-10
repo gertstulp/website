@@ -185,6 +185,12 @@ defaultContentLanguageInSubdir = false
     weight = 2
 
 [[menu.main]]
+    parent = "Research"
+    name = "CV"
+    url = "CV/"
+    weight = 3
+
+[[menu.main]]
   identifier = "Resources"
   name = "R[esources]"
   weight = 4
