@@ -25,8 +25,8 @@ We'll always be in computer room **Hv.0307**.
 |March 20    |Tuesday     |1-2 <sup>a</sup>         |Gert
 |March 27    |Tuesday     |3-4 <sup>b</sup>         |Robert
 |April 3     |Tuesday     |5-6           |Robert
-|April 10    |Tuesday     |7-10         |Robert
-|April 17    |Tuesday     |11-12        |
+|April 10    |Tuesday     |7-10         |Gert
+|April 17    |Tuesday     |11-12        |Robert
 |April 25    |Wednesday   |14-15       |
 |May 1       |Tuesday     |13 & 16       |
 |May 8       |Tuesday     |17 - 19         |
