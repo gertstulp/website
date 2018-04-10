@@ -1,6 +1,6 @@
 +++
 title = "Curriculum Vitae"
-date = "2018-03-19T00:00:00Z"
+date = "2018-04-08T00:00:00Z"
 math = false
 highlight = false
 
@@ -12,20 +12,7 @@ caption = ""
 +++
 
 
-You can download my CV here:
-<a class="btn btn-primary btn-outline" href="pdf/CV Gert Stulp 2018.pdf">
-  CV
-</a>
-
+You can download my **CV** here:
 <a class="btn btn-primary btn-outline" href="/pdf/CV Gert Stulp 2018.pdf">
-  CV2
-</a>
-
-<a class="btn btn-primary btn-outline" href="/static/pdf/CV Gert Stulp 2018.pdf">
-  CV3
-</a>
-
-
-<a class="btn btn-primary btn-outline" href="static/pdf/CV Gert Stulp 2018.pdf">
-  CV4
+  CV
 </a>
