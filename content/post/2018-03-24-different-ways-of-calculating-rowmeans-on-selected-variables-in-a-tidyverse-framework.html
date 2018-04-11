@@ -1,7 +1,7 @@
 ---
 title: Different ways of calculating rowmeans on selected variables in a tidyverse framework
 author: Gert Stulp
-summary:  Post on Different ways of calculating rowmeans on selected variables in a tidyverse framework
+summary:  Post on different ways of calculating rowmeans on selected variables in a tidyverse framework
 date: '2018-03-24'
 slug: different-ways-of-calculating-rowmeans-on-selected-variables-in-a-tidyverse-framework
 categories:
@@ -184,7 +184,7 @@ ggplot(times_long, aes(x = nrow, y = Time,
   scale_x_continuous(trans = &quot;log10&quot;) +
   scale_y_continuous(trans = &quot;log10&quot;) +
   theme_minimal() +
-  labs(x = &quot;Number of rows&quot;, y = &quot;Time (seconds&quot;)</code></pre>
+  labs(x = &quot;Number of rows&quot;, y = &quot;Time (seconds)&quot;)</code></pre>
 <p><img src="/post/2018-03-24-different-ways-of-calculating-rowmeans-on-selected-variables-in-a-tidyverse-framework_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
 <p><code>rowMeans</code> is a clear winner, but can obviously not be used when you have to do something differently to the rows than means. <code>apply</code> is a bit faster than the <code>pmap</code>-functions. <code>pmap</code> performs better than <code>pmap</code> list (which is opposite to the situation <a href="https://rpubs.com/wch/200398">here</a>.<code>rowwise</code> seems to be the least ideal alternative, both in terms of time needed and the code. For other functions than calculating means, I will probably stick to (<code>p</code>)<code>map</code>, because that also lends itself better to statistical modelling.</p>
 </div>
