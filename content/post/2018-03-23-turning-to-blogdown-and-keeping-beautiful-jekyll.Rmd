@@ -1,0 +1,45 @@
+---
+title: Turning to blogdown and keeping beautiful-jekyll, then turning to hugo-academic
+author: Alison Hill
+summary: First post on new website addressing the awesomeness of hugo-academic and Alison Presmanes Hill
+date: '2018-03-23'
+slug: academic-hugo
+categories:
+  - R
+tags:
+  - blogdown
+  - website
+  - beautiful-jekyll
+  - hugo-academic
+header:
+  image: ""
+  preview: FALSE
+---
+
+So. In a relatively short time frame, I went from beautiful-jekyll Github-pages to bookdown-beautiful-jekyll to bookdown-academic-hugo. Here I'll explain why. This actually is more me testing the blog.
+
+### beautiful-jekyll & blogdown.
+I love the beautiful-jekyll website made by [Dean Attali](https://github.com/daattali/beautiful-jekyll). However, most of the stuff I want to blog about involves **R** and visualisations in **R**, which is more easily done in RMarkdown than in Markdown. With the original jekyll theme and Github pages, transforming from an Rmarkdown to a Markdown file that is styled appropriately according to the beautiful-jekyll theme is a painful process (for me at least!). This is why I have converted to [blogdown](https://bookdown.org/yihui/blogdown/) (you can see my old website [here](https://gertstulp.github.io/). 
+
+Thankfully, [somebody](http://halogenica.net/) already made a beautiful-jekyll [Hugo-theme](https://themes.gohugo.io/beautifulhugo/) that is handy for blogdown. If you have installed the blogdown package already, you can simply do:
+
+```{r, eval = FALSE}
+library(blogdown)
+blogdown::new_site(theme = "halogenica/beautifulhugo")
+```
+
+I did run into some problems when doing it this way, though, which perhaps mostly relate to my limited experience with Hugo, blogdown, and making websites. How I got this website to work, was by first of all finding Emily Riederer's [website](https://emilyriederer.netlify.com/) and [Github](https://github.com/emilyriederer/emilyriederer). I copied her files into my blogdown-Rstudio-folder and adapted them. Setting up the netlify account was easy. 
+
+### beautiful hugo letting me down (or me letting beautiful hugo down)
+Immediately I ran into some problems with the beautiful hugo website (this mostly relates to my inexperience with CSS and html-code). For instance, with much effort I was able to include more "academicons" (e.g., google scholar, orchid) to the original beautiful jekyll page, but I was not able to do so in beautiful hugo. After many hours of searching and testing and disappointing myself,  I gave up.
+
+### Enter hugo-academic
+My next strategy was to go for the hugo-academic theme. Although I quite like it, I did prefer beautiful-hugo over hugo-academic. Until I saw [Alison Presmanes Hill's amazing website](https://alison.rbind.io/post/up-and-running-with-blogdown/). I just copied all the contents of the website from her Github-page, and started changing it. I am really chuffed with it. There are still many elements of Alison in this website, that I want to keep so I can learn how to do cool stuff. Over time, this will become less and less.[^1]
+
+### Outstanding issues
+One drawback of using a massively styled theme, is that it is a bit more difficult to see how everything works. Also, there might be some bits that I would like to change in the future, but then maybe cannot because of the overall theme ("lock-in"). Some current "troubles":
+- Getting my publication list ready seems a somewhat daunting task due to the way they are displayed on the main page, and due to the fact that each publication needs its own file. 
+- Because I wanted more options in the top row, I have made subheadings. The disadvantage is that this menu "gets stuck" in mobile phone use
+
+
+[^1]: As if Alison's wasn't already the coolest person in the world, she then also published [this](https://alison.rbind.io/talk/ohsu-biodatavis/)

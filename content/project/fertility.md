@@ -6,7 +6,7 @@ date = "2018-03-19"
 title = "Studying the number of children people want and have"
 
 # Project summary to display on homepage.
-summary = "There is huge variation in the number of children people (would like to) have over time / across the globe / within countries. I try to study the determintants of this variation, including individual factors like wealth and education, genetic factors, and social influences."
+summary = "There is huge variation in the number of children people (would like to) have over time / across the globe / within countries. I try to study the determinants of this variation, including individual factors like wealth and education, genetic factors, and social influences."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "fertility.png"

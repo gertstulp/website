@@ -11,7 +11,7 @@ caption = "The Young Academy Groningen members, cohort 2017"
 
 +++
 
-I am a member of the [Young Academy Groningen](https://www.rug.nl/research/young-academy/). I enjoy it very much. 
+I am a member of the [Young Academy Groningen](https://www.rug.nl/research/young-academy/). I enjoy it very much. [Here](https://www.youtube.com/watch?v=TIt7v-5nTJA) is a video that was made when I became member.
 
 Recently, I have been involved in organising the following events:
 
