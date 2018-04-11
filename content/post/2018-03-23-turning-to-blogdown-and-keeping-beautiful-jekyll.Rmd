@@ -40,6 +40,6 @@ My next strategy was to go for the hugo-academic theme. Although I quite like it
 One drawback of using a massively styled theme, is that it is a bit more difficult to see how everything works. Also, there might be some bits that I would like to change in the future, but then maybe cannot because of the overall theme ("lock-in"). Some current "troubles":
 - Getting my publication list ready seems a somewhat daunting task due to the way they are displayed on the main page, and due to the fact that each publication needs its own file. 
 - Because I wanted more options in the top row, I have made subheadings. The disadvantage is that this menu "gets stuck" in mobile phone use
-
+- [This](https://alison.rbind.io/post/up-and-running-with-blogdown/) and  [this](http://www.mit.edu/~k2smith/post/getting-started/) website is useful for academic hugo related stuff.
 
 [^1]: As if Alison's wasn't already the coolest person in the world, she then also published [this](https://alison.rbind.io/talk/ohsu-biodatavis/)
