@@ -21,7 +21,7 @@ Recently, I have been trying to force myself to do all my coding in a consistent
 I'll start off with calculating the means of variables for all rows using many different ways using the `dplyr`-programming framework. I'll do it for all variables, plus a selection of variables. Note: of course, calculating rowmeans is rather easy and `rowMeans` is an obvious and easy choice; I have chosen it, though, so that it is also easy to see what is going on in the other possibilities.  
 
 ### packages
-```{r}
+```{r message = FALSE}
 library(tidyverse)
 ```
 
