@@ -35,16 +35,11 @@ Visualisation is perhaps the easiest way to get good insights into the data at h
 - Creating **R**-packages that help people visualise, including [ggplotgui](https://github.com/gertstulp/ggplotgui) and [ESMvis](https://github.com/gertstulp/ESMvis) [_under development_; together with Laura Bringmann].
 
 
-There should be a Shiny-app below
+See [ggplotgui](https://github.com/gertstulp/ggplotgui) in action:
 <iframe src="//shiny.gmw.rug.nl/ggplotgui">
   <p>Your browser does not support iframes.</p>
 </iframe>
 
-
-<iframe src="//community.canvaslms.com/thread/16799-iframe-wont-display-in-a-page">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
-<iframe src="https://community.canvaslms.com/thread/16799-iframe-wont-display-in-a-page">
+<iframe src="//shiny.gmw.rug.nl/ggplotgui" style="border: 1px solid #AAA; width: 100%; height:460px">
   <p>Your browser does not support iframes.</p>
 </iframe>
