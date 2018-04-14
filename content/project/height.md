@@ -3,7 +3,7 @@
 date = "2018-03-18"
 
 # Project title.
-title = "Evolutionary perspectives on human height varation"
+title = "Evolutionary perspectives on human height variation"
 
 # Project summary to display on homepage.
 summary = "My research in the past has focussed on variation in human height. In particular, how evolutionary processes have been and are shaping variation in stature. I tried to address questions like: Why is there such variation across countries in height? Why are women on average shorter than man? In what ways does height play a role in mate choice and competition? Does natural selection act on height in contemporary populations? Why are the Dutch so tall? Why am I so tall?"

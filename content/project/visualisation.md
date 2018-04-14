@@ -13,7 +13,7 @@ image_preview = "esm.gif"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["visualisation"]
+tags = ["visualisation", "R"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -28,5 +28,16 @@ caption = ""
 
 +++
 
+Visualisation is perhaps the easiest way to get good insights into the data at hand; whether for yourself or for the scrutinty of others. Disappointingly, most graphs in scientific papers do not attempt to show the (raw) data, but instead some summary measures (e.g., a bar plot of means). This hinders the scientific process. I hope to increase visualisation literacy, by:
 
-dddddd
+- Helping others to think about graphs and to create them using ggplot2. I'll happily do this for **you** too. 
+- Giving visualisation workshops; for instance, [this](http://stulp.gmw.rug.nl/ggplotworkshop/) one, and [a shorter version](http://stulp.gmw.rug.nl/yag/ggplotworkshop/)
+- Creating **R**-packages that help people visualise, including [ggplotgui](https://github.com/gertstulp/ggplotgui) and [ESMvis](https://github.com/gertstulp/ESMvis) [_under development_; together with Laura Bringmann].
+
+
+```{r echo = FALSE}
+knitr::include_url('http://shiny.gmw.rug.nl/ggplotgui/')
+```
+<iframe> src="http://shiny.gmw.rug.nl/ggplotgui/" </iframe>
+
+<iframe src="https://www.w3schools.com"></iframe>
