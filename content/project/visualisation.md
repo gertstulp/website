@@ -35,33 +35,7 @@ Visualisation is perhaps the easiest way to get good insights into the data at h
 - Creating **R**-packages that help people visualise, including [ggplotgui](https://github.com/gertstulp/ggplotgui) and [ESMvis](https://github.com/gertstulp/ESMvis) [_under development_; together with Laura Bringmann].
 
 
-TESTING TESTING
-
-```{r echo = FALSE}
-library(knitr)
-knitr::include_url('http://shiny.gmw.rug.nl/ggplotgui/')
-```
-<iframe> src="http://shiny.gmw.rug.nl/ggplotgui/" </iframe>
-
-
-<iframe src="https://www.w3schools.com"></iframe>
-
+There should be a Shiny-app below
 <iframe src="http://shiny.gmw.rug.nl/ggplotgui/">
   <p>Your browser does not support iframes.</p>
 </iframe>
-
-<iframe src="https://www.w3schools.com">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
-```{r echo = FALSE}
-blogdown::shortcode("tweet", "935973869554487296")
-```
-
-```{r echo = FALSE}
-blogdown::shortcode("tweet", "935973869554487296")
-```
-
-```{r echo = FALSE}
-knitr::include_url('https://alison.rbind.io/slides/blogdown-workshop-slides.html#1')
-```
