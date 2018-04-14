@@ -1,2 +1,3 @@
-# https://gertstulp.netlify.com
-Personal website of Gert Stulp
+# Personal website of Gert Stulp
+https://www.gertstulp.com
+
