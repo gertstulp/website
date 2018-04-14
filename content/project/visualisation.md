@@ -40,4 +40,13 @@ knitr::include_url('http://shiny.gmw.rug.nl/ggplotgui/')
 ```
 <iframe> src="http://shiny.gmw.rug.nl/ggplotgui/" </iframe>
 
+
 <iframe src="https://www.w3schools.com"></iframe>
+
+<iframe src="http://shiny.gmw.rug.nl/ggplotgui/">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+<iframe src="https://www.w3schools.com">
+  <p>Your browser does not support iframes.</p>
+</iframe>
