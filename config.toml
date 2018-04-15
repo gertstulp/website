@@ -198,7 +198,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   parent = "Resources"
-  name = "Workshops"
+  name = "Talks/Workshops"
   url = "#talks"
   weight = 1
 
