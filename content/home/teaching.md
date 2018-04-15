@@ -14,8 +14,9 @@ weight = 6
 
 +++
 
-I teach the following courses in OHSU's <a href = "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/" target="_blank">Computer Science and Electrical Engineering (CSEE)</a> graduate education program:
+I currently teach or contribute to the following courses at the University of Groningen's <a href = "https://www.rug.nl/gmw/sociology/?lang=en" target="_blank">sociology curriculum</a>:
 
-- MATH530/630: Probability and Statistics for Scientists & Engineers
-- CS627: <a href = "http://cslu.ohsu.edu/~kain/CS627/" target="_blank">Data Science Programming</a> (with Professors Alexander Kain & Steven Bedrick)
-- CS631: <a href = "http://cslu.ohsu.edu/~bedricks/courses/cs631/" target="_blank">Principles and Practices of Data Visualization </a> (with Professors Steven Bedrick & Jackie Wirz)
+
+- <a href = "https://www.rug.nl/ocasys/gmw/vak/show?code=SOBA105C" target="_blank">Statistiek 1b</a> 
+- <a href = "https://www.rug.nl/ocasys/rug//vak/show?code=GMTPGE07" target="_blank">Starting the First Paper</a> (with René Veenstra & Gerine Lodder)
+- <a href = "https://www.rug.nl/ocasys/gmw/vak/show?code=SOSCH006A4" target="_blank">Onderzoekspracticum II</a> (coordinated and taught by Marina Roos)
