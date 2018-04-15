@@ -3,13 +3,13 @@ abstract = "We know it’s incredibly tedious, but we have to admit we agree wit
 
 authors = ["Louise Barrett", "Gert Stulp"]
 date = "2013-01-22"
-image_preview = "The pleasures and pitfalls of studying humans from a behavioral ecological perspective"
+image_preview = ""
 math = true
 publication_types = ["7"]
 publication = "In *Behavioral Ecology*"
 publication_short = "Behav Ecol"
 selected = false
-title = ""
+title = "The pleasures and pitfalls of studying humans from a behavioral ecological perspective"
 url_code = ""
 url_dataset = ""
 url_pdf = "pdf/Barrett & Stulp 2013_Behavioral Ecology_Pleasures and pitfalls of studying HBE.pdf"
