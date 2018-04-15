@@ -105,7 +105,8 @@ defaultContentLanguageInSubdir = false
     'Work in progress',  # 3
     'Technical report',  # 4
     'Book',  # 5
-    'Book chapter'  # 6
+    'Book chapter',  # 6
+    'Journal, commentary'  # 7
   ]
 
   # Social/Academic Networking
