@@ -106,7 +106,8 @@ defaultContentLanguageInSubdir = false
     'Technical report',  # 4
     'Book',  # 5
     'Book chapter',  # 6
-    'Journal, commentary'  # 7
+    'Journal, commentary',  # 7
+    'R package'  # 8
   ]
 
   # Social/Academic Networking
