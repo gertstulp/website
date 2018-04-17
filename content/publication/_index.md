@@ -11,4 +11,4 @@ caption = ""
 
 +++
 
-This page is **under construction**. For a complete list of publications sorted by year, please click [here](/publications/).
+For a complete list of publications sorted by year, please click [here](/publications/).

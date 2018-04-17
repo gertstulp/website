@@ -2,7 +2,7 @@
 abstract = "The phrase 'Big Man' is used to signify both an important individual as well as one large in size, both historically and cross-culturally (B. J. Ellis 1992; Murray and Schmitz 2011; Sahlins 1963). Contemporary English language is also riddled with phrases that highlight an association between size and status (or the lack of it)—“a man of stature”, 'standing tall', 'he was belittled'—and the phrase 'high status' itself incorporates a vertical dimension. This conflation of size and status across many different language groups and cultures has a rather straightforward explanation: on average, those in position of power or high in status, tend to be taller and bigger than those who are not. Positive associations between size and status have been observed in all kinds of cultural groupings, from hunter-gatherer groups to agricultural populations to industrialised societies (B. J. Ellis 1992; Murray and Schmitz 2011; Sahlins 1963; Stulp and Barrett 2016)."
 
 authors = ["Gert Stulp"]
-date = "2016-20-09"
+date = "2016-09-20"
 image_preview = ""
 math = true
 publication_types = ["6"]

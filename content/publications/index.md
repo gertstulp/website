@@ -12,6 +12,9 @@ caption = ""
 +++
 
 ### Recent or in press
+Tropf, FC, Lee, SH, Verweij, RM, Stulp, G, van der Most, PJ, de Vlaming, R, Bakshi, A., Briley, DA, Rahal, C, Hellpap, R, Iliadou, AN, Esko, T, Metspalu, A, Medland, SE, Martin, NG, Barban, N, Snieder, H, Robinson, MR & Mills, MC. (2017). Hidden heritability due to heterogeneity across seven populations. *Nature Human Behaviour* 1, 757?765
+
+***
 Stulp, G., Sear, R., Schaffnit, S.B., Mills, M.C. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part II: the association between wealth and fertility. *Human Nature* 27(4): 445–470
 
 ***
