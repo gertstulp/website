@@ -12,7 +12,7 @@ selected = false
 title = "A statistical approach to distinguish telomere elongation from error in longitudinal datasets"
 url_code = ""
 url_dataset = ""
-url_pdf = "pdf/Simons et al 2014_Biogerontology_telomere_elongation_statistics_biogerontology_revised_proofded.pdf"
+url_pdf = "pdf/2014_Simon_et_al_Biogeront_Telemore.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
@@ -20,6 +20,11 @@ url_video = ""
 [[url_custom]]
 name = "View Journal Article"
 url = "https://link.springer.com/article/10.1007%2Fs10522-013-9471-2"
+
+[[url_custom]]
+name = "Supplementary Material"
+url = "pdf/Simons_et_al_ESM.zip"
+
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
