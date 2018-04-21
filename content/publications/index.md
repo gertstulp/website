@@ -12,31 +12,31 @@ caption = ""
 +++
 
 ### Recent or in press
-Tropf, FC, Lee, SH, Verweij, RM, Stulp, G, van der Most, PJ, de Vlaming, R, Bakshi, A., Briley, DA, Rahal, C, Hellpap, R, Iliadou, AN, Esko, T, Metspalu, A, Medland, SE, Martin, NG, Barban, N, Snieder, H, Robinson, MR & Mills, MC. (2017). Hidden heritability due to heterogeneity across seven populations. *Nature Human Behaviour* 1: 757-765. [**Download**](/pdf/2017_Tropf_et_al_Nature Human Behaviour_Heritability.pdf){target="_blank"}
+Tropf, FC, Lee, SH, Verweij, RM, Stulp, G, van der Most, PJ, de Vlaming, R, Bakshi, A., Briley, DA, Rahal, C, Hellpap, R, Iliadou, AN, Esko, T, Metspalu, A, Medland, SE, Martin, NG, Barban, N, Snieder, H, Robinson, MR & Mills, MC. (2017). Hidden heritability due to heterogeneity across seven populations. *Nature Human Behaviour* 1: 757-765. <a href="/pdf/2017_Tropf_et_al_Nature Human Behaviour_Heritability.pdf" target="_blank">**Download**</a>
 
 ***
-Stulp, G., Sear, R., Schaffnit, S.B., Mills, M.C. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part II: the association between wealth and fertility. *Human Nature* 27(4): 445–470
+Stulp, G., Sear, R., Schaffnit, S.B., Mills, M.C. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part II: the association between wealth and fertility. *Human Nature* 27(4): 445–470. <a href="https://link.springer.com/article/10.1007%2Fs12110-016-9272-9" target="_blank">**Download**</a> 
 
 ***
-Stulp, G., Sear, R. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part I: why measuring fertility matters. *Human Nature* 27(4): 422–444
+Stulp, G., Sear, R. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part I: why measuring fertility matters. *Human Nature* 27(4): 422–444. <a href="https://link.springer.com/article/10.1007%2Fs12110-016-9269-4" target="_blank">**Download**</a> 
 
 ***
-Stulp, G., Simons, M.J.P., Grasman, S. & Pollet, T.V. (2017). Assortative mating for human height: a meta-analysis. *American Journal of Human Biology* 29(1): e22917.
+Stulp, G., Simons, M.J.P., Grasman, S. & Pollet, T.V. (2017). Assortative mating for human height: a meta-analysis. *American Journal of Human Biology* 29(1): e22917. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ajhb.22917" target="_blank">**Download**</a> 
 
 ***
 Barrett, L. & Stulp, G. (2016). Revolution, Reconciliation, Integration: Is there a way to bring social and biological anthropology together? *Evolutionary Anthropology* 25: 175–182
 
 ***
-Stulp, G. & Barrett, L. (2016). Wealth, fertility, and adaptive behaviour in industrial populations. *Philosophical Transactions of the Royal Society B* 371: 20150153.
+Stulp, G. & Barrett, L. (2016). Wealth, fertility, and adaptive behaviour in industrial populations. *Philosophical Transactions of the Royal Society B* 371: 20150153. <a href="/pdf/2016_Barrett&Stulp_Ev_Anth.pdf" target="_blank">**Download**</a> 
 
 ***
-Barrett, L. & Stulp, G. (in press). Evolutionary Psychology. *International Encyclopedia of Anthropology*
+Barrett, L. & Stulp, G. (in press). Evolutionary Psychology. *International Encyclopedia of Anthropology*. Wiley Online Library. <a href="/pdf/2016_Barrett & Stulp_Encyclopedia_Evolutionary-Psychology.pdf" target="_blank">**Download**</a> 
 
 ***
-Stulp, G. & Barrett, L. (2016). Evolutionary perspectives on human height variation. *Biological Reviews* 91(1): 206-234
+Stulp, G. & Barrett, L. (2016). Evolutionary perspectives on human height variation. *Biological Reviews* 91(1): 206-234. <a href="/pdf/2016_Stulp&Barrett_BR_Height.pdf" target="_blank">**Download**</a> 
 
 ***
-Stulp, G., (in press). 'Big Man'. *Encyclopedia of Evolutionary Psychological Science*, publisher: Springer International Publishing
+Stulp, G., (in press). 'Big Man'. *Encyclopedia of Evolutionary Psychological Science*. Springer International Publishing. <a href="/pdf/2016_Stulp_Encyclopedia of Evolutionary Psychological Science_Big_Man.pdf" target="_blank">**Download**</a> 
 
 
 ### 2015
