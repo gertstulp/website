@@ -24,7 +24,7 @@ Stulp, G., Sear, R. & Barrett, L. (2016). The reproductive ecology of industrial
 Stulp, G., Simons, M.J.P., Grasman, S. & Pollet, T.V. (2017). Assortative mating for human height: a meta-analysis. *American Journal of Human Biology* 29(1): e22917. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ajhb.22917" target="_blank">**Download**</a> 
 
 ***
-Barrett, L. & Stulp, G. (2016). Revolution, Reconciliation, Integration: Is there a way to bring social and biological anthropology together? *Evolutionary Anthropology* 25: 175–182
+Barrett, L. & Stulp, G. (2016). Revolution, Reconciliation, Integration: Is there a way to bring social and biological anthropology together? *Evolutionary Anthropology* 25: 175–182. <a href="/pdf/2016_Stulp & Barrett_Phil_Trans_Wealth.pdf" target="_blank">**Download**</a> 
 
 ***
 Stulp, G. & Barrett, L. (2016). Wealth, fertility, and adaptive behaviour in industrial populations. *Philosophical Transactions of the Royal Society B* 371: 20150153. <a href="/pdf/2016_Barrett&Stulp_Ev_Anth.pdf" target="_blank">**Download**</a> 
@@ -40,40 +40,41 @@ Stulp, G., (in press). 'Big Man'. *Encyclopedia of Evolutionary Psychological Sc
 
 
 ### 2015
-Pollet, T.V., Stulp, G., Henzi, P. & Barrett, L. (2015). Taking the aggravation out of data aggregation: a conceptual guide to dealing with statistical issues related to the pooling of individual-level observational data. *American Journal of Primatology* 77(7): 727–740
+Pollet, T.V., Stulp, G., Henzi, P. & Barrett, L. (2015). Taking the aggravation out of data aggregation: a conceptual guide to dealing with statistical issues related to the pooling of individual-level observational data. *American Journal of Primatology* 77(7): 727–740. <a href="/pdf/2015_Pollet_et_al_AMJP_Ecological_Fallacy.pdf" target="_blank">**Download**</a> 
+
 
 ***
-Tropf, F.C., Stulp, G., Barban, N., Visscher, P.M., Yang, J., Snieder, H. Mills, M.C. (2015). Human fertility, molecular genetics, and natural selection in modern societies. *PLoS ONE* 10(6): e0126821
+Tropf, F.C., Stulp, G., Barban, N., Visscher, P.M., Yang, J., Snieder, H. Mills, M.C. (2015). Human fertility, molecular genetics, and natural selection in modern societies. *PLoS ONE* 10(6): e0126821. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126821" target="_blank">**Download**</a> 
 
 ***
-Barrett, L., Pollet, T.V. & Stulp, G. (2015). Evolved biocultural beings (who invented computers). *Frontiers in Psychology* 6:1047
+Barrett, L., Pollet, T.V. & Stulp, G. (2015). Evolved biocultural beings (who invented computers). *Frontiers in Psychology* 6:1047. <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01047/full" target="_blank">**Download**</a> 
 
 ***
-Stulp, G., Barrett, L., Tropf, F.C. & Mills, M. (2015). Does natural selection favour taller stature among the tallest people on earth?*Proceedings of the Royal Society B* 282: 20150211
+Stulp, G., Barrett, L., Tropf, F.C. & Mills, M. (2015). Does natural selection favour taller stature among the tallest people on earth?*Proceedings of the Royal Society B* 282: 20150211. <a href="/pdf/2015_Stulp_et_al_Proceedings_Height_Netherlands.pdf" target="_blank">**Download**</a> 
 
 ***
-Stulp, G., Pollet, T.V. & Barrett, L. (2015). The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. *Frontiers in Psychology* 6(419):1-4.
+Stulp, G., Pollet, T.V. & Barrett, L. (2015). The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. *Frontiers in Psychology* 6(419):1-4. <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00419/full" target="_blank">**Download**</a> 
 
 ***
-Conway, JR, Noë, N, Stulp, G, & Pollet, TV. Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. *Personal Relationships* 22(4): 666–678
+Conway, JR, Noë, N, Stulp, G, & Pollet, TV. Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. *Personal Relationships* 22(4): 666–678. <a href="/pdf/2015_Conway_et_al_PR_Preferences.pdf" target="_blank">**Download**</a> 
 
 ***
-Stulp, G, Buunk, AP, Verhulst, S & Pollet, TV. (2015). Human height is positively related to interpersonal dominance in dyadic interactions. *PLoS ONE* 10(2): e0117860
+Stulp, G, Buunk, AP, Verhulst, S & Pollet, TV. (2015). Human height is positively related to interpersonal dominance in dyadic interactions. *PLoS ONE* 10(2): e0117860, <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117860" target="_blank">**Download**</a> 
 
 ***
-Sorokowski, P., Sorokowska, A., Butovskaya, M., Stulp, G., Huanca, T. & Fink, B. (2015). Body height preferences and actual dimorphism in stature between partners in two non-Western societies (Hadza and Tsimane’). *Evolutionary Psychology 13(2): 455-469
+Sorokowski, P., Sorokowska, A., Butovskaya, M., Stulp, G., Huanca, T. & Fink, B. (2015). Body height preferences and actual dimorphism in stature between partners in two non-Western societies (Hadza and Tsimane’). *Evolutionary Psychology 13(2): 455-469. <a href="http://journals.sagepub.com/doi/abs/10.1177/147470491501300209" target="_blank">**Download**</a> 
 
 ***
-Stulp, G. & Barrett, L. (2015). Fertility Theory: Theory of Life History Evolution. In: James D. Wright (editor-in-chief), *International Encyclopedia of the Social & Behavioral Sciences*, 2nd edition, Vol 9. Oxford: Elsevier. pp. 40–45.
+Stulp, G. & Barrett, L. (2015). Fertility Theory: Theory of Life History Evolution. In: James D. Wright (editor-in-chief), *International Encyclopedia of the Social & Behavioral Sciences*, 2nd edition, Vol 9. Oxford: Elsevier. pp. 40–45. <a href="pdf/2015_Stulp&Barrett_Encyclopedia_Life history theory.pdf" target="_blank">**Download**</a> 
 
 ### 2014
-Barrett, L., Pollet, T.V. & Stulp, G. (2014). From computers to cultivation: reconceptualizing evolutionary psychology. *Frontiers in Psychology* 5: 1-14
+Barrett, L., Pollet, T.V. & Stulp, G. (2014). From computers to cultivation: reconceptualizing evolutionary psychology. *Frontiers in Psychology* 5: 1-14. <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00867/full" target="_blank">**Download**</a>
 
 ***
-Buunk, A.P., Stulp, G. & Ormel, J. (2014). Parental social status and intrasexual competitiveness among adolescents. *Evolutionary Psychology* 12(5): 1022-1037
+Buunk, A.P., Stulp, G. & Ormel, J. (2014). Parental social status and intrasexual competitiveness among adolescents. *Evolutionary Psychology* 12(5): 1022-1037. <a href="http://journals.sagepub.com/doi/abs/10.1177/147470491401200511" target="_blank">**Download**</a>
 
 ***
-Stulp, G. & Barrett, L. (2014). The course (of) (or) history of life? A response to "A life-course approach to fertility". *Demographic Research*
+Stulp, G. & Barrett, L. (2014). The course (of) (or) history of life? A response to "A life-course approach to fertility". *Demographic Research*. <a href="http://journals.sagepub.com/doi/abs/10.1177/147470491501300209" target="_blank">**Download**</a>
 
 ***
 Stulp, G., Mills, M., Pollet, T.V. & Barrett, L. (2014). Non-linear associations between stature and mate choice characteristics for American men and their spouses. *American Journal of Human Biology* 26:530–537. *Stulp and Barrett contributed equally*
