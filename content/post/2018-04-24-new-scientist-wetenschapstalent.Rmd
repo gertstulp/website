@@ -12,6 +12,6 @@ I am fortunate enough to have been nominated for the [New Scientist Wetenschapst
 
 For a quick Dutch video of my research, see:
 
-<iframe src="//youtu.be/WdunVMJDfy8" style="border: 1px solid #AAA; width: 100%; height:460px">
+<iframe src="//www.youtube.com/watch?v=WdunVMJDfy8&feature=youtu.be" style="border: 1px solid #AAA; width: 100%; height:460px">
   <p>Your browser does not support iframes.</p>
 </iframe>
