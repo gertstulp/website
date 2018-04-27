@@ -47,4 +47,4 @@ We'll always be in computer room **Hv.0307**.
 
 <sup>b</sup> [This page](http://stulp.gmw.rug.nl/ggplotworkshop/) may be helpful if you want to know more about visualising.
 
-<sup>b</sup> Solutions for the *Feliciani*-problem can be found [here](https://www.gertstulp.com/pdf/Feliciani.zip).
+<sup>c</sup> Solutions for the *Feliciani*-problem can be found [here](https://www.gertstulp.com/pdf/Feliciani.zip).
