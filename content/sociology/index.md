@@ -27,7 +27,7 @@ We'll always be in computer room **Hv.0307**.
 |April 3     |Tuesday     |5-6           |Robert
 |April 10    |Tuesday     |7-10         |Gert
 |April 17    |Tuesday     |11-12        |Robert
-|April 25    |Wednesday   |13 & 16       |Robert/Gert
+|April 25    |Wednesday   |13 & 16       |Gert/Dieko
 |May 1       |Tuesday     |14-15       |Gert
 |May 8       |Tuesday     |17 - 19         |Gert
 |May 16      |Wednesday   |20 - 21         |
@@ -46,3 +46,6 @@ We'll always be in computer room **Hv.0307**.
 <sup>a</sup> [This page](http://stulp.gmw.rug.nl/22-01-2018/Rworkshop/) may be helpful for loading in data.
 
 <sup>b</sup> [This page](http://stulp.gmw.rug.nl/ggplotworkshop/) may be helpful if you want to know more about visualising.
+
+<sup>b</sup> Solutions for the *Feliciani*-problem can be found [here]("/pdf/Feliciani.zip").
+
