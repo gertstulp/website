@@ -65,7 +65,9 @@ Stulp, G, Buunk, AP, Verhulst, S & Pollet, TV. (2015). Human height is positivel
 Sorokowski, P., Sorokowska, A., Butovskaya, M., Stulp, G., Huanca, T. & Fink, B. (2015). Body height preferences and actual dimorphism in stature between partners in two non-Western societies (Hadza and Tsimane’). *Evolutionary Psychology 13(2): 455-469. <a href="http://journals.sagepub.com/doi/abs/10.1177/147470491501300209" target="_blank">**Download**</a> 
 
 ***
-Stulp, G. & Barrett, L. (2015). Fertility Theory: Theory of Life History Evolution. In: James D. Wright (editor-in-chief), *International Encyclopedia of the Social & Behavioral Sciences*, 2nd edition, Vol 9. Oxford: Elsevier. pp. 40–45. <a href="pdf/2015_Stulp&Barrett_Encyclopedia_Life history theory.pdf" target="_blank">**Download**</a> 
+Stulp, G. & Barrett, L. (2015). Fertility Theory: Theory of Life History Evolution. In: James D. Wright (editor-in-chief), *International Encyclopedia of the Social & Behavioral Sciences*, 2nd edition, Vol 9. Oxford: Elsevier. pp. 40–45. <a href="pdf/2015_Stulp&Barrett_Encyclopedia_LHT.pdf" target="_blank">**Download**</a> 
+
+2015_Stulp&Barrett_Encyclopedia_Life history theory.pdf
 
 ### 2014
 Barrett, L., Pollet, T.V. & Stulp, G. (2014). From computers to cultivation: reconceptualizing evolutionary psychology. *Frontiers in Psychology* 5: 1-14. <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00867/full" target="_blank">**Download**</a>
