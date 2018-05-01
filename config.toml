@@ -183,7 +183,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
     parent = "Research"
     name = "Publications"
-    url = "#publications"
+    url = "publications/"
     weight = 2
 
 [[menu.main]]

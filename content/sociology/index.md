@@ -49,4 +49,4 @@ We'll always be in computer room **Hv.0307**.
 
 <sup>c</sup> Solutions for the *Feliciani*-problem can be found [here](https://www.gertstulp.com/pdf/Feliciani.zip).
 
-<sup>d</sup> Some additional materials can be found [here](https://www.gertstulp.com/pdf/Chapter%20on%20factors.Rmd).
+<sup>d</sup> Some additional materials can be found [here](https://www.gertstulp.com/pdf/Chapter%20on%20factors.Rmd.zip).
