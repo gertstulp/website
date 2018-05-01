@@ -24,10 +24,10 @@ Stulp, G., Sear, R. & Barrett, L. (2016). The reproductive ecology of industrial
 Stulp, G., Simons, M.J.P., Grasman, S. & Pollet, T.V. (2017). Assortative mating for human height: a meta-analysis. *American Journal of Human Biology* 29(1): e22917. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ajhb.22917" target="_blank">**Download**</a> 
 
 ***
-Barrett, L. & Stulp, G. (2016). Revolution, Reconciliation, Integration: Is there a way to bring social and biological anthropology together? *Evolutionary Anthropology* 25: 175–182. <a href="/pdf/2016_Stulp & Barrett_Phil_Trans_Wealth.pdf" target="_blank">**Download**</a> 
+Barrett, L. & Stulp, G. (2016). Revolution, Reconciliation, Integration: Is there a way to bring social and biological anthropology together? *Evolutionary Anthropology* 25: 175–182. <a href="/pdf/2016_Barrett&Stulp_Ev_Anth.pdf" target="_blank">**Download**</a> 
 
 ***
-Stulp, G. & Barrett, L. (2016). Wealth, fertility, and adaptive behaviour in industrial populations. *Philosophical Transactions of the Royal Society B* 371: 20150153. <a href="/pdf/2016_Barrett&Stulp_Ev_Anth.pdf" target="_blank">**Download**</a> 
+Stulp, G. & Barrett, L. (2016). Wealth, fertility, and adaptive behaviour in industrial populations. *Philosophical Transactions of the Royal Society B* 371: 20150153. <a href="/pdf/2016_Stulp & Barrett_Phil_Trans_Wealth.pdf" target="_blank">**Download**</a> 
 
 ***
 Barrett, L. & Stulp, G. (in press). Evolutionary Psychology. *International Encyclopedia of Anthropology*. Wiley Online Library. <a href="/pdf/2016_Barrett & Stulp_Encyclopedia_Evolutionary-Psychology.pdf" target="_blank">**Download**</a> 
