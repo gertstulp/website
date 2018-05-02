@@ -28,7 +28,7 @@ We'll always be in computer room **Hv.0307**.
 |April 10    |Tuesday     |7-10         |Gert
 |April 17    |Tuesday     |11-12        |Robert
 |April 25    |Wednesday   |13 & 16 <sup>c</sup>      |Gert/Dieko
-|May 1       |Tuesday     |14-15    <sup>d</sup>   |Gert
+|May 1       |Tuesday     |14-15    <sup>d</sup>   |Robert
 |May 8       |Tuesday     |17 - 19         |Gert
 |May 16      |Wednesday   |20 - 21         |
 |May 23      |Wednesday   |22 - 25         |
@@ -50,3 +50,5 @@ We'll always be in computer room **Hv.0307**.
 <sup>c</sup> Solutions for the *Feliciani*-problem can be found [here](https://www.gertstulp.com/pdf/Feliciani.zip).
 
 <sup>d</sup> Some additional materials can be found [here](https://www.gertstulp.com/pdf/Chapter%20on%20factors.Rmd.zip).
+
+The people mentioned in the above table are: [Gert](https://www.gertstulp.com), [Robert Krause](https://www.rug.nl/staff/r.w.krause/research/publications.html), and [Dieko Bakker](https://www.rug.nl/staff/d.m.bakker/). 
