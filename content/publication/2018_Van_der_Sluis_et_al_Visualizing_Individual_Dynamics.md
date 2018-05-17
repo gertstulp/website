@@ -17,10 +17,6 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
-[[url_custom]]
-name = "View Journal Article"
-url = ""
-
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = ""
