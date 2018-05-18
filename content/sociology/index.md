@@ -29,10 +29,10 @@ We'll always be in computer room **Hv.0307**.
 |April 17    |Tuesday     |11-12        |Robert
 |April 25    |Wednesday   |13 & 16 <sup>c</sup>      |Gert/Dieko
 |May 1       |Tuesday     |14-15    <sup>d</sup>   |Robert
-|May 8       |Tuesday     |17 - 19 <sup>e</sup>         |Robert
-|May 16      |Wednesday   |NO CLASS         |
-|May 23      |Wednesday   |20 - 21         |
-|May 30      |Wednesday   |22 - 25        |
+|May 8       |Tuesday     |17 - 19 <sup>e</sup>         |Gert
+|May 16      |Wednesday   |20 - 21  <sup>f</sup>       |Robert
+|May 23      |Wednesday   |NO CLASS         |
+|May 30      |Wednesday   |22 - 25        |Gert
 |June 5      |Tuesday     |26 - 30         |
 |June 12     |Tuesday     |TBA         |
 |June 19     |Tuesday     |TBA         |
@@ -51,6 +51,9 @@ We'll always be in computer room **Hv.0307**.
 
 <sup>d</sup> Some additional materials can be found [here](https://www.gertstulp.com/pdf/Chapter%20on%20factors.Rmd.zip).
 
-<sup>d</sup> Some additional materials can be found [here]() soon.
+<sup>e</sup> Some additional materials can be found [here](https://www.gertstulp.com/pdf/Assignment_functions.zip).
+
+<sup>f</sup> Some additional materials can be found [here](https://www.gertstulp.com/pdf/Networks_assignment.zip).
+
 
 The people mentioned in the above table are: [Gert](https://www.gertstulp.com), [Robert Krause](https://www.rug.nl/staff/r.w.krause/research/publications.html), and [Dieko Bakker](https://www.rug.nl/staff/d.m.bakker/). 
