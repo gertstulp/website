@@ -63,8 +63,11 @@ gelman_plot <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
-  labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time")
+  theme(panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        axis.title = element_text(size = 20),
+        axis.text = element_text(size = 15),
+        title = element_text(size = 22)) 
 gelman_plot
 ```
 
@@ -82,8 +85,11 @@ gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
-  labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time")
+  theme(panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        axis.title = element_text(size = 20),
+        axis.text = element_text(size = 15),
+        title = element_text(size = 22)) 
   
 ggiraph(code = print(gelman_int), width = 1 )
 ```
@@ -103,8 +109,11 @@ gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
-  labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time")
+  theme(panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        axis.title = element_text(size = 20),
+        axis.text = element_text(size = 15),
+        title = element_text(size = 22)) 
 
 ggiraph(code = print(gelman_int), width = 1 )
 ```
@@ -113,7 +122,7 @@ ggiraph(code = print(gelman_int), width = 1 )
 Boom an interactive graph! When you hover above the points you'll see the contents of the tweet!
 
 #### plot.ly
-What happens if we use plotly
+What happens if we use plotly:
 ```{r warning = FALSE, message = FALSE}
 library(plotly)
 ggplotly(gelman_plot)
@@ -132,8 +141,11 @@ gelman_plus_text <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1,
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
-  labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time")
+  theme(panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        axis.title = element_text(size = 20),
+        axis.text = element_text(size = 15),
+        title = element_text(size = 22)) 
 ggplotly(gelman_plus_text)
 ```
 
