@@ -1,9 +1,10 @@
 ---
-title: BLABLBALA
+title: Interactief figuur betreffende de tweets van De Jonge Akademie
 author: Gert Stulp
 date: '2018-05-20'
-fig_caption: yes
 ---
+
+
 
 ```{r include = FALSE, warning = FALSE, message = FALSE}
 library(ggplot2)
@@ -12,7 +13,7 @@ library(ggiraph)
 dja <- readRDS("dja.rds")
 ```
 
-```{r echo = FALSE, warning = FALSE, out.width='100%', fig.caption= "blablablbalba"}
+```{r echo = FALSE, message = FALSE, warning = FALSE}
 a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
   geom_point_interactive(aes(tooltip = text_red), 
                          colour = "lightblue", alpha = 0.5, size = 2) +
@@ -21,11 +22,16 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
-  labs(x = "Datum", y = "# retweets") +
+  labs(x = "Datum", y = "# retweets", 
+       title = "Het aantal retweets van \n'@dejongeakademie' over tijd") +
   theme(panel.grid.minor = element_blank(),
-        panel.grid.major.x = element_blank()) 
+        panel.grid.major.x = element_blank(),
+        axis.title = element_text(size = 20),
+        axis.text = element_text(size = 15),
+        title = element_text(size = 22)) 
   
 
-ggiraph(code = print(a) )
+ggiraph(code = print(a), width = 1 )
 ```
 
+*Als men met de muis boven de datapunten hangt, kan men de tweet lezen.* 
