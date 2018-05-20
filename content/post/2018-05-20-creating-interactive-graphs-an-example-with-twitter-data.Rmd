@@ -1,0 +1,139 @@
+---
+title: 'Creating interactive graphs: an example with twitter data'
+author: Gert Stulp
+date: '2018-05-20'
+slug: creating-interactive-graphs-an-example-with-twitter-data
+categories:
+  - R
+tags:
+  - interactive graphs
+  - rtweet
+  - ggiraph
+  - plotly
+---
+
+I recently had to make an interactive visualisation of some twitter-data. Here I'll explain how I went about it. 
+
+### rtweet
+Getting twitter data is reasonably easy once you have the `rtweet` package going, although there are certainly some steps that you have to go through to set-up this package (with respect to the API authorization). You can read about these steps [here](http://rtweet.info/).   
+```{r}
+# install.packages("rtweet")
+library(rtweet)
+```
+
+Let's get the tweets from Andrew Gelman (`@StatModeling`) and store it in a dataframe; we can maximally get ~3200 posts.
+```{r}
+gelman <- get_timelines(c("StatModeling"), n = 5000)
+```
+
+```{r}
+library(ggplot2)
+gelman_plot <- ggplot(gelman, aes(x = created_at, y = retweet_count)) +
+  geom_point(colour = "lightblue", alpha = 0.5, size = 2) +
+  geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
+  theme_minimal()  +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time") 
+gelman_plot 
+```
+
+Because of one extreme outlier, we can't really get enough detail on most of the tweets. So let's zoom in first: 
+```{r}
+gelman_plot + coord_cartesian(ylim = c(0, 130))
+```
+
+Better, but still the bulk is non-visible, let's try one more solution, by transforming the y-scale into a logarithmic scale. There is one problem: many tweets are not retweeted, so there are zeros in our raw data. A log of zero does not exist. Zeros should not be on the log-scale. But, breaking social scientific norms, I shall add them anyway, because I do not want to remove those data in the visuals. In order to do so, I'll add one to every retweet-count. To compensate for having transformed the data, I will adjust the y-axis. So a newly transformed datapoint with the value 17 needs to have a label of 16 in the graph.   
+
+```{r}
+gelman_plot + 
+  aes(y = retweet_count + 1) +
+  scale_y_continuous(trans = "log2",
+                     breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
+                     labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512))
+```
+
+Looks a bit funky, but we get to see some more datapoints. Finally, let's add all the above information in one function call and tweak some features of the graph:
+```{r}
+gelman_plot <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
+  geom_point(colour = "lightblue", alpha = 0.5, size = 2) +
+  geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
+  theme_minimal()  +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time") +
+  scale_y_continuous(trans = "log2",
+                     breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
+                     labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time")
+gelman_plot
+```
+
+### Let's make it interactive with ggiraph
+`ggiraph` is an amazing package for making ggplot-graphs interactive. The beauty is that they work in html-pages, meaning that it's self-containted and that you don't need have a server with R running in the background (as you would need for, for instance, [Shiny-apps](https://shiny.rstudio.com/)). The code looks almost the same, except that instead of `geom_point` we use `geom_point_interactive`. Within this function, we can specify a third variable that will show the value for that variable for the datapoint above which you hover your mouse. Let's try with the variable `text` which stores the text of that tweet:
+```{r echo = TRUE, message = FALSE, warning = FALSE, error = TRUE}
+library(ggiraph)
+gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
+  geom_point_interactive(aes(tooltip = text), 
+                         colour = "lightblue", alpha = 0.5, size = 2) +
+  geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
+  theme_minimal()  +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time") +
+  scale_y_continuous(trans = "log2",
+                     breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
+                     labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time")
+  
+ggiraph(code = print(gelman_int), width = 1 )
+```
+
+We get some error-message because apparently there are *'* in the tweets that we can't use. Let's remove them all with the help of `stringr`.
+```{r}
+library(stringr)
+gelman$text_woq <- str_replace_all(gelman$text, "'", "")
+
+gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
+  geom_point_interactive(aes(tooltip = text_woq), 
+                         colour = "lightblue", alpha = 0.5, size = 2) +
+  geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
+  theme_minimal()  +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time") +
+  scale_y_continuous(trans = "log2",
+                     breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
+                     labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time")
+
+ggiraph(code = print(gelman_int), width = 1 )
+```
+
+
+Boom an interactive graph! When you hover above the points you'll see the contents of the tweet!
+
+#### plot.ly
+What happens if we use plotly
+```{r warning = FALSE, message = FALSE}
+library(plotly)
+ggplotly(gelman_plot)
+```
+
+The plot.ly one also looks good! It doesn't seem to do the dynamic sizing as the ggiraph one but it is a bit easier in use. Let's see if we can also get the tweet-text in the plotly graph
+```{r warning = FALSE, message = FALSE}
+gelman_plus_text <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1,
+                                       text = paste("tweet:", text))) +
+  geom_point(colour = "lightblue", alpha = 0.5, size = 2) +
+  geom_smooth(aes(text = ""),
+              se = FALSE, colour = "orange", alpha = 0.5) +
+  theme_minimal()  +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time") +
+  scale_y_continuous(trans = "log2",
+                     breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
+                     labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
+  labs(x = "Date", y = "# retweets", 
+       title = "Number of retweets of tweets '@StatModeling' over time")
+ggplotly(gelman_plus_text)
+```
+
