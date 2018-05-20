@@ -15,19 +15,20 @@ tags:
 I recently had to make an interactive visualisation of some twitter-data. Here I'll explain how I went about it. 
 
 ### rtweet
-Getting twitter data is reasonably easy once you have the `rtweet` package going, although there are certainly some steps that you have to go through to set-up this package (with respect to the API authorization). You can read about these steps [here](http://rtweet.info/).   
+Getting twitter data is reasonably easy once you have the `rtweet` package going, although there are certainly some steps that you have to go through to set-up this package (with respect to the API authorization). You can read about these steps [here](http://rtweet.info/). We'll also use the `tidyverse`-package (as always, I will rely heavily on ggplot that is within the tidyverse)  
 ```{r}
 # install.packages("rtweet")
 library(rtweet)
+library(tidyverse)
 ```
 
-Let's get the tweets from Andrew Gelman (`@StatModeling`) and store it in a dataframe; we can maximally get ~3200 posts.
+Let's get the tweets from Andrew Gelman (`@StatModeling`) and store it in a dataframe; we can maximally get ~3200 posts. Here, we'll onlu use the variables: created_at (date at which tweet was made), text (text of the tweet), and retweet_count (number of times tweet was retweeted).
 ```{r}
 gelman <- get_timelines(c("StatModeling"), n = 5000)
 ```
 
+Plotting the number of retweets over time:
 ```{r}
-library(ggplot2)
 gelman_plot <- ggplot(gelman, aes(x = created_at, y = retweet_count)) +
   geom_point(colour = "lightblue", alpha = 0.5, size = 2) +
   geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
@@ -147,5 +148,12 @@ gelman_plus_text <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1,
         axis.text = element_text(size = 15),
         title = element_text(size = 22)) 
 ggplotly(gelman_plus_text)
+```
+
+Hovering over the highest datapoint, reveals that the tweet was about power and interaction. Let's see the full text of the tweet:
+```{r}
+gelman %>% 
+  filter(retweet_count == max(retweet_count, na.rm = TRUE)) %>%
+  pull(text)
 ```
 
