@@ -74,7 +74,7 @@ gelman_plot
 
 ### Let's make it interactive with ggiraph
 `ggiraph` is an amazing package for making ggplot-graphs interactive. The beauty is that they work in html-pages, meaning that it's self-containted and that you don't need have a server with R running in the background (as you would need for, for instance, [Shiny-apps](https://shiny.rstudio.com/)). The code looks almost the same, except that instead of `geom_point` we use `geom_point_interactive`. Within this function, we can specify a third variable that will show the value for that variable for the datapoint above which you hover your mouse. Let's try with the variable `text` which stores the text of that tweet:
-```{r echo = TRUE, message = FALSE, warning = FALSE, error = TRUE}
+```{r gelman1, echo = TRUE, message = FALSE, warning = FALSE, error = TRUE}
 library(ggiraph)
 gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
   geom_point_interactive(aes(tooltip = text), 
@@ -96,7 +96,7 @@ ggiraph(code = print(gelman_int), width = 1 )
 ```
 
 We get some error-message because apparently there are *'* in the tweets that we can't use. Let's remove them all with the help of `stringr`.
-```{r message = FALSE}
+```{r gelman2, message = FALSE}
 library(stringr)
 gelman$text_woq <- str_replace_all(gelman$text, "'", "")
 
@@ -124,13 +124,13 @@ Boom an interactive graph! When you hover above the points you'll see the conten
 
 #### plot.ly
 What happens if we use plotly:
-```{r warning = FALSE, message = FALSE}
+```{r gelman3, warning = FALSE, message = FALSE}
 library(plotly)
 ggplotly(gelman_plot)
 ```
 
 The plot.ly one also looks good! It doesn't seem to do the dynamic sizing as the ggiraph one but it is a bit easier in use. Let's see if we can also get the tweet-text in the plotly graph
-```{r warning = FALSE, message = FALSE}
+```{r gelman4, warning = FALSE, message = FALSE}
 gelman_plus_text <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1,
                                        text = paste("tweet:", text))) +
   geom_point(colour = "lightblue", alpha = 0.5, size = 2) +

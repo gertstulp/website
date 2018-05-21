@@ -13,7 +13,7 @@ library(ggiraph)
 dja <- readRDS("dja.rds")
 ```
 
-```{r echo = FALSE, message = FALSE, warning = FALSE}
+```{r dja, echo = FALSE, message = FALSE, warning = FALSE}
 a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
   geom_point_interactive(aes(tooltip = text_red), 
                          colour = "lightblue", alpha = 0.5, size = 2) +
