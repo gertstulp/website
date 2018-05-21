@@ -4,16 +4,15 @@ author: Gert Stulp
 date: '2018-05-20'
 ---
 
-
-
 ```{r include = FALSE, warning = FALSE, message = FALSE}
 library(ggplot2)
 library(ggiraph)
+library(widgetframe)
 
 dja <- readRDS("dja.rds")
 ```
 
-```{r dja, echo = FALSE, message = FALSE, warning = FALSE}
+```{r dja, echo = FALSE, message = FALSE, warning = FALSE, results = "hide", out.width = "100%"}
 a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
   geom_point_interactive(aes(tooltip = text_red), 
                          colour = "lightblue", alpha = 0.5, size = 2) +
@@ -30,7 +29,12 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
         axis.text = element_text(size = 15),
         title = element_text(size = 22)) 
 
-ggiraph(code = print(a), width = 1 )
+ggiraph( code = print(a), width = 1 )
 ```
+
+```{r dja_app, out.width = "100%"}
+frameWidget(ggiraph(code = print(a), width = 1 ))
+```
+
 
 *Als men met de muis boven de datapunten hangt, kan men de tweet lezen!* 

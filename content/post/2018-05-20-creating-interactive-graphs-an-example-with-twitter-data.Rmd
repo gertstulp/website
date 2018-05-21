@@ -20,6 +20,7 @@ Getting twitter data is reasonably easy once you have the `rtweet` package going
 # install.packages("rtweet")
 library(rtweet)
 library(tidyverse)
+library(widgetframe)
 ```
 
 Let's get the tweets from Andrew Gelman (`@StatModeling`) and store it in a dataframe; we can maximally get ~3200 posts. Here, we'll onlu use the variables: created_at (date at which tweet was made), text (text of the tweet), and retweet_count (number of times tweet was retweeted).
@@ -96,7 +97,7 @@ ggiraph(code = print(gelman_int), width = 1 )
 ```
 
 We get some error-message because apparently there are *'* in the tweets that we can't use. Let's remove them all with the help of `stringr`.
-```{r gelman2, message = FALSE}
+```{r gelman2, message = FALSE, results = "hide"}
 library(stringr)
 gelman$text_woq <- str_replace_all(gelman$text, "'", "")
 
@@ -117,6 +118,10 @@ gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
         title = element_text(size = 22)) 
 
 ggiraph(code = print(gelman_int), width = 1 )
+```
+
+```{r gelman_app, out.width = "100%"}
+frameWidget(ggiraph(code = print(gelman_int), width = 1 ))
 ```
 
 
