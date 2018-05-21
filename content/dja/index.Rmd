@@ -32,8 +32,6 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
 ggiraph( code = print(a), width = 1 )
 ```
 
-*Als men met de muis boven de datapunten hangt, kan men de tweet lezen!* 
-
 ```{r dja_app, echo = FALSE, message = FALSE}
 frameWidget(
   ggiraph(code = print(a), width = 0.8 )
@@ -41,3 +39,7 @@ frameWidget(
 ```
 
 *Als men met de muis boven de datapunten hangt, kan men de tweet lezen!* 
+
+Klik [hier](https://www.gertstulp.com/static/dja/index_files/figure-html/widgets/widget_dja_app.html) om de figuur in het volledige scherm te zien.
+
+Klik [hier](https://www.gertstulp.com/dja/index_files/figure-html/widgets/widget_dja_app.html) om de figuur in het volledige scherm te zien.
