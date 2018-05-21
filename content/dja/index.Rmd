@@ -17,7 +17,7 @@ dja <- readRDS("dja.rds")
 a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
   geom_point_interactive(aes(tooltip = text_red), 
                          colour = "lightblue", alpha = 0.5, size = 2) +
-  geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
+  geom_smooth(se = FALSE, colour = "orange", alpha = 0.52) +
   theme_minimal()  +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
@@ -33,4 +33,4 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
 ggiraph(code = print(a), width = 1 )
 ```
 
-*Als men met de muis boven de datapunten hangt, kan men de tweet lezen.* 
+*Als men met de muis boven de datapunten hangt, kan men de tweet lezen!* 
