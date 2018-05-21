@@ -34,7 +34,7 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
 ggiraph( code = print(a), width = 1 )
 ```
 
-```{r dja_app, include = FALSE, message = FALSE}
+```{r dja_app, echo = FALSE, message = FALSE}
 frameWidget(
   ggiraph(code = print(a), width = 0.7 )
   )
