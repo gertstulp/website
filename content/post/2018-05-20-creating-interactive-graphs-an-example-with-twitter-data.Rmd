@@ -15,7 +15,7 @@ tags:
 I recently had to make an interactive visualisation of some twitter-data. Here I'll explain how I went about it. 
 
 ### rtweet
-Getting twitter data is reasonably easy once you have the `rtweet` package going, although there are certainly some steps that you have to go through to set-up this package (with respect to the API authorization). You can read about these steps [here](http://rtweet.info/). We'll also use the `tidyverse`-package (as always, I will rely heavily on ggplot that is within the tidyverse)  
+Getting twitter data is reasonably easy once you have the `rtweet` package going, although there are certainly some steps that you have to go through to set-up this package (with respect to the API authorization). You can read about these steps [here](http://rtweet.info/). We'll also use the `tidyverse`-package (as always, I will rely heavily on ggplot that is within the tidyverse). We'll also use the `widgetframe`-package, so that we can display the different interactive graphs.   
 ```{r message = FALSE}
 # install.packages("rtweet")
 library(rtweet)
@@ -120,8 +120,12 @@ gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
 ggiraph(code = print(gelman_int), width = 1 )
 ```
 
+
+The above code will work on your computer, but to have multiple interactive graphs on a website based on blogdown, one needs to make the interactive graps stand-alone and include them as a an hmtlwidget through `frameWidget`. [Basically, when you have multiple interactive ggiraph graphs, the output of those graphs will be written to the same folders (that have to do with JavaScript libraries), meaning that there will be annoying overlap because some files have the same name, and the interactive graphs--*all of them*-- will use the most recent version. Tres annoying.] 
 ```{r gelman_app, out.width = "100%"}
-frameWidget(ggiraph(code = print(gelman_int), width = 1 ))
+frameWidget(
+  ggiraph(code = print(gelman_int), width = 1 )
+  )
 ```
 
 

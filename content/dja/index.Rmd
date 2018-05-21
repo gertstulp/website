@@ -12,7 +12,7 @@ library(widgetframe)
 dja <- readRDS("dja.rds")
 ```
 
-```{r dja, echo = FALSE, message = FALSE, warning = FALSE, results = "hide", out.width = "100%"}
+```{r dja, echo = FALSE, message = FALSE, warning = FALSE, results = "hide"}
 a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
   geom_point_interactive(aes(tooltip = text_red), 
                          colour = "lightblue", alpha = 0.5, size = 2) +
@@ -32,8 +32,10 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
 ggiraph( code = print(a), width = 1 )
 ```
 
-```{r dja_app, out.width = "100%"}
-frameWidget(ggiraph(code = print(a), width = 1 ))
+```{r dja_app}
+frameWidget(
+  ggiraph(code = print(a), width = 1 )
+  )
 ```
 
 
