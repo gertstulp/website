@@ -29,7 +29,6 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
         axis.title = element_text(size = 20),
         axis.text = element_text(size = 15),
         title = element_text(size = 22)) 
-  
 
 ggiraph(code = print(a), width = 1 )
 ```
