@@ -34,11 +34,19 @@ a <- ggplot(dja, aes(x = created_at, y = retweet_count + 1)) +
 ggiraph( code = print(a), width = 1 )
 ```
 
+*Als men met de muis boven de datapunten hangt, kan men de tweet lezen!* 
+
 ```{r dja_app, echo = FALSE, message = FALSE}
 frameWidget(
-  ggiraph(code = print(a), width = 0.7 )
+  ggiraph(code = print(a), width = 0.9 )
   )
 ```
 
+```{r dja_app2, echo = FALSE, message = FALSE}
+frameWidget(
+  ggiraph(code = print(a), width = 1 ),
+  height = '400'
+  )
+```
 
 *Als men met de muis boven de datapunten hangt, kan men de tweet lezen!* 
