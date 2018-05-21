@@ -16,7 +16,7 @@ I recently had to make an interactive visualisation of some twitter-data. Here I
 
 ### rtweet
 Getting twitter data is reasonably easy once you have the `rtweet` package going, although there are certainly some steps that you have to go through to set-up this package (with respect to the API authorization). You can read about these steps [here](http://rtweet.info/). We'll also use the `tidyverse`-package (as always, I will rely heavily on ggplot that is within the tidyverse)  
-```{r}
+```{r message = FALSE}
 # install.packages("rtweet")
 library(rtweet)
 library(tidyverse)
@@ -28,7 +28,7 @@ gelman <- get_timelines(c("StatModeling"), n = 5000)
 ```
 
 Plotting the number of retweets over time:
-```{r}
+```{r message = FALSE}
 gelman_plot <- ggplot(gelman, aes(x = created_at, y = retweet_count)) +
   geom_point(colour = "lightblue", alpha = 0.5, size = 2) +
   geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
@@ -39,13 +39,13 @@ gelman_plot
 ```
 
 Because of one extreme outlier, we can't really get enough detail on most of the tweets. So let's zoom in first: 
-```{r}
+```{r message = FALSE}
 gelman_plot + coord_cartesian(ylim = c(0, 130))
 ```
 
 Better, but still the bulk is non-visible, let's try one more solution, by transforming the y-scale into a logarithmic scale. There is one problem: many tweets are not retweeted, so there are zeros in our raw data. A log of zero does not exist. Zeros should not be on the log-scale. But, breaking social scientific norms, I shall add them anyway, because I do not want to remove those data in the visuals. In order to do so, I'll add one to every retweet-count. To compensate for having transformed the data, I will adjust the y-axis. So a newly transformed datapoint with the value 17 needs to have a label of 16 in the graph.   
 
-```{r}
+```{r message = FALSE}
 gelman_plot + 
   aes(y = retweet_count + 1) +
   scale_y_continuous(trans = "log2",
@@ -54,13 +54,13 @@ gelman_plot +
 ```
 
 Looks a bit funky, but we get to see some more datapoints. Finally, let's add all the above information in one function call and tweak some features of the graph:
-```{r}
+```{r message = FALSE}
 gelman_plot <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
   geom_point(colour = "lightblue", alpha = 0.5, size = 2) +
   geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
   theme_minimal()  +
   labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time") +
+       title = "Number of retweets of tweets \n'@StatModeling' over time") +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
@@ -82,7 +82,7 @@ gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
   geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
   theme_minimal()  +
   labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time") +
+       title = "Number of retweets of tweets \n'@StatModeling' over time") +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
@@ -96,7 +96,7 @@ ggiraph(code = print(gelman_int), width = 1 )
 ```
 
 We get some error-message because apparently there are *'* in the tweets that we can't use. Let's remove them all with the help of `stringr`.
-```{r}
+```{r message = FALSE}
 library(stringr)
 gelman$text_woq <- str_replace_all(gelman$text, "'", "")
 
@@ -106,7 +106,7 @@ gelman_int <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1)) +
   geom_smooth(se = FALSE, colour = "orange", alpha = 0.5) +
   theme_minimal()  +
   labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time") +
+       title = "Number of retweets of tweets \n'@StatModeling' over time") +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
@@ -138,7 +138,7 @@ gelman_plus_text <- ggplot(gelman, aes(x = created_at, y = retweet_count + 1,
               se = FALSE, colour = "orange", alpha = 0.5) +
   theme_minimal()  +
   labs(x = "Date", y = "# retweets", 
-       title = "Number of retweets of tweets '@StatModeling' over time") +
+       title = "Number of retweets of tweets \n'@StatModeling' over time") +
   scale_y_continuous(trans = "log2",
                      breaks = c(1, 2, 3, 5, 9, 17, 33, 65, 129, 257, 513),
                      labels = c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512)) +
