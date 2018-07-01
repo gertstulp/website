@@ -1,11 +1,11 @@
 +++
-date = "2018-01-22T00:00:00"
+date = "2018-06-18T00:00:00"
 title = "R workshop for university teachers"
 authors = ["Gert Stulp", "Jorge Tendeiro"]
 abstract = "R workshop for teachers from the University of Groningen."
 abstract_short = ""
 event = "R workshop"
-event_url = "http://stulp.gmw.rug.nl/22-01-2018/Rworkshop/"
+event_url = "http://stulp.gmw.rug.nl/18-06-2018/Rworkshop/"
 location = "Grote Kruisstraat, Groningen, the Netherlands"
 
 selected = true
