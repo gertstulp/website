@@ -4,7 +4,7 @@ title = "Collecting large personal networks in a representative sample of Dutch 
 authors = ["Gert Stulp"]
 abstract = ""
 abstract_short = ""
-event = "EMPIRICAL NETWORK DATA COLLECTION IN SOCIAL NETWORKS"
+event = "Empirical Network Data Collection in Social Networks"
 event_url = "https://www.nuffield.ox.ac.uk/news-events/events-and-seminars/workshop-empirical-network-data-collection-in-social-networks-day-2/"
 location = "Oxford, UK"
 
