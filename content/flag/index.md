@@ -27,6 +27,9 @@ Here you can find the schedule (past, present, future) and the contents of the *
 |September 18, 2018     |GR19.109     |12-13.30 |TBA
 
 ### Schedule 2019
+
+|Date                   |Room         |Time     |What    
+|--------               |--------     |-------- |-------- 
 |July 2, 2019       |GR19.109     |12-13.30 |
 |June 11, 2019       |GR19.109     |12-13.30 |
 |May 21, 2019       |GR19.109     |12-13.30 |
