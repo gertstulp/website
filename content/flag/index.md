@@ -15,7 +15,30 @@ FLAG stands for *Family Lifecourse and Ageing* and is a research cluster within 
 
 Here you can find the schedule (past, present, future) and the contents of the **FLAG** meetings. 
 
-### Schedule
+### Schedule 2018
+
+|Date                   |Room         |Time     |What    
+|--------               |--------     |-------- |-------- 
+|December 18, 2018       |GR19.109     |12-13.30 |
+|December 4, 2018       |GR19.109     |12-13.30 |
+|November 15, 2018     |GR19.109     |12-13.30 |*NIDI-colooquium* at 15.30!
+|October 30, 2018       |GR19.109     |12-13.30 |TBA
+|October 16, 2018       |GR19.109     |12-13.30 |TBA
+|September 18, 2018     |GR19.109     |12-13.30 |TBA
+
+### Schedule 2019
+|July 2, 2019       |GR19.109     |12-13.30 |
+|June 11, 2019       |GR19.109     |12-13.30 |
+|May 21, 2019       |GR19.109     |12-13.30 |
+|April 23, 2019       |GR19.109     |12-13.30 |
+|April 2, 2019       |GR19.109     |12-13.30 |
+|March 12, 2019       |GR19.109     |12-13.30 |
+|February 19, 2019       |GR19.109     |12-13.30 |
+|January 29, 2019       |GR19.109     |12-13.30 |
+|January 15, 2019       |GR19.109     |12-13.30 |
+
+
+### Schedule 2017 - 2018
 
 |Date                   |Room         |Time     |What    
 |--------               |--------     |-------- |-------- 
