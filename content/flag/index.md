@@ -20,7 +20,7 @@ Here you can find the schedule (past, present, future) and the contents of the *
 |Date                   |Room         |Time     |What    
 |--------               |--------     |-------- |-------- 
 |December 18, 2018       |GR19.109     |12-13.30 |TBA
-|December 4, 2018       |GR19.109     |12-13.30 |TBA
+|December 4, 2018       |GR19.109     |12-13.30 |Basak Bilecen--*How supportive are students' personal ties? A comparative study in Germany and in the US*
 |November 15, 2018     |GR19.109     |12-13.30 |*NIDI-colloquium* at 15.30!
 |October 30, 2018       |GR19.109     |12-13.30 |TBA
 |October 16, 2018       |GR19.109     |12-13.30 |TBA
