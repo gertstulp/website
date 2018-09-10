@@ -17,6 +17,6 @@ Visualisation is perhaps the easiest way to get good insights into the data at h
 
 To see the `ggplotgui` in action without using **R** click [here](https://site.shinyserver.dck.gmw.rug.nl/ggplotgui/) or see the screen below:
 
-<iframe src="//https://site.shinyserver.dck.gmw.rug.nl/ggplotgui/" style="border: 1px solid #AAA; width: 100%; height:460px">
+<iframe src="//site.shinyserver.dck.gmw.rug.nl/ggplotgui/" style="border: 1px solid #AAA; width: 100%; height:460px">
   <p>Your browser does not support iframes.</p>
 </iframe>
