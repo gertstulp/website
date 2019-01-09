@@ -15,17 +15,6 @@ FLAG stands for *Family Lifecourse and Ageing* and is a research cluster within 
 
 Here you can find the schedule (past, present, future) and the contents of the **FLAG** meetings. 
 
-### Schedule 2018
-
-|Date                   |Room         |Time     |What    
-|--------               |--------     |-------- |-------- 
-|December 18, 2018       |GR19.109     |12-13.30 |Marieke Haan--*TBD*; Roberta Rutigliano--*TBD*
-|December 4, 2018       |GR19.109     |12-13.30 |Basak Bilecen--*How supportive are students' personal ties? A comparative study in Germany and in the US* / Rowan ten Kate--*Discussing PhD ideas* 
-|November 15, 2018     |GR19.109     |12-13.30 | Vera Buijs--*Practice talk for VNOP-CAS research days*. Also: *NIDI-"colloquium"* at 15.30!
-|October 30, 2018       |GR19.109     |12-13.30 |Renske Verweij--*Determinants of childlessness in American men*
-|October 16, 2018       |GR19.109     |12-13.30 |Gert Stulp--*Social influences on reproductive decision-making*
-|September 18, 2018     |GR19.109     |12-13.30 |Introductory meeting
-
 ### Schedule 2019
 
 |Date                   |Room         |Time     |What    
@@ -33,18 +22,23 @@ Here you can find the schedule (past, present, future) and the contents of the *
 |July 2, 2019       |GR19.109     |12-13.30 |
 |June 11, 2019       |GR19.109     |12-13.30 |
 |May 21, 2019       |GR19.109     |12-13.30 |
-|April 23, 2019       |GR19.109     |12-13.30 |
+|April 23, 2019       |GR19.109     |12-13.30 |Marieke Haan
 |April 2, 2019       |GR19.109     |12-13.30 |
 |March 12, 2019       |GR19.109     |12-13.30 |
 |February 19, 2019       |GR19.109     |12-13.30 |
-|January 29, 2019       |GR19.109     |12-13.30 |
-|January 15, 2019       |GR19.109     |12-13.30 |
+|January 15, 2019       |GR19.109     |12-13.30 |Intro
 
 
 ### Schedule 2017 - 2018
 
 |Date                   |Room         |Time     |What    
 |--------               |--------     |-------- |-------- 
+|December 18, 2018       |GR19.109     |12-13.30 |Marieke Haan--*Mixed device surveys: Exploring automated navigation in online questionnaires*; Roberta Rutigliano--*Overview of my research*
+|December 4, 2018       |GR19.109     |12-13.30 |Basak Bilecen--*How supportive are students' personal ties? A comparative study in Germany and in the US* / Rowan ten Kate--*Discussing PhD ideas* 
+|November 15, 2018     |GR19.109     |12-13.30 | Vera Buijs--*Practice talk for VNOP-CAS research days*. Also: *NIDI-"colloquium"* at 15.30!
+|October 30, 2018       |GR19.109     |12-13.30 |Renske Verweij--*Determinants of childlessness in American men*
+|October 16, 2018       |GR19.109     |12-13.30 |Gert Stulp--*Social influences on reproductive decision-making*
+|September 18, 2018     |GR19.109     |12-13.30 |Introductory meeting
 |June 19, 2018     |GR19.109     |12-13.00 |Discuss papers from Vera Buijs and Renske Verweij
 |May 29, 2018     |GR19.109     |12-13.30 |Practice EPC talks (Damiano Uccheddu, Christoph Beim, Rae Li)
 |May 8, 2018     |GR19.109     |12-13.30 |Overview Vera de Bel's reserach stay in Lausanne
