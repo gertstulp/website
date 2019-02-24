@@ -22,10 +22,10 @@ Here you can find the schedule (past, present, future) and the contents of the *
 |July 2, 2019       |GR19.109     |12-13.30 |
 |June 11, 2019       |GR19.109     |12-13.30 |
 |May 21, 2019       |GR19.109     |12-13.30 |
-|April 23, 2019       |GR19.109     |12-13.30 |Marieke Haan
+|April 23, 2019       |GR19.109     |12-13.30 |Marieke Haan--**A qualitative study to understand patient perspective on the use of artificial intelligence in radiology**
 |April 2, 2019       |GR19.109     |12-13.30 |
 |March 12, 2019       |GR19.109     |12-13.30 |
-|February 19, 2019       |GR19.109     |12-13.30 |
+|February 19, 2019       |GR19.109     |12-13.30 |Verena Seibel--**Financial support for asylum seekers in Germany: Determining perceived deservingness using a Survey Experiment**
 |January 15, 2019       |GR19.109     |12-13.30 |Intro
 
 
