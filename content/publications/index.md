@@ -13,6 +13,9 @@ caption = ""
 
 ### Recent or in press
 
+
+Stulp, G. & Sear, R. (*in press*). How might life history theory contribute to life course theory? *Advances in Life Course Research* <a href="/pdf/2019_stulp_sear.pdf" target="_blank">**Download**</a>
+
 Hruschka, DJ, Hackman, JV & Stulp, G. (*in press*). Identifying the limits to socioeconomic influences on human growth. *Economics & Human Biology* <a href="/pdf/2018_Hruschka_EHB_Limits.pdf" target="_blank">**Download**</a>
 
 Barrett, L & Stulp, G. (2019). *Evolution and human behaviour: helping to make sense of modern life*. Book chapter (pp 203-222) in: *Genes and Behaviour: Beyond Nature-Nurture* (eds D. Hosken, J. Hunt, N. Wedell). Wiley Press. <a href="/pdf/2019_Barrett & Stulp_Modern life.pdf" target="_blank">**Download**</a>
