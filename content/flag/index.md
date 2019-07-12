@@ -19,9 +19,9 @@ Here you can find the schedule (past, present, future) and the contents of the *
 
 |Date                   |Room         |Time     |What    
 |--------               |--------     |-------- |-------- 
-|July 2, 2019       |GR19.109     |12-13.30 |
-|June 11, 2019       |GR19.109     |12-13.30 |
-|May 21, 2019       |GR19.109     |12-13.30 |Vera de Bel
+|July 2, 2019       |GR19.109     |12-13.30 |Vera Bijs--*Friends, Family, and Happiness among Dutch women* & Damiano Uccheddu--presentation about his third paper 
+|June 11, 2019       |GR19.109     |12-13.30 |Vera de Bel--*Collecting multi-actor family network data*
+|May 21, 2019       |GR19.109     |12-13.30 |Cancelled due to ilness
 |April 23, 2019       |GR19.109     |12-13.30 |Marieke Haan--*A qualitative study to understand patient perspective on the use of artificial intelligence in radiology*
 |April 2, 2019       |GR19.109     |12-13.30 |Rowan ten Kate--*Explaining loneliness among older migrants : When do social contacts not protect against loneliness?*
 |March 12, 2019       |GR19.109     |12-13.30 |Gert Stulp--*Collecting personal networks*
