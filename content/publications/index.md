@@ -88,7 +88,7 @@ Buunk, A.P., Stulp, G. & Ormel, J. (2014). Parental social status and intrasexua
 Stulp, G. & Barrett, L. (2014). The course (of) (or) history of life? A response to "A life-course approach to fertility". *Demographic Research*. <a href="https://www.demographic-research.org/volumes/vol30/45/letter.htm" target="_blank">**Download**</a>
 
 ***
-Stulp, G.<sup>\*</sup> , Mills, M., Pollet, T.V. & Barrett, L.<sup>\*</sup> (2014). Non-linear associations between stature and mate choice characteristics for American men and their spouses. *American Journal of Human Biology* 26:530–537. <sup>\*</sup> authors contributed equally. <a href="pdf/Stulp et al_2014_AHJB_Nonlinear associations.pdf" target="_blank">**Download**</a> 
+Stulp, G.<sup>\*</sup> , Mills, M., Pollet, T.V. & Barrett, L.<sup>\*</sup> (2014). Non-linear associations between stature and mate choice characteristics for American men and their spouses. *American Journal of Human Biology* 26:530–537. <sup>\*</sup> authors contributed equally. <a href="pdf/2014_Stulp_et_al_AHJB_Nonlinear associations.pdf" target="_blank">**Download**</a> 
 
 ***
 Simons, M.J.P., Stulp, G. & Nakagawa, S. (2014). A statistical approach to distinguish telomere elongation from error in longitudinal datasets. *Biogerontology* 15(1): 99-103. <a href="pdf/2014_Simon_et_al_Biogeront_Telemore.pdf" target="_blank">**Download**</a> 
@@ -109,7 +109,7 @@ Stulp, G., Buunk, A.P., Kurzban, R. & Verhulst, S. (2013). The height of choosin
 Barrett, L. & Stulp, G. (2013). Four more reasons why ethology matters: Tinbergen and the human sciences. *Human Ethology Bulletin* 28(4): 39-49. <a href="pdf/Barrett & Stulp_Four more reasons why ethology matters.pdf" target="_blank">**Download**</a> 
 
 ***
-Barrett, L. & Stulp, G. (2013). Invited Commentary - The pleasures and pitfalls of studying humans from a behavioural ecological perspective. *Behavioral Ecology* 24: 1045-1046. <a href="/pdf/Barrett & Stulp 2013_Behavioral Ecology_Pleasures and pitfalls of studying HBE.pdf" target="_blank">**Download**</a> 
+Barrett, L. & Stulp, G. (2013). Invited Commentary - The pleasures and pitfalls of studying humans from a behavioural ecological perspective. *Behavioral Ecology* 24: 1045-1046. <a href="/pdf/2013_Barrett&Stulp_HEB_Tinbergen.pdf" target="_blank">**Download**</a> 
 
 ***
 Cobey, K.D.<sup>\*</sup>, Stulp, G.<sup>\*</sup>, Laan, F., Buunk, A.P. & Pollet, T.V. (2013). Sex differences in risk taking behavior among Dutch cyclists. *Evolutionary Psychology* 11(2): 350-364. <sup>\*</sup> authors contributed equally. <a href="http://journals.sagepub.com/doi/full/10.1177/147470491301100206" target="_blank">**Download**</a> 
