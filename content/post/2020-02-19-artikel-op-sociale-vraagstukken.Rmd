@@ -1,0 +1,10 @@
+---
+title: artikel op sociale vraagstukken
+author: Gert Stulp
+date: '2020-02-19'
+slug: artikel-op-sociale-vraagstukken
+categories: [fertility research]
+tags: []
+---
+
+Renkse Verweij en ik hebben onlangs een artikel geschreven over ons onderzoek naar kinderloosheid voor de website van Sociale Vraagstukken: (Eerst zekerheid, dan pas kinderen)[https://www.socialevraagstukken.nl/eerst-zekerheid-dan-pas-kinderen/]
