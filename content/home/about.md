@@ -15,6 +15,7 @@ weight = 1
     "Visualisation",
     "R",
     "Statistics",
+    "Fertility",
     "Human behaviour",
     "Evolution"
   ]
@@ -45,5 +46,3 @@ My name is Gert Stulp. I like:
 - visualisations in R
 - Gary Larson
 - Arnold Schwarzenegger (sort of)
-
-_website is under construction! may contain elements from [this amazing website](https://alison.rbind.io/#about) that i copied_
