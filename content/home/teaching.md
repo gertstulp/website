@@ -16,7 +16,10 @@ weight = 6
 
 I currently teach or contribute to the following courses at the University of Groningen's <a href = "https://www.rug.nl/gmw/sociology/?lang=en" target="_blank">sociology curriculum</a>:
 
+- Teacher of <a href = "https://www.rug.nl/ocasys/gmw/vak/show?code=SOMINDW09" target="_blank">Data Visualization</a> 
 
-- <a href = "https://www.rug.nl/ocasys/gmw/vak/show?code=SOBA105C" target="_blank">Statistiek 1b</a> 
-- <a href = "https://www.rug.nl/ocasys/rug//vak/show?code=GMTPGE07" target="_blank">Starting the First Paper</a> (with René Veenstra & Gerine Lodder)
-- <a href = "https://www.rug.nl/ocasys/gmw/vak/show?code=SOSCH006A4" target="_blank">Onderzoekspracticum II</a> (coordinated and taught by Marina Roos)
+- Coordinator of <a href = https://www.rug.nl/ocasys/gmw/vak/show?code=SOMINDW01" target="_blank">Introduction to Data</a> 
+
+- Coordinator of minor program <a href = "https://www.rug.nl/gmw/education/minor/datawise" target="_blank">Data Wise: data science in society</a> 
+
+- Teacher of <a href = "https://www.rug.nl/ocasys/gmw/vak/show?code=SOBA105C" target="_blank">Statistics 1</a> 
