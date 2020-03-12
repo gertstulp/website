@@ -22,7 +22,7 @@ Hruschka, DJ, Hackman, JV & Stulp, G. (2019). Identifying the limits to socioeco
 
 Barrett, L & Stulp, G. (2019). *Evolution and human behaviour: helping to make sense of modern life*. Book chapter (pp 203-222) in: *Genes and Behaviour: Beyond Nature-Nurture* (eds D. Hosken, J. Hunt, N. Wedell). Wiley Press. <a href="/pdf/2019_Barrett & Stulp_Modern life.pdf" target="_blank">**Download**</a>
 
-Van der Sluis, JK, Van der Steen, S, Stulp, G & Den Hartigh, R. (2019). *Individual dynamics of talented adolescents*. Chapter in *Psychological development in adolescence: Insights from he dynamic systems approach* (S. Kunnen, M. van der Gaag, N. de Ruiter, B. Jeronimus, editors). <a href="/pdf/2018_Van_der_Sluis_et_al_Visualizing_Individual_Dynamics.pdf" target="_blank">**Download**</a>
+Van der Sluis, JK, Van der Steen, S, Stulp, G & Den Hartigh, R. (2019). *Individual dynamics of talented adolescents*. Book chapter (pp 209-222) in *Psychological development in adolescence: Insights from he dynamic systems approach* (S. Kunnen, M. van der Gaag, N. de Ruiter, B. Jeronimus, editors). Routledge. <a href="/pdf/2018_Van_der_Sluis_et_al_Visualizing_Individual_Dynamics.pdf" target="_blank">**Download**</a>
 
 ***
 Tropf, FC, Lee, SH, Verweij, RM, Stulp, G, van der Most, PJ, de Vlaming, R, Bakshi, A., Briley, DA, Rahal, C, Hellpap, R, Iliadou, AN, Esko, T, Metspalu, A, Medland, SE, Martin, NG, Barban, N, Snieder, H, Robinson, MR & Mills, MC. (2017). Hidden heritability due to heterogeneity across seven populations. *Nature Human Behaviour* 1: 757-765. <a href="/pdf/2017_Tropf_et_al_Nature Human Behaviour_Heritability.pdf" target="_blank">**Download**</a>
