@@ -13,28 +13,38 @@ caption = ""
 
 ### Recent or in press
 
-Verweij, R. M., Mills, M. C., Stulp, G., Nolte, I. M., Barban, N., Tropf, F. C., Carrell, D. T., Aston, K. I., Zondervan, K. T., Rahmioglu, N., Dalgaard, M., Skaarup, C., Hayes, M. G., Dunaif, A., Guo, G., & Snieder, H. (2019). *Using Polygenic Scores in Social Science Research: Unraveling Childlessness*. Frontiers in Sociology, 4. https://doi.org/10.3389/fsoc.2019.00074
-
-
-Stulp, G. & Sear, R. (*in press*). How might life history theory contribute to life course theory? *Advances in Life Course Research* <a href="/pdf/2019_stulp_sear.pdf" target="_blank">**Download**</a>
-
-Hruschka, DJ, Hackman, JV & Stulp, G. (2019). Identifying the limits to socioeconomic influences on human growth. *Economics & Human Biology* <a href="/pdf/2018_Hruschka_EHB_Limits.pdf" target="_blank">**Download**</a>
-
-Barrett, L & Stulp, G. (2019). *Evolution and human behaviour: helping to make sense of modern life*. Book chapter (pp 203-222) in: *Genes and Behaviour: Beyond Nature-Nurture* (eds D. Hosken, J. Hunt, N. Wedell). Wiley Press. <a href="/pdf/2019_Barrett & Stulp_Modern life.pdf" target="_blank">**Download**</a>
-
-Van der Sluis, JK, Van der Steen, S, Stulp, G & Den Hartigh, R. (2019). *Individual dynamics of talented adolescents*. Book chapter (pp 209-222) in *Psychological development in adolescence: Insights from he dynamic systems approach* (S. Kunnen, M. van der Gaag, N. de Ruiter, B. Jeronimus, editors). Routledge. <a href="/pdf/2018_Van_der_Sluis_et_al_Visualizing_Individual_Dynamics.pdf" target="_blank">**Download**</a>
+Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. https://doi.org/10.1016/j.socnet.2020.07.012. <a href="/pdf/2021_stulp_SN" target="_blank">**Download**</a>
 
 ***
+Bringmann, L. F., van der Veen, D. C., Wichers, M., Riese, H., & Stulp, G. (2020). ESMvis: A tool for visualizing individual Experience Sampling Method (ESM) data. Quality of Life Research. https://doi.org/10.1007/s11136-020-02701-4
+
+
+### 2019
+Verweij, R. M., Mills, M. C., Stulp, G., Nolte, I. M., Barban, N., Tropf, F. C., Carrell, D. T., Aston, K. I., Zondervan, K. T., Rahmioglu, N., Dalgaard, M., Skaarup, C., Hayes, M. G., Dunaif, A., Guo, G., & Snieder, H. (2019). Using Polygenic Scores in Social Science Research: Unraveling Childlessness. *Frontiers in Sociology* 4. https://doi.org/10.3389/fsoc.2019.00074
+
+***
+Stulp, G. & Sear, R. (*in press*). How might life history theory contribute to life course theory? *Advances in Life Course Research* <a href="/pdf/2019_stulp_sear.pdf" target="_blank">**Download**</a>
+
+***
+Hruschka, DJ, Hackman, JV & Stulp, G. (2019). Identifying the limits to socioeconomic influences on human growth. *Economics & Human Biology* 34: 239-251 <a href="/pdf/2018_Hruschka_EHB_Limits.pdf" target="_blank">**Download**</a>
+
+***
+Barrett, L & Stulp, G. (2019). *Evolution and human behaviour: helping to make sense of modern life*. Book chapter (pp 203-222) in: *Genes and Behaviour: Beyond Nature-Nurture* (eds D. Hosken, J. Hunt, N. Wedell). Wiley Press. <a href="/pdf/2019_Barrett & Stulp_Modern life.pdf" target="_blank">**Download**</a>
+
+***
+Van der Sluis, JK, Van der Steen, S, Stulp, G & Den Hartigh, R. (2019). *Individual dynamics of talented adolescents*. Book chapter (pp 209-222) in *Psychological development in adolescence: Insights from he dynamic systems approach* (S. Kunnen, M. van der Gaag, N. de Ruiter, B. Jeronimus, editors). Routledge. <a href="/pdf/2018_Van_der_Sluis_et_al_Visualizing_Individual_Dynamics.pdf" target="_blank">**Download**</a>
+
+### 2017
 Tropf, FC, Lee, SH, Verweij, RM, Stulp, G, van der Most, PJ, de Vlaming, R, Bakshi, A., Briley, DA, Rahal, C, Hellpap, R, Iliadou, AN, Esko, T, Metspalu, A, Medland, SE, Martin, NG, Barban, N, Snieder, H, Robinson, MR & Mills, MC. (2017). Hidden heritability due to heterogeneity across seven populations. *Nature Human Behaviour* 1: 757-765. <a href="/pdf/2017_Tropf_et_al_Nature Human Behaviour_Heritability.pdf" target="_blank">**Download**</a>
 
 ***
+Stulp, G., Simons, M.J.P., Grasman, S. & Pollet, T.V. (2017). Assortative mating for human height: a meta-analysis. *American Journal of Human Biology* 29(1): e22917. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ajhb.22917" target="_blank">**Download**</a> 
+
+### 2016
 Stulp, G., Sear, R., Schaffnit, S.B., Mills, M.C. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part II: the association between wealth and fertility. *Human Nature* 27(4): 445–470. <a href="https://link.springer.com/article/10.1007%2Fs12110-016-9272-9" target="_blank">**Download**</a> 
 
 ***
 Stulp, G., Sear, R. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part I: why measuring fertility matters. *Human Nature* 27(4): 422–444. <a href="https://link.springer.com/article/10.1007%2Fs12110-016-9269-4" target="_blank">**Download**</a> 
-
-***
-Stulp, G., Simons, M.J.P., Grasman, S. & Pollet, T.V. (2017). Assortative mating for human height: a meta-analysis. *American Journal of Human Biology* 29(1): e22917. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ajhb.22917" target="_blank">**Download**</a> 
 
 ***
 Barrett, L. & Stulp, G. (2016). Revolution, Reconciliation, Integration: Is there a way to bring social and biological anthropology together? *Evolutionary Anthropology* 25: 175–182. <a href="/pdf/2016_Barrett&Stulp_Ev_Anth.pdf" target="_blank">**Download**</a> 
