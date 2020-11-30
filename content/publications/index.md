@@ -18,6 +18,10 @@ Stulp, G. (2021). Collecting large personal networks in a representative sample 
 ***
 Bringmann, L. F., van der Veen, D. C., Wichers, M., Riese, H., & Stulp, G. (2020). ESMvis: A tool for visualizing individual Experience Sampling Method (ESM) data. Quality of Life Research. https://doi.org/10.1007/s11136-020-02701-4
 
+***
+Verweij, R., Mills, M., Snieder, H., & Stulp, G. (2020). Three facets of planning and postponement of parenthood in the Netherlands. *Demographic Research* 43(23): 659–672. https://doi.org/10.4054/DemRes.2020.43.23
+
+
 
 ### 2019
 Verweij, R. M., Mills, M. C., Stulp, G., Nolte, I. M., Barban, N., Tropf, F. C., Carrell, D. T., Aston, K. I., Zondervan, K. T., Rahmioglu, N., Dalgaard, M., Skaarup, C., Hayes, M. G., Dunaif, A., Guo, G., & Snieder, H. (2019). Using Polygenic Scores in Social Science Research: Unraveling Childlessness. *Frontiers in Sociology* 4. https://doi.org/10.3389/fsoc.2019.00074

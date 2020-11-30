@@ -23,7 +23,3 @@ image = ""
 caption = ""
 
 +++
-
-
-Full citation, including all authors:
-Verweij, R. M., Mills, M. C., Stulp, G., Nolte, I. M., Barban, N., Tropf, F. C., Carrell, D. T., Aston, K. I., Zondervan, K. T., Rahmioglu, N., Dalgaard, M., Skaarup, C., Hayes, M. G., Dunaif, A., Guo, G., & Snieder, H. (2019). *Using Polygenic Scores in Social Science Research: Unraveling Childlessness*. Frontiers in Sociology, 4. https://doi.org/10.3389/fsoc.2019.00074
