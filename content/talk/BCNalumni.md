@@ -1,5 +1,5 @@
 +++
-date = "2020-12-22T00:00:00"
+date = "2020-12-17T00:00:00"
 title = "6 rules of success that you shouldn't listen to"
 authors = ["Gert Stulp"]
 abstract = "In this talk, I make the point that you shouldn't listen to people giving advice. Nonetheless, Arnold Schwarzenegger's 6 rules of success also work well for Academia."
