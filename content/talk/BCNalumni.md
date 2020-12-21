@@ -11,7 +11,7 @@ location = "Groningen, the Netherlands"
 selected = true
 math = true
 
-url_pdf = "/pdf/BCN_alumni day_Stulp"
+url_pdf = "/pdf/BCN_alumni_day_Stulp"
 url_slides = ""
 url_video = ""
 
