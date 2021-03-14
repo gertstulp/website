@@ -15,11 +15,50 @@ FLAG stands for *Family Lifecourse and Ageing* and is a research cluster within 
 
 Here you can find the schedule (past, present, future) and the contents of the **FLAG** meetings. 
 
+
+12-1-21: newsround and new year resolutions
+
+2-2-21: Gert
+23-2-21: Guest: Lara Bister
+
+
+### Schedule 2021
+
+|Date                   |Room         |Time     |What    
+|--------               |--------     |-------- |-------- 
+|February 23, 2021       |Online     |12-13.30 |Lara Bister--** & Gert Stulp--*Maternity leave lengths, selection and maternal health in Germany*
+|February 2, 2021       |Online     |12-13.30 |Gert Stulp--*Simulating the evolution of height in the Netherlands in recent history*
+|January 12, 2021       |Online     |12-13.30 |News and new year's resolutions
+
+
+### Schedule 2020
+
+|Date                   |Room         |Time     |What    
+|--------               |--------     |-------- |-------- 
+|December 15, 2020       |Online     |12-13.30 |Rui Lu--*Understanding the heterogeneity of fertility preferences in China* & Amke van Tintelen--*Certainty of fertility preferences among Dutch women*
+|December 1, 2020       |Online     |12-13.30 |Amber Dings--ideas on PhD-project & Rowan ten Kate--*Researcher positionality and relying on others in the fieldwork: A reflexive note on studying older migrants*
+|November 10, 2020       |Online     |12-13.30 |Hilde Bras--*Contexts of Reproduction. Gender Dynamics and Unintended Pregnancy in sub-Saharan Africa*
+|October 20, 2020       |Online     |12-13.30 |Vera Buijs--*Interdependencies among family and friends in daily life: Personality differences and associations with affective well-being across the lifespan*
+|September 29, 2020       |Online     |12-13.30 |Newsround
+|September 15, 2020       |Online     |12-13.30 |Newsround and plans for academic year
+|July 6, 2020       |Online     |12-13.30 |Gert Stulp--*Understanding fertility outcomes by quantifying the (un)predictable*
+|June 23, 2020       |Online     |12-13.30 |Rowan ten Kate--*Being the “outsider”: A reflection on methodological and ethical issues in studying older migrants*
+|June 2, 2020       |Online     |12-13.30 |Vera Buijs--*Interdependencies among family and friends in daily life: Personality differences and associations with affective well-being across the lifespan*
+|May 12, 2020       |Online     |12-13.30 |Roberta Rutigliano--*Time, Money, and Parenthood in The United States: How (Grand-)Parent to Adult Children Transfers Shape the Transition to Parenthood*
+|April 21, 2020       |Online     |12-13.30 |Newsround
+|March 10, 2020       |Online     |12-13.30 |Basak Bilecen--*Simultaneous carework across borders: Kyrgyz migrant women caring for the elderly in Turkey and their families back at home*
+|January 7, 2020       |GR19.109     |12-13.30 |News and new year's resolutions
+
+
+
 ### Schedule 2019
 
 |Date                   |Room         |Time     |What    
 |--------               |--------     |-------- |-------- 
-|July 2, 2019       |GR19.109     |12-13.30 |Vera Bijs--*Friends, Family, and Happiness among Dutch women* & Damiano Uccheddu--presentation about his third paper 
+|December 2, 2019       |GR19.109     |12-13.30 |Vera de Bel--*Separated parents, separated family networks? Substitution of family ties in family networks of divorced and non-divorced families*
+|November 11, 2019       |GR19.109     |12-13.30 |Francesca Zanasi--*Carers and Careers. Grandparental care investment and its labour market consequences in Europe*
+|October 10, 2019       |GR19.109     |12-13.30 |Vera Buijs--*Social Needs and Happiness: A Life Course Perspective* & Rowan ten Kate--*A closer look at loneliness: Why do first-generation migrants feel more lonely than their native Dutch counterparts?*
+|July 2, 2019       |GR19.109     |12-13.30 |Vera Buijs--*Friends, Family, and Happiness among Dutch women* & Damiano Uccheddu--presentation about his third paper 
 |June 11, 2019       |GR19.109     |12-13.30 |Vera de Bel--*Collecting multi-actor family network data*
 |May 21, 2019       |GR19.109     |12-13.30 |Cancelled due to ilness
 |April 23, 2019       |GR19.109     |12-13.30 |Marieke Haan--*A qualitative study to understand patient perspective on the use of artificial intelligence in radiology*
