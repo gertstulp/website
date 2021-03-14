@@ -13,6 +13,6 @@ caption = ""
 
 
 You can download my **CV** here:
-<a class="btn btn-primary btn-outline" href="/pdf/CV Gert Stulp 2019.pdf">
+<a class="btn btn-primary btn-outline" href="/pdf/CV Gert Stulp.pdf">
   CV
 </a>
