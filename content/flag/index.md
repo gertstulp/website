@@ -16,16 +16,11 @@ FLAG stands for *Family Lifecourse and Ageing* and is a research cluster within 
 Here you can find the schedule (past, present, future) and the contents of the **FLAG** meetings. 
 
 
-12-1-21: newsround and new year resolutions
-
-2-2-21: Gert
-23-2-21: Guest: Lara Bister
-
-
 ### Schedule 2021
 
 |Date                   |Room         |Time     |What    
 |--------               |--------     |-------- |-------- 
+|March 16, 2021       |Online     |12-13.30 |Newsround
 |February 23, 2021       |Online     |12-13.30 |Lara Bister--** & Gert Stulp--*Maternity leave lengths, selection and maternal health in Germany*
 |February 2, 2021       |Online     |12-13.30 |Gert Stulp--*Simulating the evolution of height in the Netherlands in recent history*
 |January 12, 2021       |Online     |12-13.30 |News and new year's resolutions
