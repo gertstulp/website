@@ -13,18 +13,22 @@ caption = ""
 
 ### Recent or in press
 
-Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. https://doi.org/10.1016/j.socnet.2020.07.012. <a href="/pdf/2021_stulp_SN" target="_blank">**Download**</a>
+Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. https://doi.org/10.1016/j.socnet.2020.07.012. <a href="https://doi.org/10.1016/j.socnet.2020.07.012" target="_blank">**Download**</a>
 
 ***
-Bringmann, L. F., van der Veen, D. C., Wichers, M., Riese, H., & Stulp, G. (2020). ESMvis: A tool for visualizing individual Experience Sampling Method (ESM) data. Quality of Life Research. https://doi.org/10.1007/s11136-020-02701-4
+Buunk, AP, Stulp, G, Schaufeli, WB. (2021). Effect of self-reported height on occupational rank among police officers: Especially for women it pays to be tall. *Evolutionary Psychological Science*. <a href="https://doi.org/10.1007/s40806-021-00281-1" target="_blank">**Download**</a>  
+
+
+### 2020
+Bringmann, LF, van der Veen, DC, Wichers, M, Riese, H, & Stulp, G. (2020). ESMvis: A tool for visualizing individual Experience Sampling Method (ESM) data. *Quality of Life Research*. <a href="https://doi.org/10.1007/s11136-020-02701-4" target="_blank">**Download**</a>  
 
 ***
-Verweij, R., Mills, M., Snieder, H., & Stulp, G. (2020). Three facets of planning and postponement of parenthood in the Netherlands. *Demographic Research* 43(23): 659–672. https://doi.org/10.4054/DemRes.2020.43.23
+Verweij, R., Mills, M., Snieder, H., & Stulp, G. (2020). Three facets of planning and postponement of parenthood in the Netherlands. *Demographic Research* 43(23): 659–672. <a href="https://doi.org/10.4054/DemRes.2020.43.23" target="_blank">**Download**</a>  
 
 
 
 ### 2019
-Verweij, R. M., Mills, M. C., Stulp, G., Nolte, I. M., Barban, N., Tropf, F. C., Carrell, D. T., Aston, K. I., Zondervan, K. T., Rahmioglu, N., Dalgaard, M., Skaarup, C., Hayes, M. G., Dunaif, A., Guo, G., & Snieder, H. (2019). Using Polygenic Scores in Social Science Research: Unraveling Childlessness. *Frontiers in Sociology* 4. https://doi.org/10.3389/fsoc.2019.00074
+Verweij, R. M., Mills, M. C., Stulp, G., Nolte, I. M., Barban, N., Tropf, F. C., Carrell, D. T., Aston, K. I., Zondervan, K. T., Rahmioglu, N., Dalgaard, M., Skaarup, C., Hayes, M. G., Dunaif, A., Guo, G., & Snieder, H. (2019). Using Polygenic Scores in Social Science Research: Unraveling Childlessness. *Frontiers in Sociology* 4. <a href="https://doi.org/10.3389/fsoc.2019.00074" target="_blank">**Download**</a>  
 
 ***
 Stulp, G. & Sear, R. (*in press*). How might life history theory contribute to life course theory? *Advances in Life Course Research* <a href="/pdf/2019_stulp_sear.pdf" target="_blank">**Download**</a>

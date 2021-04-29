@@ -188,9 +188,15 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
     parent = "Research"
+    name = "Preprints"
+    url = "preprints/"
+    weight = 3
+
+[[menu.main]]
+    parent = "Research"
     name = "CV"
     url = "CV/"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
   identifier = "Resources"
