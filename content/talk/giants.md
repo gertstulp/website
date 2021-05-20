@@ -13,7 +13,7 @@ math = true
 
 url_pdf = "/pdf/height_giants.pdf"
 url_slides = ""
-url_video = ""
+url_video = "https://youtu.be/vmHbvabws0w"
 
 
 # Optional featured image (relative to `static/img/` folder).

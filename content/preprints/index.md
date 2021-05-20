@@ -36,7 +36,4 @@ Lu, R., Stulp, G., Gauthier, A. Quantifying the sources of heterogeneity of fert
 
 Stulp, G, Bonnell, T & Barrett, L. Simulating the evolution of height in the Netherlands in recent history. *Submitted to The History of the Family*
 
-***
 
-Stulp, G & Barrett, L. Do data from large personal networks support cultural evolutionary ideas about kin and fertility?
- *Submitted to Social Sciences*

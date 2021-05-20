@@ -13,7 +13,7 @@ math = true
 
 url_pdf = "/pdf/manchester.pdf"
 url_slides = ""
-url_video = "https://video.manchester.ac.uk/faculties/52f9b4cd447aa2fbeb47d1926186f80b/067ddc8d-69ac-410a-b7a2-04c82a395b88"
+url_video = "https://youtu.be/q9erAaPFTl0"
 
 
 # Optional featured image (relative to `static/img/` folder).

@@ -13,7 +13,12 @@ caption = ""
 
 ### Recent or in press
 
-Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. https://doi.org/10.1016/j.socnet.2020.07.012. <a href="https://doi.org/10.1016/j.socnet.2020.07.012" target="_blank">**Download**</a>
+
+Stulp, G & Barrett, L. Do data from large personal networks support cultural evolutionary ideas about kin and fertility? *Social Sciences* 10(5):177. <a href="https://doi.org/10.3390/socsci10050177" target="_blank">**Download**</a>
+
+***
+
+Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. <a href="https://doi.org/10.1016/j.socnet.2020.07.012" target="_blank">**Download**</a>
 
 ***
 Buunk, AP, Stulp, G, Schaufeli, WB. (2021). Effect of self-reported height on occupational rank among police officers: Especially for women it pays to be tall. *Evolutionary Psychological Science*. <a href="https://doi.org/10.1007/s40806-021-00281-1" target="_blank">**Download**</a>  
