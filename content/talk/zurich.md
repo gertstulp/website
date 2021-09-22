@@ -1,6 +1,6 @@
 +++
 date = "2019-06-05T00:00:00"
-title = "Evolutionary aspects of human height: a long story short”"
+title = "Evolutionary aspects of human height: a long story short"
 authors = ["Gert Stulp"]
 abstract = ""
 abstract_short = ""
