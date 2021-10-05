@@ -1,12 +1,34 @@
 ---
-title: Several interviews on the Dutch not getting taller
-author: Gert Stulp
-date: '2020-02-18'
-slug: interview-for-bbc-about-secular-trend-in-height
+title: "Several interviews on the Dutch not getting taller"
+author: "Gert Stulp"
+date: '2021-10-05'
+slug: several-interviews-on-the-dutch-not-getting-taller
 categories:
-  - Media
-  - Height
+- Media
+- Height
 tags: []
 ---
 
-NEEDS TO BE UPDATED.
+The CBS has published a [great report](https://www.cbs.nl/nl-nl/nieuws/2021/37/nederlanders-korter-maar-nog-steeds-lang) on the Dutch not getting taller, or even shrinking. Naturally, I had to show up to do all sorts of interviews. Some greatest hits:
+
+## Video
+
+Forthcoming
+
+## Audio
+
+* https://www.sbs.com.au/language/dutch/audio/verliezen-nederlanders-binnenkort-de-titel-langste-volk-ter-wereld
+
+## Print
+
+* https://nos.nl/artikel/2398087-cbs-nederlanders-blijven-langste-volk-ter-wereld-maar-we-worden-wel-wat-kleiner
+
+* https://www.volkskrant.nl/wetenschap/nederlanders-worden-niet-langer-ze-worden-juist-kleiner~bd7fbba7/
+
+* https://www.theguardian.com/world/2021/sep/17/dutch-are-worlds-tallest-people-but-theyre-shrinking-study-shows
+
+* https://www.washingtonpost.com/world/2021/09/19/netherlands-average-height-shrinking-tallest/
+
+
+
+
