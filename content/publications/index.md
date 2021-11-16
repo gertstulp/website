@@ -1,6 +1,6 @@
 +++
 title = "Publications"
-date = "2019-07-22T00:00:00Z"
+date = "2021-11-16T00:00:00Z"
 math = false
 highlight = false
 
@@ -13,11 +13,22 @@ caption = ""
 
 ### Recent or in press
 
+Verweij, RM, Stulp, G, Snieder, H & Mills, MC. (in press). Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless? Population Review, 60, 2, 166-194
 
-Stulp, G & Barrett, L. Do data from large personal networks support cultural evolutionary ideas about kin and fertility? *Social Sciences* 10(5):177. <a href="https://doi.org/10.3390/socsci10050177" target="_blank">**Download**</a>
+***
+Buijs, V. L., & Stulp, G. (2022). Friends, family, and family friends: Predicting friendships of Dutch women. Social Networks, 70, 25–35. https://doi.org/10.1016/j.socnet.2021.10.008. <a href="https://doi.org/10.1016/j.socnet.2021.10.008" target="_blank">**Download**</a> 
 
 ***
 
+Stadel, M., & Stulp, G. (2022). Balancing bias and burden in personal network studies. Social Networks, 70, 16–24. https://doi.org/10.1016/j.socnet.2021.10.007. <a href="https://doi.org/10.1016/j.socnet.2021.10.007" target="_blank">**Download**</a>
+
+
+***
+
+Stulp, G & Barrett, L. Do data from large personal networks support cultural evolutionary ideas about kin and fertility? *Social Sciences* 10(5):177. <a href="https://doi.org/10.3390/socsci10050177" target="_blank">**Download**</a>
+
+
+### 2021
 Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. <a href="https://doi.org/10.1016/j.socnet.2020.07.012" target="_blank">**Download**</a>
 
 ***

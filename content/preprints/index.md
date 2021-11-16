@@ -11,20 +11,9 @@ caption = ""
 
 +++
 
-### Preprints
-
-Buijs, VL & Stulp, G. Friends, Family, and Family Friends: Predicting Friendships of Dutch Women. *Submitted to Social Networks*. https://doi.org/10.31219/osf.io/y5dh7
-
-***
-
-Stadel, M & Stulp, G. Balancing Bias and Burden in Personal Network Studies. *Submitted to Social Networks*. https://psyarxiv.com/mreut
-
-
 ### Submitted
 
-Verweij, RM, Stulp, G, Snieder, H & Mills, MC. Can fertility desires explain the association between education, occupation and childlessness? *Submitted to Population Review*
 
-***
 
 Lu, R., Stulp, G., Gauthier, A. Fertility preferences in China in the 21st Century. *Submitted to Asian Population Studies*
 
