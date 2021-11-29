@@ -1,6 +1,6 @@
 +++
-date = "2021-11-25T22:00:00"
-title = "R workshop for Graduate School of Medical Science
+date = "2021-11-25T00:00:00"
+title = "R workshop for Graduate School of Medical Science"
 authors = ["Gert Stulp"]
 abstract = "R workshop for Graduate School of Medical Science"
 abstract_short = ""
