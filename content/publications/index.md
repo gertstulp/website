@@ -13,7 +13,7 @@ caption = ""
 
 ### Recent or in press
 
-Verweij, RM, Stulp, G, Snieder, H & Mills, MC. (in press). Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless? Population Review, 60, 2, 166-194
+Verweij, RM, Stulp, G, Snieder, H & Mills, MC. (2021). Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless? Population Review, 60, 2, 166-194. muse.jhu.edu/article/839240. <a href="https://muse.jhu.edu/article/839240" target="_blank">**Download**</a> 
 
 ***
 Buijs, V. L., & Stulp, G. (2022). Friends, family, and family friends: Predicting friendships of Dutch women. Social Networks, 70, 25–35. https://doi.org/10.1016/j.socnet.2021.10.008. <a href="https://doi.org/10.1016/j.socnet.2021.10.008" target="_blank">**Download**</a> 
