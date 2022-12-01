@@ -13,6 +13,18 @@ caption = ""
 
 ### Recent or in press
 
+Lu, R, Gauthier, AH & Stulp, G. (2022). Fertility preferences in China in the 21st century. accepted in Journal of Population Research.
+
+***
+Xu, X, Stulp, G, van den Bosch, A & Gauthier, A (2022). Understanding Narratives from Demographic Survey Data: a Comparative Study with Multiple Neural Topic Models. Published in conference proceedings of Empirical Methods in Natural Language Processing. <a href="/pdf/2022_Xu.pdf" target="_blank">**Download**</a>
+
+***
+Massi Aoudjan 1 , Elisa van Delft 1 , Date C. van der Veen 2 , Laura F. Bringmann 3 , Gert Stulp 4 , Barbara Montagne 1,5. Crisissignaleringsplan monitoren en visualiseren: in transitie van reactief naar preventief bij borderline persoonlijkheidsstoornissen. Geaccepteerd in tijdschrift Gedragstherapie
+
+***
+Lu, R, Stulp, G & Gauthier, AH (2022). Quantifying the sources of heterogeneity of fertility preferences in China. China Population and Development Studies, 6, 127–140. https://link.springer.com/article/10.1007/s42379-022-00110-3 <a href="https://link.springer.com/article/10.1007/s42379-022-00110-3" target="_blank">**Download**</a> 
+
+***
 Verweij, RM, Stulp, G, Snieder, H & Mills, MC. (2021). Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless? Population Review, 60, 2, 166-194. muse.jhu.edu/article/839240. <a href="https://muse.jhu.edu/article/839240" target="_blank">**Download**</a> 
 
 ***
