@@ -13,45 +13,56 @@ caption = ""
 
 ### Recent or in press
 
-Lu, R, Gauthier, AH & Stulp, G. (2022). Fertility preferences in China in the 21st century. accepted in Journal of Population Research.
-
-***
-Xu, X, Stulp, G, van den Bosch, A & Gauthier, A (2022). Understanding Narratives from Demographic Survey Data: a Comparative Study with Multiple Neural Topic Models. Published in conference proceedings of Empirical Methods in Natural Language Processing. <a href="/pdf/2022_Xu.pdf" target="_blank">**Download**</a>
-
-***
-Massi Aoudjan 1 , Elisa van Delft 1 , Date C. van der Veen 2 , Laura F. Bringmann 3 , Gert Stulp 4 , Barbara Montagne 1,5. Crisissignaleringsplan monitoren en visualiseren: in transitie van reactief naar preventief bij borderline persoonlijkheidsstoornissen. Geaccepteerd in tijdschrift Gedragstherapie
-
-***
-Lu, R, Stulp, G & Gauthier, AH (2022). Quantifying the sources of heterogeneity of fertility preferences in China. China Population and Development Studies, 6, 127–140. https://link.springer.com/article/10.1007/s42379-022-00110-3 <a href="https://link.springer.com/article/10.1007/s42379-022-00110-3" target="_blank">**Download**</a> 
-
-***
-Verweij, RM, Stulp, G, Snieder, H & Mills, MC. (2021). Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless? Population Review, 60, 2, 166-194. muse.jhu.edu/article/839240. <a href="https://muse.jhu.edu/article/839240" target="_blank">**Download**</a> 
-
-***
-Buijs, V. L., & Stulp, G. (2022). Friends, family, and family friends: Predicting friendships of Dutch women. Social Networks, 70, 25–35. https://doi.org/10.1016/j.socnet.2021.10.008. <a href="https://doi.org/10.1016/j.socnet.2021.10.008" target="_blank">**Download**</a> 
-
-***
-
-Stadel, M., & Stulp, G. (2022). Balancing bias and burden in personal network studies. Social Networks, 70, 16–24. https://doi.org/10.1016/j.socnet.2021.10.007. <a href="https://doi.org/10.1016/j.socnet.2021.10.007" target="_blank">**Download**</a>
+Stulp, G, Bonnel, T & Barrett, L. Simulating the evolution of height in the Netherlands in recent history. *The History of the Family*. In press. 
 
 
 ***
+Stulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.
 
-Stulp, G & Barrett, L. Do data from large personal networks support cultural evolutionary ideas about kin and fertility? *Social Sciences* 10(5):177. <a href="https://doi.org/10.3390/socsci10050177" target="_blank">**Download**</a>
+***
+Langener AM, Stulp G, Kas MJ & Bringmann LF (2023). Capturing the Dynamics of the Social Environment Through Experience Sampling Methods, Passive Sensing, and Egocentric Networks: Scoping Review
+*JMIR Mental Health*, 10, https://doi.org/10.2196/42646. <a href="https://doi.org/10.2196/42646" target="_blank">**Download**</a>.  
 
+***
+Lu, R, Gauthier, AH & Stulp, G. (2023). Fertility preferences in China in the 21st century. *Journal of Population Research*. 40, 8. https://doi.org/10.1007/s12546-023-09303-0. <a href="https://link.springer.com/article/10.1007/s12546-023-09303-0" target="_blank">**Download**</a> 
+
+***
+Xu, X, Stulp, G, van den Bosch, A & Gauthier, A (2022). Understanding Narratives from Demographic Survey Data: a Comparative Study with Multiple Neural Topic Models. Published in *conference proceedings of Empirical Methods in Natural Language Processing*. <a href="/pdf/2022_Xu.pdf" target="_blank">**Download**</a>
+
+***
+Aoudjan, M, Van Delft, E , Van der Veen, D, Bringmann, L, Stulp, G, Montagne, B. (2023). Crisissignaleringsplan monitoren en visualiseren: in transitie van reactief naar preventief bij borderline persoonlijkheidsstoornissen. *Gedragstherapie* 56, 1, 54 - 74. <please send me an email if you are interested in this paper>
+
+### 2022
+
+Lu, R, Stulp, G & Gauthier, AH (2022). Quantifying the sources of heterogeneity of fertility preferences in China. *China Population and Development Studies*, 6, 127–140. https://link.springer.com/article/10.1007/s42379-022-00110-3 <a href="https://link.springer.com/article/10.1007/s42379-022-00110-3" target="_blank">**Download**</a> 
+
+
+***
+Buijs, V. L., & Stulp, G. (2022). Friends, family, and family friends: Predicting friendships of Dutch women. *Social Networks*, 70, 25–35. https://doi.org/10.1016/j.socnet.2021.10.008. <a href="https://doi.org/10.1016/j.socnet.2021.10.008" target="_blank">**Download**</a> 
+
+***
+
+Stadel, M., & Stulp, G. (2022). Balancing bias and burden in personal network studies. *Social Networks*, 70, 16–24. https://doi.org/10.1016/j.socnet.2021.10.007. <a href="https://doi.org/10.1016/j.socnet.2021.10.007" target="_blank">**Download**</a>
 
 ### 2021
-Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. <a href="https://doi.org/10.1016/j.socnet.2020.07.012" target="_blank">**Download**</a>
+
+Stulp, G & Barrett, L. (2021). Do data from large personal networks support cultural evolutionary ideas about kin and fertility? *Social Sciences* 10(5):177. https://doi.org/10.3390/socsci10050177. <a href="https://doi.org/10.3390/socsci10050177" target="_blank">**Download**</a>
 
 ***
-Buunk, AP, Stulp, G, Schaufeli, WB. (2021). Effect of self-reported height on occupational rank among police officers: Especially for women it pays to be tall. *Evolutionary Psychological Science*. <a href="https://doi.org/10.1007/s40806-021-00281-1" target="_blank">**Download**</a>  
+Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. *Social Networks* 64: 63–71. https://doi.org/10.1016/j.socnet.2020.07.012. <a href="https://doi.org/10.1016/j.socnet.2020.07.012" target="_blank">**Download**</a>
+
+***
+Verweij, RM, Stulp, G, Snieder, H & Mills, MC. (2021). Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless? *Population Review*, 60, 2, 166-194. muse.jhu.edu/article/839240. <a href="https://muse.jhu.edu/article/839240" target="_blank">**Download**</a> 
+
+***
+Buunk, AP, Stulp, G, Schaufeli, WB. (2021). Effect of self-reported height on occupational rank among police officers: Especially for women it pays to be tall.  *Evolutionary Psychological Science*, 7, 411-418. https://doi.org/10.1007/s40806-021-00281-1.<a href="https://doi.org/10.1007/s40806-021-00281-1" target="_blank">**Download**</a>  
 
 
 ### 2020
-Bringmann, LF, van der Veen, DC, Wichers, M, Riese, H, & Stulp, G. (2020). ESMvis: A tool for visualizing individual Experience Sampling Method (ESM) data. *Quality of Life Research*. <a href="https://doi.org/10.1007/s11136-020-02701-4" target="_blank">**Download**</a>  
+Bringmann, LF, van der Veen, DC, Wichers, M, Riese, H, & Stulp, G. (2020). ESMvis: A tool for visualizing individual Experience Sampling Method (ESM) data. *Quality of Life Research*, 30, 3179–3188. https://doi.org/10.1007/s11136-020-02701-4. <a href="https://doi.org/10.1007/s11136-020-02701-4" target="_blank">**Download**</a>  
 
 ***
-Verweij, R., Mills, M., Snieder, H., & Stulp, G. (2020). Three facets of planning and postponement of parenthood in the Netherlands. *Demographic Research* 43(23): 659–672. <a href="https://doi.org/10.4054/DemRes.2020.43.23" target="_blank">**Download**</a>  
+Verweij, R., Mills, M., Snieder, H., & Stulp, G. (2020). Three facets of planning and postponement of parenthood in the Netherlands. *Demographic Research* 43(23): 659–672. https://doi.org/10.4054/DemRes.2020.43.23. <a href="https://doi.org/10.4054/DemRes.2020.43.23" target="_blank">**Download**</a>  
 
 
 
