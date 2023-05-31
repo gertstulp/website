@@ -13,8 +13,7 @@ caption = ""
 
 ### Recent or in press
 
-Stulp, G, Bonnel, T & Barrett, L. Simulating the evolution of height in the Netherlands in recent history. *The History of the Family*. In press. https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193 <a href="https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193" target="_blank">**Download**</a> 
-
+Stulp, G, Bonnel, T & Barrett, L. (2023). Simulating the evolution of height in the Netherlands in recent history. *The History of the Family* 28(2), 434-456. https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193 <a href="https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193" target="_blank">**Download**</a> 
 
 ***
 Stulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.
