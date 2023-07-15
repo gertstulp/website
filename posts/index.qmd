@@ -1,0 +1,17 @@
+---
+pagetitle: Posts | Gert Stulp
+title: Posts
+subtitle: I blog infrequently, and mostly to support my memory rather than to communicate.
+search: false  
+listing:
+  contents: 
+  - posts
+  - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 30
+  feed: true
+---

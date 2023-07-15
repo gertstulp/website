@@ -1,0 +1,14 @@
+{
+  "hash": "58e74b1feb914b1ec72df4784d2b04ff",
+  "result": {
+    "markdown": "---\ntitle: New Scientist Wetenschapstalent\nauthor: Gert Stulp\ndate: '2018-04-24'\nslug: new-scientist-wetenschapstalent\ncategories: []\ntags:\n  - New Scientist\n---\n\n\nI am fortunate enough to have been nominated for the [New Scientist Wetenschapstalent 2018](https://www.rug.nl/news/2018/04/socioloog-gert-stulp-genomineerd-voor-new-scientist-wetenschapstalent-2018). The 'winner' will be determined by a committee and by popular vote (how scientific!). You can vote [here](newscientist.nl/talent) if you think my research is good, or if you think I am not half-bad as a researcher.\n\nFor a quick Dutch video of my research, see:\n\n<iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/WdunVMJDfy8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

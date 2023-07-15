@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Gert Stulp</title>
+<link>https://www.gertstulp.com/latest-content.html</link>
+<atom:link href="https://www.gertstulp.com/latest-content.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Sun, 14 Nov 2021 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>A roadmap on how to be as open as possible, and as closed as necessary</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2021-11-15-open-as-possible.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>On October 27th, the Young Academy Groningen, in collaboration with the Open Science Community Groningen and de Digital Competence Centers at our University organised a hackaton-style-event. The aim of the event was to produce a as-short-as-possible-as-long-as-necessary decision tree to help researchers navigate requirements from the GDPR and Open Science. Vera Heininga and Toon Kuppens were essential in all this.</p>
+<p>The outcome of that event was presented at the official launch of the <a href="https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch">Groningen Digital Competence Center</a>. Slides can be found <a href="../../pdf/2021_YAG_OSCG_DCC.pdf">here</a>. The preliminary-rough-draft decision tree, can be found <a href="https://sites.google.com/rug.nl/gdpr/home">here</a>.</p>
+
+
+
+ ]]></description>
+  <category>Open Science</category>
+  <category>GDPR</category>
+  <guid>https://www.gertstulp.com/posts/posts/2021-11-15-open-as-possible.html</guid>
+  <pubDate>Sun, 14 Nov 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Several interviews on the Dutch not getting taller</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2021-09-29-several-interviews-height.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The CBS has published a <a href="https://www.cbs.nl/nl-nl/nieuws/2021/37/nederlanders-korter-maar-nog-steeds-lang">great report</a> on the Dutch not getting taller, or even shrinking. Naturally, I had to show up to do all sorts of interviews. Some greatest hits:</p>
+<section id="video" class="level2">
+<h2 class="anchored" data-anchor-id="video">Video</h2>
+<p>Forthcoming</p>
+</section>
+<section id="audio" class="level2">
+<h2 class="anchored" data-anchor-id="audio">Audio</h2>
+<ul>
+<li>https://www.sbs.com.au/language/dutch/audio/verliezen-nederlanders-binnenkort-de-titel-langste-volk-ter-wereld</li>
+</ul>
+</section>
+<section id="print" class="level2">
+<h2 class="anchored" data-anchor-id="print">Print</h2>
+<ul>
+<li><p>https://nos.nl/artikel/2398087-cbs-nederlanders-blijven-langste-volk-ter-wereld-maar-we-worden-wel-wat-kleiner</p></li>
+<li><p>https://www.volkskrant.nl/wetenschap/nederlanders-worden-niet-langer-ze-worden-juist-kleiner~bd7fbba7/</p></li>
+<li><p>https://www.theguardian.com/world/2021/sep/17/dutch-are-worlds-tallest-people-but-theyre-shrinking-study-shows</p></li>
+<li><p>https://www.washingtonpost.com/world/2021/09/19/netherlands-average-height-shrinking-tallest/</p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Media</category>
+  <category>Height</category>
+  <guid>https://www.gertstulp.com/posts/posts/2021-09-29-several-interviews-height.html</guid>
+  <pubDate>Mon, 04 Oct 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>The Economist improving my graphs</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2020-02-20-the-economist-improving-my-graphs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Given the upcoming US elections, several media outlets have shown interest in my research on <a href="https://www.gertstulp.com/publication/2013_stulp_et_al_tlq_presidents/">US presidential height</a>. So did The Economist: https://www.economist.com/graphic-detail/2020/02/19/in-politics-height-matters.</p>
+<p>They definitely improved my graphs: <img src="https://www.gertstulp.com/images/president1.png" class="img-fluid"></p>
+<p><img src="https://www.gertstulp.com/images/president2.png" class="img-fluid"></p>
+<p>I should try and see if I can recreate those graphs in <strong>R</strong>.</p>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>Visualisation</category>
+  <category>Height</category>
+  <guid>https://www.gertstulp.com/posts/posts/2020-02-20-the-economist-improving-my-graphs.html</guid>
+  <pubDate>Wed, 19 Feb 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/president1.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+<item>
+  <title>Artikel op sociale vraagstukken</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2020-02-19-artikel-op-sociale-vraagstukken.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Renkse Verweij en ik hebben onlangs een artikel geschreven over ons onderzoek naar kinderloosheid voor de website van Sociale Vraagstukken: <a href="https://www.socialevraagstukken.nl/eerst-zekerheid-dan-pas-kinderen/">Eerst zekerheid, dan pas kinderen</a></p>
+
+
+
+ ]]></description>
+  <category>Media</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/posts/posts/2020-02-19-artikel-op-sociale-vraagstukken.html</guid>
+  <pubDate>Tue, 18 Feb 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Interview voor het Parool over het (jong) krijgen van kinderen</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2020-03-12-interview-voor-het-parool-over-het-jong-krijgen-van-kinderen.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Recentelijk werd ik geïnterviewd voor het Parool over het (jong) krijgen van kinderen: https://www.parool.nl/ps/tom-wordt-jong-vader-en-daar-heeft-iedereen-een-mening-over~b8f8e98a/. De auteur van het stuk, Tom Grosfeld (25) en zijn vriendin (26) verwachten hun eerste kind. Tom beschrijft mooi hoe zijn omgeving reageert. Zijn stuk sluit nauw aan bij mijn onderzoek over sociale invloeden op de kinderkeuze!</p>
+
+
+
+ ]]></description>
+  <category>Media</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/posts/posts/2020-03-12-interview-voor-het-parool-over-het-jong-krijgen-van-kinderen.html</guid>
+  <pubDate>Tue, 18 Feb 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Interview for BBC about secular trend in height</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2020-03-12-interview-for-bbc-about-secular-trend-in-height.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Recently, I had a hilarious and interesting interview with Professor Cregan-Reid and Kevin Mousley from the BBC about the historical changes in height and why the Dutch are so tall. You can find the interview here: https://www.bbc.co.uk/programmes/w3ct064s</p>
+
+
+
+ ]]></description>
+  <category>Media</category>
+  <category>Height</category>
+  <guid>https://www.gertstulp.com/posts/posts/2020-03-12-interview-for-bbc-about-secular-trend-in-height.html</guid>
+  <pubDate>Mon, 17 Feb 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Winning hackaton “hack the educational gap”</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2019-03-01-winning-hackaton-hack-the-educational-gap.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Groninger municipality organised an amazing hackaton “Hack the educational gap” (see <a href="https://www.cityoftalent.nl/agenda/hackathon-hack-the-gap---gelijke-onderwijskansen">here</a> and <a href="https://www.rug.nl/society-business/centre-for-information-technology/news/0208-hackathon-hack-the-gap?lang=en">here</a>).</p>
+<p>Annelene Bloemen, Denise Bouwman, Tina Kretschmer, Ymkje Anna de Vries, and I formed a team. And we won! Probably because we made neat visualisation of the existing data. See slides <a href="../../pdf/Hackaton.pdf">here</a>.</p>
+
+
+
+ ]]></description>
+  <category>Hackaton</category>
+  <guid>https://www.gertstulp.com/posts/posts/2019-03-01-winning-hackaton-hack-the-educational-gap.html</guid>
+  <pubDate>Thu, 28 Feb 2019 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Talk about the FLAG-research group</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2019-02-24-talk-about-the-flag-research-group.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Department of Sociology at Groningen celebrated its <a href="https://www.rug.nl/gmw/sociologie/80jaar/">80-year existence</a> and a big party was thrown showcasing the diversity of research at our Department through several presentation. This was my talk presenting all members from the <a href="https://www.rug.nl/research/department-of-sociology/research/research-themes/healthy-happy?lang=en">Families Lifecourse and Ageing Group</a>, which I am coordinating:</p>
+<iframe width="894" height="503" src="https://www.youtube.com/embed/yU3zFjiWOUA?list=PLdsMpUardfwp1n0ONoeLWlUUubHM-6vxL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<p>The video is in Dutch. Although the “pause for laughter” at 4.29 after my hilarious joke is in English.</p>
+
+
+
+ ]]></description>
+  <category>Sociology</category>
+  <guid>https://www.gertstulp.com/posts/posts/2019-02-24-talk-about-the-flag-research-group.html</guid>
+  <pubDate>Sat, 23 Feb 2019 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>New movie about research group</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2018-10-22-new-movie-about-research-group.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Recently, the Department of Sociology at Groningen celebrated its <a href="https://www.rug.nl/gmw/sociologie/80jaar/">80-year existence</a>. Six <a href="https://www.rug.nl/gmw/sociologie/80jaar/er-gaat-niets-boven-de-groningse-sociologie">videos</a> were made as part of this celebration, showing the diversity of research at our Department. This video was made for the <a href="www.gertstulp.com/FLAG">Families Lifecourse and Ageing Group</a>, which I am coordinating:</p>
+<iframe width="894" height="503" src="https://www.youtube.com/embed/pxcfnXwpkJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+
+
+
+ ]]></description>
+  <category>Sociology</category>
+  <guid>https://www.gertstulp.com/posts/posts/2018-10-22-new-movie-about-research-group.html</guid>
+  <pubDate>Sun, 21 Oct 2018 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>New Scientist Wetenschapstalent</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2018-04-24-new-scientist-wetenschapstalent.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I am fortunate enough to have been nominated for the <a href="https://www.rug.nl/news/2018/04/socioloog-gert-stulp-genomineerd-voor-new-scientist-wetenschapstalent-2018">New Scientist Wetenschapstalent 2018</a>. The ‘winner’ will be determined by a committee and by popular vote (how scientific!). You can vote <a href="newscientist.nl/talent">here</a> if you think my research is good, or if you think I am not half-bad as a researcher.</p>
+<p>For a quick Dutch video of my research, see:</p>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/WdunVMJDfy8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
+</iframe>
+
+
+
+ ]]></description>
+  <category>Research</category>
+  <guid>https://www.gertstulp.com/posts/posts/2018-04-24-new-scientist-wetenschapstalent.html</guid>
+  <pubDate>Mon, 23 Apr 2018 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Different ways of calculating rowmeans on selected variables in a tidyverse framework</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2018-03-24-different-ways-of-calculating-rowmeans-on-selected-variables-in-a-tidyverse-framework.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Recently, I have been trying to force myself to do all my coding in a consistent coding framework. Mostly this means that I want to switch completely to <code>tidyverse</code>/<code>dplyr</code>-style coding. Mostly for reasons of readability and teaching, but it also has a slight OCD-component for myself. I find it weird to use the <code>apply</code>-family of functions within the <code>dplyr</code>-pipes. Mostly, this transition is effortless, however, when it comes to applying some functions on “rows” (values spread across different columns on one row) the process has been painful. It took me much time to figure out how to do it. And I am still not entirely confident in my abilities. I understand the tidy data principles, but something like rowmeans or counting how many variables have missing values for a particular individual (row) is so common that I imagined it to have a bigger role in the <code>dplyr</code>-framework.</p>
+<p>I’ll start off with calculating the means of variables for all rows using many different ways using the <code>dplyr</code>-programming framework. I’ll do it for all variables, plus a selection of variables. Note: of course, calculating rowmeans is rather easy and <code>rowMeans</code> is an obvious and easy choice; I have chosen it, though, so that it is also easy to see what is going on in the other possibilities.</p>
+<section id="packages" class="level3">
+<h3 class="anchored" data-anchor-id="packages">packages</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">library</span>(tidyverse)</span></code></pre></div>
+</div>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">data</h3>
+<p>We’ll use this dataframe:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">df <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">data.frame</span>(</span>
+<span id="cb2-2">  <span class="at" style="color: #657422;">var1 =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">1</span>, <span class="dv" style="color: #AD0000;">2</span>),</span>
+<span id="cb2-3">  <span class="at" style="color: #657422;">var2 =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">2</span>, <span class="dv" style="color: #AD0000;">4</span>),</span>
+<span id="cb2-4">  <span class="at" style="color: #657422;">var3 =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">3</span>, <span class="dv" style="color: #AD0000;">6</span>)</span>
+<span id="cb2-5">)</span>
+<span id="cb2-6">select_vars <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"var2"</span>, <span class="st" style="color: #20794D;">"var3"</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="rowmeans" class="level3">
+<h3 class="anchored" data-anchor-id="rowmeans">rowmeans</h3>
+<p>The easiest way is to use the base R rowmeans function:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">rowMeans</span>(.),</span>
+<span id="cb3-2">              <span class="at" style="color: #657422;">mean_sel =</span> <span class="fu" style="color: #4758AB;">rowMeans</span>(<span class="fu" style="color: #4758AB;">select</span>(., select_vars)))</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: There was 1 warning in `mutate()`.
+ℹ In argument: `mean_sel = rowMeans(select(., select_vars))`.
+Caused by warning:
+! Using an external vector in selections was deprecated in tidyselect 1.1.0.
+ℹ Please use `all_of()` or `any_of()` instead.
+  # Was:
+  data %&gt;% select(select_vars)
+
+  # Now:
+  data %&gt;% select(all_of(select_vars))
+
+See &lt;https://tidyselect.r-lib.org/reference/faq-external-vector.html&gt;.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  var1 var2 var3 mean_all mean_sel
+1    1    2    3        2      2.5
+2    2    4    6        4      5.0</code></pre>
+</div>
+</div>
+<p>Easy. Here I would also consider <code>rowMeans(.[select_vars])</code> but that clashes with my own rule described above to try to get everything within one framework. <code>rowMeans</code> should be the preferred choice I think.</p>
+</section>
+<section id="apply" class="level3">
+<h3 class="anchored" data-anchor-id="apply">apply</h3>
+<p>We can do the same using the <code>apply</code>-functions. This is just to highlight the example. It is clear that there is no reason to do this because <code>rowMeans</code> does an excellent (and faster) job.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">apply</span>(., <span class="dv" style="color: #AD0000;">1</span>, mean),</span>
+<span id="cb6-2">              <span class="at" style="color: #657422;">mean_sel =</span> <span class="fu" style="color: #4758AB;">apply</span>(<span class="fu" style="color: #4758AB;">select</span>(., select_vars), <span class="dv" style="color: #AD0000;">1</span>, mean))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  var1 var2 var3 mean_all mean_sel
+1    1    2    3        2      2.5
+2    2    4    6        4      5.0</code></pre>
+</div>
+</div>
+<p>Although this again fine, I’d rather not do this option, because then, for instance in teaching, you would also have to explain a bit about the apply functions. I think it is easier to keep everything within one framework, but this is certainly not needed.</p>
+<p>So let’s try frameworks that are more “consistent” with the <code>tidyverse</code>-framework; <code>pmap</code> and <code>rowwise</code>. It took me a long time to get this to work; the <code>pmap</code>-documentation is not (yet) very extensive.</p>
+</section>
+<section id="pmap" class="level3">
+<h3 class="anchored" data-anchor-id="pmap">pmap</h3>
+<p>The <code>map</code>-functions from <code>purrr</code> seem handy in this respect.</p>
+<p>This is the solution, and we’ll see a breakdown later (mostly for myself because I didn’t quite understand it initially).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">pmap_dbl</span>(., <span class="cf" style="color: #003B4F;">function</span>(...) <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(...))),</span>
+<span id="cb8-2">              <span class="at" style="color: #657422;">mean_sel =</span> <span class="fu" style="color: #4758AB;">pmap_dbl</span>(<span class="fu" style="color: #4758AB;">select</span>(., select_vars), </span>
+<span id="cb8-3">                                  <span class="cf" style="color: #003B4F;">function</span>(...) <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(...))))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  var1 var2 var3 mean_all mean_sel
+1    1    2    3        2      2.5
+2    2    4    6        4      5.0</code></pre>
+</div>
+</div>
+<p>Let’s see what is going on by looking at the easier cases of <code>map</code> and <code>map2</code>.The map-function applies some function to each element from a list. <code>map</code> only uses one list. With the first argument you can specify the variable name of a dataframe that will be seen as a list.</p>
+<section id="map" class="level4">
+<h4 class="anchored" data-anchor-id="map">map</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_var2 =</span> <span class="fu" style="color: #4758AB;">map_dbl</span>(var2, mean))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  var1 var2 var3 mean_var2
+1    1    2    3         2
+2    2    4    6         4</code></pre>
+</div>
+</div>
+<p>It is obviously not very sensible to calculate a mean from one number. So let’s try two numbers:</p>
+</section>
+<section id="map2" class="level4">
+<h4 class="anchored" data-anchor-id="map2">map2</h4>
+<p>With <code>map2</code> you can specify two lists, again by using variable names from the dataframe, and <code>map</code> will iterate through all the “rows” (or elements of the lists). If we do the following:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_var2_3 =</span> <span class="fu" style="color: #4758AB;">map2_dbl</span>(var2, var3, mean))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  var1 var2 var3 mean_var2_3
+1    1    2    3           2
+2    2    4    6           4</code></pre>
+</div>
+</div>
+<p>The code works, but we don’t get the results we want. We get the mean of (of the row of) var2 only, not the mean of the row of var2 and var3. I think this is because the function <code>mean</code> doesn’t know what to do with the second argument, <code>var3</code>, provided to it. It certainly doesn’t see it as a number for the calculation of the mean, because all that information is passed to mean with the first argument <code>var2</code>. So it will only calculate a mean of var2 (for each element in the list of var2).</p>
+<p>Let’s improve:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_var2_3 =</span> <span class="fu" style="color: #4758AB;">map2_dbl</span>(var2, var3, <span class="cf" style="color: #003B4F;">function</span>(x, y) <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(x,y))))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  var1 var2 var3 mean_var2_3
+1    1    2    3         2.5
+2    2    4    6         5.0</code></pre>
+</div>
+</div>
+<p>This does what we want! The trick here is that in the previous case, <code>mean</code> didn’t see the two arguments (var2 and var3) as numbers to be used to calculate the mean for. So now we have to specify directly, that both <code>var2</code> and <code>var3</code> are numbers that need to be combined (by using <code>c()</code>). So the mean function has only one argument passed to it, namely a combination of the numbers in var2 and var3 (for each row!).</p>
+</section>
+<section id="pmap-1" class="level4">
+<h4 class="anchored" data-anchor-id="pmap-1">pmap</h4>
+<p>The pmap function at the start of this section makes more sense now (at least to me). If we want to make use of more than 2 variables (or lists), we can use the pmap function. We need to use <code>...</code> rather than specifying the columns/lists separately. In the end, we combine all the variables with <code>c()</code>. The nice thing now, is that we can also use the <code>select_vars</code> information that we had stored</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">pmap_dbl</span>(., <span class="cf" style="color: #003B4F;">function</span>(...) <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(...))),</span>
+<span id="cb16-2">              <span class="at" style="color: #657422;">mean_sel =</span> <span class="fu" style="color: #4758AB;">pmap_dbl</span>(<span class="fu" style="color: #4758AB;">select</span>(., select_vars), </span>
+<span id="cb16-3">                                  <span class="cf" style="color: #003B4F;">function</span>(...) <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(...))))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  var1 var2 var3 mean_all mean_sel
+1    1    2    3        2      2.5
+2    2    4    6        4      5.0</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="rowwise" class="level3">
+<h3 class="anchored" data-anchor-id="rowwise">rowwise</h3>
+<p>dplyr also has its <code>rowwise</code> function. It works much less well as you would expect from such a simple sounding function. This is the “solution”.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1">all_vars_quo <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">quo</span>(<span class="fu" style="color: #4758AB;">c</span>(var1, var2, var3))</span>
+<span id="cb18-2">select_vars_quo <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">quo</span>(<span class="fu" style="color: #4758AB;">c</span>(var2, var3))</span>
+<span id="cb18-3"></span>
+<span id="cb18-4">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb18-5">  <span class="fu" style="color: #4758AB;">rowwise</span>() <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb18-6">  <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">mean</span>(<span class="sc" style="color: #5E5E5E;">!!</span>all_vars_quo),</span>
+<span id="cb18-7">         <span class="at" style="color: #657422;">mean_sel =</span> <span class="fu" style="color: #4758AB;">mean</span>(<span class="sc" style="color: #5E5E5E;">!!</span>select_vars_quo))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 5
+# Rowwise: 
+   var1  var2  var3 mean_all mean_sel
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;
+1     1     2     3        2      2.5
+2     2     4     6        4      5  </code></pre>
+</div>
+</div>
+<p>I don’t think this is ideal at all. This may be due to my limited understanding of quosures and non-standard evaluation (https://cran.r-project.org/web/packages/dplyr/vignettes/programming.html). Also I wonder whether <code>rowwise</code> is really meant for the tricks we’re after; it’s somehow strongly tied to <code>do</code>, which seems to be related to (statistical) model building mostly.</p>
+<p>Also, a huge benefit for me is the “readability” of tidyverse/dplyr R-code (for myself and for teaching). With the <code>!!</code> and <code>quo</code> the code is much less readable I think. I think it is unfortunate that we can’t use the <code>select_vars &lt;- c("var2", "var3")</code> bit, that we have been able to use in all other possibilities.</p>
+<p>I think that it would be ideal if there was a <code>rowwise</code> function that would work in this way (not unlike <code>mutate_at</code>):</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb20-2">  <span class="fu" style="color: #4758AB;">rowwise</span>() <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb20-3">  <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">mean</span>(.),</span>
+<span id="cb20-4">         <span class="at" style="color: #657422;">mean_sel =</span> <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">select</span>(., select_vars))</span></code></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>Error: &lt;text&gt;:5:0: unexpected end of input
+3:   mutate(mean_all = mean(.),
+4:          mean_sel = mean(select(., select_vars))
+  ^</code></pre>
+</div>
+</div>
+<p>I am probably not understanding something fundamental about non-standard evaluation and I probably fail to see what <code>rowwise</code> <strong>is</strong> for, but I do think the above code reads more like the rowMeans, apply, and pmap coding. If anyone can tell me why this is not an option, I would very much like to hear! Alternatively, I can just not worry, be grateful for the alternatives, and move along.</p>
+</section>
+<section id="testing-for-speed" class="level3">
+<h3 class="anchored" data-anchor-id="testing-for-speed">testing for speed</h3>
+<p>Similar to this <a href="https://rpubs.com/wch/200398">post</a> by Winston Chang, I will now test these alternatives for speed (while shamelessly copying the code by Chang):</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><span class="co" style="color: #5E5E5E;"># https://rpubs.com/wch/200398</span></span>
+<span id="cb22-2">run_benchmark <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(nrow) {</span>
+<span id="cb22-3">  <span class="co" style="color: #5E5E5E;"># Make some data</span></span>
+<span id="cb22-4">  df <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">data.frame</span>(</span>
+<span id="cb22-5">    <span class="at" style="color: #657422;">x =</span> <span class="fu" style="color: #4758AB;">rnorm</span>(nrow),</span>
+<span id="cb22-6">    <span class="at" style="color: #657422;">y =</span> <span class="fu" style="color: #4758AB;">runif</span>(nrow),</span>
+<span id="cb22-7">    <span class="at" style="color: #657422;">z =</span> <span class="fu" style="color: #4758AB;">runif</span>(nrow)</span>
+<span id="cb22-8">  )</span>
+<span id="cb22-9">  </span>
+<span id="cb22-10">  res <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(</span>
+<span id="cb22-11">    <span class="at" style="color: #657422;">rowMeans =</span> <span class="fu" style="color: #4758AB;">system.time</span>(<span class="fu" style="color: #4758AB;">mutate</span>(df, <span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">rowMeans</span>(df))),</span>
+<span id="cb22-12">    <span class="at" style="color: #657422;">apply =</span> <span class="fu" style="color: #4758AB;">system.time</span>(<span class="fu" style="color: #4758AB;">mutate</span>(df, <span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">apply</span>(df, <span class="dv" style="color: #AD0000;">1</span>, mean))),</span>
+<span id="cb22-13">    <span class="at" style="color: #657422;">pmap =</span> <span class="fu" style="color: #4758AB;">system.time</span>(</span>
+<span id="cb22-14">      <span class="fu" style="color: #4758AB;">mutate</span>(df, <span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">pmap_dbl</span>(df, <span class="cf" style="color: #003B4F;">function</span>(...) <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(...))))),</span>
+<span id="cb22-15">    <span class="at" style="color: #657422;">pmap_list =</span> <span class="fu" style="color: #4758AB;">system.time</span>(</span>
+<span id="cb22-16">      <span class="fu" style="color: #4758AB;">mutate</span>(df, <span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">pmap_dbl</span>(<span class="fu" style="color: #4758AB;">as.list</span>(df), <span class="cf" style="color: #003B4F;">function</span>(...) <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(...))))),</span>
+<span id="cb22-17">    <span class="co" style="color: #5E5E5E;"># as.list is faster (https://rpubs.com/wch/200398)</span></span>
+<span id="cb22-18">    <span class="at" style="color: #657422;">rowwise =</span> <span class="fu" style="color: #4758AB;">system.time</span>(</span>
+<span id="cb22-19">      <span class="fu" style="color: #4758AB;">mutate</span>(<span class="fu" style="color: #4758AB;">rowwise</span>(df), <span class="at" style="color: #657422;">mean_all =</span> <span class="fu" style="color: #4758AB;">mean</span>(<span class="fu" style="color: #4758AB;">c</span>(x, y, z))))</span>
+<span id="cb22-20">  )</span>
+<span id="cb22-21">  </span>
+<span id="cb22-22">  <span class="co" style="color: #5E5E5E;"># Get elapsed times</span></span>
+<span id="cb22-23">  res <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lapply</span>(res, <span class="st" style="color: #20794D;">`</span><span class="at" style="color: #657422;">[[</span><span class="st" style="color: #20794D;">`</span>, <span class="st" style="color: #20794D;">"elapsed"</span>)</span>
+<span id="cb22-24"></span>
+<span id="cb22-25">  <span class="co" style="color: #5E5E5E;"># Add nrow to front</span></span>
+<span id="cb22-26">  res <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="at" style="color: #657422;">nrow =</span> nrow, res)</span>
+<span id="cb22-27">  res</span>
+<span id="cb22-28">}</span>
+<span id="cb22-29"></span>
+<span id="cb22-30"><span class="co" style="color: #5E5E5E;"># Run the benchmarks for various size data</span></span>
+<span id="cb22-31">all_times <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lapply</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">5</span>, <span class="cf" style="color: #003B4F;">function</span>(n) {</span>
+<span id="cb22-32">  <span class="fu" style="color: #4758AB;">run_benchmark</span>(<span class="dv" style="color: #AD0000;">10</span><span class="sc" style="color: #5E5E5E;">^</span>n)</span>
+<span id="cb22-33">})</span>
+<span id="cb22-34"></span>
+<span id="cb22-35"><span class="co" style="color: #5E5E5E;"># Convert to data frame</span></span>
+<span id="cb22-36">times <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lapply</span>(all_times, as.data.frame)</span>
+<span id="cb22-37">times <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">do.call</span>(rbind, times)</span></code></pre></div>
+</div>
+</section>
+<section id="visualise-results" class="level3">
+<h3 class="anchored" data-anchor-id="visualise-results">visualise results</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1">times_long <span class="ot" style="color: #003B4F;">&lt;-</span> times <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">gather</span>(rowMeans, apply, pmap, pmap_list, rowwise, </span>
+<span id="cb23-2">                               <span class="at" style="color: #657422;">key =</span> <span class="st" style="color: #20794D;">"Function"</span>, <span class="at" style="color: #657422;">value =</span> <span class="st" style="color: #20794D;">"Time"</span>)</span>
+<span id="cb23-3"></span>
+<span id="cb23-4"><span class="fu" style="color: #4758AB;">ggplot</span>(times_long, <span class="fu" style="color: #4758AB;">aes</span>(<span class="at" style="color: #657422;">x =</span> nrow, <span class="at" style="color: #657422;">y =</span> Time, </span>
+<span id="cb23-5">                       <span class="at" style="color: #657422;">colour =</span> <span class="fu" style="color: #4758AB;">reorder</span>(Function, Time, mean))) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb23-6">  <span class="fu" style="color: #4758AB;">geom_point</span>() <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb23-7">  <span class="fu" style="color: #4758AB;">geom_line</span>() <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb23-8">  <span class="fu" style="color: #4758AB;">scale_x_continuous</span>(<span class="at" style="color: #657422;">trans =</span> <span class="st" style="color: #20794D;">"log10"</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb23-9">  <span class="fu" style="color: #4758AB;">scale_y_continuous</span>(<span class="at" style="color: #657422;">trans =</span> <span class="st" style="color: #20794D;">"log10"</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb23-10">  <span class="fu" style="color: #4758AB;">theme_minimal</span>() <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb23-11">  <span class="fu" style="color: #4758AB;">labs</span>(<span class="at" style="color: #657422;">x =</span> <span class="st" style="color: #20794D;">"Number of rows"</span>, <span class="at" style="color: #657422;">y =</span> <span class="st" style="color: #20794D;">"Time (seconds)"</span>)</span></code></pre></div>
+<div class="cell-output-display">
+<p><img src="https://www.gertstulp.com/posts/posts/2018-03-24-different-ways-of-calculating-rowmeans-on-selected-variables-in-a-tidyverse-framework_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><code>rowMeans</code> is a clear winner, but can obviously not be used when you have to do something differently to the rows than means. <code>apply</code> is a bit faster than the <code>pmap</code>-functions. <code>pmap</code> performs better than <code>pmap</code> list (which is opposite to the situation <a href="https://rpubs.com/wch/200398">here</a>.<code>rowwise</code> seems to be the least ideal alternative, both in terms of time needed and the code. For other functions than calculating means, I will probably stick to (<code>p</code>)<code>map</code>, because that also lends itself better to statistical modelling.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Tidyverse</category>
+  <guid>https://www.gertstulp.com/posts/posts/2018-03-24-different-ways-of-calculating-rowmeans-on-selected-variables-in-a-tidyverse-framework.html</guid>
+  <pubDate>Fri, 23 Mar 2018 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Testing theory in R</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2018-04-11-testing-theory-in-r.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Recently on twitter I saw this idea that if you would pick a number from a uniform distribution [0, 1] and repeat drawing numbers until the sum of the numbers is lager than one, you’ll on average pick <strong>e</strong> numbers. Didn’t doubt it at all, just thought it would be fun checking this theory (theorem?) in <strong>R</strong>:</p>
+<p>Let’s build a function that can test this. We’ll do it one million times, and then calculate the mean (that should be equal to <strong>e</strong>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">test_theory <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(<span class="at" style="color: #657422;">no_tests =</span> <span class="dv" style="color: #AD0000;">10</span>) {</span>
+<span id="cb1-2">  results <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">vector</span>(<span class="at" style="color: #657422;">mode =</span> <span class="st" style="color: #20794D;">"integer"</span>, <span class="at" style="color: #657422;">length =</span> no_tests)</span>
+<span id="cb1-3">  </span>
+<span id="cb1-4">  <span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span>no_tests) {</span>
+<span id="cb1-5">    sum <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">0</span></span>
+<span id="cb1-6">    cnt <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">0</span></span>
+<span id="cb1-7">    <span class="cf" style="color: #003B4F;">while</span>(sum <span class="sc" style="color: #5E5E5E;">&lt;=</span> <span class="dv" style="color: #AD0000;">1</span>) {</span>
+<span id="cb1-8">      sum <span class="ot" style="color: #003B4F;">=</span> sum <span class="sc" style="color: #5E5E5E;">+</span> <span class="fu" style="color: #4758AB;">runif</span>(<span class="dv" style="color: #AD0000;">1</span>, <span class="at" style="color: #657422;">min =</span> <span class="dv" style="color: #AD0000;">0</span>, <span class="at" style="color: #657422;">max =</span> <span class="dv" style="color: #AD0000;">1</span>)</span>
+<span id="cb1-9">      cnt <span class="ot" style="color: #003B4F;">=</span> cnt <span class="sc" style="color: #5E5E5E;">+</span> <span class="dv" style="color: #AD0000;">1</span></span>
+<span id="cb1-10">    }</span>
+<span id="cb1-11">    results[i] <span class="ot" style="color: #003B4F;">=</span> cnt</span>
+<span id="cb1-12">  }</span>
+<span id="cb1-13">  <span class="fu" style="color: #4758AB;">return</span>(<span class="fu" style="color: #4758AB;">mean</span>(results))</span>
+<span id="cb1-14">}</span>
+<span id="cb1-15"><span class="fu" style="color: #4758AB;">test_theory</span>(<span class="dv" style="color: #AD0000;">1000000</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2.719122</code></pre>
+</div>
+</div>
+<p><strong>e</strong> in <strong>R</strong> is 2.7182818</p>
+<p>For a mathematical breakdown [that is beyond my comprehension], see <a href="https://math.stackexchange.com/questions/111314/choose-a-random-number-between-0-and-1-and-record-its-value-keep-doing-it-until">this website</a>.</p>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <guid>https://www.gertstulp.com/posts/posts/2018-04-11-testing-theory-in-r.html</guid>
+  <pubDate>Fri, 23 Mar 2018 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>Visualisation in research</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/overview/visualisation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Visualisation is perhaps the easiest way to get good insights into the data at hand; whether for yourself or for the scrutinty of others. Disappointingly, most graphs in scientific papers do not attempt to show the (raw) data, but instead some summary measures (e.g., a bar plot of means). This hinders the scientific process. I hope to increase visualisation literacy, by:</p>
+<ul>
+<li>Helping others to think about graphs and to create them using ggplot2. I’ll happily do this for <strong>you</strong> too.</li>
+<li>Giving visualisation workshops; for instance, <a href="http://stulp.gmw.rug.nl/ggplotworkshop/">this</a> one, and <a href="http://stulp.gmw.rug.nl/yag/ggplotworkshop/">a shorter version</a></li>
+<li>Creating <strong>R</strong>-packages that help people visualise, including <a href="https://github.com/gertstulp/ggplotgui">ggplotgui</a> and <a href="https://github.com/gertstulp/ESMvis">ESMvis</a> [<em>under development</em>; together with Laura Bringmann].</li>
+</ul>
+<p>See <a href="https://github.com/gertstulp/ggplotgui">ggplotgui</a> in action:</p>
+<iframe src="//site.shinyserver.dck.gmw.rug.nl/ggplotgui/" style="border: 1px solid #AAA; width: 100%; height:460px">
+<p>
+Your browser does not support iframes.
+</p>
+</iframe>
+
+
+
+ ]]></description>
+  <category>Overview</category>
+  <category>Visualisation</category>
+  <guid>https://www.gertstulp.com/research/overview/visualisation.html</guid>
+  <pubDate>Tue, 20 Mar 2018 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/esm.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title>Studying the number of children people want and have</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/overview/fertility.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I should still write something more sensible here. For now:</p>
+<section id="in-medicine" class="level4">
+<h4 class="anchored" data-anchor-id="in-medicine">In medicine:</h4>
+<ul>
+<li><em>fertility</em> - the ability to conceive children</li>
+<li><em>fecundity</em> - the ability to produce an abundance of offspring</li>
+</ul>
+</section>
+<section id="in-demography" class="level4">
+<h4 class="anchored" data-anchor-id="in-demography">In demography:</h4>
+<ul>
+<li><em>fertility</em> - the number of live births of babies to that female</li>
+<li><em>fecundity</em> - the physiological ability to have children</li>
+</ul>
+<p><img src="https://www.gertstulp.com/images/obama.gif" class="img-fluid"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Overview</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/research/overview/fertility.html</guid>
+  <pubDate>Sun, 18 Mar 2018 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/fertility.png" medium="image" type="image/png" height="71" width="144"/>
+</item>
+<item>
+  <title>Evolutionary perspectives on human behaviour</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/overview/evolution.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Humans are a peculiar species. On the one hand, we have evolved like all other species, forming a branch of the tree of life along with the rest of the animal kingdom. A complete understanding of humans and their place in the world thus requires we take an evolutionary perspective. On the other hand, the remarkable cultural diversity observed among human populations, combined with our apparent agency—our ability to decide whether or not to act on the decisions we make—complicates matters enormously, and seems to place us outside of nature. How, for example, can we explain the decision to actively avoid having children as a trait that evolved by the action of natural selection? In addition, there are some questions that do not seem to require an evolutionary explanation such as: how do you humans make meaning in their lives? Or is socialized health care a good idea? Or what are the moral and legal implications of new reproductive technologies? In other words, while an evolutionary perspective is <em>necessary</em> for a complete explanation of human behaviour, such a perspective is not always <em>essential</em>. Indeed, many areas of the social sciences do very well without a specific evolutionary orientation. It is also notable that some social scientists actively resist the application of evolutionary approaches within their discipline. Some of this resistance reflects a dissatisfaction with the nature and quality of the evolutionary approaches on offer, particularly those emanating from within psychology. Sometimes, however, resistance seems to be built on faulty ideologically-driven assumptions about what an evolutionary-oriented approach entails. The most productive way forward is to adopt a pluralist biosocial perspective to the study of human behaviour; one that draws on a number of disciplines within the natural and social sciences, without any attempt to reduce one to the other, or deny the existence and importance of any particular discipline.</p>
+
+
+
+ ]]></description>
+  <category>Overview</category>
+  <category>Evolution</category>
+  <guid>https://www.gertstulp.com/research/overview/evolution.html</guid>
+  <pubDate>Sat, 17 Mar 2018 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/Charles_Stulp.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Evolutionary perspectives on human height variation</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/overview/height.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I have published quite a bit on height (see also the list of publications). The one reference to rule all (my) other height publications is:</p>
+<blockquote class="blockquote">
+<p>Stulp, G. &amp; Barrett, L. (2016). Evolutionary perspectives on human height variation. Biological Reviews 91(1): 206-234.</p>
+</blockquote>
+<p>Also, I will not publish on the topic again. I have had enough.</p>
+<p><strong>UPDATE</strong></p>
+<p>I lied: here is a more recent publication:</p>
+<blockquote class="blockquote">
+<p>Stulp, G, Bonnel, T &amp; Barrett, L. (2023). Simulating the evolution of height in the Netherlands in recent history. The History of the Family 28(2), 434-456. https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193</p>
+</blockquote>
+
+
+
+ ]]></description>
+  <category>Overview</category>
+  <category>Height</category>
+  <category>Evolution</category>
+  <guid>https://www.gertstulp.com/research/overview/height.html</guid>
+  <pubDate>Thu, 15 Mar 2018 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/Evolution.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

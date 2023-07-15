@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Gert Stulp</title>
+<link>https://www.gertstulp.com/latest-content.html</link>
+<atom:link href="https://www.gertstulp.com/latest-content.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Sun, 14 Nov 2021 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/posts/posts/2021-11-15-open-as-possible.html}</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2021-11-15-open-as-possible.html</link>
+  <description>{B4F502887207:/posts/posts/2021-11-15-open-as-possible.html}</description>
+  <category>Open Science</category>
+  <category>GDPR</category>
+  <guid>https://www.gertstulp.com/posts/posts/2021-11-15-open-as-possible.html</guid>
+  <pubDate>Sun, 14 Nov 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/posts/2021-09-29-several-interviews-height.html}</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2021-09-29-several-interviews-height.html</link>
+  <description>{B4F502887207:/posts/posts/2021-09-29-several-interviews-height.html}</description>
+  <category>Media</category>
+  <category>Height</category>
+  <guid>https://www.gertstulp.com/posts/posts/2021-09-29-several-interviews-height.html</guid>
+  <pubDate>Mon, 04 Oct 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/posts/2020-02-20-the-economist-improving-my-graphs.html}</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2020-02-20-the-economist-improving-my-graphs.html</link>
+  <description>{B4F502887207:/posts/posts/2020-02-20-the-economist-improving-my-graphs.html}</description>
+  <category>R</category>
+  <category>Visualisation</category>
+  <category>Height</category>
+  <guid>https://www.gertstulp.com/posts/posts/2020-02-20-the-economist-improving-my-graphs.html</guid>
+  <pubDate>Wed, 19 Feb 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/president1.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/posts/2020-02-19-artikel-op-sociale-vraagstukken.html}</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/posts/posts/2020-02-19-artikel-op-sociale-vraagstukken.html</link>
+  <description>{B4F502887207:/posts/posts/2020-02-19-artikel-op-sociale-vraagstukken.html}</description>
+  <category>Media</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/posts/posts/2020-02-19-artikel-op-sociale-vraagstukken.html</guid>
+  <pubDate>Tue, 18 Feb 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_post.png" medium="image" type="image/png" height="94" width="144"/>
+</item>

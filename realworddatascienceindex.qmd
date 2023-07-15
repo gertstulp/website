@@ -1,0 +1,291 @@
+---
+pagetitle: "Real World Data Science"
+page-layout: custom
+section-divs: false
+editor: source
+sidebar: false
+search: false
+description: | 
+  A showcase for data science in action, brought to you by the Royal Statistical Society
+image: images/rwds-logo-150px.png
+listing:
+  - id: latest-content
+    contents: 
+    - /case-studies
+    - /ideas
+    - /careers
+    - /viewpoints
+    - "!index.qmd"
+    - "!chanuki-seresinhe.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+  # - id: case-studies
+  #   contents: 
+  #   - /case-studies
+  #   - "!index.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  - id: ideas
+    contents: 
+    - /ideas
+    - "!index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+  - id: careers
+    contents: 
+    - /careers
+    - "!index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+  # - id: viewpoints
+  #   contents: 
+  #   - /viewpoints
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  - id: editors-blog
+    contents: 
+    - /viewpoints/editors-blog
+    - "!index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+  # - id: datasciencebites
+  #   contents: 
+  #   - /ideas/datasciencebites
+  #   - "!index.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+
+  - id: interviews
+    contents: 
+    - /viewpoints/interviews
+    - "!index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+  # - id: career-profiles
+  #   contents: 
+  #   - /careers/career-profiles
+  #   - "!index.qmd"
+  #   sort: "date desc"
+  #   type: grid
+  #   categories: false
+  #   sort-ui: false
+  #   filter-ui: false
+  #   max-items: 3
+  #   feed: false
+toc: false
+---
+::: {.content-container}
+::: {.top-story .purple-background}
+<a href="/careers/career-profiles/posts/2023/06/20/chanuki-seresinhe.qmd">
+
+::: grid
+::: {.g-col-12 .g-col-lg-4 .top-story-text}
+## 'Once I started to see what was possible with data science, there was no going back'
+Chanuki Seresinhe is head of data science at Zoopla and Hometrack. This is her career story so far -- from researching beautiful places to helping web users buy, sell and rent property spaces.
+:::
+::: {.g-col-12 .g-col-lg-8 .top-story-img}
+![](careers/career-profiles/posts/2023/06/20/images/chanuki-seresinhe.png)
+:::
+:::
+
+</a>
+
+:::
+:::
+
+<!-- ::: {.header-banner .header-image}
+![](images/nasa-Q1p7bh3SHj8-unsplash-crop.png)
+::: -->
+
+::: {.header-text} 
+::: {.content-container}
+::: {.header-block}
+Welcome to the home of **Real World Data Science**, a new project from the [Royal Statistical Society](https://rss.org.uk/). This site and its content are being created and curated by data science practitioners and leaders with a single goal in mind: to help you deliver high quality, ethical, impactful data science in your workplace.
+:::
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="latest-content.qmd">
+
+## Latest content 
+</a>
+
+::: {#latest-content}
+:::
+
+:::
+:::
+
+::: {.pullout-text}
+::: {.pullout-container}
+::: {.pullout-block .black-background}
+![](images/quote-purple.png){width="100px"}
+
+## ChatGPT isn’t even close to the sort of artificial superintelligence that might conceivably pose a threat to humankind. The models underpinning it are slow learners that require immense volumes of data to construct anything akin to the versatile concepts humans can concoct from only a few examples.
+Michael Timothy Bennett challenges the 'AI doomsayer' narrative 
+
+::: {.button}
+[Read the article](viewpoints/posts/2023/06/05/no-AI-probably-wont-kill-us.qmd)
+:::
+
+:::
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="ideas/index.qmd">
+
+## Data Science Ideas
+</a> 
+
+::: {#ideas}
+:::
+
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="viewpoints/interviews/index.qmd">
+
+## Interviews 
+</a>
+
+::: {#interviews}
+:::
+
+:::
+:::
+
+::: {.pullout-text}
+::: {.pullout-container}
+::: {.pullout-block .black-background}
+![](images/quote-purple.png){width="100px"}
+
+## For me, the question is not, ‘Do we understand how ChatGPT works?’ We don’t understand how humans work, and surely we’re trying to develop something that enhances human thinking in some way. The more important question is, ‘How do we know that what is produced is useful?’
+Data science leaders discuss large language models
+
+::: {.button}
+[Join the debate](careers/posts/2023/05/18/chatgpt-data-science-pt2.html)
+:::
+
+:::
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="careers/index.qmd">
+
+## Data Science Careers 
+</a>
+
+::: {#careers}
+:::
+
+:::
+:::
+
+::: {.content-container}
+::: {.listing-block}
+<a href="viewpoints/editors-blog/index.qmd">
+
+## Editors' Blog
+</a> 
+
+::: {#editors-blog}
+:::
+
+:::
+:::
+
+::: {.footer-text}
+::: {.footer-container .black-background}
+::: {.footer-block}
+::: grid
+
+
+::: {.g-col-12 .g-col-md-6}
+### Published by
+[![](images/rss-logo-footer.png)](https://rss.org.uk/)
+:::
+::: {.g-col-12 .g-col-md-2}
+### About us
+[Our aims](about-rwds.qmd)\
+[Our team](/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.qmd)\
+[Partners and funders](rwds-partners.qmd)\
+[Contact us](contact.qmd)
+:::
+::: {.g-col-12 .g-col-md-2}
+### Contribute
+[Call for contributions](/contributor-docs/call-for-contributions.qmd)\
+[Contributor guidelines](/contributor-docs/contributor-guidelines.qmd)\
+[Style guide](/contributor-docs/style-guide.qmd)
+:::
+::: {.g-col-12 .g-col-md-2}
+### Follow us
+[GitHub](https://github.com/realworlddatascience)\
+[Twitter](https://twitter.com/rwdatasci)\
+[LinkedIn](https://www.linkedin.com/showcase/rss-real-world-data-science)\
+[Mastodon](https://fosstodon.org/@rwdatasci)\
+:::
+
+<!-- ::: {.g-col-12 .g-col-md-12}
+### Our partners
+logos to go here
+::: -->
+
+:::
+:::
+:::
+:::

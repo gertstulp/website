@@ -1,0 +1,33 @@
+---
+pagetitle: resources | Gert Stulp
+title: "R[esources]"
+subtitle: "Some thoughts on {{< fa brands r-project >}}"
+sidebar: false
+page-layout: article
+toc: true
+title-block-banner: true
+---
+
+
+
+I love I sometimes write about what I'm doing and learning, mostly about , and it is central to much of the research I do. Here you can find some resources.
+
+{{< fa thumbs-up >}} 
+
+{{< fa brands r-project >}}
+
+<i class="fa-brands fa-r-project" aria-label="R project"></i>
+
+<i class="fa fa-map-marker" aria-hidden="true"></i>
+
+{{< fa solid graduation-cap >}} 
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+## R-packages
+
+Blabla
+
+## R tutorials
+
+Blabla

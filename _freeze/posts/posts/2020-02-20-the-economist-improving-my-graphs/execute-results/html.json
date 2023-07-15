@@ -1,0 +1,14 @@
+{
+  "hash": "054a111ff95ae16825ee9d32177c8d6d",
+  "result": {
+    "markdown": "---\ntitle: \"The Economist improving my graphs\"\ndescription: |\n  Given the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs. \ncategories:\n  - R\n  - Visualisation\n  - Research\nauthor: Gert Stulp\ndate: '2020-02-20'\ntoc: true\nimage: images/president1.png\nimage-alt: An economist visualisation of my research.\nlanguage: \n    section-title-footnotes: References\n---\n\n\nGiven the upcoming US elections, several media outlets have shown interest in my research on [US presidential height](https://www.gertstulp.com/publication/2013_stulp_et_al_tlq_presidents/). So did The Economist: https://www.economist.com/graphic-detail/2020/02/19/in-politics-height-matters.\n\nThey definitely improved my graphs: ![](/img/president1.png)\n\n![](/img/president2.png)\n\nI should try and see if I can recreate those graphs in **R**.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,100 @@
+project:
+  type: website
+
+website:
+  title: "Gert Stulp"
+  open-graph: true
+  site-url: https://www.gertstulp.com/
+  repo-url: https://github.com/gertstulp/website
+  #image: images/rwds-logo-150px.png
+  favicon: images/faviconGS.png
+  navbar:
+    background: "#f0eeeb"
+    #logo: images/rwds-logo-150px.png
+    #logo-alt: "should be a picture of GS"
+    title: "&nbsp;GERT<span class='icon-line'></span>STULP"
+    collapse-below: lg
+    right:
+      - research/index.qmd
+      - posts/index.qmd
+      - CV/index.qmd
+      - resources/index.qmd
+      - text: "Other"
+        menu: 
+        - text: "Some notes"
+          href: other/about.qmd
+        - text: "copy-paste"
+          href: other/copypaste.qmd
+  # sidebar: 
+  #   - title: "About us"
+  #     contents:
+  #       - about-rwds.qmd
+  #       - viewpoints/editors-blog/posts/2022/10/18/meet-the-team.qmd
+  #       - rwds-partners.qmd
+  #       - contact.qmd
+  #       - ts-and-cs.qmd
+  #   - title: "Call for contributions"
+  #     contents:
+  #       - contributor-docs/call-for-contributions.qmd
+  #       - contributor-docs/case-studies.qmd
+  #       - contributor-docs/explainers.qmd
+  #       - contributor-docs/exercises.qmd
+  #       - contributor-docs/datasets.qmd
+  #       - contributor-docs/training-guides.qmd
+  #       - contributor-docs/recommender.qmd
+  #       - contributor-docs/datasciencebites.qmd
+  #       - contributor-docs/contributor-guidelines.qmd
+  #       - contributor-docs/style-guide.qmd
+  #   - title: "Careers"
+  #     contents:
+  #       - careers/index.qmd
+  #       - careers/career-profiles/index.qmd
+  #   - title: "Ideas"
+  #     contents:
+  #       - ideas/index.qmd
+  #       - ideas/tutorials/index.qmd
+  #       - ideas/datasciencebites/index.qmd
+  #   - title: "Viewpoints"
+  #     contents: 
+  #       - viewpoints/index.qmd
+  #       - viewpoints/editors-blog/index.qmd
+  #       - viewpoints/interviews/index.qmd
+  #       - href: viewpoints/newsletter/index.qmd
+  #         text: Newsletter
+
+  page-navigation: true
+
+  page-footer:
+    background: "#000000"
+    left: |
+      GS
+    center:  
+      - href: mailto:g.stulp@rug.nl
+        icon: envelope
+        aria-label: envelope
+      - href: https://github.com/gertstulp
+        icon: github
+        aria-label: GitHub
+      - href: https://scholar.google.nl/citations?user=fFcVaEYAAAAJ&hl=nl
+        text: "{{< ai google-scholar >}}"
+        aria-label: Scholar
+      - href: https://orcid.org/0000-0003-0173-5554
+        text: "{{< ai orcid >}}"
+        aria-label: Orcid
+    right: |
+      GS
+    
+format:
+  html:
+    theme: [lux, rwds.scss]
+    css: rwds.css
+    toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
+
+editor: source
+
+execute: 
+  freeze: auto

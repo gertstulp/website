@@ -1,0 +1,133 @@
+---
+pagetitle: "gertstulp.com"
+page-layout: custom
+section-divs: false
+editor: source
+sidebar: false
+search: false
+description: | 
+  personal website of gert stulp
+#image: images/rwds-logo-150px.png
+#title: "GERT<span class='icon-line'></span>STULP"
+listing:
+  - id: research-overview
+    contents: 
+    - /research/overview
+    - "!index.qmd"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 6
+    feed: false
+    
+  - id: latest-content
+    contents: 
+    - /posts
+    - /research/publications
+    - /research/talks
+    - /viewpoints
+    - "!index.qmd"
+    - "!template_talk.md"
+    - "!template_pub.md"
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    max-items: 3
+    feed: false
+
+toc: false
+---
+
+<!-- purple bar at top -->
+::: {.content-container}
+::: {.top-story .purple-background}
+::: {.website-text}
+
+WELCOME TO WWW.GERTSTULP.COM
+
+:::
+:::
+:::
+
+
+<!-- quick overview GS -->
+::: {.content-container}
+::: {.listing-block}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](images/Gert_website_round.png){width=80%}
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="30%"}
+<!-- empty column to create gap -->
+I'm Gert Stulp. I like:
+
+- cats
+
+- visualisations in R
+
+- Gary Larson 
+
+- Arnold Schwarzenegger (sort of)
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="30%"}
+
+<br>
+
+::: {.logo}
+
+![](/images/logo.gif)
+:::
+:::
+
+::::
+
+:::
+:::
+
+<!-- overview of research -->
+::: {.content-container}
+::: {.listing-block}
+<a href="research/index.qmd">
+
+## Research
+</a> 
+
+::: {#research-overview}
+:::
+
+:::
+:::
+
+
+<!-- latest content information -->
+::: {.content-container}
+::: {.listing-block .last-block} 
+<!-- last-block to remove line below -->
+<a href="all-content.qmd">
+
+## Latest content 
+</a>
+
+
+::: {#latest-content}
+:::
+
+:::
+:::

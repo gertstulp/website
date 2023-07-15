@@ -1,0 +1,14 @@
+{
+  "hash": "78689d821f988fbaac5d6e7592381f61",
+  "result": {
+    "markdown": "---\ntitle: Winning hackaton “hack the educational gap\"\nauthor: ''\ndate: '2019-03-01'\nslug: winning-hackaton-hack-the-educational-gap\ncategories: [R]\ntags: []\n---\n\n\nThe Groninger municipality organised an amazing hackaton \"Hack the educational gap\" (see [here](https://www.cityoftalent.nl/agenda/hackathon-hack-the-gap---gelijke-onderwijskansen) and [here](https://www.rug.nl/society-business/centre-for-information-technology/news/0208-hackathon-hack-the-gap?lang=en)). \n\nAnnelene Bloemen, Denise Bouwman, Tina Kretschmer, Ymkje Anna de Vries, and I formed a team. And we won! Probably because we made neat visualisation of the existing data. See slides [here](/pdf/Hackaton.pdf).",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Gert Stulp</title>
+<link>https://www.gertstulp.com/research/index.html</link>
+<atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.433</generator>
+<lastBuildDate>Sun, 25 Jun 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Prediction in the social sciences</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/overview/prediction.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category>Overview</category>
+  <category>Prediction</category>
+  <category>Machine learning</category>
+  <category>Data science</category>
+  <guid>https://www.gertstulp.com/research/overview/prediction.html</guid>
+  <pubDate>Sun, 25 Jun 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/prediction.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>Simulating the evolution of height in the Netherlands in recent history</title>
+  <dc:creator>Gert Stulp, Tyler Bonnel, Louise Barrett</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2023_Stulp_History.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Simulating the evolution of height in the Netherlands in recent history</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>The History of the Family</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp, Tyler Bonnel, Louise Barrett</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2023_Stulp_History.html</guid>
+  <pubDate>Wed, 22 Mar 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>FertNet: Process Data from the Social Networks and Fertility Survey</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2023_Stulp_FertNet.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; FertNet: Process Data from the Social Networks and Fertility Survey</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>CRAN</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://cran.r-project.org/web/packages/FertNet/index.html">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Processes data from The Social Networks and Fertility Survey, downloaded from <a href="https://dataarchive.lissdata.nl" class="uri">https://dataarchive.lissdata.nl</a>, including correcting respondent errors and transforming network data into network objects to facilitate analyses and visualisation.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2023_Stulp_FertNet.html</guid>
+  <pubDate>Sun, 19 Mar 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Capturing the Dynamics of the Social Environment Through Experience Sampling Methods, Passive Sensing, and Egocentric Networks: Scoping Review</title>
+  <dc:creator>Anna Langener, Gert Stulp, Martien Kas, Laura Bringmann</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2023_Langener_JMIR.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Capturing the Dynamics of the Social Environment Through Experience Sampling Methods, Passive Sensing, and Egocentric Networks: Scoping Review</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>JMIR Mental Health</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Anna Langener, Gert Stulp, Martien Kas, Laura Bringmann</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://mental.jmir.org/2023/1/e42646">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Background: Social interactions are important for well-being, and therefore, researchers are increasingly attempting to capture people’s social environment. Many different disciplines have developed tools to measure the social environment, which can be highly variable over time. The experience sampling method (ESM) is often used in psychology to study the dynamics within a person and the social environment. In addition, passive sensing is often used to capture social behavior via sensors from smartphones or other wearable devices. Furthermore, sociologists use egocentric networks to track how social relationships are changing. Each of these methods is likely to tap into different but important parts of people’s social environment. Thus far, the development and implementation of these methods have occurred mostly separately from each other. Objective: Our aim was to synthesize the literature on how these methods are currently used to capture the changing social environment in relation to well-being and assess how to best combine these methods to study well-being. Methods: We conducted a scoping review according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. Results: We included 275 studies. In total, 3 important points follow from our review. First, each method captures a different but important part of the social environment at a different temporal resolution. Second, measures are rarely validated (&gt;70% of ESM studies and 50% of passive sensing studies were not validated), which undermines the robustness of the conclusions drawn. Third, a combination of methods is currently lacking (only 15/275, 5.5% of the studies combined ESM and passive sensing, and no studies combined all 3 methods) but is essential in understanding well-being. Conclusions: We highlight that the practice of using poorly validated measures hampers progress in understanding the relationship between the changing social environment and well-being. We conclude that different methods should be combined more often to reduce the participants’ burden and form a holistic perspective on the social environment.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2023_Langener_JMIR.html</guid>
+  <pubDate>Thu, 16 Mar 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Crisissignaleringsplan monitoren en visualiseren</title>
+  <dc:creator>Massi Aoudjan, Elisa van Delft, Date van der Veen, Laura Bringmann, Gert Stulp, Barbara Montagne</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2023_Aoudjan_gedragstherapie.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Crisissignaleringsplan monitoren en visualiseren</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Gedragstherapie</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Massi Aoudjan, Elisa van Delft, Date van der Veen, Laura Bringmann, Gert Stulp, Barbara Montagne</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="../../">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Patiënten met een borderline-persoonlijkheidsstoornis (BPS) zijn kwets- baar voor crises. Een crisissignaleringsplan (CSP) kan een crisis helpen voor- komen, maar voor het opstellen van een helpend CSP is inzicht nodig in de vroege signalen van een crisis. Dit inzicht ontbreekt vaak. Door gedurende een instabiele periode van de patiënt gebruik te maken van de experience sampling method (ESM) wordt persoonlijke en betrouw- bare informatie verzameld over de crisis, wat een goede basis kan zijn voor het opstellen van een CSP. In deze pilot onderzochten de auteurs de haal- baarheid en bruikbaarheid van deze methodiek. Het blijkt haalbaar te zijn om patiënten met BPS in een periode waarin er sprake is van een (dreigen- de) crisis driemaal daags een online vragenlijst in te laten vullen. De visuele terugkoppeling van de ESM-data aan de patiënt kan nieuwe en bruikbare inzichten opleveren in de onderliggende risicofactoren voor crisis. Bredere inzetbaarheid van de methodiek dient nader onderzocht te worden.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2023_Aoudjan_gedragstherapie.html</guid>
+  <pubDate>Thu, 09 Mar 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Fertility preferences in China in the twenty-first century</title>
+  <dc:creator>Rui Lu, Anne Gauthier, Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2023_Lu_JPR.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Fertility preferences in China in the twenty-first century</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Journal of Population Research</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Rui Lu, Anne Gauthier, Gert Stulp</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://link.springer.com/article/10.1007/s12546-023-09303-0">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>There is continuing debate on how low China’s fertility has reached and whether China has fallen into the “low fertility trap”. This paper addresses this debate by revisiting the trends in fertility preferences in the past decades in China based on a meta review. Moreover, the analysis contrasts distinct measurements of fertility preferences to capture different aspects of reproductive decision-making. This papers reviews 152 studies resulting in 137 estimates for the mean of preferred number of children, 104 estimates for the proportions of different numbers of children preferred and 66 estimates for the second-child preferences. We found that after the long-time decline of fertility preferences in the last century, the average family size remained at a low level but started to increase slowly since 2001. This upturn was observed for all three types of measurements of fertility preferences: ideal, desired, and planned family size. The results also indicate a strong two-child preference (more than 50% of respondents) in China, although 30% of people prefer one child and only a small fraction indicating an ideal family size for three or more children. Results on people’s preference for a second child were less consistent. We concluded that fertility is unlikely to increase rapidly in China even when the government adopts more relaxed family planning policy. Because the upward trend in fertility preferences was very minimal and the economic constraints will prevent many people to realise their preferences.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2023_Lu_JPR.html</guid>
+  <pubDate>Mon, 06 Mar 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Collecting personal networks to study social influences on fertility behaviour</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2023_RESNET.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; NetResilience seminar</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.netresilience.fi/en/">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2023_NETresillience.pdf">here</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>People’s social environment is key in explaining their behaviour and preferences, including how many children people want and have. Unfortunately, obtaining information on the social environment, for instance through collecting personal network data, is difficult and often burdensome to participants. In this talk, I will first report on my experiences with collecting large personal network data (25 alters) from a representative sample of Dutch women. I’ll discuss the trade-offs researchers face when designing network studies between the burden to respondents and the reliability of characteristics of networks. Data quality is further discussed, including the usefulness of the concept “friend”. In the second part of the talk, I use these data to test evolutionary and sociological ideas about the breakdown of kin networks in contemporary populations as an explanation for the fertility decline. I’ll further discuss how personal network data can inform on social influences on fertility behaviour.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Networks</category>
+  <guid>https://www.gertstulp.com/research/talks/2023_RESNET.html</guid>
+  <pubDate>Wed, 01 Mar 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>Collecting personal networks to study social influences on fertility behaviour</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2023_POPNET.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; POPNET Connects</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Amsterdam, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.popnet.io/events/">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2023_POPNET.pdf">here</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>People’s social environment is key in explaining their behaviour and preferences, including how many children people want and have. Unfortunately, obtaining information on the social environment, for instance through collecting personal network data, is difficult and often burdensome to participants. In this talk, I will first report on my experiences with collecting large personal network data (25 alters) from a representative sample of Dutch women. I’ll discuss the trade-offs researchers face when designing network studies between the burden to respondents and the reliability of characteristics of networks. Data quality is further discussed, including the usefulness of the concept “friend”. In the second part of the talk, I use these data to test evolutionary and sociological ideas about the breakdown of kin networks in contemporary populations as an explanation for the fertility decline. I’ll further discuss how personal network data can inform on social influences on fertility behaviour.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Networks</category>
+  <guid>https://www.gertstulp.com/research/talks/2023_POPNET.html</guid>
+  <pubDate>Sun, 19 Feb 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>Understanding Narratives from Demographic Survey Data: a Comparative Study with Multiple Neural Topic Models</title>
+  <dc:creator>Xiao Xu,Gert Stulp, Antal van der Bosch, Anne Gauthier</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2022_Xu_proceedings.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Understanding Narratives from Demographic Survey Data: a Comparative Study with Multiple Neural Topic Models</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Conference proceedings of Empirical Methods in Natural Language Processing</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Xiao Xu,Gert Stulp, Antal van der Bosch, Anne Gauthier</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="../../pdf/2022_Xu.pdf">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Fertility intentions as verbalized in surveys are a poor predictor of actual fertility outcomes, the number of children people have. This can partly be explained by the uncertainty people have in their intentions. Such uncertainties are hard to capture through traditional survey questions, although open-ended questions can be used to get insight into people’s subjective narratives of the future that determine their intentions. An- alyzing such answers to open-ended questions can be done through Natural Language Process- ing techniques. Traditional topic models (e.g., LSA and LDA), however, often fail to do since they rely on co-occurrences, which are often rare in short survey responses. The aim of this study was to apply and evaluate topic models on demographic survey data. In this study, we applied neural topic models (e.g.&nbsp;BERTopic, CombinedTM) based on language models to responses from Dutch women on their fertil- ity plans, and compared the topics and their coherence scores from each model to expert judgments. Our results show that neural mod- els produce topics more in line with human interpretation compared to LDA. However, the coherence score could only partly reflect on this, depending on the method and corpus used for calculation. This research is important be- cause, first, it helps us develop more informed strategies on model selection and evaluation for topic modeling on survey data; and second, it shows that the field of demography has much to gain from adopting novel NLP methods.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2022_Xu_proceedings.html</guid>
+  <pubDate>Tue, 29 Nov 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>R workshop for teachers</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2022_Rworkshop.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; R workshop</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Grote Kruisstraat, Groningen, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="http://stulp.gmw.rug.nl/Rworkshop/">here</a> for website</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>R workshop for teachers</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>R</category>
+  <guid>https://www.gertstulp.com/research/talks/2022_Rworkshop.html</guid>
+  <pubDate>Sun, 20 Nov 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>Using microsimulation, administrative data, and supercomputers to realistically model fertility behaviour: the case of fertility preferences and childlessness</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2022_ODDISEI.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; ODISSEI conference</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Utrecht, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://odissei-data.nl/calendar/odissei-conference-for-social-science-in-the-netherlands-2022/">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2022_ODISSEI_Gert Stulp.pdf">here</a></p>
+<p><i class="fa-solid fa-video-camera" aria-label="video-camera"></i> &nbsp;&nbsp;&nbsp;&nbsp; There is a <a href="https://vimeo.com/769341726">video!</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Education is a strong driver of whether and when women become mothers. Many different and contradicting mechanisms have been proposed to explain why highly educated women are more likely to remain childless and become mothers at higher ages than less educated women. The demands on data to disentangle these mechanisms are extraordinary, and no dataset exists that allows for this. Microsimulation models can help in this situation by explicitly modelling the mechanisms and comparing the outcomes of the models to real-world outcomes. The simulation models presented here simulate fertility outcomes over the life courses of agents based on behavioural factors, such preferences and partnership trajectories, and biological factors that determine the ability to have children, such as the age at sterility, fecundability, and intrauterine mortality. To parametrise the models, we use administrative data from Social Statistics Netherlands, survey data from the LISS panel for the behavioural factors, and findings from reproductive medicine for the biological parameters. To estimate unknown parameters in the models (for which no data are available), we use Approximate Bayesian Computation. This is computationally rather demanding which is why we have used supercomputers. Our simulations reproduce the pattern of unintended childlessness strongly varying across women with different educational levels. Despite higher educated women preferring to have children at a later age, our simulations showed that these preferences hardly played a role in explaining childlessness. The higher age at cohabitation was the main explanation for the higher unintended childlessness among highly educated women. We discuss how these models can be used to explain the surprising reversal in gradient between education and fertility that is observed in Scandinavian countries. We end by discussing the advantages and drawbacks of our simulation approach and how it can contribute to family sociology</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Simulation</category>
+  <guid>https://www.gertstulp.com/research/talks/2022_ODDISEI.html</guid>
+  <pubDate>Tue, 08 Nov 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>This mess we’re in? Or how simulation and prediction will advance (demographic) research</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2022_tartu.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Evolutionary Ecology Seminar</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://ut.ee/en/node/140812">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/Tartu.pdf">here</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Demography and sociology have produced a sophisticated body of work on fertility outcomes, i.e., whether, why, and when people have children. Such research has uncovered many characteristics underlying fertility. Unfortunately, traditional ways of statistical analyses means that results are difficult to compare across studies and that we have little understanding on the (relative) importance of these characteristics. In light of the credibility crisis that has taken hold of many other fields and disciplines, one might similarly worry about the robustness of findings in demography. In this talk I will argue that a focus on predictive ability and on microsimulation will advance fertility research and make it more reliable.</p>
+<p>In the first part of the talk, I will make a plea for reporting out-of-sample predictive ability. I argue that this form of predictive ability i) is the most relevant effect size we should be interested in, because it is a measure of how well our theories do in practice, ii) prevents overfitting and is less susceptible to researcher degrees of freedom, iii) facilitates comparison between theory and data-driven approaches, and iv) allows for prediction benchmarks which have facilitated cumulative knowledge in other disciplines.</p>
+<p>In the second part of the talk, I will discuss how microsimulation models of fertility can advance existing research. A simulation model that includes findings from reproductive medicine on the ability to have children (e.g., the age at sterility, fecundability) is developed to quantify to what extent higher levels of childlessness among highly educated Dutch women are explained by preferences and partnership trajectories.</p>
+<p>I conclude by arguing that a shift towards prediction in combination with theory-driven microsimulation models increases the robustness of findings and allows a unique perspective on the state of fertility research.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Prediction</category>
+  <category>Simulation</category>
+  <guid>https://www.gertstulp.com/research/talks/2022_tartu.html</guid>
+  <pubDate>Mon, 22 Aug 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>Quantifying the sources of heterogeneity of fertility preferences in China</title>
+  <dc:creator>Rui Lu,Gert Stulp, Anne Gauthier</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2022_Lu_CPDS.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Quantifying the sources of heterogeneity of fertility preferences in China</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>China Population and Development Studies</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Rui Lu,Gert Stulp, Anne Gauthier</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://link.springer.com/article/10.1007/s42379-022-00110-3">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>There are no unanimous estimates on fertility preferences in China; they vary considerably across studies. Understanding this cross-study heterogeneity of reported preferred family size will contribute to the debates on the uncertainty of fertility in China. This paper quantified how much heterogeneity in aggregate-level fertility preferences can be explained by taking into account the demographic characteristics of the sample, its geographical location, and the measurement of fertility preferences. We retrieved 124 estimates of average preferred family size from 94 publications (from the year 2001 and onwards) in the China National Knowledge Infrastructure database (CNKI) and used mixed-effect meta-regression model to investigate heterogeneity. We found that the average preferred number of children in China since 2001 ranged from 0.91 to 2.88, with an average of 1.70 (SD = 0.26). Demographic differences accounted for 23%, human geographic regionalization for 21%, and the measurement of fertility preferences for 13% of the between-study variation. Sample characteristics (demographic and regional differences) and the measurement of fertility preferences together accounted for 46% of the variation in average preferred fertility. The averaged preferred family size varies by different characteristics and measurement. This study also points out whether particular groups have higher or lower preferences. It helps researchers to put estimates from fertility preferences from single studies in perspective. Moreover, this study can help resolve why researchers have such different outlooks on the future fertility of China.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2022_Lu_CPDS.html</guid>
+  <pubDate>Tue, 19 Jul 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Network Data Visualization in R</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/Rnetworkdataviz.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Similarity, Selection and Influence: A Cross-Disciplinary Symposium on Homophily in Social Networks</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://thepatio326116328.wordpress.com/symposium/">here</a> for website</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>This workshop focuses on producing network-visualisation in R. We will use the packages, {ggplot2}, {tidygraph}, and {ggiraph} to create many different types of visualisations of both socio-centric and ego-centric networks. No previous experience with R is required. Bringing your own data to the workshop will help learning!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>R</category>
+  <category>Networks</category>
+  <guid>https://www.gertstulp.com/research/talks/Rnetworkdataviz.html</guid>
+  <pubDate>Wed, 06 Jul 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>Opportunities for social influence on fertility behaviour among Dutch women</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/EPC_2022.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; European Population Conference 2022</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; The Hague, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.eaps.nl/epc/european-population-conference-2022">here</a> for website</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Social influence has a prominent role in theories on fertility, implying that people’s reproductive decision-making is affected by the choices and behaviours of others. Multiple social influence mechanisms are thought to change people’s fertility behaviour, including social learning, social contagion, social capital, and social pressure. Comprehensively investigating these mechanisms of social influence in contemporary populations has been difficult, and most findings stem from convenience samples, qualitative studies, or studies focussing on single mechanisms. Here we examine the opportunity for social influence by these different mechanisms simultaneously using a unique representative sample of 706 Dutch women reporting on 17,650 social relations (obtained via the LISS panel). In particular, we investigated variation in the composition of the network in terms of fertility-relevant characteristics, including the number of childfree individuals in the personal network, the number of people with (young) children, and the number of people that can help you with child care. Characterising variation in these traits in personal networks gives unique insights into the opportunities for social influence. Follow-up studies will address how such variation shapes fertility behaviour.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Networks</category>
+  <guid>https://www.gertstulp.com/research/talks/EPC_2022.html</guid>
+  <pubDate>Tue, 28 Jun 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/2022_poster_EPC.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/DvS_2022.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Dag van de Sociologie</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.rug.nl/research/department-of-sociology/dag-nacht-sociologie-2022/">here</a> for website</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Education is a strong driver of whether and when women become mothers. Many different and contradicting mechanisms have been proposed to explain why highly educated women are more likely to remain childless and become mothers at higher ages than less educated women. The demands on data to disentangle these mechanisms are extraordinary, and no dataset exists that allows for this. Microsimulation models can help in this situation by explicitly modelling the mechanisms and comparing the outcomes of the models to real-world outcomes. The simulation models presented here simulate fertility outcomes over the life courses of agents based on behavioural factors, such preferences and partnership trajectories, and biological factors that determine the ability to have children, such as the age at sterility, fecundability, and intrauterine mortality. To parametrise the models, we use administrative data from Social Statistics Netherlands, survey data from the LISS panel for the behavioural factors, and findings from reproductive medicine for the biological parameters. Our models show that unintended childlessness strongly differs between women with different educational levels. Despite higher educated women preferring to have children at a later age, our simulations showed that these preferences hardly played a role in explaining childlessness. The higher age at cohabitation was the main explanation for the higher unintended childlessness among highly educated women. We discuss the advantages and drawbacks of our simulation approach and how it can contribute to family sociology.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Simulation</category>
+  <guid>https://www.gertstulp.com/research/talks/DvS_2022.html</guid>
+  <pubDate>Thu, 23 Jun 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>This mess we’re in? Or how simulation and prediction will advance fertility research</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/NIDI_2022.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Brown Bag Meeting</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; NIDI, The Hague, the Netherlands</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>Demography and sociology have produced a sophisticated body of work on fertility outcomes, i.e., whether, why, and when people have children. Such research has uncovered many characteristics underlying fertility. Unfortunately, traditional ways of statistical analyses means that results are difficult to compare across studies and that we have little understanding on the (relative) importance of these characteristics. In light of the credibility crisis that has taken hold of many other fields and disciplines, one might similarly worry about the robustness of findings in demography. In this talk I will argue that a focus on predictive ability and on microsimulation will advance fertility research and make it more reliable. In the first part of the talk, I will make a plea for reporting out-of-sample predictive ability. I argue that this form of predictive ability i) is the most relevant effect size we should be interested in, because it is a measure of how well our theories do in practice, ii) prevents overfitting and is less susceptible to researcher degrees of freedom, iii) facilitates comparison between theory and data-driven approaches, and iv) allows for prediction benchmarks which have facilitated cumulative knowledge in other disciplines. In the second part of the talk, I will discuss how microsimulation models of fertility can advance existing research. A simulation model that includes findings from reproductive medicine on the ability to have children (e.g., the age at sterility, fecundability) is developed to quantify to what extent higher levels of childlessness among highly educated Dutch women are explained by preferences and partnership trajectories. I conclude by arguing that a shift towards prediction in combination with theory-driven microsimulation models increases the robustness of findings and allows a unique perspective on the state of fertility research.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Prediction</category>
+  <category>Simulation</category>
+  <guid>https://www.gertstulp.com/research/talks/NIDI_2022.html</guid>
+  <pubDate>Tue, 14 Jun 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless</title>
+  <dc:creator>Renske Verweij, Gert Stulp, Melinda Mills, Harold Snieder</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2021_Verweij_PR.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Population Review</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Renske Verweij, Gert Stulp, Melinda Mills, Harold Snieder</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://muse.jhu.edu/article/839240">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Although there are well-established relationships between women’s higher education, labour force participation (LFP), and occupation on the one hand and childlessness on the other hand in the US, the underlying reasons and the role that childlessness desires and expectations play remain unclear. We use the National Longitudinal Survey of Youth in the United States (N=4,198 women) and apply both logistic regression models to examine the role of childlessness desires early in life, and multilevel models for repeated measures to examine the role of childlessness expectations throughout the life course. We find that higher educational attainment and LFP are positively associated with childlessness. We do not find, however, that higher educated and working women more often desire or expect to remain childless. In contrast, we find that among women who ultimately remain childless, those women who work fulltime and have higher status occupations have higher expectations to have children throughout their life course. These results suggest that education and occupation produce constraints, resulting in the postponement of childbearing which hinders women in realizing their desires and expectations. Since many working women remain childless despite the desire and expectation to become a mother, our findings stress the importance of work-life reconciliation. It furthermore highlights the importance of increasing public awareness regarding the decrease in fecundity with age.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2021_Verweij_PR.html</guid>
+  <pubDate>Mon, 29 Nov 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>R workshop for Graduate School of Medical Science</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2021_Rworkshop_GSMS.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; R workshop</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://stulp.gmw.rug.nl/GSMS/">here</a> for website</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>R workshop for Graduate School of Medical Science</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>R</category>
+  <category>Visualisation</category>
+  <guid>https://www.gertstulp.com/research/talks/2021_Rworkshop_GSMS.html</guid>
+  <pubDate>Wed, 24 Nov 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2021_DvD.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Dag van de Sociologie</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Utrecht, the Netherlands (online)</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.nvdemografie.nl/news/dutch-demography-day-week-2021/">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2021_DVD.pdf">here</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>The fertility decline associated with economic development has been attributed to a host of interrelated causes including the rising costs of children with industrialization, and shifts in family structure. One hypothesis is that kin may impart more pro-natal information within their networks than non-kin, and that this effect may be exacerbated in networks with high kin-density where greater social conformity would be expected. In this study, we tested these ideas using large personal networks (25 associates of the respondent) collected from a sample of Dutch women (N = 706). Kin (parents) were perceived to exert slightly more social pressure to have children than non-kin, although dense networks were not associated with greater pressure. In contrast, women reported talking to friends about having children to a greater extent than kin, although greater kin-density in the network increased the likelihood of women reporting that they could talk to kin about having children. Both consanguineal and affinal kin could be asked to help with child-care to a greater extent than friends and other non-kin. Overall, there was mixed evidence that kin were more likely to offer pro-natal information than non-kin, and better evidence to suggest that kin were considered to be a better source of child-care support.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Networks</category>
+  <guid>https://www.gertstulp.com/research/talks/2021_DvD.html</guid>
+  <pubDate>Tue, 23 Nov 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+</channel>
+</rss>

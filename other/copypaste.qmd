@@ -1,0 +1,14 @@
+---
+title: "Acknowledgements"
+subtitle: Beter goed gejat dan slecht bedacht
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: true
+---
+
+"Beter goed gejat dan slecht bedacht" means something like "it's better to 'steal' something good, then to come up with something bad" .
+
+This website was stolen well, from: [Real World Data Science](https://realworlddatascience.net/)
+
+The code to produce the logo in the upper left corner came from: [ellakaye.co.uk](https://ellakaye.co.uk/)

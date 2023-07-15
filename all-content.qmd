@@ -1,0 +1,23 @@
+---
+pagetitle: All content | Gert Stulp
+title: All content
+subtitle: "**Everything** in chronological order"
+title-block-banner: true
+sidebar: false
+search: false
+page-layout: article  
+listing:
+  contents: 
+  - /research/overview
+  - /researc/talks
+  - /researc/publications
+  - /posts
+  - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 30
+  feed: true
+---

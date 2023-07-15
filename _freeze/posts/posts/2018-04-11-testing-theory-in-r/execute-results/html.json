@@ -1,0 +1,14 @@
+{
+  "hash": "4d0851b671ec759f2f86ef8e184eb3db",
+  "result": {
+    "markdown": "---\ntitle: Testing theory in R\nauthor: Gert Stulp\nsummary: Testing whether we have to draw e numbers from uniform distribution for the sum of numbers to be bigger than one\ndate: '2018-03-24'\ncategories:\n  - R\ntoc: true\nimage: ../../images/new_post.png\nimage-alt: New post\nlanguage: \n    section-title-footnotes: References\n---\n\n\nRecently on twitter I saw this idea that if you would pick a number from a uniform distribution [0, 1] and repeat drawing numbers until the sum of the numbers is lager than one, you'll on average pick **e** numbers. Didn't doubt it at all, just thought it would be fun checking this theory (theorem?) in **R**:\n\nLet's build a function that can test this. We'll do it one million times, and then calculate the mean (that should be equal to **e**).\n\n::: {.cell}\n\n```{.r .cell-code}\ntest_theory <- function(no_tests = 10) {\n  results <- vector(mode = \"integer\", length = no_tests)\n  \n  for(i in 1:no_tests) {\n    sum = 0\n    cnt = 0\n    while(sum <= 1) {\n      sum = sum + runif(1, min = 0, max = 1)\n      cnt = cnt + 1\n    }\n    results[i] = cnt\n  }\n  return(mean(results))\n}\ntest_theory(1000000)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2.719122\n```\n:::\n:::\n\n\n**e** in **R** is 2.7182818\n\n\nFor a mathematical breakdown [that is beyond my comprehension], see [this website](https://math.stackexchange.com/questions/111314/choose-a-random-number-between-0-and-1-and-record-its-value-keep-doing-it-until).",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,86 @@
+---
+pagetitle: Research | Gert Stulp
+title: Research
+subtitle: An overview of my research, including talks and publications
+search: false  
+listing:
+  - id: overview
+    contents: 
+    - overview
+    - "!index.qmd"
+    - "!template_pub.md"
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: false
+    filter-ui: false
+    page-size: 30
+    feed: true
+  
+  - id: publications
+    contents: 
+    - publications
+    - "!index.qmd"
+    - "!template_pub.md"
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: false
+    filter-ui: false
+    page-size: 30
+    feed: true
+  
+  - id: talks
+    contents: 
+    - talks
+    - "!index.qmd"
+    - "!template_talk.md"
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: false
+    filter-ui: false
+    page-size: 30
+    feed: true
+---
+
+You don't care about the "blabla" and want to get straight to the list of publications? 
+[Go here](../publications.qmd)
+
+
+
+::: {.add-margin}
+
+## OVERVIEW
+
+:::
+
+
+::: {#overview}
+:::
+
+::: {.add-border}
+:::
+
+
+::: {.add-margin}
+
+## PUBLICATIONS
+
+:::
+
+::: {#publications}
+:::
+
+
+::: {.add-border}
+:::
+
+::: {.add-margin}
+
+## TALKS
+
+:::
+
+::: {#talks}
+:::

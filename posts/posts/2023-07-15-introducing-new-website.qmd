@@ -1,0 +1,432 @@
+---
+title: "A new website"
+description: |
+  I have a new website. The reason is that the old website (partly) stopped functioning. I went from Hugo to Quarto. I'll describe some difficulties.   
+categories:
+  - R
+author: "Gert Stulp"
+date: '2023-07-15'
+toc: true
+image: ../../images/new_post.png
+image-alt: I still have to find a figure for this. 
+language: 
+    section-title-footnotes: References
+---
+
+## Something new, something old
+
+I have a new website. The reason is that the old website partly stopped functioning, because I relied on the Hugo Academic theme. This theme got commercialised and some functionality stopped working. I decided to turn to a Quarto website, which is much better because I understand the underlying code better. 
+
+My process is something like: I love making a new website, change a lot, update it frequently in the first weeks. Then I lose interest. Five years after I do a complete rehaul. That's where we are now. I have a problem. 
+
+I browsed the interweb to see if there were nice, Quarto-based websites, and stumbled upon this: [Real World Data Science](https://realworlddatascience.net/). Another one that I liked was [ellakaye.co.uk](https://ellakaye.co.uk/), from which I copied the logo in the upper left corner.
+
+Useful for the website, was the installation of [Font Awesome](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/) through these Quarto-plugins ([FA](https://github.com/quarto-ext/fontawesome) and [Academicons](https://github.com/schochastics/academicons))
+
+The biggest 'problem' was that I had lists of publications, blogs, and talks that included Hugo-code. For many of these files, I had to change the YAML at the start of each file. The below describes how I automatised this process. 
+
+## Converting talks
+
+The original files look something like this:
+
+```{r} 
+#| eval: false
++++
+date = "2021-11-15T00:00:00"
+title = "A roadmap on how to be as open as possible, and as closed as necessary"
+authors = ["Gert Stulp"]
+abstract = "During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science"
+abstract_short = ""
+event = "Official Launch Groningen Digital Competence Center"
+event_url = "https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch"
+location = "Groningen, the Netherlands"
+
+selected = true
+math = true
+
+url_pdf = "/pdf/2021_YAG_OSCG_DCC.pdf"
+url_slides = ""
+url_video = ""
+
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
+
++++
+```
+
+And need to be transformed to something like this:
+
+```{r} 
+#| eval: false
+---
+title: "A roadmap on how to be as open as possible, and as closed as necessary"
+description: |
+  During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science
+categories:
+  - Talk
+author: "Gert Stulp"
+date: "2021-11-15T00:00:00"
+toc: true
+image: ../../images/new_event.png
+image-alt: New talk
+language: 
+    section-title-footnotes: References
+---
+
+
+## Summary 
+<br>
+{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; Official Launch Groningen Digital Competence Center
+
+{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands
+
+{{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch) for website
+
+{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download materials [here]("/pdf/2021_YAG_OSCG_DCC.pdf")
+
+
+## Description
+
+During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science
+
+```
+
+
+### Read-in template
+
+I made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string `replace_title`, `replace_date`, `replace_event_title`, `location_event`, `url_for_event`, `url_for_pdf`, and `description_text` need to be replaced by text that come from the original markdown-files that include Hugo code.
+
+```{r} 
+#| eval: false
+---
+title: replace_title
+description: |
+  description_text 
+categories:
+  - Talk
+author: "Gert Stulp"
+date: "2023-07-14"
+toc: true
+image: ../../images/new_event.png
+image-alt: New talk
+language: 
+    section-title-footnotes: References
+---
+
+
+## Summary 
+<br>
+{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; replace_event_title
+
+{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; location_event
+
+{{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](url_for_event) for website
+
+{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download materials [here](url_for_pdf)
+
+{{< fa video-camera >}} &nbsp;&nbsp;&nbsp;&nbsp; There is a [video!](url_for_video)
+
+## Description
+
+description_text
+
+```
+
+```{r} 
+#| eval: false
+template <- readLines("template_talk.md")
+```
+
+### Read-in original files
+```{r} 
+#| eval: false
+# List files in directory "talk/" with .md extension
+file_list <- list.files("talk/", pattern = paste0(".*", ".md"), full.names = TRUE)
+```
+
+
+
+### Replace text and store new files in new folder 
+
+```{r} 
+#| eval: false
+library(stringr)
+
+replace_text_md <- function(file_path) {
+  # Read-in document
+  lines <- readLines(file_path)
+
+  # Function to remove annoying slashes from relevant text
+  remove_slash <- function(string, remove) {
+    # remove pattern at front and then end
+    str_remove(string, paste0(remove, " \"")) |> str_remove("\"")
+  }
+  # remove_slash("date = \"2021-11-15T00:00:00\"", remove = "date =")
+  
+  date <- lines[str_detect(lines, "date =")] |> remove_slash("date =")
+  abstract <- lines[str_detect(lines, "abstract =")] |> remove_slash("abstract =")
+  event <- lines[str_detect(lines, "event =")] |> remove_slash("event =")
+  url <- lines[str_detect(lines, "event_url =")] |> remove_slash("event_url =")
+  location <- lines[str_detect(lines, "location =")] |> remove_slash("location =")
+  url_pdf <- lines[str_detect(lines, "url_pdf =")] |> remove_slash("url_pdf =")
+  url_image <- lines[str_detect(lines, "image =")] |> remove_slash("image =")
+  url_video <- lines[str_detect(lines, "url_video =")] |> remove_slash("url_video =")   
+  
+  # Title deserves special treatment; needs quotes
+  title <- lines[str_detect(lines, "title =")] |> str_remove("title = ")
+  
+  temp <- template
+  # remove line in template when link to pdf, website from event, or video does not exist
+  if(url == "") {
+   temp <- temp[!str_detect(temp, "fa window-maximize")] 
+  } else {
+    temp <- str_replace_all(temp, "url_for_event", url)
+  }
+  if(url_pdf == "") {
+   temp <- temp[!str_detect(temp, "fa download")] 
+  } else {
+    temp <- str_replace_all(temp, "url_for_pdf", url_pdf)
+  }
+  if(url_video == "") {
+   temp <- temp[!str_detect(temp, "fa video-camera")] 
+  } else {
+    temp <- str_replace_all(temp, "url_for_video", url_video)
+  }
+  # if image is provided, use that one rather than the template-figure
+  if(url_image != "") {
+    temp <- str_replace_all(temp, c("new_event.png" = url_image))
+  }
+  
+  temp <- str_replace_all(
+    temp,
+    c("replace_title" = title,
+      "description_text" = abstract,
+      "insert_date" = date,
+      "replace_event_title" = event,
+      "location_event" = location
+    )
+  )
+
+  # Folder talks_converted should exist
+  path_output <- paste0("talks_converted/", str_remove(file_path, "talk//"))
+  writeLines(temp, path_output, sep = "\n")
+}
+
+# For each file in the original folder
+for(file in file_list) {
+  replace_text_md(file)  
+}
+```
+
+
+## Converting publications
+
+For publications something similar holds. The original files look something like this:
+
+```{r} 
+#| eval: false
++++
++++
+abstract = "The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes."
+
+authors = ["Gert Stulp", "Tyler Bonnel", "Louise Barrett"]
+date = "2023-03-23"
+image_preview = ""
+math = true
+publication_types = ["2"]
+publication = "The History of the Family "
+publication_short = ""
+selected = false
+title = "Simulating the evolution of height in the Netherlands in recent history"
+url_code = ""
+url_dataset = ""
+url_pdf = "https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193"
+url_project = ""
+url_slides = ""
+url_video = ""
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
+
++++
+```
+
+And need to be transformed to something like this:
+
+```{r} 
+#| eval: false
+---
+title: "Simulating the evolution of height in the Netherlands in recent history"
+description: |
+  The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes. 
+categories:
+  - Publication
+author: Gert Stulp, Tyler Bonnel, Louise Barrett
+date: 2023-03-23
+toc: true
+image: ../../images/new_pub.png
+image-alt: New publication
+language: 
+    section-title-footnotes: References
+---
+
+
+<br>
+{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; Simulating the evolution of height in the Netherlands in recent history
+
+{{< fa book >}} &nbsp;&nbsp;&nbsp;&nbsp; *The History of the Family*
+
+{{< fa users >}} &nbsp;&nbsp;&nbsp; Gert Stulp, Tyler Bonnel, Louise Barrett
+
+
+{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript [here](https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193)
+
+## Abstract
+
+The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes.
+
+```
+
+### Read-in template
+
+I made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string `replace_title`, `insert_date`, `journal_title`, `replace_title_sum`, `replace_authors`, `url_journal`, `url_for_pdf`, and `description_text` need to be replaced by text that come from the original markdown-files that include Hugo code.
+
+```{r} 
+#| eval: false
+---
+title: replace_title
+description: |
+  description_text 
+categories:
+  - Publication
+author: replace_authors
+date: insert_date
+toc: true
+image: ../../images/new_pub.png
+image-alt: New publication
+language: 
+    section-title-footnotes: References
+---
+
+
+<br>
+{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; replace_title_sum
+
+{{< fa book >}} &nbsp;&nbsp;&nbsp;&nbsp; *journal_title*
+
+{{< fa users >}} &nbsp;&nbsp;&nbsp; replace_authors
+
+{{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](url_journal) for website
+
+{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript [here](url_for_pdf)
+
+## Abstract
+
+description_text
+
+```
+
+```{r} 
+#| eval: false
+template <- readLines("template_pub.md")
+```
+
+### Read-in original files
+```{r} 
+#| eval: false
+# List files in directory "publication/" with .md extension
+file_list <- list.files("publication/", pattern = paste0(".*", ".md"), full.names = TRUE)
+```
+
+### Replace text and store new files in new folder 
+
+```{r} 
+#| eval: false
+library(stringr)
+
+lines <- readLines(file_list[1])
+
+replace_text_md <- function(file_path) {
+  # Read-in document
+  lines <- readLines(file_path)
+
+  # Function to remove annoying slashes from relevant text
+  remove_slash <- function(string, remove) {
+    # remove pattern at front and then end
+    str_remove(string, paste0(remove, " \"")) |> str_remove("\"")
+  }
+  # remove_slash("date = \"2021-11-15T00:00:00\"", remove = "date =")
+  
+  # Get multiple authors that are in square brackets 
+  # e.g. ["Gert Stulp", "Louise Barrett"]
+  detect_authors <- function(string) {
+    str_remove(string, "authors = \\[") |> str_remove("]") |> str_remove_all("\"")
+  }
+  #detect_authors('authors = ["Gert Stulp", "Tyler Bonnel", "Louise Barrett"]')
+  
+  date <- lines[str_detect(lines, "date =")] |> remove_slash("date =")
+  abstract <- lines[str_detect(lines, "abstract =")] |> remove_slash("abstract =")
+  authors <- detect_authors( lines[str_detect(lines, "authors =")] )
+  url_journal <- lines[str_detect(lines, "url =")] |> remove_slash("url =")
+
+  # Requires special treatment because journal titles were either available as
+  # "In *journal title*" or just as "journal title"
+  journal <- lines[str_detect(lines, "publication =")] |> remove_slash("publication =")
+  journal <- if(str_detect(journal, "In ")) {
+    str_remove(journal, "In ") |> str_remove_all("\\*") 
+  } else {
+    journal 
+  } 
+
+  # Requires special treatment because there were two ways of links to pdfs
+  # either as direct link pdf, or a link to open access journal
+  url_pdf <- lines[str_detect(lines, "url_pdf =")] |> remove_slash("url_pdf =")
+  url_pdf <- if(str_detect(url_pdf, "http")) {
+    url_pdf # url to website with open data
+  } else {
+    paste0("../../", url_pdf) # to get correct path to file
+  } 
+                   
+  title <- lines[str_detect(lines, "title =")] |> str_remove("title = ")
+  # Title in body requires different treatment
+  title_sum <- lines[str_detect(lines, "title =")] |> remove_slash("title =")
+  
+  temp <- template
+  
+  # if a url = is found, this means a link to the website was provided. 
+  if(identical(url_journal, character(0)) || url_journal == "") {
+    #remove line in template, when 'url = ' is not found
+    temp <- temp[!str_detect(temp, "fa window-maximize")]
+  } else {
+    temp <- str_replace_all(temp, "url_journal", url_journal)
+  }
+
+  temp <- str_replace_all(
+    temp,
+    c("replace_title_sum" = title_sum,
+      "replace_title" = title,
+      "replace_authors" = authors,
+      "description_text" = abstract,
+      "insert_date" = date,
+      "journal_title" = journal,
+      "url_for_pdf" = url_pdf
+    )
+  )
+
+  # The folder pubs_converted needs to exist. 
+  path_output <- paste0("pubs_converted/", str_remove(file_path, "publication//"))
+  writeLines(temp, path_output, sep = "\n")
+}
+
+for(file in file_list) {
+  replace_text_md(file)  
+}
+```
+
+
+See you in five years! 
