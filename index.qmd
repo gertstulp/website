@@ -60,37 +60,36 @@ WELCOME TO WWW.GERTSTULP.COM
 
 :::: {.columns}
 
-::: {.column width="30%"}
-![](images/Gert_website_round.png){width=80%}
+::: {.column width="20%"}
+::: {.face}
+
+![](images/Gert_website_round.png){width=85%}
+:::
 :::
 
-::: {.column width="5%"}
+::: {.column width="2.5%"}
 
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 <!-- empty column to create gap -->
 I'm Gert Stulp. I like:
 
 - cats
-
 - visualisations in R
-
 - Gary Larson 
-
 - Arnold Schwarzenegger (sort of)
 
 :::
 
-::: {.column width="5%"}
+::: {.column width="2.5%"}
 
 :::
 
-::: {.column width="30%"}
-
-<br>
+::: {.column width="35%"}
 
 ::: {.logo}
+
 
 ![](/images/logo.gif)
 :::

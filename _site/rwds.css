@@ -744,7 +744,14 @@ div.quarto-post a {
 .logo img {
   width: 10%,
   height: auto;
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face img {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
