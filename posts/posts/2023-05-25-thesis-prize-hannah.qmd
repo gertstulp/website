@@ -1,0 +1,25 @@
+---
+title: "Multiple thesis prizes for Hannah Dietzenbacher"
+description: |
+  Hannah Dietzenbacher received no less than three (master's) thesis prizes. I was lucky enough to supervise her.    
+categories:
+  - Prize
+author: "Gert Stulp"
+date: '2023-05-25'
+toc: true
+image: ../../images/hannah.jpeg
+image-alt: Hannah Dietzenbacher receiving prize. 
+language: 
+    section-title-footnotes: References
+---
+
+Hannah Dietzenbacher has done amazing work in her Master's Thesis project **Criminal Network Disruption: A simulation study on the effectiveness of law enforcement intervention strategies**. Both her theory-driven approach as well as her simulation-approach were impressive. 
+
+She won three prizes for this research: 
+1) The Faculty of Behavioural and Social Sciences (University of Groningen) thesis prize
+
+2) The Jan Brouwer Scriptie Prijs voor Maatschappijwetenschappen (see [here](https://khmw.nl/negen-masterstudenten-vallen-in-de-prijzen-bekijk-hier-de-presentaties-van-de-winnaars/))
+
+3) The NSV thesis prize (see [here](https://www.nsv-sociologie.nl/?page_id=3678))
+
+What a star! 

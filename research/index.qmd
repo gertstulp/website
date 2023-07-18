@@ -2,6 +2,9 @@
 pagetitle: Research | Gert Stulp
 title: Research
 subtitle: An overview of my research, including talks and publications
+title-block-banner: true
+sidebar: false
+page-layout: full
 search: false  
 listing:
   - id: overview

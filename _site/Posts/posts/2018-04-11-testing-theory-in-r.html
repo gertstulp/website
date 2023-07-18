@@ -133,8 +133,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <meta property="og:description" content="Recently on twitter I saw this idea that if you would pick a number from a uniform distribution [0, 1] and repeat drawing numbers until the sum of the numbers is lager than one, you’ll on average…">
 <meta property="og:image" content="https://www.gertstulp.com/images/new_post.png">
 <meta property="og:site-name" content="Gert Stulp">
-<meta property="og:image:height" content="700">
-<meta property="og:image:width" content="1077">
+<meta property="og:image:height" content="378">
+<meta property="og:image:width" content="560">
 <meta property="og:image:alt" content="New post">
 </head>
 
@@ -192,48 +192,46 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Testing theory in R</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">R</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Gert Stulp </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">March 24, 2018</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Testing theory in R</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gert Stulp </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 24, 2018</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
 
 <p>Recently on twitter I saw this idea that if you would pick a number from a uniform distribution [0, 1] and repeat drawing numbers until the sum of the numbers is lager than one, you’ll on average pick <strong>e</strong> numbers. Didn’t doubt it at all, just thought it would be fun checking this theory (theorem?) in <strong>R</strong>:</p>
 <p>Let’s build a function that can test this. We’ll do it one million times, and then calculate the mean (that should be equal to <strong>e</strong>).</p>

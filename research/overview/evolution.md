@@ -8,7 +8,7 @@ categories:
 author: "Gert Stulp"
 date: "2018-03-18"
 toc: true
-image: ../../images/Charles_Stulp.jpg
+image: ../../images/Charles_Stulp.png
 image-alt: An image of Gert Darwin or Charles Stulp
 language: 
     section-title-footnotes: References

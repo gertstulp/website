@@ -1,0 +1,20 @@
+---
+title: "Hogeronderwijspremie"
+description: |
+  The program Data Wise: data science in society was nominated for the Hogeronderwijspremie. We came very far and were asked for interview, but unfortuantely we didn't make it to the top three.     
+categories:
+  - Prize
+author: "Gert Stulp"
+date: '2023-04-19'
+toc: true
+image: ../../images/datawise.png
+image-alt: Logo data wise
+language: 
+    section-title-footnotes: References
+---
+
+[Data Wise: data science in society](https://www.rug.nl/gmw/education/minor/datawise?lang=en) was nominated for the Hogeronderwijspremie. This 'minor' program (for third-year bachelor students) teaches students to work in teams on a societally relevant topic that requires data. 
+
+[Ronald Stolk](https://www.rug.nl/staff/r.p.stolk/cv?lang=en), [Anne Beaulieu](https://www.rug.nl/staff/j.a.beaulieu/?lang=en), and myself have worked hard to get the program off the ground, and since then many excellent people have contributed (and are contributing) to the program.
+
+We got far, top 6, but didn't make it to the final three, unfortunately. 

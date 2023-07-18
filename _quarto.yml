@@ -89,10 +89,6 @@ format:
     theme: [lux, rwds.scss]
     css: rwds.css
     toc: true
-    grid:
-      sidebar-width: 0px
-      body-width: 1000px
-      margin-width: 250px
 
 editor: source
 

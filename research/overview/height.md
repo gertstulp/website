@@ -9,7 +9,7 @@ categories:
 author: "Gert Stulp"
 date: "2018-03-16"
 toc: true
-image: ../../images/Evolution.jpg
+image: ../../images/Evolution.png
 image-alt: Awesome image of animals getting taller
 language: 
     section-title-footnotes: References

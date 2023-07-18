@@ -134,8 +134,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <meta property="og:description" content="Given the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs.">
 <meta property="og:image" content="https://www.gertstulp.com/images/new_post.png">
 <meta property="og:site-name" content="Gert Stulp">
-<meta property="og:image:height" content="700">
-<meta property="og:image:width" content="1077">
+<meta property="og:image:height" content="378">
+<meta property="og:image:width" content="560">
 <meta property="og:image:alt" content="New post">
 </head>
 
@@ -193,44 +193,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Different ways of calculating rowmeans on selected variables in a tidyverse framework</h1>
-                  <div>
-        <div class="description">
-          <p>Given the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs.</p>
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">R</div>
-                <div class="quarto-category">Tidyverse</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Gert Stulp </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">March 24, 2018</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -250,10 +213,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Different ways of calculating rowmeans on selected variables in a tidyverse framework</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Tidyverse</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Given the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Gert Stulp </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 24, 2018</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
 
 <p>Recently, I have been trying to force myself to do all my coding in a consistent coding framework. Mostly this means that I want to switch completely to <code>tidyverse</code>/<code>dplyr</code>-style coding. Mostly for reasons of readability and teaching, but it also has a slight OCD-component for myself. I find it weird to use the <code>apply</code>-family of functions within the <code>dplyr</code>-pipes. Mostly, this transition is effortless, however, when it comes to applying some functions on “rows” (values spread across different columns on one row) the process has been painful. It took me much time to figure out how to do it. And I am still not entirely confident in my abilities. I understand the tidy data principles, but something like rowmeans or counting how many variables have missing values for a particular individual (row) is so common that I imagined it to have a bigger role in the <code>dplyr</code>-framework.</p>
 <p>I’ll start off with calculating the means of variables for all rows using many different ways using the <code>dplyr</code>-programming framework. I’ll do it for all variables, plus a selection of variables. Note: of course, calculating rowmeans is rather easy and <code>rowMeans</code> is an obvious and easy choice; I have chosen it, though, so that it is also easy to see what is going on in the other possibilities.</p>

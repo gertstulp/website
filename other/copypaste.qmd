@@ -2,8 +2,8 @@
 title: "Acknowledgements"
 subtitle: Beter goed gejat dan slecht bedacht
 sidebar: false
-page-layout: article
-toc: false
+page-layout: full
+toc: true
 title-block-banner: true
 ---
 

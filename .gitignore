@@ -1,7 +1,9 @@
 .Rproj.user
+.Rproj
 .Rhistory
 .RData
 .Ruserdata
 public
-website.Rproj
+qwebsite.Rproj
 .DS_Store
+/.quarto/

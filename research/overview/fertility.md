@@ -23,7 +23,7 @@ I should still write something more sensible here. For now:
 
 #### In demography:
 
-- _fertility_ - the number of live births of babies to that female
+- _fertility_ - the number of live births of babies to a female
 - _fecundity_ - the physiological ability to have children
 
 

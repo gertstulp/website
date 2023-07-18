@@ -134,6 +134,7 @@
   margin-bottom: 0.75em;
 }
 
+/* @media (max-width: 991.98px) { */
 @media (max-width: 991.98px) {
 .quarto-title-banner {
     padding-top: 2.5em;
@@ -261,6 +262,15 @@ div.csl-entry {
   margin-top: 2.5em;
   /* z-index: 998; */
 }
+
+#quarto-appendix.default .quarto-appendix-heading {
+  font-weight: 500;
+  opacity: inherit;
+} 
+
+#quarto-appendix.default *[role=doc-endnotes]>ol, #quarto-appendix.default .quarto-appendix-contents>*:not(h2):not(.h2) {
+  opacity: inherit;
+} 
 
 ::marker {
   font-variant-numeric: normal;
@@ -411,7 +421,8 @@ div.csl-entry {
   font-family: 'Montserrat';
   font-weight: 400;
   color: black;
-  font-size: .825rem;
+  /* font-size: .825rem; */
+  font-size: .5rem;
   text-decoration: none;
 }
 
@@ -424,10 +435,6 @@ div.csl-entry {
 .figure-caption a:hover {
   color: black;
 }
-
-/* #quarto-appendix.default {
-  border-top: none;
-} */
 
 .pullquote-container {
   padding-top: 1em;
@@ -474,6 +481,8 @@ h3,
 .h3,
 h4,
 .h4,
+/* h5,
+.h5 */
 h6,
 .h6 {
   font-family: 'Oswald';
@@ -498,6 +507,8 @@ h2, .h2 {
   letter-spacing: normal;
 }
 
+/* media means responsive to phone/computer/table */
+/* Bootstrap 4 subtracts .02px from the top end of each breakpoint to ensure there are no overlapping */
 @media (max-width: 991.98px) {
 #quarto-content section:first-of-type h2:first-of-type, #quarto-content section:first-of-type .h2:first-of-type {
     margin-top: 1.5rem;
@@ -515,6 +526,7 @@ h5,
 }
 
 body {
+  /* min-width: 1250px; */
   font-family: 'Montserrat';
   font-weight: 400;
   color: black;
@@ -669,6 +681,7 @@ div.quarto-post a {
 }
 
 .quarto-grid-item img.thumbnail-image {
+  border: solid 1px lightgrey !important;
   object-fit: cover;
   height: 188px !important;
 }
@@ -714,12 +727,16 @@ div.quarto-post a {
   padding-right: 1.5em;
 }
 
-.content-container .listing-pagination {
-  display: none;
+.content-container-article {
+  padding-left: -250px;
 }
 
+.content-container .listing-pagination {
+  display: none;
+} 
+
 .top-story {
-  max-width: 1000px;
+  max-width: 895px;
   margin: 0 auto;
   margin-bottom: 1em; 
 }
@@ -741,7 +758,7 @@ div.quarto-post a {
   align-items: center;
 }
 
-.website-text{
+.website-text {
   color: black;
   font-family: 'Oswald';
   font-size: 1em;
@@ -789,8 +806,13 @@ div.quarto-post a {
   text-align: center;
 }
 
+/* .header-text-original p {
+  text-align: center;
+  margin-bottom: 0;
+} */
+
 .header-block {
-  max-width: 1000px;
+  max-width: 500px;
   margin: 0 auto;
   padding-top: 1em;
   padding-bottom: 1.8em; 
@@ -807,12 +829,23 @@ div.quarto-post a {
 }
 
 .listing-block {
-  max-width: 1000px;
+  max-width: 895px; 
   margin: 0 auto;
   padding-bottom: 1.1em; 
   box-sizing: border-box;
   border-bottom: 1px solid black;
 }
+
+
+.listing-block-article {
+  max-width: 1250px; 
+  margin: 0 auto;
+  padding-bottom: 1.1em; 
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  /* align-items: left; */
+}
+
 
 .last-block {
   border-bottom: none;
@@ -1005,3 +1038,4 @@ body:not(.floating) .nav-footer {
   margin-right: auto;
   width: 200px;
 }
+

@@ -3,6 +3,9 @@ pagetitle: Posts | Gert Stulp
 title: Posts
 subtitle: I blog infrequently, and mostly to support my memory rather than to communicate.
 search: false  
+title-block-banner: true
+sidebar: false
+page-layout: full
 listing:
   contents: 
   - posts
@@ -15,3 +18,8 @@ listing:
   page-size: 30
   feed: true
 ---
+
+
+<!-- useful for checking dimensions: -->
+<!-- <hr style="height: 10px; width: 895px;" /> -->
+<!-- <hr style="height: 10px; width: 900px;" /> -->

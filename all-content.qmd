@@ -5,7 +5,7 @@ subtitle: "**Everything** in chronological order"
 title-block-banner: true
 sidebar: false
 search: false
-page-layout: article  
+page-layout: full  
 listing:
   contents: 
   - /research/overview
@@ -13,6 +13,8 @@ listing:
   - /researc/publications
   - /posts
   - "!index.qmd"
+  - "!template_pub.md"
+  - "!template_talk.md"
   sort: "date desc"
   type: grid
   categories: true

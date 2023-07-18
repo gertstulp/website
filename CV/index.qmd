@@ -2,39 +2,29 @@
 pagetitle: CV | Gert Stulp
 title: "CV"
 subtitle: "In case you're interested in my life."
-page-layout: article
 toc: true
+page-layout: full
 title-block-banner: true
+sidebar: false
 ---
+
 
 You can download a pdf-version my [CV](www.gertstulp.com)
 
 ## Education
 
-
-<hr>
+  
+<!-- <hr> -->
 
 ## TEST
 
 
-::: {.content-container}
-::: {.listing-block}
 ## Education
 
-:::
-:::
 
-
-::: {.content-container}
-::: {.listing-block}
 ## Professional career
 
-:::
-:::
 
-::: {.content-container}
-::: {.listing-block}
 ## Grants, awards, nominations
 
-:::
-:::
+

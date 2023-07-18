@@ -1,0 +1,18 @@
+---
+title: "Artikel in Demos"
+description: |
+  Als je mensen vraagt naar hun wens om kinderen te krijgen, benoemen zij soms hun ontevredenheid met de toestand in de wereld. Onderwerpen als klimaatverandering, maar ook sociale media en terrorisme komen ter sprake. In hoeverre hebben Nederlandse vrouwen het idee dat de wereld geen goede plek meer is om kinderen te krijgen? 
+categories:
+  - Fertility
+  - Outreach
+author: "Gert Stulp"
+date: '2023-07-15'
+toc: true
+image: ../../images/demos-logo.png
+image-alt: Demos logo
+language: 
+    section-title-footnotes: References
+---
+
+
+Xiao Xu, Antal van den Bosch, Anne Gauthier, and myself wrote a short piece on women's feeling of uncertainty about the state of the world and their willingness to have children. You can read it [here](https://nidi.nl/demos/willen-vrouwen-nog-wel-een-kind-op-deze-wereld-zetten/), in Dutch!
