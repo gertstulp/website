@@ -10,7 +10,7 @@ title-block-banner: true
 
 ### Submitted
 
-
+ 
 * Stulp, G., Verhagen, M.D., Arpino, B. Research note: a plea for reporting out-of-sample predictive ability. Submitted to Demography. 
 
 * Stulp, G. Describing the Dutch Social Networks and Fertility Study and How to Process it. Accepted at Demographic Research
