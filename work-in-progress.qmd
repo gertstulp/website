@@ -27,6 +27,7 @@ title-block-banner: true
 
 * Stadel, M, Stulp, G. Langener, AM, Elmer, T, van Duijn, MAJ, Bringmann, LF. Feedback About a Person's Social Context - Personal Networks and Daily Social Interactions. Submitted to Administration and Policy in Mental Health and Mental Health Services Research
 
-* Stulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Demographic Research 
+* Stulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies
 
-* 
+* Testing the combination of Feeling Safe and Peer Counselling against Formulation-Based Cognitive Behavior Therapy to promote Psychological Wellbeing in People with Persecutory Delusions: Study Protocol for a Randomized Controlled Trial (the Feeling Safe-NL Trial).
+Authors: Eva Tolmeijer; Felicity Waite; Louise Isham; Laura Bringmann; Robin Timmers; Arjan van den Berg; Hanneke Schuurmans; Anton B. P. Staring; Paul de Bont; Rob van Grunsven; Gert Stulp; Ben Wijnen; Mark van der Gaag; Daniel Freeman; David van den Berg. Submitted to Trials
