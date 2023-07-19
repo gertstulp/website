@@ -202,6 +202,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
    
   <ul>
   <li><a href="#something-new-something-old" id="toc-something-new-something-old" class="nav-link active" data-scroll-target="#something-new-something-old">Something new, something old</a></li>
+  <li><a href="#page-layout-aaaaaahhhhhrticle" id="toc-page-layout-aaaaaahhhhhrticle" class="nav-link" data-scroll-target="#page-layout-aaaaaahhhhhrticle">page-layout: aaaaaahhhhhrticle</a></li>
   <li><a href="#converting-talks" id="toc-converting-talks" class="nav-link" data-scroll-target="#converting-talks">Converting talks</a>
   <ul class="collapse">
   <li><a href="#read-in-template" id="toc-read-in-template" class="nav-link" data-scroll-target="#read-in-template">Read-in template</a></li>
@@ -263,82 +264,60 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>My process is something like: I love making a new website, change a lot, update it frequently in the first weeks. Then I lose interest. Five years after I do a complete rehaul. That’s where we are now. I have a problem.</p>
 <p>I browsed the interweb to see if there were nice, Quarto-based websites, and stumbled upon this: <a href="https://realworlddatascience.net/">Real World Data Science</a>. Another one that I liked was <a href="https://ellakaye.co.uk/">ellakaye.co.uk</a>, from which I copied the logo in the upper left corner.</p>
 <p>Useful for the website, was the installation of <a href="https://fontawesome.com/">Font Awesome</a> and <a href="https://jpswalsh.github.io/academicons/">Academicons</a> through these Quarto-plugins (<a href="https://github.com/quarto-ext/fontawesome">FA</a> and <a href="https://github.com/schochastics/academicons">Academicons</a>)</p>
-<p>The biggest ‘problem’ was that I had lists of publications, blogs, and talks that included Hugo-code. For many of these files, I had to change the YAML at the start of each file. The below describes how I automatised this process.</p>
+</section>
+<section id="page-layout-aaaaaahhhhhrticle" class="level2">
+<h2 class="anchored" data-anchor-id="page-layout-aaaaaahhhhhrticle">page-layout: aaaaaahhhhhrticle</h2>
+<p>Something that I have struggled with most is the following: I though I was able to change the dimensions of the page. For example, in the <code>_quarto.yml</code> page, I can adapt the <a href="https://quarto.org/docs/output-formats/page-layout.html">following</a>:</p>
+<pre><code>format:
+  html: 
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px</code></pre>
+<p>It took me a long time to realise (of which I am still not sure) that this only partly holds for <code>page-layout: custom</code> and <strong>not</strong> for <code>page-layout: article</code> or <code>page-layout: full</code>. For example, a <code>sidebar-width: 0px</code> (remove the sidebar on the left completely) would only work for the landing/home page (which is <code>custom</code>), but not for other pages. I believe that this has to do with the issue that the default set-up in quarto is responsive to device (e.g., phone, table, computer), such that content is scaled appropriately to smaller / larger screen.</p>
+<p>I ‘resolved’ this issue, by accepting the default width of the <code>content</code> of the (article) page (around <code>900px</code>), and adapted my landing page accordingly.</p>
+<p>Why did I wanted this? On my website, I have three columns that include content plus visualisations in little rectangles These rectangles automatically adjust size given other content on the screen, window size, device, et cetera. This led to ‘problems’. On most pages, there is a table of contents in the <code>margin</code>-area, which ‘pushes’ the three columns to the left on the screen. Now on my landing page, I do not have this margin area at all. The issue was that because of this, the rectangles had a different size on the landing page versus all other pages, and some images were cropped weirdly because of it. I wanted, no I needed, consistency across pages and avoid weird cropping. Eight hours well spent!</p>
 </section>
 <section id="converting-talks" class="level2">
 <h2 class="anchored" data-anchor-id="converting-talks">Converting talks</h2>
+<p>The biggest ‘problem’ was that I had lists of publications, blogs, and talks that included Hugo-code. For many of these files, I had to change the YAML at the start of each file. The below describes how I automatised this process.</p>
 <p>The original files look something like this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>date <span class="ot">=</span> <span class="st">"2021-11-15T00:00:00"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>title <span class="ot">=</span> <span class="st">"A roadmap on how to be as open as possible, and as closed as necessary"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>authors <span class="ot">=</span> [<span class="st">"Gert Stulp"</span>]</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>abstract <span class="ot">=</span> <span class="st">"During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science"</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>abstract_short <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>event <span class="ot">=</span> <span class="st">"Official Launch Groningen Digital Competence Center"</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>event_url <span class="ot">=</span> <span class="st">"https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch"</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>location <span class="ot">=</span> <span class="st">"Groningen, the Netherlands"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>selected <span class="ot">=</span> true</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>math <span class="ot">=</span> true</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>url_pdf <span class="ot">=</span> <span class="st">"/pdf/2021_YAG_OSCG_DCC.pdf"</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>url_slides <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>url_video <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Optional featured image (relative to `static/img/` folder).</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>[header]</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>image <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>caption <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>date <span class="ot">=</span> <span class="st">"2021-11-15T00:00:00"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>title <span class="ot">=</span> <span class="st">"A roadmap on how to be as open as possible, and as closed as necessary"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>authors <span class="ot">=</span> [<span class="st">"Gert Stulp"</span>]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>abstract <span class="ot">=</span> <span class="st">"During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>abstract_short <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>event <span class="ot">=</span> <span class="st">"Official Launch Groningen Digital Competence Center"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>event_url <span class="ot">=</span> <span class="st">"https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>location <span class="ot">=</span> <span class="st">"Groningen, the Netherlands"</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>selected <span class="ot">=</span> true</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>math <span class="ot">=</span> true</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>url_pdf <span class="ot">=</span> <span class="st">"/pdf/2021_YAG_OSCG_DCC.pdf"</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>url_slides <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>url_video <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Optional featured image (relative to `static/img/` folder).</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>[header]</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>image <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>caption <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And need to be transformed to something like this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"A roadmap on how to be as open as possible, and as closed as necessary"</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="er">|</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> Talk</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">"Gert Stulp"</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">"2021-11-15T00:00:00"</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>toc<span class="sc">:</span> true</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> ..<span class="sc">/</span>..<span class="sc">/</span>images<span class="sc">/</span>new_event.png</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>image<span class="sc">-</span>alt<span class="sc">:</span> New talk</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>language<span class="sc">:</span> </span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    section<span class="sc">-</span>title<span class="sc">-</span>footnotes<span class="sc">:</span> References</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="do">## Summary </span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;</span>br<span class="sc">&gt;</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Official Launch Groningen Digital Competence Center</span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa map<span class="sc">-</span>marker <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Groningen, the Netherlands</span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa window<span class="sc">-</span>maximize <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Click [here](https<span class="sc">:</span><span class="er">//</span>www.rug.nl<span class="sc">/</span>digital<span class="sc">-</span>competence<span class="sc">-</span>centre<span class="sc">/</span>calendar<span class="sc">/</span><span class="dv">2021</span><span class="sc">/</span>gdcc<span class="sc">-</span>official<span class="sc">-</span>launch) <span class="cf">for</span> website</span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download materials [here](<span class="st">"/pdf/2021_YAG_OSCG_DCC.pdf"</span>)</span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="do">## Description</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="read-in-template" class="level3">
-<h3 class="anchored" data-anchor-id="read-in-template">Read-in template</h3>
-<p>I made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string <code>replace_title</code>, <code>replace_date</code>, <code>replace_event_title</code>, <code>location_event</code>, <code>url_for_event</code>, <code>url_for_pdf</code>, and <code>description_text</code> need to be replaced by text that come from the original markdown-files that include Hugo code.</p>
-<div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> replace_title</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"A roadmap on how to be as open as possible, and as closed as necessary"</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="er">|</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  description_text </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> Talk</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">"Gert Stulp"</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">"2023-07-14"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">"2021-11-15T00:00:00"</span></span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>toc<span class="sc">:</span> true</span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> ..<span class="sc">/</span>..<span class="sc">/</span>images<span class="sc">/</span>new_event.png</span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>image<span class="sc">-</span>alt<span class="sc">:</span> New talk</span>
@@ -349,100 +328,135 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="do">## Summary </span></span>
 <span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;</span>br<span class="sc">&gt;</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; replace_event_title</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Official Launch Groningen Digital Competence Center</span>
 <span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa map<span class="sc">-</span>marker <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; location_event</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa map<span class="sc">-</span>marker <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Groningen, the Netherlands</span>
 <span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa window<span class="sc">-</span>maximize <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Click [here](url_for_event) <span class="cf">for</span> website</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa window<span class="sc">-</span>maximize <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Click [here](https<span class="sc">:</span><span class="er">//</span>www.rug.nl<span class="sc">/</span>digital<span class="sc">-</span>competence<span class="sc">-</span>centre<span class="sc">/</span>calendar<span class="sc">/</span><span class="dv">2021</span><span class="sc">/</span>gdcc<span class="sc">-</span>official<span class="sc">-</span>launch) <span class="cf">for</span> website</span>
 <span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download materials [here](url_for_pdf)</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download materials [here](<span class="st">"/pdf/2021_YAG_OSCG_DCC.pdf"</span>)</span>
 <span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa video<span class="sc">-</span>camera <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; There is a [video<span class="sc">!</span>](url_for_video)</span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a><span class="do">## Description</span></span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>description_text</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="do">## Description</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="read-in-template" class="level3">
+<h3 class="anchored" data-anchor-id="read-in-template">Read-in template</h3>
+<p>I made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string <code>replace_title</code>, <code>replace_date</code>, <code>replace_event_title</code>, <code>location_event</code>, <code>url_for_event</code>, <code>url_for_pdf</code>, and <code>description_text</code> need to be replaced by text that come from the original markdown-files that include Hugo code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> replace_title</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="er">|</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  description_text </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> Talk</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> <span class="st">"Gert Stulp"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="st">"2023-07-14"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>toc<span class="sc">:</span> true</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> ..<span class="sc">/</span>..<span class="sc">/</span>images<span class="sc">/</span>new_event.png</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>image<span class="sc">-</span>alt<span class="sc">:</span> New talk</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>language<span class="sc">:</span> </span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    section<span class="sc">-</span>title<span class="sc">-</span>footnotes<span class="sc">:</span> References</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="do">## Summary </span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;</span>br<span class="sc">&gt;</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; replace_event_title</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa map<span class="sc">-</span>marker <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; location_event</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa window<span class="sc">-</span>maximize <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Click [here](url_for_event) <span class="cf">for</span> website</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download materials [here](url_for_pdf)</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa video<span class="sc">-</span>camera <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; There is a [video<span class="sc">!</span>](url_for_video)</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="do">## Description</span></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>description_text</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>template <span class="ot">&lt;-</span> <span class="fu">readLines</span>(<span class="st">"template_talk.md"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>template <span class="ot">&lt;-</span> <span class="fu">readLines</span>(<span class="st">"template_talk.md"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="read-in-original-files" class="level3">
 <h3 class="anchored" data-anchor-id="read-in-original-files">Read-in original files</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List files in directory "talk/" with .md extension</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>file_list <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="st">"talk/"</span>, <span class="at">pattern =</span> <span class="fu">paste0</span>(<span class="st">".*"</span>, <span class="st">".md"</span>), <span class="at">full.names =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List files in directory "talk/" with .md extension</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>file_list <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="st">"talk/"</span>, <span class="at">pattern =</span> <span class="fu">paste0</span>(<span class="st">".*"</span>, <span class="st">".md"</span>), <span class="at">full.names =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="replace-text-and-store-new-files-in-new-folder" class="level3">
 <h3 class="anchored" data-anchor-id="replace-text-and-store-new-files-in-new-folder">Replace text and store new files in new folder</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>replace_text_md <span class="ot">&lt;-</span> <span class="cf">function</span>(file_path) {</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Read-in document</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  lines <span class="ot">&lt;-</span> <span class="fu">readLines</span>(file_path)</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Function to remove annoying slashes from relevant text</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  remove_slash <span class="ot">&lt;-</span> <span class="cf">function</span>(string, remove) {</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># remove pattern at front and then end</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(string, <span class="fu">paste0</span>(remove, <span class="st">" </span><span class="sc">\"</span><span class="st">"</span>)) <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"</span><span class="sc">\"</span><span class="st">"</span>)</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove_slash("date = \"2021-11-15T00:00:00\"", remove = "date =")</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"date ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"date ="</span>)</span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  abstract <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"abstract ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"abstract ="</span>)</span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>  event <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"event ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"event ="</span>)</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"event_url ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"event_url ="</span>)</span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  location <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"location ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"location ="</span>)</span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  url_pdf <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url_pdf ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url_pdf ="</span>)</span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  url_image <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"image ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"image ="</span>)</span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  url_video <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url_video ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url_video ="</span>)   </span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Title deserves special treatment; needs quotes</span></span>
-<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"title ="</span>)] <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"title = "</span>)</span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> template</span>
-<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove line in template when link to pdf, website from event, or video does not exist</span></span>
-<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url <span class="sc">==</span> <span class="st">""</span>) {</span>
-<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>   temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa window-maximize"</span>)] </span>
-<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
-<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_for_event"</span>, url)</span>
-<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url_pdf <span class="sc">==</span> <span class="st">""</span>) {</span>
-<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>   temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa download"</span>)] </span>
-<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
-<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_for_pdf"</span>, url_pdf)</span>
-<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url_video <span class="sc">==</span> <span class="st">""</span>) {</span>
-<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>   temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa video-camera"</span>)] </span>
-<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
-<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_for_video"</span>, url_video)</span>
-<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>  <span class="co"># if image is provided, use that one rather than the template-figure</span></span>
-<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url_image <span class="sc">!=</span> <span class="st">""</span>) {</span>
-<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="fu">c</span>(<span class="st">"new_event.png"</span> <span class="ot">=</span> url_image))</span>
-<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(</span>
-<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>    temp,</span>
-<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">"replace_title"</span> <span class="ot">=</span> title,</span>
-<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>      <span class="st">"description_text"</span> <span class="ot">=</span> abstract,</span>
-<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a>      <span class="st">"insert_date"</span> <span class="ot">=</span> date,</span>
-<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a>      <span class="st">"replace_event_title"</span> <span class="ot">=</span> event,</span>
-<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"location_event"</span> <span class="ot">=</span> location</span>
-<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Folder talks_converted should exist</span></span>
-<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a>  path_output <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"talks_converted/"</span>, <span class="fu">str_remove</span>(file_path, <span class="st">"talk//"</span>))</span>
-<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeLines</span>(temp, path_output, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
-<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a><span class="co"># For each file in the original folder</span></span>
-<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(file <span class="cf">in</span> file_list) {</span>
-<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">replace_text_md</span>(file)  </span>
-<span id="cb6-66"><a href="#cb6-66" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>replace_text_md <span class="ot">&lt;-</span> <span class="cf">function</span>(file_path) {</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Read-in document</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  lines <span class="ot">&lt;-</span> <span class="fu">readLines</span>(file_path)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Function to remove annoying slashes from relevant text</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  remove_slash <span class="ot">&lt;-</span> <span class="cf">function</span>(string, remove) {</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># remove pattern at front and then end</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(string, <span class="fu">paste0</span>(remove, <span class="st">" </span><span class="sc">\"</span><span class="st">"</span>)) <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"</span><span class="sc">\"</span><span class="st">"</span>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove_slash("date = \"2021-11-15T00:00:00\"", remove = "date =")</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"date ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"date ="</span>)</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>  abstract <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"abstract ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"abstract ="</span>)</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>  event <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"event ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"event ="</span>)</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>  url <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"event_url ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"event_url ="</span>)</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  location <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"location ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"location ="</span>)</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  url_pdf <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url_pdf ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url_pdf ="</span>)</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>  url_image <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"image ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"image ="</span>)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>  url_video <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url_video ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url_video ="</span>)   </span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Title deserves special treatment; needs quotes</span></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"title ="</span>)] <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"title = "</span>)</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> template</span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove line in template when link to pdf, website from event, or video does not exist</span></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url <span class="sc">==</span> <span class="st">""</span>) {</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>   temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa window-maximize"</span>)] </span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_for_event"</span>, url)</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url_pdf <span class="sc">==</span> <span class="st">""</span>) {</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>   temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa download"</span>)] </span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_for_pdf"</span>, url_pdf)</span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url_video <span class="sc">==</span> <span class="st">""</span>) {</span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>   temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa video-camera"</span>)] </span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_for_video"</span>, url_video)</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>  <span class="co"># if image is provided, use that one rather than the template-figure</span></span>
+<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(url_image <span class="sc">!=</span> <span class="st">""</span>) {</span>
+<span id="cb7-45"><a href="#cb7-45" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="fu">c</span>(<span class="st">"new_event.png"</span> <span class="ot">=</span> url_image))</span>
+<span id="cb7-46"><a href="#cb7-46" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(</span>
+<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a>    temp,</span>
+<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">"replace_title"</span> <span class="ot">=</span> title,</span>
+<span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a>      <span class="st">"description_text"</span> <span class="ot">=</span> abstract,</span>
+<span id="cb7-52"><a href="#cb7-52" aria-hidden="true" tabindex="-1"></a>      <span class="st">"insert_date"</span> <span class="ot">=</span> date,</span>
+<span id="cb7-53"><a href="#cb7-53" aria-hidden="true" tabindex="-1"></a>      <span class="st">"replace_event_title"</span> <span class="ot">=</span> event,</span>
+<span id="cb7-54"><a href="#cb7-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"location_event"</span> <span class="ot">=</span> location</span>
+<span id="cb7-55"><a href="#cb7-55" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb7-56"><a href="#cb7-56" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Folder talks_converted should exist</span></span>
+<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a>  path_output <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"talks_converted/"</span>, <span class="fu">str_remove</span>(file_path, <span class="st">"talk//"</span>))</span>
+<span id="cb7-60"><a href="#cb7-60" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeLines</span>(temp, path_output, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb7-61"><a href="#cb7-61" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb7-62"><a href="#cb7-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-63"><a href="#cb7-63" aria-hidden="true" tabindex="-1"></a><span class="co"># For each file in the original folder</span></span>
+<span id="cb7-64"><a href="#cb7-64" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(file <span class="cf">in</span> file_list) {</span>
+<span id="cb7-65"><a href="#cb7-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">replace_text_md</span>(file)  </span>
+<span id="cb7-66"><a href="#cb7-66" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
@@ -450,77 +464,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="converting-publications">Converting publications</h2>
 <p>For publications something similar holds. The original files look something like this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>abstract <span class="ot">=</span> <span class="st">"The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes."</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>authors <span class="ot">=</span> [<span class="st">"Gert Stulp"</span>, <span class="st">"Tyler Bonnel"</span>, <span class="st">"Louise Barrett"</span>]</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>date <span class="ot">=</span> <span class="st">"2023-03-23"</span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>image_preview <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>math <span class="ot">=</span> true</span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>publication_types <span class="ot">=</span> [<span class="st">"2"</span>]</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>publication <span class="ot">=</span> <span class="st">"The History of the Family "</span></span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>publication_short <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>selected <span class="ot">=</span> false</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>title <span class="ot">=</span> <span class="st">"Simulating the evolution of height in the Netherlands in recent history"</span></span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>url_code <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>url_dataset <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>url_pdf <span class="ot">=</span> <span class="st">"https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193"</span></span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>url_project <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>url_slides <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>url_video <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Optional featured image (relative to `static/img/` folder).</span></span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>[header]</span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>image <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>caption <span class="ot">=</span> <span class="st">""</span></span>
-<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>abstract <span class="ot">=</span> <span class="st">"The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes."</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>authors <span class="ot">=</span> [<span class="st">"Gert Stulp"</span>, <span class="st">"Tyler Bonnel"</span>, <span class="st">"Louise Barrett"</span>]</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>date <span class="ot">=</span> <span class="st">"2023-03-23"</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>image_preview <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>math <span class="ot">=</span> true</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>publication_types <span class="ot">=</span> [<span class="st">"2"</span>]</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>publication <span class="ot">=</span> <span class="st">"The History of the Family "</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>publication_short <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>selected <span class="ot">=</span> false</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>title <span class="ot">=</span> <span class="st">"Simulating the evolution of height in the Netherlands in recent history"</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>url_code <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>url_dataset <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>url_pdf <span class="ot">=</span> <span class="st">"https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193"</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>url_project <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>url_slides <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>url_video <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Optional featured image (relative to `static/img/` folder).</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>[header]</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>image <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>caption <span class="ot">=</span> <span class="st">""</span></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a><span class="sc">+++</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And need to be transformed to something like this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"Simulating the evolution of height in the Netherlands in recent history"</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="er">|</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations <span class="cf">in</span> the 19th Century, the Dutch grew some <span class="dv">20</span> cm and are currently the tallest population <span class="cf">in</span> the world. Wealth, hygiene, and diet are well<span class="sc">-</span>established contributors to this major increase <span class="cf">in</span> height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection <span class="cf">in</span> the increase <span class="cf">in</span> height through simulations. We first ask what <span class="cf">if</span> natural selection was solely responsible <span class="cf">for</span> the observed increase <span class="cf">in</span> height? If the increase <span class="cf">in</span> average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest <span class="fu">third</span> (<span class="dv">37</span>%) of the population <span class="cf">in</span> order to give rise to the stark increase <span class="cf">in</span> height over time. No linear relationship between height and child mortality is able to account <span class="cf">for</span> the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible <span class="fu">effect</span> (estimates from <span class="fl">0.07</span> to <span class="fl">0.36</span> cm) on the increase <span class="cf">in</span> height <span class="cf">in</span> the period <span class="dv">1850</span> to <span class="fl">2000.</span> Our simulations highlight the plasticity of height and how remarkable the trend <span class="cf">in</span> height is <span class="cf">in</span> evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase <span class="cf">in</span> height is due to natural selection versus other causes. </span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span></span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> Publication</span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> Gert Stulp, Tyler Bonnel, Louise Barrett</span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="dv">2023-03-23</span></span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>toc<span class="sc">:</span> true</span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> ..<span class="sc">/</span>..<span class="sc">/</span>images<span class="sc">/</span>new_pub.png</span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>image<span class="sc">-</span>alt<span class="sc">:</span> New publication</span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>language<span class="sc">:</span> </span>
-<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    section<span class="sc">-</span>title<span class="sc">-</span>footnotes<span class="sc">:</span> References</span>
-<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;</span>br<span class="sc">&gt;</span></span>
-<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Simulating the evolution of height <span class="cf">in</span> the Netherlands <span class="cf">in</span> recent history</span>
-<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa book <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; <span class="sc">*</span>The History of the Family<span class="sc">*</span></span>
-<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa users <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Gert Stulp, Tyler Bonnel, Louise Barrett</span>
-<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download manuscript [here](https<span class="sc">:</span><span class="er">//</span>www.tandfonline.com<span class="sc">/</span>doi<span class="sc">/</span>full<span class="sc">/</span><span class="fl">10.1080</span><span class="sc">/</span>1081602X.<span class="fl">2023.2192193</span>)</span>
-<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a><span class="do">## Abstract</span></span>
-<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations <span class="cf">in</span> the 19th Century, the Dutch grew some <span class="dv">20</span> cm and are currently the tallest population <span class="cf">in</span> the world. Wealth, hygiene, and diet are well<span class="sc">-</span>established contributors to this major increase <span class="cf">in</span> height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection <span class="cf">in</span> the increase <span class="cf">in</span> height through simulations. We first ask what <span class="cf">if</span> natural selection was solely responsible <span class="cf">for</span> the observed increase <span class="cf">in</span> height? If the increase <span class="cf">in</span> average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest <span class="fu">third</span> (<span class="dv">37</span>%) of the population <span class="cf">in</span> order to give rise to the stark increase <span class="cf">in</span> height over time. No linear relationship between height and child mortality is able to account <span class="cf">for</span> the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible <span class="fu">effect</span> (estimates from <span class="fl">0.07</span> to <span class="fl">0.36</span> cm) on the increase <span class="cf">in</span> height <span class="cf">in</span> the period <span class="dv">1850</span> to <span class="fl">2000.</span> Our simulations highlight the plasticity of height and how remarkable the trend <span class="cf">in</span> height is <span class="cf">in</span> evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase <span class="cf">in</span> height is due to natural selection versus other causes.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="read-in-template-1" class="level3">
-<h3 class="anchored" data-anchor-id="read-in-template-1">Read-in template</h3>
-<p>I made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string <code>replace_title</code>, <code>insert_date</code>, <code>journal_title</code>, <code>replace_title_sum</code>, <code>replace_authors</code>, <code>url_journal</code>, <code>url_for_pdf</code>, and <code>description_text</code> need to be replaced by text that come from the original markdown-files that include Hugo code.</p>
-<div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> replace_title</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> <span class="st">"Simulating the evolution of height in the Netherlands in recent history"</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="er">|</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  description_text </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations <span class="cf">in</span> the 19th Century, the Dutch grew some <span class="dv">20</span> cm and are currently the tallest population <span class="cf">in</span> the world. Wealth, hygiene, and diet are well<span class="sc">-</span>established contributors to this major increase <span class="cf">in</span> height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection <span class="cf">in</span> the increase <span class="cf">in</span> height through simulations. We first ask what <span class="cf">if</span> natural selection was solely responsible <span class="cf">for</span> the observed increase <span class="cf">in</span> height? If the increase <span class="cf">in</span> average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest <span class="fu">third</span> (<span class="dv">37</span>%) of the population <span class="cf">in</span> order to give rise to the stark increase <span class="cf">in</span> height over time. No linear relationship between height and child mortality is able to account <span class="cf">for</span> the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible <span class="fu">effect</span> (estimates from <span class="fl">0.07</span> to <span class="fl">0.36</span> cm) on the increase <span class="cf">in</span> height <span class="cf">in</span> the period <span class="dv">1850</span> to <span class="fl">2000.</span> Our simulations highlight the plasticity of height and how remarkable the trend <span class="cf">in</span> height is <span class="cf">in</span> evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase <span class="cf">in</span> height is due to natural selection versus other causes. </span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span></span>
 <span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> Publication</span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> replace_authors</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> insert_date</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> Gert Stulp, Tyler Bonnel, Louise Barrett</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> <span class="dv">2023-03-23</span></span>
 <span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>toc<span class="sc">:</span> true</span>
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> ..<span class="sc">/</span>..<span class="sc">/</span>images<span class="sc">/</span>new_pub.png</span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>image<span class="sc">-</span>alt<span class="sc">:</span> New publication</span>
@@ -530,113 +510,147 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;</span>br<span class="sc">&gt;</span></span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; replace_title_sum</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Simulating the evolution of height <span class="cf">in</span> the Netherlands <span class="cf">in</span> recent history</span>
 <span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa book <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; <span class="sc">*</span>journal_title<span class="sc">*</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa book <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; <span class="sc">*</span>The History of the Family<span class="sc">*</span></span>
 <span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa users <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; replace_authors</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa users <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Gert Stulp, Tyler Bonnel, Louise Barrett</span>
 <span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa window<span class="sc">-</span>maximize <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Click [here](url_journal) <span class="cf">for</span> website</span>
-<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download manuscript [here](url_for_pdf)</span>
-<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a><span class="do">## Abstract</span></span>
-<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>description_text</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download manuscript [here](https<span class="sc">:</span><span class="er">//</span>www.tandfonline.com<span class="sc">/</span>doi<span class="sc">/</span>full<span class="sc">/</span><span class="fl">10.1080</span><span class="sc">/</span>1081602X.<span class="fl">2023.2192193</span>)</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="do">## Abstract</span></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations <span class="cf">in</span> the 19th Century, the Dutch grew some <span class="dv">20</span> cm and are currently the tallest population <span class="cf">in</span> the world. Wealth, hygiene, and diet are well<span class="sc">-</span>established contributors to this major increase <span class="cf">in</span> height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection <span class="cf">in</span> the increase <span class="cf">in</span> height through simulations. We first ask what <span class="cf">if</span> natural selection was solely responsible <span class="cf">for</span> the observed increase <span class="cf">in</span> height? If the increase <span class="cf">in</span> average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest <span class="fu">third</span> (<span class="dv">37</span>%) of the population <span class="cf">in</span> order to give rise to the stark increase <span class="cf">in</span> height over time. No linear relationship between height and child mortality is able to account <span class="cf">for</span> the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible <span class="fu">effect</span> (estimates from <span class="fl">0.07</span> to <span class="fl">0.36</span> cm) on the increase <span class="cf">in</span> height <span class="cf">in</span> the period <span class="dv">1850</span> to <span class="fl">2000.</span> Our simulations highlight the plasticity of height and how remarkable the trend <span class="cf">in</span> height is <span class="cf">in</span> evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase <span class="cf">in</span> height is due to natural selection versus other causes.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="read-in-template-1" class="level3">
+<h3 class="anchored" data-anchor-id="read-in-template-1">Read-in template</h3>
+<p>I made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string <code>replace_title</code>, <code>insert_date</code>, <code>journal_title</code>, <code>replace_title_sum</code>, <code>replace_authors</code>, <code>url_journal</code>, <code>url_for_pdf</code>, and <code>description_text</code> need to be replaced by text that come from the original markdown-files that include Hugo code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>title<span class="sc">:</span> replace_title</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>description<span class="sc">:</span> <span class="er">|</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  description_text </span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>categories<span class="sc">:</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="sc">-</span> Publication</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>author<span class="sc">:</span> replace_authors</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>date<span class="sc">:</span> insert_date</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>toc<span class="sc">:</span> true</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>image<span class="sc">:</span> ..<span class="sc">/</span>..<span class="sc">/</span>images<span class="sc">/</span>new_pub.png</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>image<span class="sc">-</span>alt<span class="sc">:</span> New publication</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>language<span class="sc">:</span> </span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    section<span class="sc">-</span>title<span class="sc">-</span>footnotes<span class="sc">:</span> References</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a><span class="sc">---</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="er">&lt;</span>br<span class="sc">&gt;</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa podcast <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; replace_title_sum</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa book <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; <span class="sc">*</span>journal_title<span class="sc">*</span></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa users <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; replace_authors</span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa window<span class="sc">-</span>maximize <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Click [here](url_journal) <span class="cf">for</span> website</span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a>{{<span class="sc">&lt;</span> fa download <span class="sc">&gt;</span>}} <span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp;<span class="sc">&amp;</span>nbsp; Download manuscript [here](url_for_pdf)</span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a><span class="do">## Abstract</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>description_text</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>template <span class="ot">&lt;-</span> <span class="fu">readLines</span>(<span class="st">"template_pub.md"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>template <span class="ot">&lt;-</span> <span class="fu">readLines</span>(<span class="st">"template_pub.md"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="read-in-original-files-1" class="level3">
 <h3 class="anchored" data-anchor-id="read-in-original-files-1">Read-in original files</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List files in directory "publication/" with .md extension</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>file_list <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="st">"publication/"</span>, <span class="at">pattern =</span> <span class="fu">paste0</span>(<span class="st">".*"</span>, <span class="st">".md"</span>), <span class="at">full.names =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List files in directory "publication/" with .md extension</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>file_list <span class="ot">&lt;-</span> <span class="fu">list.files</span>(<span class="st">"publication/"</span>, <span class="at">pattern =</span> <span class="fu">paste0</span>(<span class="st">".*"</span>, <span class="st">".md"</span>), <span class="at">full.names =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="replace-text-and-store-new-files-in-new-folder-1" class="level3">
 <h3 class="anchored" data-anchor-id="replace-text-and-store-new-files-in-new-folder-1">Replace text and store new files in new folder</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>lines <span class="ot">&lt;-</span> <span class="fu">readLines</span>(file_list[<span class="dv">1</span>])</span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>replace_text_md <span class="ot">&lt;-</span> <span class="cf">function</span>(file_path) {</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Read-in document</span></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  lines <span class="ot">&lt;-</span> <span class="fu">readLines</span>(file_path)</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Function to remove annoying slashes from relevant text</span></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>  remove_slash <span class="ot">&lt;-</span> <span class="cf">function</span>(string, remove) {</span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># remove pattern at front and then end</span></span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(string, <span class="fu">paste0</span>(remove, <span class="st">" </span><span class="sc">\"</span><span class="st">"</span>)) <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"</span><span class="sc">\"</span><span class="st">"</span>)</span>
-<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove_slash("date = \"2021-11-15T00:00:00\"", remove = "date =")</span></span>
-<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Get multiple authors that are in square brackets </span></span>
-<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># e.g. ["Gert Stulp", "Louise Barrett"]</span></span>
-<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>  detect_authors <span class="ot">&lt;-</span> <span class="cf">function</span>(string) {</span>
-<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(string, <span class="st">"authors = </span><span class="sc">\\</span><span class="st">["</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"]"</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"</span><span class="sc">\"</span><span class="st">"</span>)</span>
-<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>  <span class="co">#detect_authors('authors = ["Gert Stulp", "Tyler Bonnel", "Louise Barrett"]')</span></span>
-<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"date ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"date ="</span>)</span>
-<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>  abstract <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"abstract ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"abstract ="</span>)</span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>  authors <span class="ot">&lt;-</span> <span class="fu">detect_authors</span>( lines[<span class="fu">str_detect</span>(lines, <span class="st">"authors ="</span>)] )</span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>  url_journal <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url ="</span>)</span>
-<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Requires special treatment because journal titles were either available as</span></span>
-<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>  <span class="co"># "In *journal title*" or just as "journal title"</span></span>
-<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>  journal <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"publication ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"publication ="</span>)</span>
-<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>  journal <span class="ot">&lt;-</span> <span class="cf">if</span>(<span class="fu">str_detect</span>(journal, <span class="st">"In "</span>)) {</span>
-<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(journal, <span class="st">"In "</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">*"</span>) </span>
-<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
-<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>    journal </span>
-<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>  } </span>
-<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Requires special treatment because there were two ways of links to pdfs</span></span>
-<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a>  <span class="co"># either as direct link pdf, or a link to open access journal</span></span>
-<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>  url_pdf <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url_pdf ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url_pdf ="</span>)</span>
-<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>  url_pdf <span class="ot">&lt;-</span> <span class="cf">if</span>(<span class="fu">str_detect</span>(url_pdf, <span class="st">"http"</span>)) {</span>
-<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a>    url_pdf <span class="co"># url to website with open data</span></span>
-<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
-<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"../../"</span>, url_pdf) <span class="co"># to get correct path to file</span></span>
-<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a>  } </span>
-<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>                   </span>
-<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"title ="</span>)] <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"title = "</span>)</span>
-<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Title in body requires different treatment</span></span>
-<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a>  title_sum <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"title ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"title ="</span>)</span>
-<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> template</span>
-<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a>  <span class="co"># if a url = is found, this means a link to the website was provided. </span></span>
-<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(<span class="fu">identical</span>(url_journal, <span class="fu">character</span>(<span class="dv">0</span>)) <span class="sc">||</span> url_journal <span class="sc">==</span> <span class="st">""</span>) {</span>
-<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a>    <span class="co">#remove line in template, when 'url = ' is not found</span></span>
-<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa window-maximize"</span>)]</span>
-<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
-<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_journal"</span>, url_journal)</span>
-<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(</span>
-<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a>    temp,</span>
-<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">"replace_title_sum"</span> <span class="ot">=</span> title_sum,</span>
-<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"replace_title"</span> <span class="ot">=</span> title,</span>
-<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"replace_authors"</span> <span class="ot">=</span> authors,</span>
-<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"description_text"</span> <span class="ot">=</span> abstract,</span>
-<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"insert_date"</span> <span class="ot">=</span> date,</span>
-<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"journal_title"</span> <span class="ot">=</span> journal,</span>
-<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"url_for_pdf"</span> <span class="ot">=</span> url_pdf</span>
-<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb12-70"><a href="#cb12-70" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a>  <span class="co"># The folder pubs_converted needs to exist. </span></span>
-<span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a>  path_output <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"pubs_converted/"</span>, <span class="fu">str_remove</span>(file_path, <span class="st">"publication//"</span>))</span>
-<span id="cb12-74"><a href="#cb12-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeLines</span>(temp, path_output, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
-<span id="cb12-75"><a href="#cb12-75" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb12-76"><a href="#cb12-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-77"><a href="#cb12-77" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(file <span class="cf">in</span> file_list) {</span>
-<span id="cb12-78"><a href="#cb12-78" aria-hidden="true" tabindex="-1"></a>  <span class="fu">replace_text_md</span>(file)  </span>
-<span id="cb12-79"><a href="#cb12-79" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>lines <span class="ot">&lt;-</span> <span class="fu">readLines</span>(file_list[<span class="dv">1</span>])</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>replace_text_md <span class="ot">&lt;-</span> <span class="cf">function</span>(file_path) {</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Read-in document</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  lines <span class="ot">&lt;-</span> <span class="fu">readLines</span>(file_path)</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Function to remove annoying slashes from relevant text</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>  remove_slash <span class="ot">&lt;-</span> <span class="cf">function</span>(string, remove) {</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># remove pattern at front and then end</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(string, <span class="fu">paste0</span>(remove, <span class="st">" </span><span class="sc">\"</span><span class="st">"</span>)) <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"</span><span class="sc">\"</span><span class="st">"</span>)</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># remove_slash("date = \"2021-11-15T00:00:00\"", remove = "date =")</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Get multiple authors that are in square brackets </span></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>  <span class="co"># e.g. ["Gert Stulp", "Louise Barrett"]</span></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>  detect_authors <span class="ot">&lt;-</span> <span class="cf">function</span>(string) {</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(string, <span class="st">"authors = </span><span class="sc">\\</span><span class="st">["</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"]"</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"</span><span class="sc">\"</span><span class="st">"</span>)</span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>  <span class="co">#detect_authors('authors = ["Gert Stulp", "Tyler Bonnel", "Louise Barrett"]')</span></span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>  date <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"date ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"date ="</span>)</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>  abstract <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"abstract ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"abstract ="</span>)</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>  authors <span class="ot">&lt;-</span> <span class="fu">detect_authors</span>( lines[<span class="fu">str_detect</span>(lines, <span class="st">"authors ="</span>)] )</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>  url_journal <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url ="</span>)</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Requires special treatment because journal titles were either available as</span></span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>  <span class="co"># "In *journal title*" or just as "journal title"</span></span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>  journal <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"publication ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"publication ="</span>)</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>  journal <span class="ot">&lt;-</span> <span class="cf">if</span>(<span class="fu">str_detect</span>(journal, <span class="st">"In "</span>)) {</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">str_remove</span>(journal, <span class="st">"In "</span>) <span class="sc">|&gt;</span> <span class="fu">str_remove_all</span>(<span class="st">"</span><span class="sc">\\</span><span class="st">*"</span>) </span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>    journal </span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>  } </span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Requires special treatment because there were two ways of links to pdfs</span></span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>  <span class="co"># either as direct link pdf, or a link to open access journal</span></span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>  url_pdf <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"url_pdf ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"url_pdf ="</span>)</span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>  url_pdf <span class="ot">&lt;-</span> <span class="cf">if</span>(<span class="fu">str_detect</span>(url_pdf, <span class="st">"http"</span>)) {</span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>    url_pdf <span class="co"># url to website with open data</span></span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">paste0</span>(<span class="st">"../../"</span>, url_pdf) <span class="co"># to get correct path to file</span></span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a>  } </span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a>                   </span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>  title <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"title ="</span>)] <span class="sc">|&gt;</span> <span class="fu">str_remove</span>(<span class="st">"title = "</span>)</span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Title in body requires different treatment</span></span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a>  title_sum <span class="ot">&lt;-</span> lines[<span class="fu">str_detect</span>(lines, <span class="st">"title ="</span>)] <span class="sc">|&gt;</span> <span class="fu">remove_slash</span>(<span class="st">"title ="</span>)</span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> template</span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>  <span class="co"># if a url = is found, this means a link to the website was provided. </span></span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(<span class="fu">identical</span>(url_journal, <span class="fu">character</span>(<span class="dv">0</span>)) <span class="sc">||</span> url_journal <span class="sc">==</span> <span class="st">""</span>) {</span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>    <span class="co">#remove line in template, when 'url = ' is not found</span></span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> temp[<span class="sc">!</span><span class="fu">str_detect</span>(temp, <span class="st">"fa window-maximize"</span>)]</span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a>    temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(temp, <span class="st">"url_journal"</span>, url_journal)</span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a>  temp <span class="ot">&lt;-</span> <span class="fu">str_replace_all</span>(</span>
+<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a>    temp,</span>
+<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">"replace_title_sum"</span> <span class="ot">=</span> title_sum,</span>
+<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"replace_title"</span> <span class="ot">=</span> title,</span>
+<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"replace_authors"</span> <span class="ot">=</span> authors,</span>
+<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"description_text"</span> <span class="ot">=</span> abstract,</span>
+<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"insert_date"</span> <span class="ot">=</span> date,</span>
+<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"journal_title"</span> <span class="ot">=</span> journal,</span>
+<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"url_for_pdf"</span> <span class="ot">=</span> url_pdf</span>
+<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-72"><a href="#cb13-72" aria-hidden="true" tabindex="-1"></a>  <span class="co"># The folder pubs_converted needs to exist. </span></span>
+<span id="cb13-73"><a href="#cb13-73" aria-hidden="true" tabindex="-1"></a>  path_output <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"pubs_converted/"</span>, <span class="fu">str_remove</span>(file_path, <span class="st">"publication//"</span>))</span>
+<span id="cb13-74"><a href="#cb13-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">writeLines</span>(temp, path_output, <span class="at">sep =</span> <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span>
+<span id="cb13-75"><a href="#cb13-75" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb13-76"><a href="#cb13-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-77"><a href="#cb13-77" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(file <span class="cf">in</span> file_list) {</span>
+<span id="cb13-78"><a href="#cb13-78" aria-hidden="true" tabindex="-1"></a>  <span class="fu">replace_text_md</span>(file)  </span>
+<span id="cb13-79"><a href="#cb13-79" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>See you in five years!</p>
 

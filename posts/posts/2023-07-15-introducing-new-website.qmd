@@ -23,9 +23,30 @@ I browsed the interweb to see if there were nice, Quarto-based websites, and stu
 
 Useful for the website, was the installation of [Font Awesome](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/) through these Quarto-plugins ([FA](https://github.com/quarto-ext/fontawesome) and [Academicons](https://github.com/schochastics/academicons))
 
-The biggest 'problem' was that I had lists of publications, blogs, and talks that included Hugo-code. For many of these files, I had to change the YAML at the start of each file. The below describes how I automatised this process. 
+## page-layout: aaaaaahhhhhrticle
+
+Something that I have struggled with most is the following: I though I was able to change the dimensions of the page. For example, in the `_quarto.yml` page, I can adapt the [following](https://quarto.org/docs/output-formats/page-layout.html):
+
+```
+format:
+  html: 
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+```
+
+It took me a long time to realise (of which I am still not sure) that this only partly holds for `page-layout: custom` and **not** for `page-layout: article` or `page-layout: full`. For example, a `sidebar-width: 0px` (remove the sidebar on the left completely) would only work for the landing/home page (which is `custom`), but not for other pages. I believe that this has to do with the issue that the default set-up in quarto is responsive to device (e.g., phone, table, computer), such that content is scaled appropriately to smaller / larger screen. 
+
+I 'resolved' this issue, by accepting the default width of the `content` of the (article) page (around `900px`), and adapted my landing page accordingly. 
+
+Why did I wanted this? On my website, I have three columns that include content plus visualisations in little rectangles These rectangles automatically adjust size given other content on the screen, window size, device, et cetera. This led to 'problems'. On most pages, there is a table of contents in the `margin`-area, which 'pushes' the three columns to the left on the screen. Now on my landing page, I do not have this margin area at all. The issue was that because of this, the rectangles had a different size on the landing page versus all other pages, and some images were cropped weirdly because of it. I wanted, no I needed, consistency across pages and avoid weird cropping. Eight hours well spent!  
+
+
 
 ## Converting talks
+
+The biggest 'problem' was that I had lists of publications, blogs, and talks that included Hugo-code. For many of these files, I had to change the YAML at the start of each file. The below describes how I automatised this process. 
 
 The original files look something like this:
 
