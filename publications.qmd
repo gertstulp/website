@@ -51,7 +51,7 @@ Stulp, G. (2021). Collecting large personal networks in a representative sample 
 Verweij, RM, Stulp, G, Snieder, H & Mills, MC. (2021). Explaining the Associations of Education and Occupation with Childlessness: The Role of Desires and Expectations to Remain Childless? *Population Review*, 60, 2, 166-194. muse.jhu.edu/article/839240. <a href="https://muse.jhu.edu/article/839240" target="_blank">**Download**</a> 
 
 ***
-Buunk, AP, Stulp, G, Schaufeli, WB. (2021). Effect of self-reported height on occupational rank among police officers: Especially for women it pays to be tall.  *Evolutionary Psychological Science*, 7, 411-418. https://doi.org/10.1007/s40806-021-00281-1.<a href="https://doi.org/10.1007/s40806-021-00281-1" target="_blank">**Download**</a>  
+Buunk, AP, Stulp, G, Schaufeli, WB. (2021). Effect of self-reported height on occupational rank among police officers: Especially for women it pays to be tall.  *Evolutionary Psychological Science*, 7, 411-418. https://doi.org/10.1007/s40806-021-00281-1. <a href="https://doi.org/10.1007/s40806-021-00281-1" target="_blank">**Download**</a>  
 
 
 ### 2020
@@ -66,10 +66,10 @@ Verweij, R., Mills, M., Snieder, H., & Stulp, G. (2020). Three facets of plannin
 Verweij, R. M., Mills, M. C., Stulp, G., Nolte, I. M., Barban, N., Tropf, F. C., Carrell, D. T., Aston, K. I., Zondervan, K. T., Rahmioglu, N., Dalgaard, M., Skaarup, C., Hayes, M. G., Dunaif, A., Guo, G., & Snieder, H. (2019). Using Polygenic Scores in Social Science Research: Unraveling Childlessness. *Frontiers in Sociology* 4. <a href="https://doi.org/10.3389/fsoc.2019.00074" target="_blank">**Download**</a>  
 
 ***
-Stulp, G. & Sear, R. (*in press*). How might life history theory contribute to life course theory? *Advances in Life Course Research* <a href="/pdf/2019_stulp_sear.pdf" target="_blank">**Download**</a>
+Stulp, G. & Sear, R. (2019). How might life history theory contribute to life course theory? *Advances in Life Course Research* 41: 100281. <a href="/pdf/2019_stulp_sear.pdf" target="_blank">**Download**</a>
 
 ***
-Hruschka, DJ, Hackman, JV & Stulp, G. (2019). Identifying the limits to socioeconomic influences on human growth. *Economics & Human Biology* 34: 239-251 <a href="/pdf/2018_Hruschka_EHB_Limits.pdf" target="_blank">**Download**</a>
+Hruschka, DJ, Hackman, JV & Stulp, G. (2019). Identifying the limits to socioeconomic influences on human growth. *Economics & Human Biology* 34: 239-251. <a href="/pdf/2018_Hruschka_EHB_Limits.pdf" target="_blank">**Download**</a>
 
 ***
 Barrett, L & Stulp, G. (2019). *Evolution and human behaviour: helping to make sense of modern life*. Book chapter (pp 203-222) in: *Genes and Behaviour: Beyond Nature-Nurture* (eds D. Hosken, J. Hunt, N. Wedell). Wiley Press. <a href="/pdf/2019_Barrett & Stulp_Modern life.pdf" target="_blank">**Download**</a>
@@ -122,13 +122,13 @@ Stulp, G., Barrett, L., Tropf, F.C. & Mills, M. (2015). Does natural selection f
 Stulp, G., Pollet, T.V. & Barrett, L. (2015). The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. *Frontiers in Psychology* 6(419):1-4. <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00419/full" target="_blank">**Download**</a> 
 
 ***
-Conway, JR, NoÃ«, N, Stulp, G, & Pollet, TV. Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. *Personal Relationships* 22(4): 666-678. <a href="/pdf/2015_Conway_et_al_PR_Preferences.pdf" target="_blank">**Download**</a> 
+Conway, JR, Noë, N, Stulp, G, & Pollet, TV. Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. *Personal Relationships* 22(4): 666-678. <a href="/pdf/2015_Conway_et_al_PR_Preferences.pdf" target="_blank">**Download**</a> 
 
 ***
 Stulp, G, Buunk, AP, Verhulst, S & Pollet, TV. (2015). Human height is positively related to interpersonal dominance in dyadic interactions. *PLoS ONE* 10(2): e0117860, <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117860" target="_blank">**Download**</a> 
 
 ***
-Sorokowski, P., Sorokowska, A., Butovskaya, M., Stulp, G., Huanca, T. & Fink, B. (2015). Body height preferences and actual dimorphism in stature between partners in two non-Western societies (Hadza and Tsimaneâ). *Evolutionary Psychology* 13(2): 455-469. <a href="http://journals.sagepub.com/doi/abs/10.1177/147470491501300209" target="_blank">**Download**</a> 
+Sorokowski, P., Sorokowska, A., Butovskaya, M., Stulp, G., Huanca, T. & Fink, B. (2015). Body height preferences and actual dimorphism in stature between partners in two non-Western societies (Hadza and Tsimane'). *Evolutionary Psychology* 13(2): 455-469. <a href="http://journals.sagepub.com/doi/abs/10.1177/147470491501300209" target="_blank">**Download**</a> 
 
 ***
 Stulp, G. & Barrett, L. (2015). Fertility Theory: Theory of Life History Evolution. In: James D. Wright (editor-in-chief), *International Encyclopedia of the Social & Behavioral Sciences*, 2nd edition, Vol 9. Oxford: Elsevier. pp. 40-45. <a href="/pdf/2015_Stulp&Barrett_Encyclopedia_LHT.pdf" target="_blank">**Download**</a> 
@@ -148,8 +148,9 @@ Stulp, G.<sup>\*</sup> , Mills, M., Pollet, T.V. & Barrett, L.<sup>\*</sup> (201
 ***
 Simons, M.J.P., Stulp, G. & Nakagawa, S. (2014). A statistical approach to distinguish telomere elongation from error in longitudinal datasets. *Biogerontology* 15(1): 99-103. <a href="/pdf/2014_Simon_et_al_Biogeront_Telemore.pdf" target="_blank">**Download**</a>  
 
+
 ***
-Varella Valentova, J.V., Stulp, G., TÅebickÃœ, V. & HavlÃ­Äek, J. (2014). Preferred and actual relative height among homosexual male partners vary with preferred dominance and sex role. *PLoS ONE* 9(1): e86534. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0086534" target="_blank">**Download**</a> 
+Varella Valentova, J.V., Stulp, G., Třebický, V. & Havlíček, J. (2014). Preferred and actual relative height among homosexual male partners vary with preferred dominance and sex role. *PLoS ONE* 9(1): e86534. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0086534" target="_blank">**Download**</a> 
 
 ***
 Stulp, G. & Barrett, L. (2014). Binomial tests and randomization approaches: the case of US presidential candidate height and election outcomes. In *SAGE Research Methods Cases*. SAGE Publications Ltd. <a href="/pdf/Stulp & Barrett 2014_Method in Action Case Studies.pdf" target="_blank">**Download**</a> 
