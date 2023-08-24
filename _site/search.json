@@ -333,7 +333,7 @@
     "href": "research/publications/2021_Buijs_Stulp_Barrett_Social_Networks.html#abstract",
     "title": "Friends, family, and family friends: Predicting friendships of Dutch women",
     "section": "Abstract",
-    "text": "Abstract\nFriends are an important source of well-being but people differ in who they consider to be friends. With a unique quantitative test of such differences based on 17,650 social relations of 706 Dutch women (aged 18–41), of whom 40% were considered friends, we examined (a) which kind of personal relations were typically identified as friends (e.g., family, colleague), (b) how this linked to relationship closeness, face-to-face and non-face-to-face contact, and (c) whether these relationship characteristics of friendships differed with age. Most friends were met at school (>70%) and 20% of family were considered friends. Friendships were often close relationships with more non-face-to-face contact, while meeting in person was less predictive. Relatively older women reported fewer friends. Even in this homogenous sample with multiple measures of tie strength, friendships were difficult to predict and often overlapped with other social roles, meaning that researchers should be careful in using friendship as distinct category."
+    "text": "Abstract\nFriends are an important source of well-being but people differ in who they consider to be friends. With a unique quantitative test of such differences based on 17,650 social relations of 706 Dutch women (aged 18–41), of whom 40% were considered friends, we examined (a) which kind of personal relations were typically identified as friends (e.g., family, colleague), (b) how this linked to relationship closeness, face-to-face and non-face-to-face contact, and (c) whether these relationship characteristics of friendships differed with age. Most friends were met at school (&gt;70%) and 20% of family were considered friends. Friendships were often close relationships with more non-face-to-face contact, while meeting in person was less predictive. Relatively older women reported fewer friends. Even in this homogenous sample with multiple measures of tie strength, friendships were difficult to predict and often overlapped with other social roles, meaning that researchers should be careful in using friendship as distinct category."
   },
   {
     "objectID": "research/publications/2023_Langener_JMIR.html",
@@ -347,7 +347,7 @@
     "href": "research/publications/2023_Langener_JMIR.html#abstract",
     "title": "Capturing the Dynamics of the Social Environment Through Experience Sampling Methods, Passive Sensing, and Egocentric Networks: Scoping Review",
     "section": "Abstract",
-    "text": "Abstract\nBackground: Social interactions are important for well-being, and therefore, researchers are increasingly attempting to capture people’s social environment. Many different disciplines have developed tools to measure the social environment, which can be highly variable over time. The experience sampling method (ESM) is often used in psychology to study the dynamics within a person and the social environment. In addition, passive sensing is often used to capture social behavior via sensors from smartphones or other wearable devices. Furthermore, sociologists use egocentric networks to track how social relationships are changing. Each of these methods is likely to tap into different but important parts of people’s social environment. Thus far, the development and implementation of these methods have occurred mostly separately from each other. Objective: Our aim was to synthesize the literature on how these methods are currently used to capture the changing social environment in relation to well-being and assess how to best combine these methods to study well-being. Methods: We conducted a scoping review according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. Results: We included 275 studies. In total, 3 important points follow from our review. First, each method captures a different but important part of the social environment at a different temporal resolution. Second, measures are rarely validated (>70% of ESM studies and 50% of passive sensing studies were not validated), which undermines the robustness of the conclusions drawn. Third, a combination of methods is currently lacking (only 15/275, 5.5% of the studies combined ESM and passive sensing, and no studies combined all 3 methods) but is essential in understanding well-being. Conclusions: We highlight that the practice of using poorly validated measures hampers progress in understanding the relationship between the changing social environment and well-being. We conclude that different methods should be combined more often to reduce the participants’ burden and form a holistic perspective on the social environment."
+    "text": "Abstract\nBackground: Social interactions are important for well-being, and therefore, researchers are increasingly attempting to capture people’s social environment. Many different disciplines have developed tools to measure the social environment, which can be highly variable over time. The experience sampling method (ESM) is often used in psychology to study the dynamics within a person and the social environment. In addition, passive sensing is often used to capture social behavior via sensors from smartphones or other wearable devices. Furthermore, sociologists use egocentric networks to track how social relationships are changing. Each of these methods is likely to tap into different but important parts of people’s social environment. Thus far, the development and implementation of these methods have occurred mostly separately from each other. Objective: Our aim was to synthesize the literature on how these methods are currently used to capture the changing social environment in relation to well-being and assess how to best combine these methods to study well-being. Methods: We conducted a scoping review according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. Results: We included 275 studies. In total, 3 important points follow from our review. First, each method captures a different but important part of the social environment at a different temporal resolution. Second, measures are rarely validated (&gt;70% of ESM studies and 50% of passive sensing studies were not validated), which undermines the robustness of the conclusions drawn. Third, a combination of methods is currently lacking (only 15/275, 5.5% of the studies combined ESM and passive sensing, and no studies combined all 3 methods) but is essential in understanding well-being. Conclusions: We highlight that the practice of using poorly validated measures hampers progress in understanding the relationship between the changing social environment and well-being. We conclude that different methods should be combined more often to reduce the participants’ burden and form a holistic perspective on the social environment."
   },
   {
     "objectID": "research/publications/2011_Stulp_et_al_PLOS_ECS.html",
@@ -515,7 +515,7 @@
     "href": "research/publications/2014_Simons_et_al_BioGer_Telomere.html#abstract",
     "title": "A statistical approach to distinguish telomere elongation from error in longitudinal datasets",
     "section": "Abstract",
-    "text": "Abstract\nTelomere length and the rate of telomere attrition vary between individuals and have been interpreted as the rate at which individuals have aged. The biology of telomeres dictates shortening with age, although telomere elongation with age has repeatedly been observed within a minority of individuals in several populations. These findings have been attributed to error, rather than actual telomere elongation, restricting our understanding of its possible biological significance. Here we present a method to distinguish between error and telomere elongation in longitudinal datasets, which is easy to apply and has few assumptions. Using simulations, we show that the method has considerable statistical power (>80 %) to detect even a small proportion (6.7 %) of TL increases in the population, within a relatively small sample (N = 200), while maintaining the standard level of Type I error rate (α ≤ 0.05)."
+    "text": "Abstract\nTelomere length and the rate of telomere attrition vary between individuals and have been interpreted as the rate at which individuals have aged. The biology of telomeres dictates shortening with age, although telomere elongation with age has repeatedly been observed within a minority of individuals in several populations. These findings have been attributed to error, rather than actual telomere elongation, restricting our understanding of its possible biological significance. Here we present a method to distinguish between error and telomere elongation in longitudinal datasets, which is easy to apply and has few assumptions. Using simulations, we show that the method has considerable statistical power (&gt;80 %) to detect even a small proportion (6.7 %) of TL increases in the population, within a relatively small sample (N = 200), while maintaining the standard level of Type I error rate (α ≤ 0.05)."
   },
   {
     "objectID": "research/publications/2022_Xu_proceedings.html",
@@ -641,7 +641,7 @@
     "href": "research/publications/2012_Stulp_et_al_BES_Curvilinear.html#abstract",
     "title": "A curvilinear effect of height on reproductive success in human males",
     "section": "Abstract",
-    "text": "Abstract\nHuman male height is associated with mate choice and intra-sexual competition, and therefore potentially with reproductive success. A literature review (n = 18) on the relationship between male height and reproductive success revealed a variety of relationships ranging from negative to curvilinear to positive. Some of the variation in results may stem from methodological issues, such as low power, including men in the sample who have not yet ended their reproductive career, or not controlling for important potential confounders (e.g. education and income). We investigated the associations between height, education, income and the number of surviving children in a large longitudinal sample of men (n = 3,578; Wisconsin Longitudinal Study), who likely had ended their reproductive careers (e.g. > 64 years). There was a curvilinear association between height and number of children, with men of average height attaining the highest reproductive success. This curvilinear relationship remained after controlling for education and income, which were associated with both reproductive success and height. Average height men also married at a younger age than shorter and taller men, and the effect of height diminished after controlling for this association. Thus, average height men partly achieved higher reproductive success by marrying at a younger age. On the basis of our literature review and our data, we conclude that men of average height most likely have higher reproductive success than either short or tall men."
+    "text": "Abstract\nHuman male height is associated with mate choice and intra-sexual competition, and therefore potentially with reproductive success. A literature review (n = 18) on the relationship between male height and reproductive success revealed a variety of relationships ranging from negative to curvilinear to positive. Some of the variation in results may stem from methodological issues, such as low power, including men in the sample who have not yet ended their reproductive career, or not controlling for important potential confounders (e.g. education and income). We investigated the associations between height, education, income and the number of surviving children in a large longitudinal sample of men (n = 3,578; Wisconsin Longitudinal Study), who likely had ended their reproductive careers (e.g. &gt; 64 years). There was a curvilinear association between height and number of children, with men of average height attaining the highest reproductive success. This curvilinear relationship remained after controlling for education and income, which were associated with both reproductive success and height. Average height men also married at a younger age than shorter and taller men, and the effect of height diminished after controlling for this association. Thus, average height men partly achieved higher reproductive success by marrying at a younger age. On the basis of our literature review and our data, we conclude that men of average height most likely have higher reproductive success than either short or tall men."
   },
   {
     "objectID": "research/publications/2013_Pollet_et_al_LEBS_Forbes.html",
@@ -669,7 +669,7 @@
     "href": "research/publications/2012_Stulp_et_al_EP_Referees.html#abstract",
     "title": "High and Mighty: Height Increases Authority in Professional Refereeing",
     "section": "Abstract",
-    "text": "Abstract\nHuman male height is associated with mate choice and intra-sexual competition, and therefore potentially with reproductive success. A literature review (n = 18) on the relationship between male height and reproductive success revealed a variety of relationships ranging from negative to curvilinear to positive. Some of the variation in results may stem from methodological issues, such as low power, including men in the sample who have not yet ended their reproductive career, or not controlling for important potential confounders (e.g. education and income). We investigated the associations between height, education, income and the number of surviving children in a large longitudinal sample of men (n = 3,578; Wisconsin Longitudinal Study), who likely had ended their reproductive careers (e.g. > 64 years). There was a curvilinear association between height and number of children, with men of average height attaining the highest reproductive success. This curvilinear relationship remained after controlling for education and income, which were associated with both reproductive success and height. Average height men also married at a younger age than shorter and taller men, and the effect of height diminished after controlling for this association. Thus, average height men partly achieved higher reproductive success by marrying at a younger age. On the basis of our literature review and our data, we conclude that men of average height most likely have higher reproductive success than either short or tall men."
+    "text": "Abstract\nHuman male height is associated with mate choice and intra-sexual competition, and therefore potentially with reproductive success. A literature review (n = 18) on the relationship between male height and reproductive success revealed a variety of relationships ranging from negative to curvilinear to positive. Some of the variation in results may stem from methodological issues, such as low power, including men in the sample who have not yet ended their reproductive career, or not controlling for important potential confounders (e.g. education and income). We investigated the associations between height, education, income and the number of surviving children in a large longitudinal sample of men (n = 3,578; Wisconsin Longitudinal Study), who likely had ended their reproductive careers (e.g. &gt; 64 years). There was a curvilinear association between height and number of children, with men of average height attaining the highest reproductive success. This curvilinear relationship remained after controlling for education and income, which were associated with both reproductive success and height. Average height men also married at a younger age than shorter and taller men, and the effect of height diminished after controlling for this association. Thus, average height men partly achieved higher reproductive success by marrying at a younger age. On the basis of our literature review and our data, we conclude that men of average height most likely have higher reproductive success than either short or tall men."
   },
   {
     "objectID": "research/publications/2015_Conway_et_al_PR_Preferences.html",
@@ -683,7 +683,7 @@
     "href": "research/publications/2015_Conway_et_al_PR_Preferences.html#abstract",
     "title": "Finding your Soulmate: Homosexual and heterosexual age preferences in online dating",
     "section": "Abstract",
-    "text": "Abstract\nHeterosexual age preferences have been extensively studied by evolutionary psychologists, social psychologists, and demographers. Much less is known about such preferences in homosexual men and women. Around two decades ago, D. T. Kenrick, R. C. Keefe, A. Bryan, A. Barr, and S. Brown (1995) examined heterosexual and homosexual mating preferences for age in men and women. Our study aimed to replicate these findings by examining age preferences in a larger UK online dating sample. Dating advertisements of 996 male and female heterosexuals and homosexuals were coded. Age preferences were assessed via generalized linear models with robust standard errors and bootstrapping. Results showed that the relation between own age and preferred age differed substantially between the groups. With increasing age, heterosexual men preferred younger partners. Older heterosexual men (> 50 years) exclusively sought (much) younger women than themselves, whereas younger heterosexual men sought both older and younger women. Male and female homosexuals followed this general trend of preferring increasingly younger mates with increasing age. However, they displayed a higher upper age tolerance and greater range of acceptable ages than both heterosexual men and women. Female heterosexuals’ age preferences were distinct from the other groups, in that they displayed a male older norm with no substantial interest expressed in males younger than themselves. Our findings thus largely corroborate those of Kenrick et al. with some exceptions, such as a larger tolerance of age ranges in homosexual men and women compared to heterosexual men and women. Results are discussed with reference to the current literature on similarities and differences in heterosexual and homosexual mate preferences."
+    "text": "Abstract\nHeterosexual age preferences have been extensively studied by evolutionary psychologists, social psychologists, and demographers. Much less is known about such preferences in homosexual men and women. Around two decades ago, D. T. Kenrick, R. C. Keefe, A. Bryan, A. Barr, and S. Brown (1995) examined heterosexual and homosexual mating preferences for age in men and women. Our study aimed to replicate these findings by examining age preferences in a larger UK online dating sample. Dating advertisements of 996 male and female heterosexuals and homosexuals were coded. Age preferences were assessed via generalized linear models with robust standard errors and bootstrapping. Results showed that the relation between own age and preferred age differed substantially between the groups. With increasing age, heterosexual men preferred younger partners. Older heterosexual men (&gt; 50 years) exclusively sought (much) younger women than themselves, whereas younger heterosexual men sought both older and younger women. Male and female homosexuals followed this general trend of preferring increasingly younger mates with increasing age. However, they displayed a higher upper age tolerance and greater range of acceptable ages than both heterosexual men and women. Female heterosexuals’ age preferences were distinct from the other groups, in that they displayed a male older norm with no substantial interest expressed in males younger than themselves. Our findings thus largely corroborate those of Kenrick et al. with some exceptions, such as a larger tolerance of age ranges in homosexual men and women compared to heterosexual men and women. Results are discussed with reference to the current literature on similarities and differences in heterosexual and homosexual mate preferences."
   },
   {
     "objectID": "research/publications/2016_Stulp_et_al_HN_Part2.html",
@@ -795,7 +795,7 @@
     "href": "research/publications/2019_Verweij_Frontiers.html#abstract",
     "title": "Using Polygenic Scores in Social Science Research: Unraveling Childlessness",
     "section": "Abstract",
-    "text": "Abstract\nBiological, genetic, and socio-demographic factors are all important in explaining reproductive behavior, yet these factors are typically studied in isolation. In this study, we explore an innovative sociogenomic approach, which entails including key socio-demographic (marriage, education, occupation, religion, cohort) and genetic factors related to both behavioral [age at first birth (AFB), number of children ever born (NEB)] and biological fecundity-related outcomes (endometriosis, age at menopause and menarche, polycystic ovary syndrome, azoospermia, testicular dysgenesis syndrome) to explain childlessness. We examine the association of all sets of factors with childlessness as well as the interplay between them. We derive polygenic scores (PGS) from recent genome-wide association studies (GWAS) and apply these in the Health and Retirement Study (N = 10,686) and Wisconsin Longitudinal Study (N = 8,284). Both socio-demographic and genetic factors were associated with childlessness. Whilst socio-demographic factors explain 19–46% in childlessness, the current PGS explains <1% of the variance, and only PGSs from large GWASs are related to childlessness. Our findings also indicate that genetic and socio-demographic factors are not independent, with PGSs for AFB and NEB related to education and age at marriage. The explained variance by polygenic scores on childlessness is limited since it is largely a behavioral trait, with genetic explanations expected to increase somewhat in the future with better-powered GWASs. As genotyping of individuals in social science surveys becomes more prevalent, the method described in this study can be applied to other outcomes."
+    "text": "Abstract\nBiological, genetic, and socio-demographic factors are all important in explaining reproductive behavior, yet these factors are typically studied in isolation. In this study, we explore an innovative sociogenomic approach, which entails including key socio-demographic (marriage, education, occupation, religion, cohort) and genetic factors related to both behavioral [age at first birth (AFB), number of children ever born (NEB)] and biological fecundity-related outcomes (endometriosis, age at menopause and menarche, polycystic ovary syndrome, azoospermia, testicular dysgenesis syndrome) to explain childlessness. We examine the association of all sets of factors with childlessness as well as the interplay between them. We derive polygenic scores (PGS) from recent genome-wide association studies (GWAS) and apply these in the Health and Retirement Study (N = 10,686) and Wisconsin Longitudinal Study (N = 8,284). Both socio-demographic and genetic factors were associated with childlessness. Whilst socio-demographic factors explain 19–46% in childlessness, the current PGS explains &lt;1% of the variance, and only PGSs from large GWASs are related to childlessness. Our findings also indicate that genetic and socio-demographic factors are not independent, with PGSs for AFB and NEB related to education and age at marriage. The explained variance by polygenic scores on childlessness is limited since it is largely a behavioral trait, with genetic explanations expected to increase somewhat in the future with better-powered GWASs. As genotyping of individuals in social science surveys becomes more prevalent, the method described in this study can be applied to other outcomes."
   },
   {
     "objectID": "research/publications/2012_Stirrat_et_al_EHB_Face.html",
@@ -917,6 +917,13 @@
     "text": "Dag van de Demografie\n      Utrecht, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/DvD.html#summary",
+    "href": "research/talks/DvD.html#summary",
+    "title": "Collecting large personal networks in a representative sample of Dutch women",
+    "section": "",
+    "text": "Dag van de Demografie\n      Utrecht, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/DvD.html#description",
     "href": "research/talks/DvD.html#description",
     "title": "Collecting large personal networks in a representative sample of Dutch women",
@@ -926,6 +933,13 @@
   {
     "objectID": "research/talks/ggplot2yag.html",
     "href": "research/talks/ggplot2yag.html",
+    "title": "Visualisation in ggplot2",
+    "section": "",
+    "text": "Open Science and Reproducibility event: ggplot2 workshop\n      Rijksuniversiteit Groningen, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/ggplot2yag.html#summary",
+    "href": "research/talks/ggplot2yag.html#summary",
     "title": "Visualisation in ggplot2",
     "section": "",
     "text": "Open Science and Reproducibility event: ggplot2 workshop\n      Rijksuniversiteit Groningen, Groningen, the Netherlands\n      Click here for website"
@@ -945,6 +959,13 @@
     "text": "Empirical Network Data Collection in Social Networks\n      Oxford, UK\n      Click here for website"
   },
   {
+    "objectID": "research/talks/NUFFIELD.html#summary",
+    "href": "research/talks/NUFFIELD.html#summary",
+    "title": "Collecting large personal networks in a representative sample of Dutch women",
+    "section": "",
+    "text": "Empirical Network Data Collection in Social Networks\n      Oxford, UK\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/NUFFIELD.html#description",
     "href": "research/talks/NUFFIELD.html#description",
     "title": "Collecting large personal networks in a representative sample of Dutch women",
@@ -954,6 +975,13 @@
   {
     "objectID": "research/talks/Sheffield.html",
     "href": "research/talks/Sheffield.html",
+    "title": "Evolved and evolving humans: The reproductive ecology of Industrial Societies",
+    "section": "",
+    "text": "Ecology, Evolution and Environment Seminar at Sheffield University, UK\n      Sheffield University, UK\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/Sheffield.html#summary",
+    "href": "research/talks/Sheffield.html#summary",
     "title": "Evolved and evolving humans: The reproductive ecology of Industrial Societies",
     "section": "",
     "text": "Ecology, Evolution and Environment Seminar at Sheffield University, UK\n      Sheffield University, UK\n      Click here for website"
@@ -973,6 +1001,13 @@
     "text": "Nothing but the Truth Conference\n      Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/2021_NBTT_Rworkshop.html#summary",
+    "href": "research/talks/2021_NBTT_Rworkshop.html#summary",
+    "title": "‘Above all else, show the data’ workshop",
+    "section": "",
+    "text": "Nothing but the Truth Conference\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/2021_NBTT_Rworkshop.html#description",
     "href": "research/talks/2021_NBTT_Rworkshop.html#description",
     "title": "‘Above all else, show the data’ workshop",
@@ -982,6 +1017,13 @@
   {
     "objectID": "research/talks/DvS_2022.html",
     "href": "research/talks/DvS_2022.html",
+    "title": "A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often",
+    "section": "",
+    "text": "Dag van de Sociologie\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/DvS_2022.html#summary",
+    "href": "research/talks/DvS_2022.html#summary",
     "title": "A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often",
     "section": "",
     "text": "Dag van de Sociologie\n      Groningen, the Netherlands\n      Click here for website"
@@ -1001,6 +1043,13 @@
     "text": "Similarity, Selection and Influence: A Cross-Disciplinary Symposium on Homophily in Social Networks\n      Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/Rnetworkdataviz.html#summary",
+    "href": "research/talks/Rnetworkdataviz.html#summary",
+    "title": "Network Data Visualization in R",
+    "section": "",
+    "text": "Similarity, Selection and Influence: A Cross-Disciplinary Symposium on Homophily in Social Networks\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/Rnetworkdataviz.html#description",
     "href": "research/talks/Rnetworkdataviz.html#description",
     "title": "Network Data Visualization in R",
@@ -1010,6 +1059,13 @@
   {
     "objectID": "research/talks/2021_NIBI_Conference.html",
     "href": "research/talks/2021_NIBI_Conference.html",
+    "title": "De mens: geëvolueerd, maar ook evoluerend?",
+    "section": "",
+    "text": "NIBI congres 2021\n      Egmond aan Zee, the Netherlands\n      Click here for website\n      Download materials here"
+  },
+  {
+    "objectID": "research/talks/2021_NIBI_Conference.html#summary",
+    "href": "research/talks/2021_NIBI_Conference.html#summary",
     "title": "De mens: geëvolueerd, maar ook evoluerend?",
     "section": "",
     "text": "NIBI congres 2021\n      Egmond aan Zee, the Netherlands\n      Click here for website\n      Download materials here"
@@ -1029,6 +1085,13 @@
     "text": "Panel discussion at DGS – ÖGS – Soziologiekongress 2021\n      Vienna, Austria (online)"
   },
   {
+    "objectID": "research/talks/vienna_sociology.html#summary",
+    "href": "research/talks/vienna_sociology.html#summary",
+    "title": "Growing up in times of crises. (Bio-)social and evolutionary reflections on the impact of adverse early life experiences on later life",
+    "section": "",
+    "text": "Panel discussion at DGS – ÖGS – Soziologiekongress 2021\n      Vienna, Austria (online)"
+  },
+  {
     "objectID": "research/talks/vienna_sociology.html#description",
     "href": "research/talks/vienna_sociology.html#description",
     "title": "Growing up in times of crises. (Bio-)social and evolutionary reflections on the impact of adverse early life experiences on later life",
@@ -1038,6 +1101,13 @@
   {
     "objectID": "research/talks/Rworkshop1.html",
     "href": "research/talks/Rworkshop1.html",
+    "title": "R workshop for municipality employees",
+    "section": "",
+    "text": "R workshop\n      Harm Buiterplein 1, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/Rworkshop1.html#summary",
+    "href": "research/talks/Rworkshop1.html#summary",
     "title": "R workshop for municipality employees",
     "section": "",
     "text": "R workshop\n      Harm Buiterplein 1, Groningen, the Netherlands\n      Click here for website"
@@ -1057,6 +1127,13 @@
     "text": "CIT workshop\n      CIT centrum, Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/ggplot2CIT2.html#summary",
+    "href": "research/talks/ggplot2CIT2.html#summary",
+    "title": "Easy visualisation in ggplot2",
+    "section": "",
+    "text": "CIT workshop\n      CIT centrum, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/ggplot2CIT2.html#description",
     "href": "research/talks/ggplot2CIT2.html#description",
     "title": "Easy visualisation in ggplot2",
@@ -1066,6 +1143,13 @@
   {
     "objectID": "research/talks/demography.html",
     "href": "research/talks/demography.html",
+    "title": "Family planning in the Netherlands: social networks and fertility",
+    "section": "",
+    "text": "Demograph Struggle Seminar\n      Groningen, the Netherlands"
+  },
+  {
+    "objectID": "research/talks/demography.html#summary",
+    "href": "research/talks/demography.html#summary",
     "title": "Family planning in the Netherlands: social networks and fertility",
     "section": "",
     "text": "Demograph Struggle Seminar\n      Groningen, the Netherlands"
@@ -1085,6 +1169,13 @@
     "text": "Kinderen? Dat komt wel.\n      Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/kinderendatkomtwel.html#summary",
+    "href": "research/talks/kinderendatkomtwel.html#summary",
+    "title": "Kinderen? Dat komt wel.",
+    "section": "",
+    "text": "Kinderen? Dat komt wel.\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/kinderendatkomtwel.html#description",
     "href": "research/talks/kinderendatkomtwel.html#description",
     "title": "Kinderen? Dat komt wel.",
@@ -1094,6 +1185,13 @@
   {
     "objectID": "research/talks/template_talk.html",
     "href": "research/talks/template_talk.html",
+    "title": "replace_title",
+    "section": "",
+    "text": "replace_event_title\n      location_event\n      Click here for website\n      Download materials here\n      There is a video!"
+  },
+  {
+    "objectID": "research/talks/template_talk.html#summary",
+    "href": "research/talks/template_talk.html#summary",
     "title": "replace_title",
     "section": "",
     "text": "replace_event_title\n      location_event\n      Click here for website\n      Download materials here\n      There is a video!"
@@ -1113,6 +1211,13 @@
     "text": "5th Microbes in Health & Disease Science day\n      Groningen, the Netherlands"
   },
   {
+    "objectID": "research/talks/MHD.html#summary",
+    "href": "research/talks/MHD.html#summary",
+    "title": "Go Paleo? Evolutionary perspectives on human behaviour",
+    "section": "",
+    "text": "5th Microbes in Health & Disease Science day\n      Groningen, the Netherlands"
+  },
+  {
     "objectID": "research/talks/MHD.html#description",
     "href": "research/talks/MHD.html#description",
     "title": "Go Paleo? Evolutionary perspectives on human behaviour",
@@ -1122,6 +1227,13 @@
   {
     "objectID": "research/talks/ggplot2CIT3.html",
     "href": "research/talks/ggplot2CIT3.html",
+    "title": "Easy visualisation in ggplot2",
+    "section": "",
+    "text": "CIT workshop\n      CIT centrum, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/ggplot2CIT3.html#summary",
+    "href": "research/talks/ggplot2CIT3.html#summary",
     "title": "Easy visualisation in ggplot2",
     "section": "",
     "text": "CIT workshop\n      CIT centrum, Groningen, the Netherlands\n      Click here for website"
@@ -1141,6 +1253,13 @@
     "text": "International Society for Human Ethology Conference\n      online event\n      Click here for website\n      Download materials here\n      There is a video!"
   },
   {
+    "objectID": "research/talks/ISHE_2021.html#summary",
+    "href": "research/talks/ISHE_2021.html#summary",
+    "title": "Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?",
+    "section": "",
+    "text": "International Society for Human Ethology Conference\n      online event\n      Click here for website\n      Download materials here\n      There is a video!"
+  },
+  {
     "objectID": "research/talks/ISHE_2021.html#description",
     "href": "research/talks/ISHE_2021.html#description",
     "title": "Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?",
@@ -1150,6 +1269,13 @@
   {
     "objectID": "research/talks/zurich.html",
     "href": "research/talks/zurich.html",
+    "title": "Evolutionary aspects of human height: a long story short",
+    "section": "",
+    "text": "Perspectives on Human Body Height\n      Zurich, Switserland\n      Click here for website\n      Download materials here"
+  },
+  {
+    "objectID": "research/talks/zurich.html#summary",
+    "href": "research/talks/zurich.html#summary",
     "title": "Evolutionary aspects of human height: a long story short",
     "section": "",
     "text": "Perspectives on Human Body Height\n      Zurich, Switserland\n      Click here for website\n      Download materials here"
@@ -1169,6 +1295,13 @@
     "text": "Height and Later-life Outcomes\n      Nijmegen, the Netherlands (online event)\n      Click here for website\n      Download materials here\n      There is a video!"
   },
   {
+    "objectID": "research/talks/giants.html#summary",
+    "href": "research/talks/giants.html#summary",
+    "title": "Simulating the evolution of height in the Netherlands in recent history",
+    "section": "",
+    "text": "Height and Later-life Outcomes\n      Nijmegen, the Netherlands (online event)\n      Click here for website\n      Download materials here\n      There is a video!"
+  },
+  {
     "objectID": "research/talks/giants.html#description",
     "href": "research/talks/giants.html#description",
     "title": "Simulating the evolution of height in the Netherlands in recent history",
@@ -1178,6 +1311,13 @@
   {
     "objectID": "research/talks/debateYAG.html",
     "href": "research/talks/debateYAG.html",
+    "title": "Applying evolutionary reasoning to humans",
+    "section": "",
+    "text": "Bovenkamer session: applying evolutionary reasoning to humans\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/debateYAG.html#summary",
+    "href": "research/talks/debateYAG.html#summary",
     "title": "Applying evolutionary reasoning to humans",
     "section": "",
     "text": "Bovenkamer session: applying evolutionary reasoning to humans\n      Groningen, the Netherlands\n      Click here for website"
@@ -1197,6 +1337,13 @@
     "text": "Hack the Gap - Equal educational opportunities\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
   },
   {
+    "objectID": "research/talks/hackaton.html#summary",
+    "href": "research/talks/hackaton.html#summary",
+    "title": "Hack the Gap 050",
+    "section": "",
+    "text": "Hack the Gap - Equal educational opportunities\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+  },
+  {
     "objectID": "research/talks/hackaton.html#description",
     "href": "research/talks/hackaton.html#description",
     "title": "Hack the Gap 050",
@@ -1206,6 +1353,13 @@
   {
     "objectID": "research/talks/DvS.html",
     "href": "research/talks/DvS.html",
+    "title": "Collecting large personal networks in a representative sample of Dutch women",
+    "section": "",
+    "text": "Dag van de Sociologie\n      Rotterdam, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/DvS.html#summary",
+    "href": "research/talks/DvS.html#summary",
     "title": "Collecting large personal networks in a representative sample of Dutch women",
     "section": "",
     "text": "Dag van de Sociologie\n      Rotterdam, the Netherlands\n      Click here for website"
@@ -1225,6 +1379,13 @@
     "text": "R workshop\n      Pécs, Hungary\n      Click here for website"
   },
   {
+    "objectID": "research/talks/EHBEA2018.html#summary",
+    "href": "research/talks/EHBEA2018.html#summary",
+    "title": "Mismatch or Misnomer",
+    "section": "",
+    "text": "R workshop\n      Pécs, Hungary\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/EHBEA2018.html#description",
     "href": "research/talks/EHBEA2018.html#description",
     "title": "Mismatch or Misnomer",
@@ -1234,6 +1395,13 @@
   {
     "objectID": "research/talks/persnet.html",
     "href": "research/talks/persnet.html",
+    "title": "Collecting personal networks",
+    "section": "",
+    "text": "FLAG-meeting\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+  },
+  {
+    "objectID": "research/talks/persnet.html#summary",
+    "href": "research/talks/persnet.html#summary",
     "title": "Collecting personal networks",
     "section": "",
     "text": "FLAG-meeting\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
@@ -1253,6 +1421,13 @@
     "text": "NetResilience seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
   },
   {
+    "objectID": "research/talks/2023_RESNET.html#summary",
+    "href": "research/talks/2023_RESNET.html#summary",
+    "title": "Collecting personal networks to study social influences on fertility behaviour",
+    "section": "",
+    "text": "NetResilience seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+  },
+  {
     "objectID": "research/talks/2023_RESNET.html#description",
     "href": "research/talks/2023_RESNET.html#description",
     "title": "Collecting personal networks to study social influences on fertility behaviour",
@@ -1262,6 +1437,13 @@
   {
     "objectID": "research/talks/CVbuilding.html",
     "href": "research/talks/CVbuilding.html",
+    "title": "Doing academic stuff builds your CV",
+    "section": "",
+    "text": "CV building\n      Groningen, the Netherlands\n      Download materials here"
+  },
+  {
+    "objectID": "research/talks/CVbuilding.html#summary",
+    "href": "research/talks/CVbuilding.html#summary",
     "title": "Doing academic stuff builds your CV",
     "section": "",
     "text": "CV building\n      Groningen, the Netherlands\n      Download materials here"
@@ -1281,6 +1463,13 @@
     "text": "R workshop\n      Grote Kruisstraat, Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/Rworkshop3.html#summary",
+    "href": "research/talks/Rworkshop3.html#summary",
+    "title": "R workshop for university teachers",
+    "section": "",
+    "text": "R workshop\n      Grote Kruisstraat, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/Rworkshop3.html#description",
     "href": "research/talks/Rworkshop3.html#description",
     "title": "R workshop for university teachers",
@@ -1290,6 +1479,13 @@
   {
     "objectID": "research/talks/DvD2.html",
     "href": "research/talks/DvD2.html",
+    "title": "Planning and postponement of parenthood in the Netherlands",
+    "section": "",
+    "text": "Dag van de Sociologie\n      Rotterdam, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/DvD2.html#summary",
+    "href": "research/talks/DvD2.html#summary",
     "title": "Planning and postponement of parenthood in the Netherlands",
     "section": "",
     "text": "Dag van de Sociologie\n      Rotterdam, the Netherlands\n      Click here for website"
@@ -1309,6 +1505,13 @@
     "text": "Official Launch Groningen Digital Competence Center\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
   },
   {
+    "objectID": "research/talks/2021_DGCC.html#summary",
+    "href": "research/talks/2021_DGCC.html#summary",
+    "title": "A roadmap on how to be as open as possible, and as closed as necessary",
+    "section": "",
+    "text": "Official Launch Groningen Digital Competence Center\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+  },
+  {
     "objectID": "research/talks/2021_DGCC.html#description",
     "href": "research/talks/2021_DGCC.html#description",
     "title": "A roadmap on how to be as open as possible, and as closed as necessary",
@@ -1318,6 +1521,13 @@
   {
     "objectID": "research/talks/Rworkshop2.html",
     "href": "research/talks/Rworkshop2.html",
+    "title": "R workshop for university teachers",
+    "section": "",
+    "text": "R workshop\n      Grote Kruisstraat, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/Rworkshop2.html#summary",
+    "href": "research/talks/Rworkshop2.html#summary",
     "title": "R workshop for university teachers",
     "section": "",
     "text": "R workshop\n      Grote Kruisstraat, Groningen, the Netherlands\n      Click here for website"
@@ -1337,6 +1547,13 @@
     "text": "NIDI-RUG Expert Meeting - Spitsuur van het leven\n      NIDI, The Hague, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/NIDI.html#summary",
+    "href": "research/talks/NIDI.html#summary",
+    "title": "Gezinsvorming in Nederland: sociale invloeden op de kinderwens",
+    "section": "",
+    "text": "NIDI-RUG Expert Meeting - Spitsuur van het leven\n      NIDI, The Hague, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/NIDI.html#description",
     "href": "research/talks/NIDI.html#description",
     "title": "Gezinsvorming in Nederland: sociale invloeden op de kinderwens",
@@ -1346,6 +1563,13 @@
   {
     "objectID": "research/talks/2021_DvD.html",
     "href": "research/talks/2021_DvD.html",
+    "title": "Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?",
+    "section": "",
+    "text": "Dag van de Sociologie\n      Utrecht, the Netherlands (online)\n      Click here for website\n      Download materials here"
+  },
+  {
+    "objectID": "research/talks/2021_DvD.html#summary",
+    "href": "research/talks/2021_DvD.html#summary",
     "title": "Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?",
     "section": "",
     "text": "Dag van de Sociologie\n      Utrecht, the Netherlands (online)\n      Click here for website\n      Download materials here"
@@ -1365,6 +1589,13 @@
     "text": "R workshop\n      Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/2021_Rworkshop_GSMS.html#summary",
+    "href": "research/talks/2021_Rworkshop_GSMS.html#summary",
+    "title": "R workshop for Graduate School of Medical Science",
+    "section": "",
+    "text": "R workshop\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/2021_Rworkshop_GSMS.html#description",
     "href": "research/talks/2021_Rworkshop_GSMS.html#description",
     "title": "R workshop for Graduate School of Medical Science",
@@ -1374,6 +1605,13 @@
   {
     "objectID": "research/talks/interdphdhonours.html",
     "href": "research/talks/interdphdhonours.html",
+    "title": "Interdisciplinary PhDs",
+    "section": "",
+    "text": "Honours College Social Association event\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/interdphdhonours.html#summary",
+    "href": "research/talks/interdphdhonours.html#summary",
     "title": "Interdisciplinary PhDs",
     "section": "",
     "text": "Honours College Social Association event\n      Groningen, the Netherlands\n      Click here for website"
@@ -1393,6 +1631,13 @@
     "text": "CIT workshop\n      CIT centrum, Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/ggplot2.html#summary",
+    "href": "research/talks/ggplot2.html#summary",
+    "title": "Easy visualisation in ggplot2",
+    "section": "",
+    "text": "CIT workshop\n      CIT centrum, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/ggplot2.html#description",
     "href": "research/talks/ggplot2.html#description",
     "title": "Easy visualisation in ggplot2",
@@ -1402,6 +1647,13 @@
   {
     "objectID": "research/talks/utrecht.html",
     "href": "research/talks/utrecht.html",
+    "title": "Family planning in the Netherlands: social networks and fertility",
+    "section": "",
+    "text": "Sociology Colloquium\n      Utrecht, the Netherlands"
+  },
+  {
+    "objectID": "research/talks/utrecht.html#summary",
+    "href": "research/talks/utrecht.html#summary",
     "title": "Family planning in the Netherlands: social networks and fertility",
     "section": "",
     "text": "Sociology Colloquium\n      Utrecht, the Netherlands"
@@ -1421,6 +1673,13 @@
     "text": "Lustrum Sociologie 80 jaar\n      Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/lustrumsoc.html#summary",
+    "href": "research/talks/lustrumsoc.html#summary",
+    "title": "Families, Lifecourse, and Ageing Group",
+    "section": "",
+    "text": "Lustrum Sociologie 80 jaar\n      Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/lustrumsoc.html#description",
     "href": "research/talks/lustrumsoc.html#description",
     "title": "Families, Lifecourse, and Ageing Group",
@@ -1430,6 +1689,13 @@
   {
     "objectID": "research/talks/CES_2021.html",
     "href": "research/talks/CES_2021.html",
+    "title": "Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?",
+    "section": "",
+    "text": "Cultural Evolution Society Conference\n      Sapporo, Japan (online event)\n      Click here for website\n      Download materials here\n      There is a video!"
+  },
+  {
+    "objectID": "research/talks/CES_2021.html#summary",
+    "href": "research/talks/CES_2021.html#summary",
     "title": "Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?",
     "section": "",
     "text": "Cultural Evolution Society Conference\n      Sapporo, Japan (online event)\n      Click here for website\n      Download materials here\n      There is a video!"
@@ -1449,6 +1715,13 @@
     "text": "Evolutionary Ecology Seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
   },
   {
+    "objectID": "research/talks/2022_tartu.html#summary",
+    "href": "research/talks/2022_tartu.html#summary",
+    "title": "This mess we’re in? Or how simulation and prediction will advance (demographic) research",
+    "section": "",
+    "text": "Evolutionary Ecology Seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+  },
+  {
     "objectID": "research/talks/2022_tartu.html#description",
     "href": "research/talks/2022_tartu.html#description",
     "title": "This mess we’re in? Or how simulation and prediction will advance (demographic) research",
@@ -1458,6 +1731,13 @@
   {
     "objectID": "research/talks/manchester.html",
     "href": "research/talks/manchester.html",
+    "title": "Methodological challenges and theoretical opportunities of collecting large personal networks in large samples",
+    "section": "",
+    "text": "Social Statistics Seminar\n      Manchester, UK (online event)\n      Click here for website\n      Download materials here\n      There is a video!"
+  },
+  {
+    "objectID": "research/talks/manchester.html#summary",
+    "href": "research/talks/manchester.html#summary",
     "title": "Methodological challenges and theoretical opportunities of collecting large personal networks in large samples",
     "section": "",
     "text": "Social Statistics Seminar\n      Manchester, UK (online event)\n      Click here for website\n      Download materials here\n      There is a video!"
@@ -1477,6 +1757,13 @@
     "text": "BCN alumni event 2020\n      Groningen, the Netherlands\n      Download materials here"
   },
   {
+    "objectID": "research/talks/BCNalumni.html#summary",
+    "href": "research/talks/BCNalumni.html#summary",
+    "title": "6 rules of success that you shouldn’t listen to",
+    "section": "",
+    "text": "BCN alumni event 2020\n      Groningen, the Netherlands\n      Download materials here"
+  },
+  {
     "objectID": "research/talks/BCNalumni.html#description",
     "href": "research/talks/BCNalumni.html#description",
     "title": "6 rules of success that you shouldn’t listen to",
@@ -1486,6 +1773,13 @@
   {
     "objectID": "research/talks/EPC_2022.html",
     "href": "research/talks/EPC_2022.html",
+    "title": "Opportunities for social influence on fertility behaviour among Dutch women",
+    "section": "",
+    "text": "European Population Conference 2022\n      The Hague, the Netherlands\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/EPC_2022.html#summary",
+    "href": "research/talks/EPC_2022.html#summary",
     "title": "Opportunities for social influence on fertility behaviour among Dutch women",
     "section": "",
     "text": "European Population Conference 2022\n      The Hague, the Netherlands\n      Click here for website"
@@ -1505,6 +1799,13 @@
     "text": "R workshop\n      Grote Kruisstraat, Groningen, the Netherlands\n      Click here for website"
   },
   {
+    "objectID": "research/talks/2022_Rworkshop.html#summary",
+    "href": "research/talks/2022_Rworkshop.html#summary",
+    "title": "R workshop for teachers",
+    "section": "",
+    "text": "R workshop\n      Grote Kruisstraat, Groningen, the Netherlands\n      Click here for website"
+  },
+  {
     "objectID": "research/talks/2022_Rworkshop.html#description",
     "href": "research/talks/2022_Rworkshop.html#description",
     "title": "R workshop for teachers",
@@ -1514,6 +1815,13 @@
   {
     "objectID": "research/talks/2023_POPNET.html",
     "href": "research/talks/2023_POPNET.html",
+    "title": "Collecting personal networks to study social influences on fertility behaviour",
+    "section": "",
+    "text": "POPNET Connects\n      Amsterdam, the Netherlands\n      Click here for website\n      Download materials here"
+  },
+  {
+    "objectID": "research/talks/2023_POPNET.html#summary",
+    "href": "research/talks/2023_POPNET.html#summary",
     "title": "Collecting personal networks to study social influences on fertility behaviour",
     "section": "",
     "text": "POPNET Connects\n      Amsterdam, the Netherlands\n      Click here for website\n      Download materials here"
@@ -1533,6 +1841,13 @@
     "text": "ODISSEI conference\n      Utrecht, the Netherlands\n      Click here for website\n      Download materials here\n      There is a video!"
   },
   {
+    "objectID": "research/talks/2022_ODDISEI.html#summary",
+    "href": "research/talks/2022_ODDISEI.html#summary",
+    "title": "Using microsimulation, administrative data, and supercomputers to realistically model fertility behaviour: the case of fertility preferences and childlessness",
+    "section": "",
+    "text": "ODISSEI conference\n      Utrecht, the Netherlands\n      Click here for website\n      Download materials here\n      There is a video!"
+  },
+  {
     "objectID": "research/talks/2022_ODDISEI.html#description",
     "href": "research/talks/2022_ODDISEI.html#description",
     "title": "Using microsimulation, administrative data, and supercomputers to realistically model fertility behaviour: the case of fertility preferences and childlessness",
@@ -1547,11 +1862,46 @@
     "text": "Brown Bag Meeting\n      NIDI, The Hague, the Netherlands"
   },
   {
+    "objectID": "research/talks/NIDI_2022.html#summary",
+    "href": "research/talks/NIDI_2022.html#summary",
+    "title": "This mess we’re in? Or how simulation and prediction will advance fertility research",
+    "section": "",
+    "text": "Brown Bag Meeting\n      NIDI, The Hague, the Netherlands"
+  },
+  {
     "objectID": "research/talks/NIDI_2022.html#description",
     "href": "research/talks/NIDI_2022.html#description",
     "title": "This mess we’re in? Or how simulation and prediction will advance fertility research",
     "section": "Description",
     "text": "Description\nDemography and sociology have produced a sophisticated body of work on fertility outcomes, i.e., whether, why, and when people have children. Such research has uncovered many characteristics underlying fertility. Unfortunately, traditional ways of statistical analyses means that results are difficult to compare across studies and that we have little understanding on the (relative) importance of these characteristics. In light of the credibility crisis that has taken hold of many other fields and disciplines, one might similarly worry about the robustness of findings in demography. In this talk I will argue that a focus on predictive ability and on microsimulation will advance fertility research and make it more reliable. In the first part of the talk, I will make a plea for reporting out-of-sample predictive ability. I argue that this form of predictive ability i) is the most relevant effect size we should be interested in, because it is a measure of how well our theories do in practice, ii) prevents overfitting and is less susceptible to researcher degrees of freedom, iii) facilitates comparison between theory and data-driven approaches, and iv) allows for prediction benchmarks which have facilitated cumulative knowledge in other disciplines. In the second part of the talk, I will discuss how microsimulation models of fertility can advance existing research. A simulation model that includes findings from reproductive medicine on the ability to have children (e.g., the age at sterility, fecundability) is developed to quantify to what extent higher levels of childlessness among highly educated Dutch women are explained by preferences and partnership trajectories. I conclude by arguing that a shift towards prediction in combination with theory-driven microsimulation models increases the robustness of findings and allows a unique perspective on the state of fertility research."
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "You don’t care about the “blabla” and want to get straight to the list of publications? Go here"
+  },
+  {
+    "objectID": "research/index.html#overview",
+    "href": "research/index.html#overview",
+    "title": "Research",
+    "section": "OVERVIEW",
+    "text": "OVERVIEW"
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "PUBLICATIONS",
+    "text": "PUBLICATIONS"
+  },
+  {
+    "objectID": "research/index.html#talks",
+    "href": "research/index.html#talks",
+    "title": "Research",
+    "section": "TALKS",
+    "text": "TALKS"
   },
   {
     "objectID": "research/overview/height.html",
@@ -1565,7 +1915,7 @@
     "href": "research/overview/visualisation.html",
     "title": "Visualisation in research",
     "section": "",
-    "text": "Visualisation is perhaps the easiest way to get good insights into the data at hand; whether for yourself or for the scrutinty of others. Disappointingly, most graphs in scientific papers do not attempt to show the (raw) data, but instead some summary measures (e.g., a bar plot of means). This hinders the scientific process. I hope to increase visualisation literacy, by:\n\nHelping others to think about graphs and to create them using ggplot2. I’ll happily do this for you too.\nGiving visualisation workshops; for instance, this one, and a shorter version\nCreating R-packages that help people visualise, including ggplotgui and ESMvis [under development; together with Laura Bringmann].\n\nSee ggplotgui in action:\n\n<p>\nYour browser does not support iframes.\n</p>"
+    "text": "Visualisation is perhaps the easiest way to get good insights into the data at hand; whether for yourself or for the scrutinty of others. Disappointingly, most graphs in scientific papers do not attempt to show the (raw) data, but instead some summary measures (e.g., a bar plot of means). This hinders the scientific process. I hope to increase visualisation literacy, by:\n\nHelping others to think about graphs and to create them using ggplot2. I’ll happily do this for you too.\nGiving visualisation workshops; for instance, this one, and a shorter version\nCreating R-packages that help people visualise, including ggplotgui and ESMvis [under development; together with Laura Bringmann].\n\nSee ggplotgui in action:\n\n&lt;p&gt;\nYour browser does not support iframes.\n&lt;/p&gt;"
   },
   {
     "objectID": "research/overview/fertility.html",
@@ -1600,7 +1950,7 @@
     "href": "posts/posts/2018-03-24-different-ways-of-calculating-rowmeans-on-selected-variables-in-a-tidyverse-framework.html",
     "title": "Different ways of calculating rowmeans on selected variables in a tidyverse framework",
     "section": "",
-    "text": "Recently, I have been trying to force myself to do all my coding in a consistent coding framework. Mostly this means that I want to switch completely to tidyverse/dplyr-style coding. Mostly for reasons of readability and teaching, but it also has a slight OCD-component for myself. I find it weird to use the apply-family of functions within the dplyr-pipes. Mostly, this transition is effortless, however, when it comes to applying some functions on “rows” (values spread across different columns on one row) the process has been painful. It took me much time to figure out how to do it. And I am still not entirely confident in my abilities. I understand the tidy data principles, but something like rowmeans or counting how many variables have missing values for a particular individual (row) is so common that I imagined it to have a bigger role in the dplyr-framework.\nI’ll start off with calculating the means of variables for all rows using many different ways using the dplyr-programming framework. I’ll do it for all variables, plus a selection of variables. Note: of course, calculating rowmeans is rather easy and rowMeans is an obvious and easy choice; I have chosen it, though, so that it is also easy to see what is going on in the other possibilities.\n\npackages\n\nlibrary(tidyverse)\n\n\n\ndata\nWe’ll use this dataframe:\n\ndf <- data.frame(\n  var1 = c(1, 2),\n  var2 = c(2, 4),\n  var3 = c(3, 6)\n)\nselect_vars <- c(\"var2\", \"var3\")\n\n\n\nrowmeans\nThe easiest way is to use the base R rowmeans function:\n\ndf %>% mutate(mean_all = rowMeans(.),\n              mean_sel = rowMeans(select(., select_vars)))\n\nWarning: There was 1 warning in `mutate()`.\nℹ In argument: `mean_sel = rowMeans(select(., select_vars))`.\nCaused by warning:\n! Using an external vector in selections was deprecated in tidyselect 1.1.0.\nℹ Please use `all_of()` or `any_of()` instead.\n  # Was:\n  data %>% select(select_vars)\n\n  # Now:\n  data %>% select(all_of(select_vars))\n\nSee <https://tidyselect.r-lib.org/reference/faq-external-vector.html>.\n\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\nEasy. Here I would also consider rowMeans(.[select_vars]) but that clashes with my own rule described above to try to get everything within one framework. rowMeans should be the preferred choice I think.\n\n\napply\nWe can do the same using the apply-functions. This is just to highlight the example. It is clear that there is no reason to do this because rowMeans does an excellent (and faster) job.\n\ndf %>% mutate(mean_all = apply(., 1, mean),\n              mean_sel = apply(select(., select_vars), 1, mean))\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\nAlthough this again fine, I’d rather not do this option, because then, for instance in teaching, you would also have to explain a bit about the apply functions. I think it is easier to keep everything within one framework, but this is certainly not needed.\nSo let’s try frameworks that are more “consistent” with the tidyverse-framework; pmap and rowwise. It took me a long time to get this to work; the pmap-documentation is not (yet) very extensive.\n\n\npmap\nThe map-functions from purrr seem handy in this respect.\nThis is the solution, and we’ll see a breakdown later (mostly for myself because I didn’t quite understand it initially).\n\ndf %>% mutate(mean_all = pmap_dbl(., function(...) mean(c(...))),\n              mean_sel = pmap_dbl(select(., select_vars), \n                                  function(...) mean(c(...))))\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\nLet’s see what is going on by looking at the easier cases of map and map2.The map-function applies some function to each element from a list. map only uses one list. With the first argument you can specify the variable name of a dataframe that will be seen as a list.\n\nmap\n\ndf %>% mutate(mean_var2 = map_dbl(var2, mean))\n\n  var1 var2 var3 mean_var2\n1    1    2    3         2\n2    2    4    6         4\n\n\nIt is obviously not very sensible to calculate a mean from one number. So let’s try two numbers:\n\n\nmap2\nWith map2 you can specify two lists, again by using variable names from the dataframe, and map will iterate through all the “rows” (or elements of the lists). If we do the following:\n\ndf %>% mutate(mean_var2_3 = map2_dbl(var2, var3, mean))\n\n  var1 var2 var3 mean_var2_3\n1    1    2    3           2\n2    2    4    6           4\n\n\nThe code works, but we don’t get the results we want. We get the mean of (of the row of) var2 only, not the mean of the row of var2 and var3. I think this is because the function mean doesn’t know what to do with the second argument, var3, provided to it. It certainly doesn’t see it as a number for the calculation of the mean, because all that information is passed to mean with the first argument var2. So it will only calculate a mean of var2 (for each element in the list of var2).\nLet’s improve:\n\ndf %>% mutate(mean_var2_3 = map2_dbl(var2, var3, function(x, y) mean(c(x,y))))\n\n  var1 var2 var3 mean_var2_3\n1    1    2    3         2.5\n2    2    4    6         5.0\n\n\nThis does what we want! The trick here is that in the previous case, mean didn’t see the two arguments (var2 and var3) as numbers to be used to calculate the mean for. So now we have to specify directly, that both var2 and var3 are numbers that need to be combined (by using c()). So the mean function has only one argument passed to it, namely a combination of the numbers in var2 and var3 (for each row!).\n\n\npmap\nThe pmap function at the start of this section makes more sense now (at least to me). If we want to make use of more than 2 variables (or lists), we can use the pmap function. We need to use ... rather than specifying the columns/lists separately. In the end, we combine all the variables with c(). The nice thing now, is that we can also use the select_vars information that we had stored\n\ndf %>% mutate(mean_all = pmap_dbl(., function(...) mean(c(...))),\n              mean_sel = pmap_dbl(select(., select_vars), \n                                  function(...) mean(c(...))))\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\n\n\n\nrowwise\ndplyr also has its rowwise function. It works much less well as you would expect from such a simple sounding function. This is the “solution”.\n\nall_vars_quo <- quo(c(var1, var2, var3))\nselect_vars_quo <- quo(c(var2, var3))\n\ndf %>% \n  rowwise() %>% \n  mutate(mean_all = mean(!!all_vars_quo),\n         mean_sel = mean(!!select_vars_quo))\n\n# A tibble: 2 × 5\n# Rowwise: \n   var1  var2  var3 mean_all mean_sel\n  <dbl> <dbl> <dbl>    <dbl>    <dbl>\n1     1     2     3        2      2.5\n2     2     4     6        4      5  \n\n\nI don’t think this is ideal at all. This may be due to my limited understanding of quosures and non-standard evaluation (https://cran.r-project.org/web/packages/dplyr/vignettes/programming.html). Also I wonder whether rowwise is really meant for the tricks we’re after; it’s somehow strongly tied to do, which seems to be related to (statistical) model building mostly.\nAlso, a huge benefit for me is the “readability” of tidyverse/dplyr R-code (for myself and for teaching). With the !! and quo the code is much less readable I think. I think it is unfortunate that we can’t use the select_vars <- c(\"var2\", \"var3\") bit, that we have been able to use in all other possibilities.\nI think that it would be ideal if there was a rowwise function that would work in this way (not unlike mutate_at):\n\ndf %>% \n  rowwise() %>% \n  mutate(mean_all = mean(.),\n         mean_sel = mean(select(., select_vars))\n\nError: <text>:5:0: unexpected end of input\n3:   mutate(mean_all = mean(.),\n4:          mean_sel = mean(select(., select_vars))\n  ^\n\n\nI am probably not understanding something fundamental about non-standard evaluation and I probably fail to see what rowwise is for, but I do think the above code reads more like the rowMeans, apply, and pmap coding. If anyone can tell me why this is not an option, I would very much like to hear! Alternatively, I can just not worry, be grateful for the alternatives, and move along.\n\n\ntesting for speed\nSimilar to this post by Winston Chang, I will now test these alternatives for speed (while shamelessly copying the code by Chang):\n\n# https://rpubs.com/wch/200398\nrun_benchmark <- function(nrow) {\n  # Make some data\n  df <- data.frame(\n    x = rnorm(nrow),\n    y = runif(nrow),\n    z = runif(nrow)\n  )\n  \n  res <- list(\n    rowMeans = system.time(mutate(df, mean_all = rowMeans(df))),\n    apply = system.time(mutate(df, mean_all = apply(df, 1, mean))),\n    pmap = system.time(\n      mutate(df, mean_all = pmap_dbl(df, function(...) mean(c(...))))),\n    pmap_list = system.time(\n      mutate(df, mean_all = pmap_dbl(as.list(df), function(...) mean(c(...))))),\n    # as.list is faster (https://rpubs.com/wch/200398)\n    rowwise = system.time(\n      mutate(rowwise(df), mean_all = mean(c(x, y, z))))\n  )\n  \n  # Get elapsed times\n  res <- lapply(res, `[[`, \"elapsed\")\n\n  # Add nrow to front\n  res <- c(nrow = nrow, res)\n  res\n}\n\n# Run the benchmarks for various size data\nall_times <- lapply(1:5, function(n) {\n  run_benchmark(10^n)\n})\n\n# Convert to data frame\ntimes <- lapply(all_times, as.data.frame)\ntimes <- do.call(rbind, times)\n\n\n\nvisualise results\n\ntimes_long <- times %>% gather(rowMeans, apply, pmap, pmap_list, rowwise, \n                               key = \"Function\", value = \"Time\")\n\nggplot(times_long, aes(x = nrow, y = Time, \n                       colour = reorder(Function, Time, mean))) +\n  geom_point() +\n  geom_line() +\n  scale_x_continuous(trans = \"log10\") +\n  scale_y_continuous(trans = \"log10\") +\n  theme_minimal() +\n  labs(x = \"Number of rows\", y = \"Time (seconds)\")\n\n\n\n\nrowMeans is a clear winner, but can obviously not be used when you have to do something differently to the rows than means. apply is a bit faster than the pmap-functions. pmap performs better than pmap list (which is opposite to the situation here.rowwise seems to be the least ideal alternative, both in terms of time needed and the code. For other functions than calculating means, I will probably stick to (p)map, because that also lends itself better to statistical modelling."
+    "text": "Recently, I have been trying to force myself to do all my coding in a consistent coding framework. Mostly this means that I want to switch completely to tidyverse/dplyr-style coding. Mostly for reasons of readability and teaching, but it also has a slight OCD-component for myself. I find it weird to use the apply-family of functions within the dplyr-pipes. Mostly, this transition is effortless, however, when it comes to applying some functions on “rows” (values spread across different columns on one row) the process has been painful. It took me much time to figure out how to do it. And I am still not entirely confident in my abilities. I understand the tidy data principles, but something like rowmeans or counting how many variables have missing values for a particular individual (row) is so common that I imagined it to have a bigger role in the dplyr-framework.\nI’ll start off with calculating the means of variables for all rows using many different ways using the dplyr-programming framework. I’ll do it for all variables, plus a selection of variables. Note: of course, calculating rowmeans is rather easy and rowMeans is an obvious and easy choice; I have chosen it, though, so that it is also easy to see what is going on in the other possibilities.\n\npackages\n\nlibrary(tidyverse)\n\n\n\ndata\nWe’ll use this dataframe:\n\ndf &lt;- data.frame(\n  var1 = c(1, 2),\n  var2 = c(2, 4),\n  var3 = c(3, 6)\n)\nselect_vars &lt;- c(\"var2\", \"var3\")\n\n\n\nrowmeans\nThe easiest way is to use the base R rowmeans function:\n\ndf %&gt;% mutate(mean_all = rowMeans(.),\n              mean_sel = rowMeans(select(., select_vars)))\n\nWarning: There was 1 warning in `mutate()`.\nℹ In argument: `mean_sel = rowMeans(select(., select_vars))`.\nCaused by warning:\n! Using an external vector in selections was deprecated in tidyselect 1.1.0.\nℹ Please use `all_of()` or `any_of()` instead.\n  # Was:\n  data %&gt;% select(select_vars)\n\n  # Now:\n  data %&gt;% select(all_of(select_vars))\n\nSee &lt;https://tidyselect.r-lib.org/reference/faq-external-vector.html&gt;.\n\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\nEasy. Here I would also consider rowMeans(.[select_vars]) but that clashes with my own rule described above to try to get everything within one framework. rowMeans should be the preferred choice I think.\n\n\napply\nWe can do the same using the apply-functions. This is just to highlight the example. It is clear that there is no reason to do this because rowMeans does an excellent (and faster) job.\n\ndf %&gt;% mutate(mean_all = apply(., 1, mean),\n              mean_sel = apply(select(., select_vars), 1, mean))\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\nAlthough this again fine, I’d rather not do this option, because then, for instance in teaching, you would also have to explain a bit about the apply functions. I think it is easier to keep everything within one framework, but this is certainly not needed.\nSo let’s try frameworks that are more “consistent” with the tidyverse-framework; pmap and rowwise. It took me a long time to get this to work; the pmap-documentation is not (yet) very extensive.\n\n\npmap\nThe map-functions from purrr seem handy in this respect.\nThis is the solution, and we’ll see a breakdown later (mostly for myself because I didn’t quite understand it initially).\n\ndf %&gt;% mutate(mean_all = pmap_dbl(., function(...) mean(c(...))),\n              mean_sel = pmap_dbl(select(., select_vars), \n                                  function(...) mean(c(...))))\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\nLet’s see what is going on by looking at the easier cases of map and map2.The map-function applies some function to each element from a list. map only uses one list. With the first argument you can specify the variable name of a dataframe that will be seen as a list.\n\nmap\n\ndf %&gt;% mutate(mean_var2 = map_dbl(var2, mean))\n\n  var1 var2 var3 mean_var2\n1    1    2    3         2\n2    2    4    6         4\n\n\nIt is obviously not very sensible to calculate a mean from one number. So let’s try two numbers:\n\n\nmap2\nWith map2 you can specify two lists, again by using variable names from the dataframe, and map will iterate through all the “rows” (or elements of the lists). If we do the following:\n\ndf %&gt;% mutate(mean_var2_3 = map2_dbl(var2, var3, mean))\n\n  var1 var2 var3 mean_var2_3\n1    1    2    3           2\n2    2    4    6           4\n\n\nThe code works, but we don’t get the results we want. We get the mean of (of the row of) var2 only, not the mean of the row of var2 and var3. I think this is because the function mean doesn’t know what to do with the second argument, var3, provided to it. It certainly doesn’t see it as a number for the calculation of the mean, because all that information is passed to mean with the first argument var2. So it will only calculate a mean of var2 (for each element in the list of var2).\nLet’s improve:\n\ndf %&gt;% mutate(mean_var2_3 = map2_dbl(var2, var3, function(x, y) mean(c(x,y))))\n\n  var1 var2 var3 mean_var2_3\n1    1    2    3         2.5\n2    2    4    6         5.0\n\n\nThis does what we want! The trick here is that in the previous case, mean didn’t see the two arguments (var2 and var3) as numbers to be used to calculate the mean for. So now we have to specify directly, that both var2 and var3 are numbers that need to be combined (by using c()). So the mean function has only one argument passed to it, namely a combination of the numbers in var2 and var3 (for each row!).\n\n\npmap\nThe pmap function at the start of this section makes more sense now (at least to me). If we want to make use of more than 2 variables (or lists), we can use the pmap function. We need to use ... rather than specifying the columns/lists separately. In the end, we combine all the variables with c(). The nice thing now, is that we can also use the select_vars information that we had stored\n\ndf %&gt;% mutate(mean_all = pmap_dbl(., function(...) mean(c(...))),\n              mean_sel = pmap_dbl(select(., select_vars), \n                                  function(...) mean(c(...))))\n\n  var1 var2 var3 mean_all mean_sel\n1    1    2    3        2      2.5\n2    2    4    6        4      5.0\n\n\n\n\n\nrowwise\ndplyr also has its rowwise function. It works much less well as you would expect from such a simple sounding function. This is the “solution”.\n\nall_vars_quo &lt;- quo(c(var1, var2, var3))\nselect_vars_quo &lt;- quo(c(var2, var3))\n\ndf %&gt;% \n  rowwise() %&gt;% \n  mutate(mean_all = mean(!!all_vars_quo),\n         mean_sel = mean(!!select_vars_quo))\n\n# A tibble: 2 × 5\n# Rowwise: \n   var1  var2  var3 mean_all mean_sel\n  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n1     1     2     3        2      2.5\n2     2     4     6        4      5  \n\n\nI don’t think this is ideal at all. This may be due to my limited understanding of quosures and non-standard evaluation (https://cran.r-project.org/web/packages/dplyr/vignettes/programming.html). Also I wonder whether rowwise is really meant for the tricks we’re after; it’s somehow strongly tied to do, which seems to be related to (statistical) model building mostly.\nAlso, a huge benefit for me is the “readability” of tidyverse/dplyr R-code (for myself and for teaching). With the !! and quo the code is much less readable I think. I think it is unfortunate that we can’t use the select_vars &lt;- c(\"var2\", \"var3\") bit, that we have been able to use in all other possibilities.\nI think that it would be ideal if there was a rowwise function that would work in this way (not unlike mutate_at):\n\ndf %&gt;% \n  rowwise() %&gt;% \n  mutate(mean_all = mean(.),\n         mean_sel = mean(select(., select_vars))\n\nError: &lt;text&gt;:5:0: unexpected end of input\n3:   mutate(mean_all = mean(.),\n4:          mean_sel = mean(select(., select_vars))\n  ^\n\n\nI am probably not understanding something fundamental about non-standard evaluation and I probably fail to see what rowwise is for, but I do think the above code reads more like the rowMeans, apply, and pmap coding. If anyone can tell me why this is not an option, I would very much like to hear! Alternatively, I can just not worry, be grateful for the alternatives, and move along.\n\n\ntesting for speed\nSimilar to this post by Winston Chang, I will now test these alternatives for speed (while shamelessly copying the code by Chang):\n\n# https://rpubs.com/wch/200398\nrun_benchmark &lt;- function(nrow) {\n  # Make some data\n  df &lt;- data.frame(\n    x = rnorm(nrow),\n    y = runif(nrow),\n    z = runif(nrow)\n  )\n  \n  res &lt;- list(\n    rowMeans = system.time(mutate(df, mean_all = rowMeans(df))),\n    apply = system.time(mutate(df, mean_all = apply(df, 1, mean))),\n    pmap = system.time(\n      mutate(df, mean_all = pmap_dbl(df, function(...) mean(c(...))))),\n    pmap_list = system.time(\n      mutate(df, mean_all = pmap_dbl(as.list(df), function(...) mean(c(...))))),\n    # as.list is faster (https://rpubs.com/wch/200398)\n    rowwise = system.time(\n      mutate(rowwise(df), mean_all = mean(c(x, y, z))))\n  )\n  \n  # Get elapsed times\n  res &lt;- lapply(res, `[[`, \"elapsed\")\n\n  # Add nrow to front\n  res &lt;- c(nrow = nrow, res)\n  res\n}\n\n# Run the benchmarks for various size data\nall_times &lt;- lapply(1:5, function(n) {\n  run_benchmark(10^n)\n})\n\n# Convert to data frame\ntimes &lt;- lapply(all_times, as.data.frame)\ntimes &lt;- do.call(rbind, times)\n\n\n\nvisualise results\n\ntimes_long &lt;- times %&gt;% gather(rowMeans, apply, pmap, pmap_list, rowwise, \n                               key = \"Function\", value = \"Time\")\n\nggplot(times_long, aes(x = nrow, y = Time, \n                       colour = reorder(Function, Time, mean))) +\n  geom_point() +\n  geom_line() +\n  scale_x_continuous(trans = \"log10\") +\n  scale_y_continuous(trans = \"log10\") +\n  theme_minimal() +\n  labs(x = \"Number of rows\", y = \"Time (seconds)\")\n\n\n\n\nrowMeans is a clear winner, but can obviously not be used when you have to do something differently to the rows than means. apply is a bit faster than the pmap-functions. pmap performs better than pmap list (which is opposite to the situation here.rowwise seems to be the least ideal alternative, both in terms of time needed and the code. For other functions than calculating means, I will probably stick to (p)map, because that also lends itself better to statistical modelling."
   },
   {
     "objectID": "posts/posts/2023-06-01-demos.html",
@@ -1649,7 +1999,7 @@
     "href": "posts/posts/2018-04-11-testing-theory-in-r.html",
     "title": "Testing theory in R",
     "section": "",
-    "text": "Recently on twitter I saw this idea that if you would pick a number from a uniform distribution [0, 1] and repeat drawing numbers until the sum of the numbers is lager than one, you’ll on average pick e numbers. Didn’t doubt it at all, just thought it would be fun checking this theory (theorem?) in R:\nLet’s build a function that can test this. We’ll do it one million times, and then calculate the mean (that should be equal to e).\n\ntest_theory <- function(no_tests = 10) {\n  results <- vector(mode = \"integer\", length = no_tests)\n  \n  for(i in 1:no_tests) {\n    sum = 0\n    cnt = 0\n    while(sum <= 1) {\n      sum = sum + runif(1, min = 0, max = 1)\n      cnt = cnt + 1\n    }\n    results[i] = cnt\n  }\n  return(mean(results))\n}\ntest_theory(1000000)\n\n[1] 2.719122\n\n\ne in R is 2.7182818\nFor a mathematical breakdown [that is beyond my comprehension], see this website."
+    "text": "Recently on twitter I saw this idea that if you would pick a number from a uniform distribution [0, 1] and repeat drawing numbers until the sum of the numbers is lager than one, you’ll on average pick e numbers. Didn’t doubt it at all, just thought it would be fun checking this theory (theorem?) in R:\nLet’s build a function that can test this. We’ll do it one million times, and then calculate the mean (that should be equal to e).\n\ntest_theory &lt;- function(no_tests = 10) {\n  results &lt;- vector(mode = \"integer\", length = no_tests)\n  \n  for(i in 1:no_tests) {\n    sum = 0\n    cnt = 0\n    while(sum &lt;= 1) {\n      sum = sum + runif(1, min = 0, max = 1)\n      cnt = cnt + 1\n    }\n    results[i] = cnt\n  }\n  return(mean(results))\n}\ntest_theory(1000000)\n\n[1] 2.719122\n\n\ne in R is 2.7182818\nFor a mathematical breakdown [that is beyond my comprehension], see this website."
   },
   {
     "objectID": "posts/posts/2021-11-15-open-as-possible.html",
@@ -1666,18 +2016,32 @@
     "text": "I have a new website. The reason is that the old website partly stopped functioning, because I relied on the Hugo Academic theme. This theme got commercialised and some functionality stopped working. I decided to turn to a Quarto website, which is much better because I understand the underlying code better.\nMy process is something like: I love making a new website, change a lot, update it frequently in the first weeks. Then I lose interest. Five years after I do a complete rehaul. That’s where we are now. I have a problem.\nI browsed the interweb to see if there were nice, Quarto-based websites, and stumbled upon this: Real World Data Science. Another one that I liked was ellakaye.co.uk, from which I copied the logo in the upper left corner.\nUseful for the website, was the installation of Font Awesome and Academicons through these Quarto-plugins (FA and Academicons)"
   },
   {
+    "objectID": "posts/posts/2023-07-15-introducing-new-website.html#something-new-something-old",
+    "href": "posts/posts/2023-07-15-introducing-new-website.html#something-new-something-old",
+    "title": "A new website",
+    "section": "",
+    "text": "I have a new website. The reason is that the old website partly stopped functioning, because I relied on the Hugo Academic theme. This theme got commercialised and some functionality stopped working. I decided to turn to a Quarto website, which is much better because I understand the underlying code better.\nMy process is something like: I love making a new website, change a lot, update it frequently in the first weeks. Then I lose interest. Five years after I do a complete rehaul. That’s where we are now. I have a problem.\nI browsed the interweb to see if there were nice, Quarto-based websites, and stumbled upon this: Real World Data Science. Another one that I liked was ellakaye.co.uk, from which I copied the logo in the upper left corner.\nUseful for the website, was the installation of Font Awesome and Academicons through these Quarto-plugins (FA and Academicons)"
+  },
+  {
+    "objectID": "posts/posts/2023-07-15-introducing-new-website.html#page-layout-aaaaaahhhhhrticle",
+    "href": "posts/posts/2023-07-15-introducing-new-website.html#page-layout-aaaaaahhhhhrticle",
+    "title": "A new website",
+    "section": "page-layout: aaaaaahhhhhrticle",
+    "text": "page-layout: aaaaaahhhhhrticle\nSomething that I have struggled with most is the following: I though I was able to change the dimensions of the page. For example, in the _quarto.yml page, I can adapt the following:\nformat:\n  html: \n    grid:\n      sidebar-width: 300px\n      body-width: 900px\n      margin-width: 300px\nIt took me a long time to realise (of which I am still not sure) that this only partly holds for page-layout: custom and not for page-layout: article or page-layout: full. For example, a sidebar-width: 0px (remove the sidebar on the left completely) would only work for the landing/home page (which is custom), but not for other pages. I believe that this has to do with the issue that the default set-up in quarto is responsive to device (e.g., phone, table, computer), such that content is scaled appropriately to smaller / larger screen.\nI ‘resolved’ this issue, by accepting the default width of the content of the (article) page (around 900px), and adapted my landing page accordingly.\nWhy did I wanted this? On my website, I have three columns that include content plus visualisations in little rectangles These rectangles automatically adjust size given other content on the screen, window size, device, et cetera. This led to ‘problems’. On most pages, there is a table of contents in the margin-area, which ‘pushes’ the three columns to the left on the screen. Now on my landing page, I do not have this margin area at all. The issue was that because of this, the rectangles had a different size on the landing page versus all other pages, and some images were cropped weirdly because of it. I wanted, no I needed, consistency across pages and avoid weird cropping. Eight hours well spent!"
+  },
+  {
     "objectID": "posts/posts/2023-07-15-introducing-new-website.html#converting-talks",
     "href": "posts/posts/2023-07-15-introducing-new-website.html#converting-talks",
     "title": "A new website",
     "section": "Converting talks",
-    "text": "Converting talks\nThe biggest ‘problem’ was that I had lists of publications, blogs, and talks that included Hugo-code. For many of these files, I had to change the YAML at the start of each file. The below describes how I automatised this process.\nThe original files look something like this:\n\n+++\ndate = \"2021-11-15T00:00:00\"\ntitle = \"A roadmap on how to be as open as possible, and as closed as necessary\"\nauthors = [\"Gert Stulp\"]\nabstract = \"During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science\"\nabstract_short = \"\"\nevent = \"Official Launch Groningen Digital Competence Center\"\nevent_url = \"https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch\"\nlocation = \"Groningen, the Netherlands\"\n\nselected = true\nmath = true\n\nurl_pdf = \"/pdf/2021_YAG_OSCG_DCC.pdf\"\nurl_slides = \"\"\nurl_video = \"\"\n\n\n# Optional featured image (relative to `static/img/` folder).\n[header]\nimage = \"\"\ncaption = \"\"\n\n+++\n\nAnd need to be transformed to something like this:\n\n---\ntitle: \"A roadmap on how to be as open as possible, and as closed as necessary\"\ndescription: |\n  During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science\ncategories:\n  - Talk\nauthor: \"Gert Stulp\"\ndate: \"2021-11-15T00:00:00\"\ntoc: true\nimage: ../../images/new_event.png\nimage-alt: New talk\nlanguage: \n    section-title-footnotes: References\n---\n\n\n## Summary \n<br>\n{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; Official Launch Groningen Digital Competence Center\n\n{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands\n\n{{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch) for website\n\n{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download materials [here](\"/pdf/2021_YAG_OSCG_DCC.pdf\")\n\n\n## Description\n\nDuring this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science\n\n\nRead-in template\nI made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string replace_title, replace_date, replace_event_title, location_event, url_for_event, url_for_pdf, and description_text need to be replaced by text that come from the original markdown-files that include Hugo code.\n\n---\ntitle: replace_title\ndescription: |\n  description_text \ncategories:\n  - Talk\nauthor: \"Gert Stulp\"\ndate: \"2023-07-14\"\ntoc: true\nimage: ../../images/new_event.png\nimage-alt: New talk\nlanguage: \n    section-title-footnotes: References\n---\n\n\n## Summary \n<br>\n{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; replace_event_title\n\n{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; location_event\n\n{{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](url_for_event) for website\n\n{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download materials [here](url_for_pdf)\n\n{{< fa video-camera >}} &nbsp;&nbsp;&nbsp;&nbsp; There is a [video!](url_for_video)\n\n## Description\n\ndescription_text\n\n\ntemplate <- readLines(\"template_talk.md\")\n\n\n\nRead-in original files\n\n# List files in directory \"talk/\" with .md extension\nfile_list <- list.files(\"talk/\", pattern = paste0(\".*\", \".md\"), full.names = TRUE)\n\n\n\nReplace text and store new files in new folder\n\nlibrary(stringr)\n\nreplace_text_md <- function(file_path) {\n  # Read-in document\n  lines <- readLines(file_path)\n\n  # Function to remove annoying slashes from relevant text\n  remove_slash <- function(string, remove) {\n    # remove pattern at front and then end\n    str_remove(string, paste0(remove, \" \\\"\")) |> str_remove(\"\\\"\")\n  }\n  # remove_slash(\"date = \\\"2021-11-15T00:00:00\\\"\", remove = \"date =\")\n  \n  date <- lines[str_detect(lines, \"date =\")] |> remove_slash(\"date =\")\n  abstract <- lines[str_detect(lines, \"abstract =\")] |> remove_slash(\"abstract =\")\n  event <- lines[str_detect(lines, \"event =\")] |> remove_slash(\"event =\")\n  url <- lines[str_detect(lines, \"event_url =\")] |> remove_slash(\"event_url =\")\n  location <- lines[str_detect(lines, \"location =\")] |> remove_slash(\"location =\")\n  url_pdf <- lines[str_detect(lines, \"url_pdf =\")] |> remove_slash(\"url_pdf =\")\n  url_image <- lines[str_detect(lines, \"image =\")] |> remove_slash(\"image =\")\n  url_video <- lines[str_detect(lines, \"url_video =\")] |> remove_slash(\"url_video =\")   \n  \n  # Title deserves special treatment; needs quotes\n  title <- lines[str_detect(lines, \"title =\")] |> str_remove(\"title = \")\n  \n  temp <- template\n  # remove line in template when link to pdf, website from event, or video does not exist\n  if(url == \"\") {\n   temp <- temp[!str_detect(temp, \"fa window-maximize\")] \n  } else {\n    temp <- str_replace_all(temp, \"url_for_event\", url)\n  }\n  if(url_pdf == \"\") {\n   temp <- temp[!str_detect(temp, \"fa download\")] \n  } else {\n    temp <- str_replace_all(temp, \"url_for_pdf\", url_pdf)\n  }\n  if(url_video == \"\") {\n   temp <- temp[!str_detect(temp, \"fa video-camera\")] \n  } else {\n    temp <- str_replace_all(temp, \"url_for_video\", url_video)\n  }\n  # if image is provided, use that one rather than the template-figure\n  if(url_image != \"\") {\n    temp <- str_replace_all(temp, c(\"new_event.png\" = url_image))\n  }\n  \n  temp <- str_replace_all(\n    temp,\n    c(\"replace_title\" = title,\n      \"description_text\" = abstract,\n      \"insert_date\" = date,\n      \"replace_event_title\" = event,\n      \"location_event\" = location\n    )\n  )\n\n  # Folder talks_converted should exist\n  path_output <- paste0(\"talks_converted/\", str_remove(file_path, \"talk//\"))\n  writeLines(temp, path_output, sep = \"\\n\")\n}\n\n# For each file in the original folder\nfor(file in file_list) {\n  replace_text_md(file)  \n}"
+    "text": "Converting talks\nThe biggest ‘problem’ was that I had lists of publications, blogs, and talks that included Hugo-code. For many of these files, I had to change the YAML at the start of each file. The below describes how I automatised this process.\nThe original files look something like this:\n\n+++\ndate = \"2021-11-15T00:00:00\"\ntitle = \"A roadmap on how to be as open as possible, and as closed as necessary\"\nauthors = [\"Gert Stulp\"]\nabstract = \"During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science\"\nabstract_short = \"\"\nevent = \"Official Launch Groningen Digital Competence Center\"\nevent_url = \"https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch\"\nlocation = \"Groningen, the Netherlands\"\n\nselected = true\nmath = true\n\nurl_pdf = \"/pdf/2021_YAG_OSCG_DCC.pdf\"\nurl_slides = \"\"\nurl_video = \"\"\n\n\n# Optional featured image (relative to `static/img/` folder).\n[header]\nimage = \"\"\ncaption = \"\"\n\n+++\n\nAnd need to be transformed to something like this:\n\n---\ntitle: \"A roadmap on how to be as open as possible, and as closed as necessary\"\ndescription: |\n  During this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science\ncategories:\n  - Talk\nauthor: \"Gert Stulp\"\ndate: \"2021-11-15T00:00:00\"\ntoc: true\nimage: ../../images/new_event.png\nimage-alt: New talk\nlanguage: \n    section-title-footnotes: References\n---\n\n\n## Summary \n&lt;br&gt;\n{{&lt; fa podcast &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Official Launch Groningen Digital Competence Center\n\n{{&lt; fa map-marker &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands\n\n{{&lt; fa window-maximize &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](https://www.rug.nl/digital-competence-centre/calendar/2021/gdcc-official-launch) for website\n\n{{&lt; fa download &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Download materials [here](\"/pdf/2021_YAG_OSCG_DCC.pdf\")\n\n\n## Description\n\nDuring this event, we aimed at creating a roadmap that help researchers navigate GDPR and Open Science\n\n\nRead-in template\nI made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string replace_title, replace_date, replace_event_title, location_event, url_for_event, url_for_pdf, and description_text need to be replaced by text that come from the original markdown-files that include Hugo code.\n\n---\ntitle: replace_title\ndescription: |\n  description_text \ncategories:\n  - Talk\nauthor: \"Gert Stulp\"\ndate: \"2023-07-14\"\ntoc: true\nimage: ../../images/new_event.png\nimage-alt: New talk\nlanguage: \n    section-title-footnotes: References\n---\n\n\n## Summary \n&lt;br&gt;\n{{&lt; fa podcast &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; replace_event_title\n\n{{&lt; fa map-marker &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; location_event\n\n{{&lt; fa window-maximize &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](url_for_event) for website\n\n{{&lt; fa download &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Download materials [here](url_for_pdf)\n\n{{&lt; fa video-camera &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; There is a [video!](url_for_video)\n\n## Description\n\ndescription_text\n\n\ntemplate &lt;- readLines(\"template_talk.md\")\n\n\n\nRead-in original files\n\n# List files in directory \"talk/\" with .md extension\nfile_list &lt;- list.files(\"talk/\", pattern = paste0(\".*\", \".md\"), full.names = TRUE)\n\n\n\nReplace text and store new files in new folder\n\nlibrary(stringr)\n\nreplace_text_md &lt;- function(file_path) {\n  # Read-in document\n  lines &lt;- readLines(file_path)\n\n  # Function to remove annoying slashes from relevant text\n  remove_slash &lt;- function(string, remove) {\n    # remove pattern at front and then end\n    str_remove(string, paste0(remove, \" \\\"\")) |&gt; str_remove(\"\\\"\")\n  }\n  # remove_slash(\"date = \\\"2021-11-15T00:00:00\\\"\", remove = \"date =\")\n  \n  date &lt;- lines[str_detect(lines, \"date =\")] |&gt; remove_slash(\"date =\")\n  abstract &lt;- lines[str_detect(lines, \"abstract =\")] |&gt; remove_slash(\"abstract =\")\n  event &lt;- lines[str_detect(lines, \"event =\")] |&gt; remove_slash(\"event =\")\n  url &lt;- lines[str_detect(lines, \"event_url =\")] |&gt; remove_slash(\"event_url =\")\n  location &lt;- lines[str_detect(lines, \"location =\")] |&gt; remove_slash(\"location =\")\n  url_pdf &lt;- lines[str_detect(lines, \"url_pdf =\")] |&gt; remove_slash(\"url_pdf =\")\n  url_image &lt;- lines[str_detect(lines, \"image =\")] |&gt; remove_slash(\"image =\")\n  url_video &lt;- lines[str_detect(lines, \"url_video =\")] |&gt; remove_slash(\"url_video =\")   \n  \n  # Title deserves special treatment; needs quotes\n  title &lt;- lines[str_detect(lines, \"title =\")] |&gt; str_remove(\"title = \")\n  \n  temp &lt;- template\n  # remove line in template when link to pdf, website from event, or video does not exist\n  if(url == \"\") {\n   temp &lt;- temp[!str_detect(temp, \"fa window-maximize\")] \n  } else {\n    temp &lt;- str_replace_all(temp, \"url_for_event\", url)\n  }\n  if(url_pdf == \"\") {\n   temp &lt;- temp[!str_detect(temp, \"fa download\")] \n  } else {\n    temp &lt;- str_replace_all(temp, \"url_for_pdf\", url_pdf)\n  }\n  if(url_video == \"\") {\n   temp &lt;- temp[!str_detect(temp, \"fa video-camera\")] \n  } else {\n    temp &lt;- str_replace_all(temp, \"url_for_video\", url_video)\n  }\n  # if image is provided, use that one rather than the template-figure\n  if(url_image != \"\") {\n    temp &lt;- str_replace_all(temp, c(\"new_event.png\" = url_image))\n  }\n  \n  temp &lt;- str_replace_all(\n    temp,\n    c(\"replace_title\" = title,\n      \"description_text\" = abstract,\n      \"insert_date\" = date,\n      \"replace_event_title\" = event,\n      \"location_event\" = location\n    )\n  )\n\n  # Folder talks_converted should exist\n  path_output &lt;- paste0(\"talks_converted/\", str_remove(file_path, \"talk//\"))\n  writeLines(temp, path_output, sep = \"\\n\")\n}\n\n# For each file in the original folder\nfor(file in file_list) {\n  replace_text_md(file)  \n}"
   },
   {
     "objectID": "posts/posts/2023-07-15-introducing-new-website.html#converting-publications",
     "href": "posts/posts/2023-07-15-introducing-new-website.html#converting-publications",
     "title": "A new website",
     "section": "Converting publications",
-    "text": "Converting publications\nFor publications something similar holds. The original files look something like this:\n\n+++\n+++\nabstract = \"The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes.\"\n\nauthors = [\"Gert Stulp\", \"Tyler Bonnel\", \"Louise Barrett\"]\ndate = \"2023-03-23\"\nimage_preview = \"\"\nmath = true\npublication_types = [\"2\"]\npublication = \"The History of the Family \"\npublication_short = \"\"\nselected = false\ntitle = \"Simulating the evolution of height in the Netherlands in recent history\"\nurl_code = \"\"\nurl_dataset = \"\"\nurl_pdf = \"https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193\"\nurl_project = \"\"\nurl_slides = \"\"\nurl_video = \"\"\n\n# Optional featured image (relative to `static/img/` folder).\n[header]\nimage = \"\"\ncaption = \"\"\n\n+++\n\nAnd need to be transformed to something like this:\n\n---\ntitle: \"Simulating the evolution of height in the Netherlands in recent history\"\ndescription: |\n  The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes. \ncategories:\n  - Publication\nauthor: Gert Stulp, Tyler Bonnel, Louise Barrett\ndate: 2023-03-23\ntoc: true\nimage: ../../images/new_pub.png\nimage-alt: New publication\nlanguage: \n    section-title-footnotes: References\n---\n\n\n<br>\n{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; Simulating the evolution of height in the Netherlands in recent history\n\n{{< fa book >}} &nbsp;&nbsp;&nbsp;&nbsp; *The History of the Family*\n\n{{< fa users >}} &nbsp;&nbsp;&nbsp; Gert Stulp, Tyler Bonnel, Louise Barrett\n\n\n{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript [here](https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193)\n\n## Abstract\n\nThe Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes.\n\n\nRead-in template\nI made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string replace_title, insert_date, journal_title, replace_title_sum, replace_authors, url_journal, url_for_pdf, and description_text need to be replaced by text that come from the original markdown-files that include Hugo code.\n\n---\ntitle: replace_title\ndescription: |\n  description_text \ncategories:\n  - Publication\nauthor: replace_authors\ndate: insert_date\ntoc: true\nimage: ../../images/new_pub.png\nimage-alt: New publication\nlanguage: \n    section-title-footnotes: References\n---\n\n\n<br>\n{{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; replace_title_sum\n\n{{< fa book >}} &nbsp;&nbsp;&nbsp;&nbsp; *journal_title*\n\n{{< fa users >}} &nbsp;&nbsp;&nbsp; replace_authors\n\n{{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](url_journal) for website\n\n{{< fa download >}} &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript [here](url_for_pdf)\n\n## Abstract\n\ndescription_text\n\n\ntemplate <- readLines(\"template_pub.md\")\n\n\n\nRead-in original files\n\n# List files in directory \"publication/\" with .md extension\nfile_list <- list.files(\"publication/\", pattern = paste0(\".*\", \".md\"), full.names = TRUE)\n\n\n\nReplace text and store new files in new folder\n\nlibrary(stringr)\n\nlines <- readLines(file_list[1])\n\nreplace_text_md <- function(file_path) {\n  # Read-in document\n  lines <- readLines(file_path)\n\n  # Function to remove annoying slashes from relevant text\n  remove_slash <- function(string, remove) {\n    # remove pattern at front and then end\n    str_remove(string, paste0(remove, \" \\\"\")) |> str_remove(\"\\\"\")\n  }\n  # remove_slash(\"date = \\\"2021-11-15T00:00:00\\\"\", remove = \"date =\")\n  \n  # Get multiple authors that are in square brackets \n  # e.g. [\"Gert Stulp\", \"Louise Barrett\"]\n  detect_authors <- function(string) {\n    str_remove(string, \"authors = \\\\[\") |> str_remove(\"]\") |> str_remove_all(\"\\\"\")\n  }\n  #detect_authors('authors = [\"Gert Stulp\", \"Tyler Bonnel\", \"Louise Barrett\"]')\n  \n  date <- lines[str_detect(lines, \"date =\")] |> remove_slash(\"date =\")\n  abstract <- lines[str_detect(lines, \"abstract =\")] |> remove_slash(\"abstract =\")\n  authors <- detect_authors( lines[str_detect(lines, \"authors =\")] )\n  url_journal <- lines[str_detect(lines, \"url =\")] |> remove_slash(\"url =\")\n\n  # Requires special treatment because journal titles were either available as\n  # \"In *journal title*\" or just as \"journal title\"\n  journal <- lines[str_detect(lines, \"publication =\")] |> remove_slash(\"publication =\")\n  journal <- if(str_detect(journal, \"In \")) {\n    str_remove(journal, \"In \") |> str_remove_all(\"\\\\*\") \n  } else {\n    journal \n  } \n\n  # Requires special treatment because there were two ways of links to pdfs\n  # either as direct link pdf, or a link to open access journal\n  url_pdf <- lines[str_detect(lines, \"url_pdf =\")] |> remove_slash(\"url_pdf =\")\n  url_pdf <- if(str_detect(url_pdf, \"http\")) {\n    url_pdf # url to website with open data\n  } else {\n    paste0(\"../../\", url_pdf) # to get correct path to file\n  } \n                   \n  title <- lines[str_detect(lines, \"title =\")] |> str_remove(\"title = \")\n  # Title in body requires different treatment\n  title_sum <- lines[str_detect(lines, \"title =\")] |> remove_slash(\"title =\")\n  \n  temp <- template\n  \n  # if a url = is found, this means a link to the website was provided. \n  if(identical(url_journal, character(0)) || url_journal == \"\") {\n    #remove line in template, when 'url = ' is not found\n    temp <- temp[!str_detect(temp, \"fa window-maximize\")]\n  } else {\n    temp <- str_replace_all(temp, \"url_journal\", url_journal)\n  }\n\n  temp <- str_replace_all(\n    temp,\n    c(\"replace_title_sum\" = title_sum,\n      \"replace_title\" = title,\n      \"replace_authors\" = authors,\n      \"description_text\" = abstract,\n      \"insert_date\" = date,\n      \"journal_title\" = journal,\n      \"url_for_pdf\" = url_pdf\n    )\n  )\n\n  # The folder pubs_converted needs to exist. \n  path_output <- paste0(\"pubs_converted/\", str_remove(file_path, \"publication//\"))\n  writeLines(temp, path_output, sep = \"\\n\")\n}\n\nfor(file in file_list) {\n  replace_text_md(file)  \n}\n\nSee you in five years!"
+    "text": "Converting publications\nFor publications something similar holds. The original files look something like this:\n\n+++\n+++\nabstract = \"The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes.\"\n\nauthors = [\"Gert Stulp\", \"Tyler Bonnel\", \"Louise Barrett\"]\ndate = \"2023-03-23\"\nimage_preview = \"\"\nmath = true\npublication_types = [\"2\"]\npublication = \"The History of the Family \"\npublication_short = \"\"\nselected = false\ntitle = \"Simulating the evolution of height in the Netherlands in recent history\"\nurl_code = \"\"\nurl_dataset = \"\"\nurl_pdf = \"https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193\"\nurl_project = \"\"\nurl_slides = \"\"\nurl_video = \"\"\n\n# Optional featured image (relative to `static/img/` folder).\n[header]\nimage = \"\"\ncaption = \"\"\n\n+++\n\nAnd need to be transformed to something like this:\n\n---\ntitle: \"Simulating the evolution of height in the Netherlands in recent history\"\ndescription: |\n  The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes. \ncategories:\n  - Publication\nauthor: Gert Stulp, Tyler Bonnel, Louise Barrett\ndate: 2023-03-23\ntoc: true\nimage: ../../images/new_pub.png\nimage-alt: New publication\nlanguage: \n    section-title-footnotes: References\n---\n\n\n&lt;br&gt;\n{{&lt; fa podcast &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Simulating the evolution of height in the Netherlands in recent history\n\n{{&lt; fa book &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; *The History of the Family*\n\n{{&lt; fa users &gt;}} &nbsp;&nbsp;&nbsp; Gert Stulp, Tyler Bonnel, Louise Barrett\n\n\n{{&lt; fa download &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript [here](https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193)\n\n## Abstract\n\nThe Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes.\n\n\nRead-in template\nI made a template that each talk should conform to and stored it into an .md file. This is the content of said file. The string replace_title, insert_date, journal_title, replace_title_sum, replace_authors, url_journal, url_for_pdf, and description_text need to be replaced by text that come from the original markdown-files that include Hugo code.\n\n---\ntitle: replace_title\ndescription: |\n  description_text \ncategories:\n  - Publication\nauthor: replace_authors\ndate: insert_date\ntoc: true\nimage: ../../images/new_pub.png\nimage-alt: New publication\nlanguage: \n    section-title-footnotes: References\n---\n\n\n&lt;br&gt;\n{{&lt; fa podcast &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; replace_title_sum\n\n{{&lt; fa book &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; *journal_title*\n\n{{&lt; fa users &gt;}} &nbsp;&nbsp;&nbsp; replace_authors\n\n{{&lt; fa window-maximize &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](url_journal) for website\n\n{{&lt; fa download &gt;}} &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript [here](url_for_pdf)\n\n## Abstract\n\ndescription_text\n\n\ntemplate &lt;- readLines(\"template_pub.md\")\n\n\n\nRead-in original files\n\n# List files in directory \"publication/\" with .md extension\nfile_list &lt;- list.files(\"publication/\", pattern = paste0(\".*\", \".md\"), full.names = TRUE)\n\n\n\nReplace text and store new files in new folder\n\nlibrary(stringr)\n\nlines &lt;- readLines(file_list[1])\n\nreplace_text_md &lt;- function(file_path) {\n  # Read-in document\n  lines &lt;- readLines(file_path)\n\n  # Function to remove annoying slashes from relevant text\n  remove_slash &lt;- function(string, remove) {\n    # remove pattern at front and then end\n    str_remove(string, paste0(remove, \" \\\"\")) |&gt; str_remove(\"\\\"\")\n  }\n  # remove_slash(\"date = \\\"2021-11-15T00:00:00\\\"\", remove = \"date =\")\n  \n  # Get multiple authors that are in square brackets \n  # e.g. [\"Gert Stulp\", \"Louise Barrett\"]\n  detect_authors &lt;- function(string) {\n    str_remove(string, \"authors = \\\\[\") |&gt; str_remove(\"]\") |&gt; str_remove_all(\"\\\"\")\n  }\n  #detect_authors('authors = [\"Gert Stulp\", \"Tyler Bonnel\", \"Louise Barrett\"]')\n  \n  date &lt;- lines[str_detect(lines, \"date =\")] |&gt; remove_slash(\"date =\")\n  abstract &lt;- lines[str_detect(lines, \"abstract =\")] |&gt; remove_slash(\"abstract =\")\n  authors &lt;- detect_authors( lines[str_detect(lines, \"authors =\")] )\n  url_journal &lt;- lines[str_detect(lines, \"url =\")] |&gt; remove_slash(\"url =\")\n\n  # Requires special treatment because journal titles were either available as\n  # \"In *journal title*\" or just as \"journal title\"\n  journal &lt;- lines[str_detect(lines, \"publication =\")] |&gt; remove_slash(\"publication =\")\n  journal &lt;- if(str_detect(journal, \"In \")) {\n    str_remove(journal, \"In \") |&gt; str_remove_all(\"\\\\*\") \n  } else {\n    journal \n  } \n\n  # Requires special treatment because there were two ways of links to pdfs\n  # either as direct link pdf, or a link to open access journal\n  url_pdf &lt;- lines[str_detect(lines, \"url_pdf =\")] |&gt; remove_slash(\"url_pdf =\")\n  url_pdf &lt;- if(str_detect(url_pdf, \"http\")) {\n    url_pdf # url to website with open data\n  } else {\n    paste0(\"../../\", url_pdf) # to get correct path to file\n  } \n                   \n  title &lt;- lines[str_detect(lines, \"title =\")] |&gt; str_remove(\"title = \")\n  # Title in body requires different treatment\n  title_sum &lt;- lines[str_detect(lines, \"title =\")] |&gt; remove_slash(\"title =\")\n  \n  temp &lt;- template\n  \n  # if a url = is found, this means a link to the website was provided. \n  if(identical(url_journal, character(0)) || url_journal == \"\") {\n    #remove line in template, when 'url = ' is not found\n    temp &lt;- temp[!str_detect(temp, \"fa window-maximize\")]\n  } else {\n    temp &lt;- str_replace_all(temp, \"url_journal\", url_journal)\n  }\n\n  temp &lt;- str_replace_all(\n    temp,\n    c(\"replace_title_sum\" = title_sum,\n      \"replace_title\" = title,\n      \"replace_authors\" = authors,\n      \"description_text\" = abstract,\n      \"insert_date\" = date,\n      \"journal_title\" = journal,\n      \"url_for_pdf\" = url_pdf\n    )\n  )\n\n  # The folder pubs_converted needs to exist. \n  path_output &lt;- paste0(\"pubs_converted/\", str_remove(file_path, \"publication//\"))\n  writeLines(temp, path_output, sep = \"\\n\")\n}\n\nfor(file in file_list) {\n  replace_text_md(file)  \n}\n\nSee you in five years!"
   },
   {
     "objectID": "posts/posts/2019-03-01-winning-hackaton-hack-the-educational-gap.html",
@@ -1685,6 +2049,41 @@
     "title": "Winning hackaton “hack the educational gap”",
     "section": "",
     "text": "The Groninger municipality organised an amazing hackaton “Hack the educational gap” (see here and here).\nAnnelene Bloemen, Denise Bouwman, Tina Kretschmer, Ymkje Anna de Vries, and I formed a team. And we won! Probably because we made neat visualisation of the existing data. See slides here."
+  },
+  {
+    "objectID": "posts/posts/2023-08-24-density-plots.html",
+    "href": "posts/posts/2023-08-24-density-plots.html",
+    "title": "Recreating density plots ‘by hand’",
+    "section": "",
+    "text": "Often, in my visualisations, I use density plots in one way or another, for example through violin plots. I roughly understand what they mean, but I want to be able to calculate a density plot by hand. Just the once, so I will never have to do it again, and know that in principle I will be able to do it. Learning about them also helps in understanding the distinctions between dunif, punif, qunif, and runif (or dnorm, pnorm, qnorm, and rnorm or dexp, pexp, qexp, and rexp et cetera)"
+  },
+  {
+    "objectID": "posts/posts/2023-08-24-density-plots.html#understanding-the-uniform-density-distribution",
+    "href": "posts/posts/2023-08-24-density-plots.html#understanding-the-uniform-density-distribution",
+    "title": "Recreating density plots ‘by hand’",
+    "section": "Understanding the uniform (density) distribution",
+    "text": "Understanding the uniform (density) distribution\n\ndensity(min = 0, max = 1)\nWhen generating generating random numbers we often do so from a uniform distribution between 0 and 1. Any number between 0 and 1 occurs equally frequently. As we learn from ?qunif, the density function of the uniform distribution is described by:\n\\[f(x) = \\frac{1}{max(x) - min(x)}\\]\nThus, the density function in this case, for all x’s is \\(f(\\text{for all x}) = \\frac{1}{1 - 0} = \\frac{1}{1} = 1\\) (I am pretty sure there exists a mathematical symbol for “for all x”, but I do not know it). Let’s draw the function:\n\nlibrary(ggplot2)\ndf &lt;- data.frame(\n  x = c(0, 1),\n  density = 1\n) \n\ndens0_1 &lt;- ggplot(df, aes(x = x, y = density)) +\n  geom_line(colour = '#67a9cf') +\n  annotate(\"text\", x = 0, y = 1, label = \"density(0, 1)\", \n           colour = '#67a9cf', hjust = 0, vjust = 1.2) +\n  scale_x_continuous(breaks = seq(0, 1, 0.1)) +\n  theme_classic()\ndens0_1\n\n\n\n\nBy definition, for any density curve, the sum under the area of the “curve” adds up to 1. Let’s check: the total area under the curve is the width, which equals 1 (from 0 to 1) times the height, which also equals 1 (for all x); thus, 1 x 1 is 1. Score!\nR could have told us this through:\n\npunif(1, min = 0, max = 1)\n\n[1] 1\n\n\nNow, something slightly more complex. What is the chance of having a number between 0.7 and 0.8?\n\ndens0_1 &lt;- dens0_1 +\n  geom_area(aes(x = c(0.7, 0.8), y = c(1, 1)), fill = '#67a9cf', alpha = 0.9) \n\ndens0_1 +\n  geom_segment(aes(x = 0.7, xend = 0.8, y = 0.02, yend = 0.02),\n                  arrow = arrow(ends = \"both\", type = \"closed\", \n                                length = unit(0.2, \"cm\")), colour = \"grey\") +\n  geom_segment(aes(x = 0.82, xend = 0.82, y = 0, yend = 1),\n                  arrow = arrow(ends = \"both\", type = \"closed\", \n                                length = unit(0.2, \"cm\")), colour = \"grey\") +\n  annotate(\"text\", x = 0.75, y = 0, label = \"0.1\", vjust = 1) +\n  annotate(\"text\", x = 0.82, y = 0.5, label = \"1\", hjust = 0) \n\n\n\n\nThe area under the curve is 0.1 * 1 = 0.1. Through R, this could have been calculated via:\n\npunif(0.8, min = 0, max = 1) - punif(0.7, min = 0, max = 1)\n\n[1] 0.1\n\n\n\n\ndensity(min = 1, max = 5)\nOk, so what if we had used a density function from 1 to 5? Thus, the density function in this case, for all x’s is \\(f(\\text{for all x}) = \\frac{1}{5 - 1} = \\frac{1}{4} = 0.25\\). The area under the curve should be 1: the area under the curve from density(min = 1, max = 5) is the width (from 1 to 5 is a width of 4) times height (0.25 for all); thus, 4 x 0.25 = 1. Check.\nLet’s draw this function in the same graph, and let’s also draw the area under the curve between x = 3 and x = 4:\n\ndf2 &lt;- data.frame(\n  x = c(1, 5),\n  density = c(0.25, 0.25)\n) \n\ndens0_1 +\n  geom_line(data = df2, colour = '#ef8a62') +\n  annotate(\"text\", x = 1, y = 0.25, label = \"density(1, 5)\", \n           colour = '#ef8a62', hjust = 0, vjust = 1.2) +\n  geom_area(aes(x = c(3, 4), y = c(0.25, 0.25)), fill = '#ef8a62', alpha = 0.9) +\n  geom_segment(aes(x = 3, xend = 4, y = 0.02, yend = 0.02),\n                   arrow = arrow(ends = \"both\", type = \"closed\",\n                                 length = unit(0.2, \"cm\")), colour = \"grey\") +\n  geom_segment(aes(x = 4.1, xend = 4.1, y = 0, yend = 0.25),\n                   arrow = arrow(ends = \"both\", type = \"closed\",\n                                length = unit(0.2, \"cm\")), colour = \"grey\") +\n  annotate(\"text\", x = 3.5, y = 0, label = \"1\", vjust = 1) +\n  annotate(\"text\", x = 4.1, y = 0.125, label = \"0.25\", hjust = 0) +\n  scale_x_continuous(breaks = seq(0, 5, 1)) +\n  scale_y_continuous(breaks = seq(0, 1, 0.25),\n                     limits = c(-0.015, 1)) \n\n\n\n\nThe area under the curve from density(min = 1, max = 5), and the relative frequency of having a number between 3 and 4, is the width (from 3 to 4 is a width of 1) times height (0.25 for all); thus, 1 x 0.25 = 0.25. 25%. Makes sense.\nR would have gotten this for us through:\n\npunif(4, min = 1, max = 5) - punif(3, min = 1, max = 5)\n\n[1] 0.25\n\n\n\n\ndunif vs punif vs qunif vs runif\nFor the uniform function, we calculated the density ourselves which is identical for each “x”. We could have let R do this for us using dunif:\nFor the uniform(min = 0, max = 1) distribution:\n\nx &lt;- seq(0, 1, 0.1) # for each step of 0.1 between values 0 and 1\n# calculate density\ndunif(x, min = 0, max = 1)\n\n [1] 1 1 1 1 1 1 1 1 1 1 1\n\n\nFor the uniform(min = 1, max = 5) distribution:\n\nx &lt;- seq(0, 5, 1) # for each step of 1 between values 0 and 5\n# calculate density\ndunif(x, min = 1, max = 5)\n\n[1] 0.00 0.25 0.25 0.25 0.25 0.25\n\n\n0 for x = 0, as it should!\nWe’ve already seen punif in action, but let’s see it again. Let’s find out the probability that a number is between 0 and 0.35 for the uniform(min = 0, max = 1) distribution:\n\npunif(q = 0.35, min = 0, max = 1)\n\n[1] 0.35\n\n\nAnd let’s find out the probability that a number is between 2.5 and 4.2 for the uniform(min = 1, max = 5) distribution:\n\npunif(q = 4.2, min = 1, max = 5) - # probability for numbers between 1 and 4.2 \n  punif(q = 3.5, min = 1, max = 5) # probability for numbers between 1 and 2.5 \n\n[1] 0.175\n\n\nThe qunif function goes from a probability back to the “x”. For example, which “x” corresponds to a probability of 0.5. Thus, which area under the curve, starting from the minimum of x to the x we are looking for equals 0.5.\nFor the unif(min = 0, max = 1) distribution:\n\nqunif(p = 0.5, min = 0, max = 1)\n\n[1] 0.5\n\n\nFor the unif(0.5, min = 1, max = 5) distribution:\n\nqunif(p = 0.5, min = 1, max = 5)\n\n[1] 3\n\n\nOr let’s say we are interested in the top 1% of x’s from the unif(min = 1, max = 5) distribution:\n\nqunif(p = 0.99, min = 1, max = 5)\n\n[1] 4.96\n\n\n4.96 and higher! This might make more sense when we talk about the normal distribution (qnorm).\nrunif lets you draw random numbers from said distribution. Let’s draw 11 numbers from the unif(min = 1, max = 5) distribution:\n\nrunif(n = 11, min = 1, max = 5)\n\n [1] 2.201886 3.594314 1.285670 1.266898 1.843133 3.455094 1.605378 3.898504\n [9] 4.929507 3.570989 3.762690\n\n\nAlright, easy enough. Let’s move to the (standard) normal distribution, because that is the one that is used for violinplots and the like."
+  },
+  {
+    "objectID": "posts/posts/2023-08-24-density-plots.html#understanding-the-normal-density-distribution",
+    "href": "posts/posts/2023-08-24-density-plots.html#understanding-the-normal-density-distribution",
+    "title": "Recreating density plots ‘by hand’",
+    "section": "Understanding the normal (density) distribution",
+    "text": "Understanding the normal (density) distribution\nThe normal distribution is defined by the mean (\\(\\mu\\)) and the standard deviation (\\(\\sigma\\)), and its density distribution (better yet: probability density function) is defined by:\n\\[f(x) = \\frac{1}{{\\sigma \\sqrt {2\\pi } }}e^{{{ -( {x - \\mu })^2} / 2\\sigma^2} }\\] With the standard normal distribution, \\(\\mu = 0\\) and \\(\\sigma = 1\\), in which case the above function reduces to:\n\\[f(x) = \\frac{1}{{\\sqrt {2\\pi } }}e^{{{ -\\frac{1}{2}x} } }\\] Let’s turn the probability density function for a normal distribution into an R-function:\n\npdf_norm &lt;- function(x, mean = 0, sd = 1) {\n  (1 / (sd * sqrt( 2 * pi ))) * exp( (-1 * (x - mean)^2) / (2 * sd^2)  )\n}\n\nLet’s see if it works:\n\npdf_norm(0, mean = 0, sd = 1) # obviously mean = 0, sd = 1 not necessary\n\n[1] 0.3989423\n\n\nLet’s draw it:\n\nlibrary(tibble)\n# I use tibble here so that y can be calculated immediately\ndf_norm &lt;- tibble(x = seq(-5, 5, 0.01), density = pdf_norm(x))\n\ndens_norm &lt;- ggplot(df_norm, aes(x = x, y = density)) +\n  geom_path(colour = '#67a9cf', size = 3) + \n  theme_classic()\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\ndens_norm\n\n\n\n# c(, '#ef8a62')\n\nWe’ve created our own probability density function for the normal distribution in pdf_norm, but we did not have to because this is exactly what is stored in the function dnorm. Let’s see:\n\n# Create y-values on the base of dnorm\ndf_norm2 &lt;- tibble(x = seq(-5, 5, 0.01), \n                   density = dnorm(x, mean = 0, sd = 1))\n\ndens_norm +\n  geom_path(data = df_norm2, \n            aes(y = density), colour = '#ef8a62', linetype = \"dashed\", size = 3)\n\n\n\n\nNow, through dnorm, we can calculate the highest density value which lies at x = 0:\n\ndnorm(x = 0, mean = 0, sd = 1)\n\n[1] 0.3989423\n\n\nLet’s visualise:\n\n# We're using the results from dnorm here (y2)\ndens_norm2 &lt;- ggplot(df_norm2, aes(x = x, y = density)) +\n  geom_path(colour = '#ef8a62', size = 2) +\n  scale_x_continuous(breaks = seq(-5, 5, 1)) + \n  theme_classic()\n\ndens_norm2 + \n  annotate(\"point\", x = 0, y = dnorm(x = 0, mean = 0, sd = 1), \n           colour = '#67a9cf') +\n  annotate(\"text\", x = 0, y = dnorm(x = 0, mean = 0, sd = 1), \n           label = dnorm(x = 0, mean = 0, sd = 1), vjust = 0, colour = '#67a9cf') \n\n\n\n\nNow, we can look for probabilities. This time, probabilities under the curve are not as easily calculated by hand, but we’ve seen above that we could get these probabilities through punif for the uniform distribution, and in the same way we can use pnorm to find probabilities for the normal distribution! Let’s try finding the probability of finding an x equal to or below -1:\n\npnorm(q = -1, mean = 0, sd = 1)\n\n[1] 0.1586553\n\n\n\ndens_norm2 +\n  geom_area(data = subset(df_norm2, x &lt;= -1), \n            fill = '#ef8a62', alpha = 0.7) +\n  annotate(\"text\", x = -1, y = 0.05, \n           label = round(pnorm(q = -1, mean = 0, sd = 1), 4), \n           hjust = 1, colour = \"white\") \n\n\n\n\nOr between 0 and 2:\n\np_0_2 &lt;- pnorm(q = 2, mean = 0, sd = 1) - pnorm(q = 0, mean = 0, sd = 1)\np_0_2\n\n[1] 0.4772499\n\n\n\ndens_norm2 +\n  geom_area(data = subset(df_norm, x &gt;= 0 & x &lt;= 2), \n            fill = '#ef8a62', alpha = 0.7) +\n  annotate(\"text\", x = 1, y = 0.05, \n           label = round(p_0_2, 4), colour = \"white\")"
+  },
+  {
+    "objectID": "posts/posts/2023-08-24-density-plots.html#density-plots",
+    "href": "posts/posts/2023-08-24-density-plots.html#density-plots",
+    "title": "Recreating density plots ‘by hand’",
+    "section": "Density plots",
+    "text": "Density plots\nWe’ve did the ground work for the density plots. Now we try to understand how we get something like this:\n\ndf_dens &lt;- data.frame(x = c(0, 0.3, 1))\nggplot(df_dens, aes(x = x), colour = '#67a9cf', size = 2) +\n  geom_density() +\n  theme_classic()\n\n\n\n\nIt’s important to realise that under hood something like this happens:\n\nggplot(df_dens, aes(x = x)) +\n  geom_density(\n    kernel = \"gaussian\",\n    bw = \"nrd0\",\n    colour = '#67a9cf',\n    size = 2\n  ) +\n  theme_classic()\n\n\n\n\nThese arguments (kernel = \"gaussian\" and bw = \"nrd0\") are passed to the function density():\n\ndensity(x = df_dens$x, kernel = \"gaussian\", bw = \"nrd0\")\n\n\nCall:\n    density.default(x = df_dens$x, bw = \"nrd0\", kernel = \"gaussian\")\n\nData: df_dens$x (3 obs.);   Bandwidth 'bw' = 0.2696\n\n       x                 y           \n Min.   :-0.8087   Min.   :0.005535  \n 1st Qu.:-0.1544   1st Qu.:0.103430  \n Median : 0.5000   Median :0.447735  \n Mean   : 0.5000   Mean   :0.381337  \n 3rd Qu.: 1.1544   3rd Qu.:0.545436  \n Max.   : 1.8087   Max.   :0.848818  \n\n# same as density(x = df_dens$x)\n\nJust to show that density leads to the same graph as geom_density:\n\ndens_calc &lt;- density(x = df_dens$x)\ndf_dens2 &lt;- data.frame(x = dens_calc$x, density = dens_calc$y)\n\nggplot(df_dens, aes(x = x)) +\n  geom_density(colour = '#67a9cf', size = 2) +\n  geom_density(data = df_dens2, stat = \"identity\", \n               aes(x = x, y = density),\n               colour = '#ef8a62', size = 2, linetype = \"dashed\") +\n  theme_classic()\n\n\n\n\nTo arrive at these results, it is important to understand the kernel = \"gaussian\" and bw = \"nrd0\" arguments."
+  },
+  {
+    "objectID": "posts/posts/2023-08-24-density-plots.html#kernel-density-distributions",
+    "href": "posts/posts/2023-08-24-density-plots.html#kernel-density-distributions",
+    "title": "Recreating density plots ‘by hand’",
+    "section": "Kernel density distributions",
+    "text": "Kernel density distributions\nThe density estimation happens through something called a a kernel density distribution. This is defined by:\n\\[ \\hat{f}_{h}(x)=\\frac{1}{nh}\\sum_{i=1}^nK(\\frac{x-x_i}{h}) \\]\nIn the above function, K, is the kernel, some non-negative density distribution function, like the ones we have defined above. h is the bandwidth, a positive number that effectively defines the smoothness of the graph. The argument kernel = refers to K and the argument bw = refers to the bandwidth h. As you might guess, the kernel = gaussian\" says that we are using the gaussian or normal density distribution as the kernal K!\nAt this point, I was still a bit lost, but following this great blogpost I understood more. Let’s first assume a bandwidth of 1, and a sample of three numbers from a population {5, 7, 8}.\nTo build a kernel density estimation (using the normal density distribution) for a sample, we need to perform two steps:\n\nFor each element in the sample, draw a normal distribution where the sample element is the mean, and the variance is defined by the square of the bandwidth, \\(h^2\\).\nSum up all the normal distributions from step 1 and divide the sum by nh, which is equal to n in this case, because we defined the bandwidth as 1.\n\nSo, below we’ll plot three normal distributions: \\(\\mathcal{N}(5, 1)\\), \\(\\mathcal{N}(7, 1)\\), and \\(\\mathcal{N}(8, 1)\\), plus its sum divided by three (nh) to arrive at the overall density distribution.\n\ndf &lt;- tibble(\n  x = seq(0, 15, 0.01),\n  norm_5 = dnorm(x, mean = 5, sd = 1),\n  norm_7 = dnorm(x, mean = 7, sd = 1),\n  norm_8 = dnorm(x, mean = 8, sd = 1),\n  norm_sum = (norm_5 + norm_7 + norm_8) / 3\n)\n\nkernel &lt;- ggplot(df, aes(x = x)) +\n  geom_line(aes(y = norm_5), colour = '#ef8a62', size = 2) +\n  geom_line(aes(y = norm_7), colour = \"#a83299\", size = 2) +\n  geom_line(aes(y = norm_8), colour = '#67a9cf', size = 2) +\n  geom_line(aes(y = norm_sum), colour = \"darkgrey\", size = 2) +\n  labs(y = \"density\") +\n  theme_classic()\nkernel\n\n\n\n\nHow does this one stack up to the `geom_density’-distribution?\n\nkernel +\n  geom_density(\n    data = data.frame(x = c(5, 7, 8)),\n    bw = 1, # remember we used a bandwidth of 1!\n    colour = '#f7f7f7', linetype = \"dashed\", size = 2\n  )\n\n\n\n\nSUCCESS!\nHowever, normally we would have geom_density calculate the bandwidth (bw) for us. Let’s see\n\nggplot(data = data.frame(x = c(5, 7, 8)), aes(x = x)) +\n  geom_density(bw = 1, colour = \"darkgrey\", size = 2) +\n  geom_density(size = 2) + # currently unknown bandwidth\n  theme_classic() +\n  scale_x_continuous(limits = c(0, 15))\n\n\n\n\nSimilar but not the same, and that’s because a different binwidth is used. Which binwidth? geom_density uses density. So let’s see what density gives us:\n\ndensity(x = c(5, 7, 8))\n\n\nCall:\n    density.default(x = c(5, 7, 8))\n\nData: c(5, 7, 8) (3 obs.);  Bandwidth 'bw' = 0.8087\n\n       x                y           \n Min.   : 2.574   Min.   :0.001845  \n 1st Qu.: 4.537   1st Qu.:0.033991  \n Median : 6.500   Median :0.151694  \n Mean   : 6.500   Mean   :0.127113  \n 3rd Qu.: 8.463   3rd Qu.:0.185661  \n Max.   :10.426   Max.   :0.273176  \n\n\nSo a bandwidth equal to 0.8087322. Let’s validate:\n\nggplot(data = data.frame(x = c(5, 7, 8)), aes(x = x)) +\n  geom_density(bw = density(x = c(5, 7, 8))$bw, \n               colour = \"darkgrey\", size = 2) +\n  geom_density(size = 2, linetype = \"dashed\") + # currently unknown bandwidth\n  theme_classic() +\n  scale_x_continuous(limits = c(0, 15))\n\n\n\n\nSuccess, yet again.\nHow did geom_density, or better yet density arrive at 0.8087322? This is where the other argument bw = \"nrd0\" comes in. When using density(kernel = \"gaussian\"), the default way to estimate the bandwidth is through the argument bw = \"nrd0\". The help function further tells us that:\n\n“bw.nrd0 implements a rule-of-thumb for choosing the bandwidth of a Gaussian kernel density estimator. It defaults to 0.9 times the minimum of the standard deviation and the interquartile range divided by 1.34 times the sample size to the negative one-fifth power (= Silverman’s ‘rule of thumb’, Silverman (1986, page 48, eqn (3.31))) unless the quartiles coincide when a positive result will be guaranteed.”\n\nNot exactly beautiful prose. Anyway, Silverman’s rule of thumb is:\n\\[b = 0.9 \\cdot min(\\hat{\\sigma}, \\frac{IQR}{1.35})n^{-\\frac{1}{5}}\\] Let’s see if we can calculate it ourselves.\n\nsd &lt;- sd(c(5, 7, 8))\nQ3 &lt;- quantile(c(5, 7, 8), 0.75)\nQ1 &lt;- quantile(c(5, 7, 8), 0.25)\nIQR &lt;- Q3 - Q1 \nIQR_div &lt;- IQR / 1.34\nh_calc &lt;- (0.9 * IQR_div) * 3^(-1/5)\n\nThe (sample) standard deviation of 5, 7, and 8 is 1.5275252.\nThe IQR is Q3 - Q1 = 7.5 - 6 = 1.5. [in R there are nine different ways to produce quantiles via the quantile function. Sigh.]. The IQR divided by 1.34 is 1.119403. Thus, the IQR/1.34 is smaller than the standard deviation. Thus,\n\\(b = 0.9 \\cdot 1.119403 \\cdot n^{-\\frac{1}{5}}\\) = 0.8087322.\n\n[ Let us completely ignore that using the Silverman’s rule of thumb is ill-advised ]\n\nAre we there yet?\nNO. We’ve calculated the overall density distributions through the density function of the normal distribution, and we seem to be getting the exact same results. However, under the hood, the density() function is using Fast Fourier Transform [signal processing course nightmares]. This great video (which I understand let’s say 73%) explains that a Fast Fourier Transform of a normal distribution is a normal distribution. So I guess it is not weird when we get the same (similar?) results when using the normal density distributions to calculate use as a Kernel. I have reached the limits of my cognitive abilities, so I will not explore this further currently.\nI would have not been able to write this post that nobody reads without this blog."
   },
   {
     "objectID": "posts/posts/2020-02-20-the-economist-improving-my-graphs.html",
@@ -1734,6 +2133,13 @@
     "title": "New movie about research group",
     "section": "",
     "text": "Recently, the Department of Sociology at Groningen celebrated its 80-year existence. Six videos were made as part of this celebration, showing the diversity of research at our Department. This video was made for the Families Lifecourse and Ageing Group, which I am coordinating:"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Recreating density plots ‘by hand’\n\n\n\nR\n\n\nVisualisation\n\n\n\nWhere I attempt to understand density plots and get stuck on Fast Fourier Transforms.\n\n\n\nGert Stulp\n\n\nAug 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtikel in Demos\n\n\n\nFertility\n\n\nOutreach\n\n\n\nAls je mensen vraagt naar hun wens om kinderen te krijgen, benoemen zij soms hun ontevredenheid met de toestand in de wereld. Onderwerpen als klimaatverandering, maar ook…\n\n\n\nGert Stulp\n\n\nJul 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA new website\n\n\n\nR\n\n\n\nI have a new website. The reason is that the old website (partly) stopped functioning. I went from Hugo to Quarto. I’ll describe some difficulties.\n\n\n\nGert Stulp\n\n\nJul 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultiple thesis prizes for Hannah Dietzenbacher\n\n\n\nPrize\n\n\n\nHannah Dietzenbacher received no less than three (master’s) thesis prizes. I was lucky enough to supervise her.\n\n\n\nGert Stulp\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHogeronderwijspremie\n\n\n\nPrize\n\n\n\nThe program Data Wise: data science in society was nominated for the Hogeronderwijspremie. We came very far and were asked for interview, but unfortuantely we didn’t make it…\n\n\n\nGert Stulp\n\n\nApr 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA roadmap on how to be as open as possible, and as closed as necessary\n\n\n\nOpen Science\n\n\nGDPR\n\n\n\nOn October 27th, the Young Academy Groningen, in collaboration with the Open Science Community Groningen and de Digital Competence Centers at our University organised a…\n\n\n\nGert Stulp\n\n\nNov 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeveral interviews on the Dutch not getting taller\n\n\n\nMedia\n\n\nHeight\n\n\n\nThe CBS has published a great report on the Dutch not getting taller, or even shrinking.…\n\n\n\nGert Stulp\n\n\nOct 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Economist improving my graphs\n\n\n\nR\n\n\nVisualisation\n\n\nHeight\n\n\n\nGiven the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs.\n\n\n\nGert Stulp\n\n\nFeb 20, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtikel op sociale vraagstukken\n\n\n\nMedia\n\n\nFertility\n\n\n\nRenkse Verweij en ik hebben onlangs een artikel geschreven over ons onderzoek naar kinderloosheid voor de website van Sociale Vraagstukken: [Eerst zekerheid, dan pas…\n\n\n\nGert Stulp\n\n\nFeb 19, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterview voor het Parool over het (jong) krijgen van kinderen\n\n\n\nMedia\n\n\nFertility\n\n\n\nRecentelijk werd ik geïnterviewd voor het Parool over het (jong) krijgen van kinderen…\n\n\n\nGert Stulp\n\n\nFeb 19, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterview for BBC about secular trend in height\n\n\n\nMedia\n\n\nHeight\n\n\n\nRecently, I had a hilarious and interesting interview with Professor Cregan-Reid and Kevin Mousley from the BBC about the historical changes in height and why the Dutch are…\n\n\n\nGert Stulp\n\n\nFeb 18, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWinning hackaton “hack the educational gap”\n\n\n\nHackaton\n\n\n\nThe Groninger municipality organised an amazing hackaton “Hack the educational gap” (see…\n\n\n\nGert Stulp\n\n\nMar 1, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTalk about the FLAG-research group\n\n\n\nSociology\n\n\n\nThe Department of Sociology at Groningen celebrated its 80-year existence and a big party was thrown showcasing the diversity of…\n\n\n\nGert Stulp\n\n\nFeb 24, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew movie about research group\n\n\n\nSociology\n\n\n\nRecently, the Department of Sociology at Groningen celebrated its 80-year existence.\n\n\n\nGert Stulp\n\n\nOct 22, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Scientist Wetenschapstalent\n\n\n\nResearch\n\n\n\nI was fortunate enough to have been nominated for the [New Scientist Wetenschapstalent…\n\n\n\nGert Stulp\n\n\nApr 24, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent ways of calculating rowmeans on selected variables in a tidyverse framework\n\n\n\nR\n\n\nTidyverse\n\n\n\nGiven the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs.\n\n\n\nGert Stulp\n\n\nMar 24, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTesting theory in R\n\n\n\nR\n\n\n\n\n\n\n\nGert Stulp\n\n\nMar 24, 2018\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/index.html",
@@ -1820,10 +2226,10 @@
     "text": "Grants, awards, nominations"
   },
   {
-    "objectID": "posts/posts/2023-07-15-introducing-new-website.html#page-layout-aaaaaahhhhhrticle",
-    "href": "posts/posts/2023-07-15-introducing-new-website.html#page-layout-aaaaaahhhhhrticle",
-    "title": "A new website",
-    "section": "page-layout: aaaaaahhhhhrticle",
-    "text": "page-layout: aaaaaahhhhhrticle\nSomething that I have struggled with most is the following: I though I was able to change the dimensions of the page. For example, in the _quarto.yml page, I can adapt the following:\nformat:\n  html: \n    grid:\n      sidebar-width: 300px\n      body-width: 900px\n      margin-width: 300px\nIt took me a long time to realise (of which I am still not sure) that this only partly holds for page-layout: custom and not for page-layout: article or page-layout: full. For example, a sidebar-width: 0px (remove the sidebar on the left completely) would only work for the landing/home page (which is custom), but not for other pages. I believe that this has to do with the issue that the default set-up in quarto is responsive to device (e.g., phone, table, computer), such that content is scaled appropriately to smaller / larger screen.\nI ‘resolved’ this issue, by accepting the default width of the content of the (article) page (around 900px), and adapted my landing page accordingly.\nWhy did I wanted this? On my website, I have three columns that include content plus visualisations in little rectangles These rectangles automatically adjust size given other content on the screen, window size, device, et cetera. This led to ‘problems’. On most pages, there is a table of contents in the margin-area, which ‘pushes’ the three columns to the left on the screen. Now on my landing page, I do not have this margin area at all. The issue was that because of this, the rectangles had a different size on the landing page versus all other pages, and some images were cropped weirdly because of it. I wanted, no I needed, consistency across pages and avoid weird cropping. Eight hours well spent!"
+    "objectID": "all-content.html",
+    "href": "all-content.html",
+    "title": "All content",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRecreating density plots ‘by hand’\n\n\n\nR\n\n\nVisualisation\n\n\n\nWhere I attempt to understand density plots and get stuck on Fast Fourier Transforms.\n\n\n\nGert Stulp\n\n\nAug 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtikel in Demos\n\n\n\nFertility\n\n\nOutreach\n\n\n\nAls je mensen vraagt naar hun wens om kinderen te krijgen, benoemen zij soms hun ontevredenheid met de toestand in de wereld. Onderwerpen als klimaatverandering, maar ook…\n\n\n\nGert Stulp\n\n\nJul 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA new website\n\n\n\nR\n\n\n\nI have a new website. The reason is that the old website (partly) stopped functioning. I went from Hugo to Quarto. I’ll describe some difficulties.\n\n\n\nGert Stulp\n\n\nJul 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction in the social sciences\n\n\n\nOverview\n\n\nPrediction\n\n\nMachine learning\n\n\nData science\n\n\n\nPrediction and explanation in the social sciences.\n\n\n\nGert Stulp\n\n\nJun 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultiple thesis prizes for Hannah Dietzenbacher\n\n\n\nPrize\n\n\n\nHannah Dietzenbacher received no less than three (master’s) thesis prizes. I was lucky enough to supervise her.\n\n\n\nGert Stulp\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHogeronderwijspremie\n\n\n\nPrize\n\n\n\nThe program Data Wise: data science in society was nominated for the Hogeronderwijspremie. We came very far and were asked for interview, but unfortuantely we didn’t make it…\n\n\n\nGert Stulp\n\n\nApr 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA roadmap on how to be as open as possible, and as closed as necessary\n\n\n\nOpen Science\n\n\nGDPR\n\n\n\nOn October 27th, the Young Academy Groningen, in collaboration with the Open Science Community Groningen and de Digital Competence Centers at our University organised a…\n\n\n\nGert Stulp\n\n\nNov 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeveral interviews on the Dutch not getting taller\n\n\n\nMedia\n\n\nHeight\n\n\n\nThe CBS has published a great report on the Dutch not getting taller, or even shrinking.…\n\n\n\nGert Stulp\n\n\nOct 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial networks\n\n\n\nOverview\n\n\nNetworks\n\n\nVisualisation\n\n\n\nHumans are a social species, being influenced by the thoughs and behaviours of people in their networks. Characterising these networks, and getting data on them, is…\n\n\n\nGert Stulp\n\n\nMar 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Economist improving my graphs\n\n\n\nR\n\n\nVisualisation\n\n\nHeight\n\n\n\nGiven the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs.\n\n\n\nGert Stulp\n\n\nFeb 20, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtikel op sociale vraagstukken\n\n\n\nMedia\n\n\nFertility\n\n\n\nRenkse Verweij en ik hebben onlangs een artikel geschreven over ons onderzoek naar kinderloosheid voor de website van Sociale Vraagstukken: [Eerst zekerheid, dan pas…\n\n\n\nGert Stulp\n\n\nFeb 19, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterview voor het Parool over het (jong) krijgen van kinderen\n\n\n\nMedia\n\n\nFertility\n\n\n\nRecentelijk werd ik geïnterviewd voor het Parool over het (jong) krijgen van kinderen…\n\n\n\nGert Stulp\n\n\nFeb 19, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterview for BBC about secular trend in height\n\n\n\nMedia\n\n\nHeight\n\n\n\nRecently, I had a hilarious and interesting interview with Professor Cregan-Reid and Kevin Mousley from the BBC about the historical changes in height and why the Dutch are…\n\n\n\nGert Stulp\n\n\nFeb 18, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWinning hackaton “hack the educational gap”\n\n\n\nHackaton\n\n\n\nThe Groninger municipality organised an amazing hackaton “Hack the educational gap” (see…\n\n\n\nGert Stulp\n\n\nMar 1, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTalk about the FLAG-research group\n\n\n\nSociology\n\n\n\nThe Department of Sociology at Groningen celebrated its 80-year existence and a big party was thrown showcasing the diversity of…\n\n\n\nGert Stulp\n\n\nFeb 24, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew movie about research group\n\n\n\nSociology\n\n\n\nRecently, the Department of Sociology at Groningen celebrated its 80-year existence.\n\n\n\nGert Stulp\n\n\nOct 22, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Scientist Wetenschapstalent\n\n\n\nResearch\n\n\n\nI was fortunate enough to have been nominated for the [New Scientist Wetenschapstalent…\n\n\n\nGert Stulp\n\n\nApr 24, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudying the number of children people want and have\n\n\n\nOverview\n\n\nFertility\n\n\n\nThere is huge variation in the number of children people (would like to) have over time / across the globe / within countries. I try to study the determinants of this…\n\n\n\nGert Stulp\n\n\nMar 30, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent ways of calculating rowmeans on selected variables in a tidyverse framework\n\n\n\nR\n\n\nTidyverse\n\n\n\nGiven the upcoming US elections, several media outlets have shown interest in my research on the heights of US presidents. The Economist improved my graphs.\n\n\n\nGert Stulp\n\n\nMar 24, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTesting theory in R\n\n\n\nR\n\n\n\n\n\n\n\nGert Stulp\n\n\nMar 24, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisualisation in research\n\n\n\nOverview\n\n\nVisualisation\n\n\n\nVisualisation is key in any project involving datapoints. Yet the reader is not ‘showered in graphical displays’ [Anscombe, 1973]. I am an active promotor of the use of…\n\n\n\nGert Stulp\n\n\nMar 21, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvolutionary perspectives on human behaviour\n\n\n\nOverview\n\n\nEvolution\n\n\n\nHumans are a weird species.\n\n\n\nGert Stulp\n\n\nMar 18, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvolutionary perspectives on human height variation\n\n\n\nOverview\n\n\nHeight\n\n\nEvolution\n\n\n\nMy research in the past has focussed on variation in human height. In particular, how evolutionary processes have been and are shaping variation in stature. I tried to…\n\n\n\nGert Stulp\n\n\nMar 16, 2018\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
