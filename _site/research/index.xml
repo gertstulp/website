@@ -10,7 +10,35 @@
 <atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Sun, 25 Jun 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 07 Sep 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Describing the Dutch Social Networks and Fertility Study and how to process it</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2023_Stulp_DR.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Describing the Dutch Social Networks and Fertility Study and how to process it</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Demographic Research</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://www.demographic-research.org/articles/volume/49/19">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><strong>Background</strong>: The social networks of people play a prominent role in theories on fertility. Investigating how networks shape behaviour is hard, because of the difficulty in measuring (large) networks among representative samples. Therefore, comprehensive studies of the variation in the structure and composition of networks and their impact on fertility outcomes are lacking.</p>
+<p><strong>Objective</strong>: I aim to, first, describe the Dutch Social Networks and Fertility Study, and, second, describe the R-package FertNet that processes data from this study and transforms it into an easy-to-use format for researchers.</p>
+<p><strong>Methods</strong>: The data used are from the Longitudinal Internet Social Survey (LISS) panel, a representative panel of Dutch households. The focus is on the Social Networks and Fertility Study that includes a subsample of women between the ages of 18‒40. Specific survey software was designed to capture each respondent’s personal network comprising 25 individuals with whom they had a relationship. In total, 758 women reported on over 18,750 relationships. For each person with whom the respondent had a relationship, several questions were asked about fertility-related topics. Uniquely, the connections between these people were also assessed. The R-package FertNet corrects data issues and transforms unstructured network data into alter-attribute and alter-tie datasets that can be handled by a diversity of network analytical approaches.</p>
+<p><strong>Contribution</strong>: The Social Networks and Fertility Study is a unique resource that allows for a comprehensive investigation of how networks shape fertility behaviour. It provides better estimates of network characteristics than earlier literature based on smaller networks. The R-package FertNet assists researchers in their analyses.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2023_Stulp_DR.html</guid>
+  <pubDate>Thu, 07 Sep 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
 <item>
   <title>Prediction in the social sciences</title>
   <dc:creator>Gert Stulp</dc:creator>
@@ -527,36 +555,6 @@
   <category>Visualisation</category>
   <guid>https://www.gertstulp.com/research/talks/2021_Rworkshop_GSMS.html</guid>
   <pubDate>Wed, 24 Nov 2021 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Do Data from Large Personal Networks Support Cultural Evolutionary Ideas about Kin and Fertility?</title>
-  <dc:creator>Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/talks/2021_DvD.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Dag van de Sociologie</p>
-<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Utrecht, the Netherlands (online)</p>
-<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.nvdemografie.nl/news/dutch-demography-day-week-2021/">here</a> for website</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2021_DVD.pdf">here</a></p>
-</section>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>The fertility decline associated with economic development has been attributed to a host of interrelated causes including the rising costs of children with industrialization, and shifts in family structure. One hypothesis is that kin may impart more pro-natal information within their networks than non-kin, and that this effect may be exacerbated in networks with high kin-density where greater social conformity would be expected. In this study, we tested these ideas using large personal networks (25 associates of the respondent) collected from a sample of Dutch women (N = 706). Kin (parents) were perceived to exert slightly more social pressure to have children than non-kin, although dense networks were not associated with greater pressure. In contrast, women reported talking to friends about having children to a greater extent than kin, although greater kin-density in the network increased the likelihood of women reporting that they could talk to kin about having children. Both consanguineal and affinal kin could be asked to help with child-care to a greater extent than friends and other non-kin. Overall, there was mixed evidence that kin were more likely to offer pro-natal information than non-kin, and better evidence to suggest that kin were considered to be a better source of child-care support.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Talk</category>
-  <category>Fertility</category>
-  <category>Networks</category>
-  <guid>https://www.gertstulp.com/research/talks/2021_DvD.html</guid>
-  <pubDate>Tue, 23 Nov 2021 23:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 </channel>
