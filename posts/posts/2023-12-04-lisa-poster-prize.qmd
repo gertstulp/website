@@ -1,0 +1,20 @@
+---
+title: "Poster prize for Lisa"
+description: |
+  Wat gedachten over kinderloosheid in Nederland naar aanleiding van een interview over het onderwerp 
+categories:
+  - Fertility
+  - Prediction
+  - Prize
+author: "Gert Stulp"
+date: '2023-12-04'
+toc: true
+image: ../../images/2023_Sivak_DvD.jpg
+image-alt: I still have to find a figure for this. 
+language: 
+    section-title-footnotes: References
+---
+
+At the Dutch Day of Demography, Lisa (Elizaveta Sivak) won the best poster prize! Her poster described results on the pilot of the fertility data challenge [PreFer](https://preferdatachallenge.nl). She won it also because of the "interactive" design. 
+
+![](../../images/2023_Sivak_DvD.jpg)

@@ -10,7 +10,15 @@ title-block-banner: true
 
 ### Recent or in press
 
+Stulp, G., Top, L., Xu, X., & Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. *Royal Society Open Science* 10(12), 230988. https://doi.org/10.1098/rsos.230988 <a href="https://doi.org/10.1098/rsos.230988" target="_blank">**Download**</a> 
+
+***
 Stulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. *Demographic Research* 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19 <a href="https://www.demographic-research.org/articles/volume/49/19" target="_blank">**Download**</a> 
+
+
+## 2023
+
+Tolmeijer, E., Waite, F., Isham, L., Bringhamm, L., Timmers, R., Van den Berg, A., Schuurmans, H., Staring, ABP, De Bont, P., Van Grunsven, R., Stulp, G., Wijnen, B., Van der Gaag, M., Freeman, D., Van den Berg, D. (2023). Testing the combination of Feeling Safe and peer counselling against formulation-based cognitive behaviour therapy to promote psychological wellbeing in people with persecutory delusions: study protocol for a randomized controlled trial (the Feeling Safe-NL Trial). *Trials* 24: 644.  https://doi.org/10.1186/s13063-023-07661-x <a href="https://doi.org/10.1186/s13063-023-07661-x" target="_blank">**Download**</a> 
 
 ***
 Stulp, G, Bonnel, T & Barrett, L. (2023). Simulating the evolution of height in the Netherlands in recent history. *The History of the Family* 28(2), 434-456. https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193 <a href="https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193" target="_blank">**Download**</a> 
@@ -25,14 +33,15 @@ Langener AM, Stulp G, Kas MJ & Bringmann LF (2023). Capturing the Dynamics of th
 ***
 Lu, R, Gauthier, AH & Stulp, G. (2023). Fertility preferences in China in the 21st century. *Journal of Population Research*. 40, 8. https://doi.org/10.1007/s12546-023-09303-0. <a href="https://link.springer.com/article/10.1007/s12546-023-09303-0" target="_blank">**Download**</a> 
 
-***
-Xu, X, Stulp, G, van den Bosch, A & Gauthier, A (2022). Understanding Narratives from Demographic Survey Data: a Comparative Study with Multiple Neural Topic Models. Published in *conference proceedings of Empirical Methods in Natural Language Processing*. <a href="/pdf/2022_Xu.pdf" target="_blank">**Download**</a>
 
 ***
 Aoudjan, M, Van Delft, E , Van der Veen, D, Bringmann, L, Stulp, G, Montagne, B. (2023). Crisissignaleringsplan monitoren en visualiseren: in transitie van reactief naar preventief bij borderline persoonlijkheidsstoornissen. *Gedragstherapie* 56, 1, 54 - 74. <please send me an email if you are interested in this paper>
 
 ### 2022
 
+Xu, X, Stulp, G, van den Bosch, A & Gauthier, A (2022). Understanding Narratives from Demographic Survey Data: a Comparative Study with Multiple Neural Topic Models. Published in *conference proceedings of Empirical Methods in Natural Language Processing*. <a href="/pdf/2022_Xu.pdf" target="_blank">**Download**</a>
+
+***
 Lu, R, Stulp, G & Gauthier, AH (2022). Quantifying the sources of heterogeneity of fertility preferences in China. *China Population and Development Studies*, 6, 127-140. https://link.springer.com/article/10.1007/s42379-022-00110-3 <a href="https://link.springer.com/article/10.1007/s42379-022-00110-3" target="_blank">**Download**</a> 
 
 
