@@ -20,7 +20,7 @@ language:
 <br>
 {{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; NetResilience seminar
 
-{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands
+{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; Helsinki, Finland
 
 {{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](https://www.netresilience.fi/en/) for website
 

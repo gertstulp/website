@@ -8,7 +8,7 @@ categories:
 author: "Gert Stulp"
 date: '2023-09-13'
 toc: true
-image: ../../images/density_blog.png
+image: ../../images/childlessness.png
 image-alt: I still have to find a figure for this. 
 language: 
     section-title-footnotes: References
@@ -58,7 +58,7 @@ man_vouw <- tibble(
                26, 19)
 )
 
-ggplot(man_vouw, aes(x = cohort, 
+plot <- ggplot(man_vouw, aes(x = cohort, 
                 y = kindloos, colour = geslacht)) +
   geom_point(size = 3) +
   geom_line(aes(group = geslacht)) +
@@ -73,6 +73,10 @@ ggplot(man_vouw, aes(x = cohort,
   labs(x = NULL, y = "% childlessness", colour = NULL,
        caption = "SOURCE: CBS: Mannen vaker kinderloos, 2010")  +
   guides(fill = "none") 
+plot
+# to create image for preview
+# plot + theme_void() + theme(legend.position = c(0.1, 0.8)) 
+# ggsave("childlessness.png", width = 991, height = 589, unit = "px") 
 ```
 
 Nederland is hier zeker niet alleen in, en in vrijwel alle Westerse landen zien we dit patroon. Het is niet alleen de kinderloosheid die zo drastisch veranderd is, ook het kindertal is flink gedaald en de gemiddelde leeftijd waarop mensen vader of moeder worden hard gestegen. 

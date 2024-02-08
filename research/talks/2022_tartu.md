@@ -21,7 +21,7 @@ language:
 <br>
 {{< fa podcast >}} &nbsp;&nbsp;&nbsp;&nbsp; Evolutionary Ecology Seminar
 
-{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; Groningen, the Netherlands
+{{< fa map-marker >}} &nbsp;&nbsp;&nbsp;&nbsp; Tartu, Estonia
 
 {{< fa window-maximize >}} &nbsp;&nbsp;&nbsp;&nbsp; Click [here](https://ut.ee/en/node/140812) for website
 

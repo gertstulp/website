@@ -308,7 +308,7 @@
   <category>Fertility</category>
   <guid>https://www.gertstulp.com/posts/posts/2023-09-13-childlessness.html</guid>
   <pubDate>Tue, 12 Sep 2023 22:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/density_blog.png" medium="image" type="image/png" height="97" width="144"/>
+  <media:content url="https://www.gertstulp.com/images/childlessness.png" medium="image" type="image/png" height="86" width="144"/>
 </item>
 <item>
   <title>Recreating density plots ‘by hand’</title>
@@ -4388,8 +4388,21 @@ font-style: inherit;">replace_text_md</span>(file)  </span>
 
 
 
+<p>The social sciences, understandably, focus on explaining and understanding phenomena. In traditional statistical models, “understanding” is typically achieved in the following way: A relatively small theoretical model is constructed (say, 5 variables), and associations between these variables are specified (typically drawn as arrows in the model). Hypotheses often concern the strength of a particular arrow, which mostly comes down to whether this strength is different from zero (i.e., does X have an effect on Y given Z) in a sample, which in turn is mostly assessed through p-values. This approach has led and will lead to a sophisticated body of research, but it is not without problems. Whether an effect is non-zero or not is not particularly interesting; the p-value does not inform on whether an effect is important, and it is easy to ‘manipulate’ a p-value towards being below a magic threshold; good “in-sample models” may fail to predict unseen cases well. All of this means that even if we have a highly significant, non-zero effect, this does not necessarily mean we have good understanding.</p>
+<p>This is why recent research has argued that explanatory modelling should be complemented by predictive modelling. That is, there is great benefit to focus on how well a model predicts cases that the model has not seen before. This prediction may be done through machine learning, but this is not the key point for me.</p>
+<p>I hope that my (future) research will help in making this case clearly and convince social scientists of the advantages taking out-of-sample prediction seriously and also how optimising this quantity can lead to increased understanding of the system.</p>
+<section id="prefer" class="level2">
+<h2 class="anchored" data-anchor-id="prefer">PreFer</h2>
+<p>One of the main ways in which I hope to do this, is the Predicting Fertility data challenge <a href="https://preferdatachallenge.nl">PreFer</a>:</p>
+<p><img src="https://www.gertstulp.com/images/PreFer_logo_LONG.png" class="img-fluid"></p>
+</section>
+<section id="related-content" class="level2">
+<h2 class="anchored" data-anchor-id="related-content">Related content</h2>
+<p>This is one of the studies where I use a data-driven approach to a sociological topic:</p>
+<p>Stulp, G., Top, L., Xu, X., &amp; Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. <a href="https://doi.org/10.1098/rsos.230988">https://doi.org/10.1098/rsos.230988</a></p>
 
 
+</section>
 
  ]]></description>
   <category>Overview</category>
@@ -4510,8 +4523,18 @@ font-style: inherit;">replace_text_md</span>(file)  </span>
 
 
 
+<p>Have to write some more proze here, but for now:</p>
+<section id="unique-data" class="level1">
+<h1>Unique data</h1>
+<p>Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. Social Networks 64: 63-71. https://doi.org/10.1016/j.socnet.2020.07.012.</p>
+</section>
+<section id="r-package-to-process-the-data" class="level1">
+<h1>R package to process the data</h1>
+<p>Stulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. Demographic Research 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19</p>
+<p>Stulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.</p>
 
 
+</section>
 
  ]]></description>
   <category>Overview</category>

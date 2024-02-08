@@ -189,6 +189,27 @@
     "text": "I have published quite a bit on height (see also the list of publications). The one reference to rule all (my) other height publications is:\n\nStulp, G. & Barrett, L. (2016). Evolutionary perspectives on human height variation. Biological Reviews 91(1): 206-234.\n\nAlso, I will not publish on the topic again. I have had enough.\nUPDATE\nI lied: here is a more recent publication:\n\nStulp, G, Bonnel, T & Barrett, L. (2023). Simulating the evolution of height in the Netherlands in recent history. The History of the Family 28(2), 434-456. https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193"
   },
   {
+    "objectID": "research/overview/prediction.html",
+    "href": "research/overview/prediction.html",
+    "title": "Prediction in the social sciences",
+    "section": "",
+    "text": "The social sciences, understandably, focus on explaining and understanding phenomena. In traditional statistical models, “understanding” is typically achieved in the following way: A relatively small theoretical model is constructed (say, 5 variables), and associations between these variables are specified (typically drawn as arrows in the model). Hypotheses often concern the strength of a particular arrow, which mostly comes down to whether this strength is different from zero (i.e., does X have an effect on Y given Z) in a sample, which in turn is mostly assessed through p-values. This approach has led and will lead to a sophisticated body of research, but it is not without problems. Whether an effect is non-zero or not is not particularly interesting; the p-value does not inform on whether an effect is important, and it is easy to ‘manipulate’ a p-value towards being below a magic threshold; good “in-sample models” may fail to predict unseen cases well. All of this means that even if we have a highly significant, non-zero effect, this does not necessarily mean we have good understanding.\nThis is why recent research has argued that explanatory modelling should be complemented by predictive modelling. That is, there is great benefit to focus on how well a model predicts cases that the model has not seen before. This prediction may be done through machine learning, but this is not the key point for me.\nI hope that my (future) research will help in making this case clearly and convince social scientists of the advantages taking out-of-sample prediction seriously and also how optimising this quantity can lead to increased understanding of the system."
+  },
+  {
+    "objectID": "research/overview/prediction.html#prefer",
+    "href": "research/overview/prediction.html#prefer",
+    "title": "Prediction in the social sciences",
+    "section": "PreFer",
+    "text": "PreFer\nOne of the main ways in which I hope to do this, is the Predicting Fertility data challenge PreFer:"
+  },
+  {
+    "objectID": "research/overview/prediction.html#related-content",
+    "href": "research/overview/prediction.html#related-content",
+    "title": "Prediction in the social sciences",
+    "section": "Related content",
+    "text": "Related content\nThis is one of the studies where I use a data-driven approach to a sociological topic:\nStulp, G., Top, L., Xu, X., & Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. https://doi.org/10.1098/rsos.230988"
+  },
+  {
     "objectID": "research/talks/NIDI_2022.html",
     "href": "research/talks/NIDI_2022.html",
     "title": "This mess we’re in? Or how simulation and prediction will advance fertility research",
@@ -2006,14 +2027,14 @@
     "href": "research/talks/2023_RESNET.html",
     "title": "Collecting personal networks to study social influences on fertility behaviour",
     "section": "",
-    "text": "NetResilience seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+    "text": "NetResilience seminar\n      Helsinki, Finland\n      Click here for website\n      Download materials here"
   },
   {
     "objectID": "research/talks/2023_RESNET.html#summary",
     "href": "research/talks/2023_RESNET.html#summary",
     "title": "Collecting personal networks to study social influences on fertility behaviour",
     "section": "",
-    "text": "NetResilience seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+    "text": "NetResilience seminar\n      Helsinki, Finland\n      Click here for website\n      Download materials here"
   },
   {
     "objectID": "research/talks/2023_RESNET.html#description",
@@ -2195,14 +2216,14 @@
     "href": "research/talks/2022_tartu.html",
     "title": "This mess we’re in? Or how simulation and prediction will advance (demographic) research",
     "section": "",
-    "text": "Evolutionary Ecology Seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+    "text": "Evolutionary Ecology Seminar\n      Tartu, Estonia\n      Click here for website\n      Download materials here"
   },
   {
     "objectID": "research/talks/2022_tartu.html#summary",
     "href": "research/talks/2022_tartu.html#summary",
     "title": "This mess we’re in? Or how simulation and prediction will advance (demographic) research",
     "section": "",
-    "text": "Evolutionary Ecology Seminar\n      Groningen, the Netherlands\n      Click here for website\n      Download materials here"
+    "text": "Evolutionary Ecology Seminar\n      Tartu, Estonia\n      Click here for website\n      Download materials here"
   },
   {
     "objectID": "research/talks/2022_tartu.html#description",
@@ -2273,6 +2294,13 @@
     "title": "Using microsimulation, administrative data, and supercomputers to realistically model fertility behaviour: the case of fertility preferences and childlessness",
     "section": "Description",
     "text": "Description\nEducation is a strong driver of whether and when women become mothers. Many different and contradicting mechanisms have been proposed to explain why highly educated women are more likely to remain childless and become mothers at higher ages than less educated women. The demands on data to disentangle these mechanisms are extraordinary, and no dataset exists that allows for this. Microsimulation models can help in this situation by explicitly modelling the mechanisms and comparing the outcomes of the models to real-world outcomes. The simulation models presented here simulate fertility outcomes over the life courses of agents based on behavioural factors, such preferences and partnership trajectories, and biological factors that determine the ability to have children, such as the age at sterility, fecundability, and intrauterine mortality. To parametrise the models, we use administrative data from Social Statistics Netherlands, survey data from the LISS panel for the behavioural factors, and findings from reproductive medicine for the biological parameters. To estimate unknown parameters in the models (for which no data are available), we use Approximate Bayesian Computation. This is computationally rather demanding which is why we have used supercomputers. Our simulations reproduce the pattern of unintended childlessness strongly varying across women with different educational levels. Despite higher educated women preferring to have children at a later age, our simulations showed that these preferences hardly played a role in explaining childlessness. The higher age at cohabitation was the main explanation for the higher unintended childlessness among highly educated women. We discuss how these models can be used to explain the surprising reversal in gradient between education and fertility that is observed in Scandinavian countries. We end by discussing the advantages and drawbacks of our simulation approach and how it can contribute to family sociology"
+  },
+  {
+    "objectID": "research/overview/social networks.html",
+    "href": "research/overview/social networks.html",
+    "title": "Social networks",
+    "section": "",
+    "text": "Have to write some more proze here, but for now:\n\nUnique data\nStulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. Social Networks 64: 63-71. https://doi.org/10.1016/j.socnet.2020.07.012.\n\n\nR package to process the data\nStulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. Demographic Research 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19\nStulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet."
   },
   {
     "objectID": "research/overview/visualisation.html",
