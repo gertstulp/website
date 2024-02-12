@@ -8,26 +8,24 @@ toc: true
 title-block-banner: true
 ---
 
+I love {{< fa brands r-project >}} and do as much as I can through {{< fa brands r-project >}}. Here you can find some materials that I have developed.
 
-
-I love I sometimes write about what I'm doing and learning, mostly about , and it is central to much of the research I do. Here you can find some resources.
-
-{{< fa thumbs-up >}} 
-
-{{< fa brands r-project >}}
-
-<i class="fa-brands fa-r-project" aria-label="R project"></i>
-
-<i class="fa fa-map-marker" aria-hidden="true"></i>
-
-{{< fa solid graduation-cap >}} 
-
-<i class="fa-solid fa-graduation-cap"></i>
-
-## R-packages
-
-Blabla
 
 ## R tutorials
 
-Blabla
+- [Data visualisation cours](https://stulp.gmw.rug.nl/dataviz)
+
+- [Data visualisation; short workshop](https://stulp.gmw.rug.nl/schier) 
+
+- [Data visualisation workshop](https://stulp.gmw.rug.nl/ggplotworkshop) 
+
+- [Network data visualisation workshop](https://stulp.gmw.rug.nl/patio) 
+
+- [R basics workshop](https://stulp.gmw.rug.nl/Rworkshop) 
+
+
+## R-packages
+
+> Stulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.
+
+> Stulp G (2017). ggplotgui: Create Ggplots via a Graphical User Interface. https://CRAN.R-project.org/package=ggplotgui.

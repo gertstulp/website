@@ -4388,18 +4388,29 @@ font-style: inherit;">replace_text_md</span>(file)  </span>
 
 
 
-<p>The social sciences, understandably, focus on explaining and understanding phenomena. In traditional statistical models, “understanding” is typically achieved in the following way: A relatively small theoretical model is constructed (say, 5 variables), and associations between these variables are specified (typically drawn as arrows in the model). Hypotheses often concern the strength of a particular arrow, which mostly comes down to whether this strength is different from zero (i.e., does X have an effect on Y given Z) in a sample, which in turn is mostly assessed through p-values. This approach has led and will lead to a sophisticated body of research, but it is not without problems. Whether an effect is non-zero or not is not particularly interesting; the p-value does not inform on whether an effect is important, and it is easy to ‘manipulate’ a p-value towards being below a magic threshold; good “in-sample models” may fail to predict unseen cases well. All of this means that even if we have a highly significant, non-zero effect, this does not necessarily mean we have good understanding.</p>
+<p>The social sciences, understandably, focus on explaining and understanding phenomena. In traditional statistical models, “understanding” is typically achieved in the following way: A relatively small theoretical model is constructed (say, 5 variables), and associations between these variables are specified (typically drawn as arrows between variables in a model). Hypotheses often concern the strength of a particular arrow, which mostly comes down to whether this strength is different from zero (i.e., does X have an effect on Y given Z) in a sample, which in turn is mostly assessed through p-values. This approach has led and will lead to a sophisticated body of research, but it is not without problems. Whether an effect is non-zero or not is not particularly interesting; the p-value does not inform on whether an effect is important, and it is easy to ‘manipulate’ a p-value towards being below a magic threshold; good “in-sample models” may fail to predict unseen cases well. All of this means that even if we have a highly significant, non-zero effect, this does not necessarily mean we have good understanding.</p>
 <p>This is why recent research has argued that explanatory modelling should be complemented by predictive modelling. That is, there is great benefit to focus on how well a model predicts cases that the model has not seen before. This prediction may be done through machine learning, but this is not the key point for me.</p>
-<p>I hope that my (future) research will help in making this case clearly and convince social scientists of the advantages taking out-of-sample prediction seriously and also how optimising this quantity can lead to increased understanding of the system.</p>
+<p>I hope that my (future) research will help in making this case clearly and convince social scientists of the advantages of taking out-of-sample prediction seriously and also how optimising this quantity can lead to increased understanding of the system.</p>
 <section id="prefer" class="level2">
 <h2 class="anchored" data-anchor-id="prefer">PreFer</h2>
 <p>One of the main ways in which I hope to do this, is the Predicting Fertility data challenge <a href="https://preferdatachallenge.nl">PreFer</a>:</p>
 <p><img src="https://www.gertstulp.com/images/PreFer_logo_LONG.png" class="img-fluid"></p>
+<p><a href="https://arxiv.org/abs/2402.00705">Here</a> you can find a preprint of the challenge:</p>
+<blockquote class="blockquote">
+<p>Sivak, E., Pankowska, P., Mendrik, A., Emery, T., Garcia-Bernardo, J., Hocuk, S., Karpinska, K., Maineri, A., Mulder, J., Nissim, M., and Stulp, G., 2024. Combining the Strengths of Dutch Survey and Register Data in a Data Challenge to Predict Fertility (PreFer). https://arxiv.org/abs/2402.00705</p>
+</blockquote>
 </section>
 <section id="related-content" class="level2">
 <h2 class="anchored" data-anchor-id="related-content">Related content</h2>
-<p>This is one of the studies where I use a data-driven approach to a sociological topic:</p>
-<p>Stulp, G., Top, L., Xu, X., &amp; Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. <a href="https://doi.org/10.1098/rsos.230988">https://doi.org/10.1098/rsos.230988</a></p>
+<blockquote class="blockquote">
+<p>Stulp, G., Top, L., Xu, X., &amp; Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. <a href="https://doi.org/10.1098/rsos.230988">https://doi.org/10.1098/rsos.230988</a> [This is one of the studies where I use a data-driven approach to a sociological topic]</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Stulp, G., Verhagen, MD., Arpino, B. (submitted). A plea for reporting out-of-sample predictive accuracy.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Langener, A. M., Bringmann, L. F., Kas, M. J., &amp; Stulp, G. (2024). Predicting Mood Based on the Social Context Measured Through the Experience Sampling Method, Digital Phenotyping, and Social Networks. <em>Administration and Policy in Mental Health and Mental Health Services Research</em>. https://doi.org/10.1007/s10488-023-01328-0 <a href="https://doi.org/10.1007/s10488-023-01328-0" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
 
 
 </section>
@@ -4517,21 +4528,49 @@ font-style: inherit;">replace_text_md</span>(file)  </span>
 </item>
 <item>
   <title>Social networks</title>
-  <dc:creator>Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/overview/social networks.html</link>
   <description><![CDATA[ 
 
 
 
-<p>Have to write some more proze here, but for now:</p>
-<section id="unique-data" class="level1">
-<h1>Unique data</h1>
-<p>Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. Social Networks 64: 63-71. https://doi.org/10.1016/j.socnet.2020.07.012.</p>
-</section>
-<section id="r-package-to-process-the-data" class="level1">
-<h1>R package to process the data</h1>
-<p>Stulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. Demographic Research 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19</p>
+<p>Humans are uniquely social, being influenced by the ideas and behaviours of others even to their own detriment. Thus, people’s social networks are essential in their behaviour. Yet, collecting and analysing such network is not trivial.</p>
+<section id="the-social-networks-and-fertility-study" class="level2">
+<h2 class="anchored" data-anchor-id="the-social-networks-and-fertility-study">The Social Networks and Fertility study</h2>
+<p>Using specifically designed software to capture people’s personal network during an online survey, I have managed to collect data on large personal networks on a representative sample of Dutch women via the LISS panel. Related work:</p>
+<blockquote class="blockquote">
+<p>Stulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. <em>Demographic Research</em> 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19 <a href="https://www.demographic-research.org/articles/volume/49/19" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
+<blockquote class="blockquote">
 <p>Stulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Stulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. Social Networks 64: 63-71. https://doi.org/10.1016/j.socnet.2020.07.012.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Buijs, V. L., &amp; Stulp, G. (2022). Friends, family, and family friends: Predicting friendships of Dutch women. <em>Social Networks</em>, 70, 25-35. https://doi.org/10.1016/j.socnet.2021.10.008. <a href="https://doi.org/10.1016/j.socnet.2021.10.008" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Stadel, M., &amp; Stulp, G. (2022). Balancing bias and burden in personal network studies. <em>Social Networks</em>, 70, 16-24. https://doi.org/10.1016/j.socnet.2021.10.007. <a href="https://doi.org/10.1016/j.socnet.2021.10.007" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Stulp, G &amp; Barrett, L. (2021). Do data from large personal networks support cultural evolutionary ideas about kin and fertility? <em>Social Sciences</em> 10(5):177. https://doi.org/10.3390/socsci10050177. <a href="https://doi.org/10.3390/socsci10050177" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Stulp, G., Top, L., Xu, X., &amp; Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. <em>Royal Society Open Science</em> 10(12), 230988. https://doi.org/10.1098/rsos.230988 <a href="https://doi.org/10.1098/rsos.230988" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
+</section>
+<section id="how-to-best-capture-the-social-environment" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-best-capture-the-social-environment">How to best capture the social environment</h2>
+<p>Both Anna Langener and Marie Stadel work on how to best capture and analyse the social environment (including through personal network data collection, Experience Sampling Method data, and Digital Phenotyping data). Related work:</p>
+<blockquote class="blockquote">
+<p>Langener, A. M., Stulp, G., Jacobson, N. C., Costanzo, A., Jagesar, R. R., Kas, M. J., &amp; Bringmann, L. F. (2024). It’s All About Timing: Exploring Different Temporal Resolutions for Analyzing Digital-Phenotyping Data. <em>Advances in Methods and Practices in Psychological Science</em>, 7(1), 25152459231202677. https://doi.org/10.1177/25152459231202677 <a href="https://doi.org/10.1177/25152459231202677" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Langener, A. M., Bringmann, L. F., Kas, M. J., &amp; Stulp, G. (2024). Predicting Mood Based on the Social Context Measured Through the Experience Sampling Method, Digital Phenotyping, and Social Networks. <em>Administration and Policy in Mental Health and Mental Health Services Research</em>. https://doi.org/10.1007/s10488-023-01328-0 <a href="https://doi.org/10.1007/s10488-023-01328-0" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Stadel, M., Stulp, G., Langener, A. M., Elmer, T., van Duijn, M. A. J., &amp; Bringmann, L. F. (2023). Feedback About a Person’s Social Context - Personal Networks and Daily Social Interactions. <em>Administration and Policy in Mental Health and Mental Health Services Research</em>. https://doi.org/10.1007/s10488-023-01293-8 <a href="https://doi.org/10.1007/s10488-023-01293-8" target="_blank"><strong>Download</strong></a></p>
+</blockquote>
 
 
 </section>
@@ -4707,13 +4746,15 @@ font-style: inherit;">replace_text_md</span>(file)  </span>
 </item>
 <item>
   <title>Studying the number of children people want and have</title>
-  <dc:creator>Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/overview/fertility.html</link>
   <description><![CDATA[ 
 
 
 
-<p>I should still write something more sensible here. For now:</p>
+<p>The demographic transition towards low fertility is one of the most remarkable social phenomena in human history from both sociological and evolutionary perspectives. Despite very low fertility in most wealthy population, there is still considerable variation in the number of children that people would like to have and end up having. My research aims to understand whether, when and why people have children using a multidisciplinary and multimethod approach.</p>
+<p>For example, I have focussed on the association between wealth and fertility, and why this is important for evolutionary theorising (e.g., <a href="https://www.gertstulp.com/pdf/2016_Stulp%20&amp;%20Barrett_Phil_Trans_Wealth.pdf">here</a>, <a href="https://link.springer.com/article/10.1007/s12110-016-9269-4">here</a> and <a href="https://link.springer.com/article/10.1007/s12110-016-9272-9">here</a>). Moreover, some of my research has examined to what extent fertility outcomes can be explained by genetic differences between people (e.g., <a href="https://www.frontiersin.org/articles/10.3389/fsoc.2019.00074/full">here</a>, <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126821">here</a> and <a href="https://www.gertstulp.com/pdf/2017_Tropf_et_al_Nature%20Human%20Behaviour_Heritability.pdf">here</a>). Yet, other research involved examining the postponement of childbearing (e.g., <a href="https://muse.jhu.edu/article/839240">here</a> and <a href="https://www.demographic-research.org/articles/volume/43/23/">here</a>)</p>
+<p>More recently, I have focussed particularly on how people’s social networks can influence fertility outcomes (e.g., <a href="https://www.demographic-research.org/articles/volume/49/19">here</a>, <a href="https://www.mdpi.com/2076-0760/10/5/177">here</a> and <a href="https://royalsocietypublishing.org/doi/10.1098/rsos.230988">here</a>), on microsimulation models of fertility (e.g., <a href="https://www.gertstulp.com/research/talks/2022_oddisei">here</a>), on the use of natural language processing in quantifying people’s uncertainty about having children (e.g., <a href="https://www.gertstulp.com/pdf/2022_Xu.pdf">here</a>), and on how a focus on predicting fertility can advance understanding (e.g., <a href="https://preferdatachallenge.nl">here</a>)</p>
+<p>And then there is the following that annoys me at least 3 times a week:</p>
 <section id="in-medicine" class="level4">
 <h4 class="anchored" data-anchor-id="in-medicine">In medicine:</h4>
 <ul>

@@ -5,7 +5,6 @@ description: |
 categories:
   - Overview
   - Visualisation
-author: "Gert Stulp"
 date: "2018-03-21"
 toc: true
 image: ../../images/R_viz.png

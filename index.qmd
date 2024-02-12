@@ -16,6 +16,7 @@ listing:
     - "!index.qmd"
     sort: "date desc"
     type: grid
+    fields: [title, description, image]
     categories: false
     sort-ui: false
     filter-ui: false
@@ -60,9 +61,9 @@ WELCOME TO WWW.GERTSTULP.COM
 
 :::: {.columns}
 
-::: {.column width="20%"}
+::: {.column width="31%"}
 ::: {.face}
-
+<!-- quick overview GS ![](images/Gert_website_round.png){width=85%} -->
 ![](images/Gert_website_round.png){width=85%}
 :::
 :::
@@ -71,7 +72,7 @@ WELCOME TO WWW.GERTSTULP.COM
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="31%"}
 <!-- empty column to create gap -->
 I'm Gert Stulp. I like:
 
@@ -82,16 +83,16 @@ I'm Gert Stulp. I like:
 
 :::
 
-::: {.column width="2.5%"}
+::: {.column width="4.5%"}
 
 :::
 
-::: {.column width="35%"}
+::: {.column width="29%"}
 
 ::: {.logo}
 
 
-![](/images/logo.gif)
+![](/images/logo.gif){width=95%}
 :::
 :::
 

@@ -46,7 +46,7 @@
     "href": "other/copypaste.html",
     "title": "Acknowledgements",
     "section": "",
-    "text": "“Beter goed gejat dan slecht bedacht” means something like “it’s better to ‘steal’ something good, then to come up with something bad” .\nThis website was stolen well, from: Real World Data Science\nThe code to produce the logo in the upper left corner came from: ellakaye.co.uk"
+    "text": "“Beter goed gejat dan slecht bedacht” means something like “it’s better to ‘steal’ something good, than to come up with something bad” .\nThis website was stolen well, from: Real World Data Science\nThe code to produce the logo in the upper left corner came from: ellakaye.co.uk"
   },
   {
     "objectID": "posts/posts/2023-04-19-HOP.html",
@@ -172,14 +172,14 @@
     "href": "work-in-progress.html",
     "title": "Working papers",
     "section": "",
-    "text": "Submitted\n\nStulp, G., Verhagen, M.D., Arpino, B. Research note: a plea for reporting out-of-sample predictive ability. Submitted to Demography.\nStulp, G. Describing the Dutch Social Networks and Fertility Study and How to Process it. Accepted at Demographic Research\nVan Tintelen, A. & Stulp, G., Explaining uncertainty in women’s fertility preferences. Submitted to Heliyon\nLangener et al. It’ss all about timing: Exploring different temporal resolutions for analyzing digital phenotyping data. Resubmitted to Advances in Methods and Practices in Psychological Science.\nStulp, G., Xu, X., Top, L., Sivak, L. A data-driven approach towards network effects on fertility. Submitted to Royel Society Open Science\nXu, X. Van den Bosch, A., Gauthier, A., Stulp, G. Measuring the Response Quality of Open-Ended Questions in a Demographic Web Survey using Linguistic Complexity Features. Submitted to GESIS.\nLangener, AM, Bringman, LF, Kas, MJ, Stulp, G. Predicting mood based on the social environment measured through the experience sampling method, digital phenotyping, and social networks. Submitted to Administration and Policy in Mental Health and Mental Health Services Research\nStadel, M, Stulp, G. Langener, AM, Elmer, T, van Duijn, MAJ, Bringmann, LF. Feedback About a Person’s Social Context - Personal Networks and Daily Social Interactions. Submitted to Administration and Policy in Mental Health and Mental Health Services Research\nStulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies\nTesting the combination of Feeling Safe and Peer Counselling against Formulation-Based Cognitive Behavior Therapy to promote Psychological Wellbeing in People with Persecutory Delusions: Study Protocol for a Randomized Controlled Trial (the Feeling Safe-NL Trial). Authors: Eva Tolmeijer; Felicity Waite; Louise Isham; Laura Bringmann; Robin Timmers; Arjan van den Berg; Hanneke Schuurmans; Anton B. P. Staring; Paul de Bont; Rob van Grunsven; Gert Stulp; Ben Wijnen; Mark van der Gaag; Daniel Freeman; David van den Berg. Submitted to Trials"
+    "text": "Submitted\n\nSivak, E., Pankowska, P., Mendrik, A., Emery, T., Garcia-Bernardo, J., Hocuk, S., Karpinska, K., Maineri, A., Mulder, J., Nissim, M., and Stulp, G., 2024. Combining the Strengths of Dutch Survey and Register Data in a Data Challenge to Predict Fertility (PreFer). https://arxiv.org/abs/2402.00705\nStulp, G., Verhagen, M.D., Arpino, B. A plea for reporting out-of-sample predictive ability. Submitted to Quality & Quantity\nVan Tintelen, A. & Stulp, G., Explaining uncertainty in women’s fertility preferences. Submitted to Heliyon\nXu, X. Van den Bosch, A., Gauthier, A., Stulp, G. Measuring the Response Quality of Open-Ended Questions in a Demographic Web Survey using Linguistic Complexity Features. Submitted to GESIS.\nStulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies\nMarie paper advances\nRolf paper\nSecond paper"
   },
   {
     "objectID": "research/overview/fertility.html",
     "href": "research/overview/fertility.html",
     "title": "Studying the number of children people want and have",
     "section": "",
-    "text": "I should still write something more sensible here. For now:\n\nIn medicine:\n\nfertility - the ability to conceive children\nfecundity - the ability to produce an abundance of offspring\n\n\n\nIn demography:\n\nfertility - the number of live births of babies to a female\nfecundity - the physiological ability to have children"
+    "text": "The demographic transition towards low fertility is one of the most remarkable social phenomena in human history from both sociological and evolutionary perspectives. Despite very low fertility in most wealthy population, there is still considerable variation in the number of children that people would like to have and end up having. My research aims to understand whether, when and why people have children using a multidisciplinary and multimethod approach.\nFor example, I have focussed on the association between wealth and fertility, and why this is important for evolutionary theorising (e.g., here, here and here). Moreover, some of my research has examined to what extent fertility outcomes can be explained by genetic differences between people (e.g., here, here and here). Yet, other research involved examining the postponement of childbearing (e.g., here and here)\nMore recently, I have focussed particularly on how people’s social networks can influence fertility outcomes (e.g., here, here and here), on microsimulation models of fertility (e.g., here), on the use of natural language processing in quantifying people’s uncertainty about having children (e.g., here), and on how a focus on predicting fertility can advance understanding (e.g., here)\nAnd then there is the following that annoys me at least 3 times a week:\n\nIn medicine:\n\nfertility - the ability to conceive children\nfecundity - the ability to produce an abundance of offspring\n\n\n\nIn demography:\n\nfertility - the number of live births of babies to a female\nfecundity - the physiological ability to have children"
   },
   {
     "objectID": "research/overview/height.html",
@@ -193,21 +193,21 @@
     "href": "research/overview/prediction.html",
     "title": "Prediction in the social sciences",
     "section": "",
-    "text": "The social sciences, understandably, focus on explaining and understanding phenomena. In traditional statistical models, “understanding” is typically achieved in the following way: A relatively small theoretical model is constructed (say, 5 variables), and associations between these variables are specified (typically drawn as arrows in the model). Hypotheses often concern the strength of a particular arrow, which mostly comes down to whether this strength is different from zero (i.e., does X have an effect on Y given Z) in a sample, which in turn is mostly assessed through p-values. This approach has led and will lead to a sophisticated body of research, but it is not without problems. Whether an effect is non-zero or not is not particularly interesting; the p-value does not inform on whether an effect is important, and it is easy to ‘manipulate’ a p-value towards being below a magic threshold; good “in-sample models” may fail to predict unseen cases well. All of this means that even if we have a highly significant, non-zero effect, this does not necessarily mean we have good understanding.\nThis is why recent research has argued that explanatory modelling should be complemented by predictive modelling. That is, there is great benefit to focus on how well a model predicts cases that the model has not seen before. This prediction may be done through machine learning, but this is not the key point for me.\nI hope that my (future) research will help in making this case clearly and convince social scientists of the advantages taking out-of-sample prediction seriously and also how optimising this quantity can lead to increased understanding of the system."
+    "text": "The social sciences, understandably, focus on explaining and understanding phenomena. In traditional statistical models, “understanding” is typically achieved in the following way: A relatively small theoretical model is constructed (say, 5 variables), and associations between these variables are specified (typically drawn as arrows between variables in a model). Hypotheses often concern the strength of a particular arrow, which mostly comes down to whether this strength is different from zero (i.e., does X have an effect on Y given Z) in a sample, which in turn is mostly assessed through p-values. This approach has led and will lead to a sophisticated body of research, but it is not without problems. Whether an effect is non-zero or not is not particularly interesting; the p-value does not inform on whether an effect is important, and it is easy to ‘manipulate’ a p-value towards being below a magic threshold; good “in-sample models” may fail to predict unseen cases well. All of this means that even if we have a highly significant, non-zero effect, this does not necessarily mean we have good understanding.\nThis is why recent research has argued that explanatory modelling should be complemented by predictive modelling. That is, there is great benefit to focus on how well a model predicts cases that the model has not seen before. This prediction may be done through machine learning, but this is not the key point for me.\nI hope that my (future) research will help in making this case clearly and convince social scientists of the advantages of taking out-of-sample prediction seriously and also how optimising this quantity can lead to increased understanding of the system."
   },
   {
     "objectID": "research/overview/prediction.html#prefer",
     "href": "research/overview/prediction.html#prefer",
     "title": "Prediction in the social sciences",
     "section": "PreFer",
-    "text": "PreFer\nOne of the main ways in which I hope to do this, is the Predicting Fertility data challenge PreFer:"
+    "text": "PreFer\nOne of the main ways in which I hope to do this, is the Predicting Fertility data challenge PreFer:\n\nHere you can find a preprint of the challenge:\n\nSivak, E., Pankowska, P., Mendrik, A., Emery, T., Garcia-Bernardo, J., Hocuk, S., Karpinska, K., Maineri, A., Mulder, J., Nissim, M., and Stulp, G., 2024. Combining the Strengths of Dutch Survey and Register Data in a Data Challenge to Predict Fertility (PreFer). https://arxiv.org/abs/2402.00705"
   },
   {
     "objectID": "research/overview/prediction.html#related-content",
     "href": "research/overview/prediction.html#related-content",
     "title": "Prediction in the social sciences",
     "section": "Related content",
-    "text": "Related content\nThis is one of the studies where I use a data-driven approach to a sociological topic:\nStulp, G., Top, L., Xu, X., & Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. https://doi.org/10.1098/rsos.230988"
+    "text": "Related content\n\nStulp, G., Top, L., Xu, X., & Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. https://doi.org/10.1098/rsos.230988 [This is one of the studies where I use a data-driven approach to a sociological topic]\n\n\nStulp, G., Verhagen, MD., Arpino, B. (submitted). A plea for reporting out-of-sample predictive accuracy.\n\n\nLangener, A. M., Bringmann, L. F., Kas, M. J., & Stulp, G. (2024). Predicting Mood Based on the Social Context Measured Through the Experience Sampling Method, Digital Phenotyping, and Social Networks. Administration and Policy in Mental Health and Mental Health Services Research. https://doi.org/10.1007/s10488-023-01328-0 Download"
   },
   {
     "objectID": "research/talks/NIDI_2022.html",
@@ -1260,6 +1260,20 @@
     "text": "Abstract\nResearch on talent and performance development has primarily focused on inter-individual differences. However, research suggests that performance and the underlying determinants change over time, in an individual-specific dynamic way. This chapter illustrates a method to measure, understand, and visualize the performance- and psychosocial dynamics of a talented adolescent athlete. During one season, a talented tennis player filled out an online diary questionnaire twice a week. We visualized the results using R-scripts that we made openly available. This facilitated the interpretation of the athlete’s performance- and psychosocial dynamics, and how these are influenced by particular events in the athlete’s life."
   },
   {
+    "objectID": "research/publications/2024_FertNet.html",
+    "href": "research/publications/2024_FertNet.html",
+    "title": "FertNet: Process Data from the Social Networks and Fertility Survey",
+    "section": "",
+    "text": "FertNet: Process Data from the Social Networks and Fertility Survey\nCRAN\nGert Stulp\nDownload package here"
+  },
+  {
+    "objectID": "research/publications/2024_FertNet.html#abstract",
+    "href": "research/publications/2024_FertNet.html#abstract",
+    "title": "FertNet: Process Data from the Social Networks and Fertility Survey",
+    "section": "Abstract",
+    "text": "Abstract\nI’ve made minor changes to the FertNet package – the package developed to deal with the Social Networks and Fertility Study. The biggest change is that I updated the citation to include the paper describing the study.\n\nStulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.\n\nThe package is described here: &gt; Stulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. Demographic Research 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19 Download"
+  },
+  {
     "objectID": "research/publications/2013_Stulp_et_al_TLQ_Presidents.html",
     "href": "research/publications/2013_Stulp_et_al_TLQ_Presidents.html",
     "title": "Tall claims? Sense and nonsense about the importance of height of US presidents",
@@ -2300,7 +2314,21 @@
     "href": "research/overview/social networks.html",
     "title": "Social networks",
     "section": "",
-    "text": "Have to write some more proze here, but for now:\n\nUnique data\nStulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. Social Networks 64: 63-71. https://doi.org/10.1016/j.socnet.2020.07.012.\n\n\nR package to process the data\nStulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. Demographic Research 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19\nStulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet."
+    "text": "Humans are uniquely social, being influenced by the ideas and behaviours of others even to their own detriment. Thus, people’s social networks are essential in their behaviour. Yet, collecting and analysing such network is not trivial."
+  },
+  {
+    "objectID": "research/overview/social networks.html#the-social-networks-and-fertility-study",
+    "href": "research/overview/social networks.html#the-social-networks-and-fertility-study",
+    "title": "Social networks",
+    "section": "The Social Networks and Fertility study",
+    "text": "The Social Networks and Fertility study\nUsing specifically designed software to capture people’s personal network during an online survey, I have managed to collect data on large personal networks on a representative sample of Dutch women via the LISS panel. Related work:\n\nStulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. Demographic Research 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19 Download\n\n\nStulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.\n\n\nStulp, G. (2021). Collecting large personal networks in a representative sample of Dutch women. Social Networks 64: 63-71. https://doi.org/10.1016/j.socnet.2020.07.012.\n\n\nBuijs, V. L., & Stulp, G. (2022). Friends, family, and family friends: Predicting friendships of Dutch women. Social Networks, 70, 25-35. https://doi.org/10.1016/j.socnet.2021.10.008. Download\n\n\nStadel, M., & Stulp, G. (2022). Balancing bias and burden in personal network studies. Social Networks, 70, 16-24. https://doi.org/10.1016/j.socnet.2021.10.007. Download\n\n\nStulp, G & Barrett, L. (2021). Do data from large personal networks support cultural evolutionary ideas about kin and fertility? Social Sciences 10(5):177. https://doi.org/10.3390/socsci10050177. Download\n\n\nStulp, G., Top, L., Xu, X., & Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. https://doi.org/10.1098/rsos.230988 Download"
+  },
+  {
+    "objectID": "research/overview/social networks.html#how-to-best-capture-the-social-environment",
+    "href": "research/overview/social networks.html#how-to-best-capture-the-social-environment",
+    "title": "Social networks",
+    "section": "How to best capture the social environment",
+    "text": "How to best capture the social environment\nBoth Anna Langener and Marie Stadel work on how to best capture and analyse the social environment (including through personal network data collection, Experience Sampling Method data, and Digital Phenotyping data). Related work:\n\nLangener, A. M., Stulp, G., Jacobson, N. C., Costanzo, A., Jagesar, R. R., Kas, M. J., & Bringmann, L. F. (2024). It’s All About Timing: Exploring Different Temporal Resolutions for Analyzing Digital-Phenotyping Data. Advances in Methods and Practices in Psychological Science, 7(1), 25152459231202677. https://doi.org/10.1177/25152459231202677 Download\n\n\nLangener, A. M., Bringmann, L. F., Kas, M. J., & Stulp, G. (2024). Predicting Mood Based on the Social Context Measured Through the Experience Sampling Method, Digital Phenotyping, and Social Networks. Administration and Policy in Mental Health and Mental Health Services Research. https://doi.org/10.1007/s10488-023-01328-0 Download\n\n\nStadel, M., Stulp, G., Langener, A. M., Elmer, T., van Duijn, M. A. J., & Bringmann, L. F. (2023). Feedback About a Person’s Social Context - Personal Networks and Daily Social Interactions. Administration and Policy in Mental Health and Mental Health Services Research. https://doi.org/10.1007/s10488-023-01293-8 Download"
   },
   {
     "objectID": "research/overview/visualisation.html",
@@ -2315,6 +2343,13 @@
     "title": "Evolutionary perspectives on human behaviour",
     "section": "",
     "text": "Humans are a peculiar species. On the one hand, we have evolved like all other species, forming a branch of the tree of life along with the rest of the animal kingdom. A complete understanding of humans and their place in the world thus requires we take an evolutionary perspective. On the other hand, the remarkable cultural diversity observed among human populations, combined with our apparent agency—our ability to decide whether or not to act on the decisions we make—complicates matters enormously, and seems to place us outside of nature. How, for example, can we explain the decision to actively avoid having children as a trait that evolved by the action of natural selection? In addition, there are some questions that do not seem to require an evolutionary explanation such as: how do you humans make meaning in their lives? Or is socialized health care a good idea? Or what are the moral and legal implications of new reproductive technologies? In other words, while an evolutionary perspective is necessary for a complete explanation of human behaviour, such a perspective is not always essential. Indeed, many areas of the social sciences do very well without a specific evolutionary orientation. It is also notable that some social scientists actively resist the application of evolutionary approaches within their discipline. Some of this resistance reflects a dissatisfaction with the nature and quality of the evolutionary approaches on offer, particularly those emanating from within psychology. Sometimes, however, resistance seems to be built on faulty ideologically-driven assumptions about what an evolutionary-oriented approach entails. The most productive way forward is to adopt a pluralist biosocial perspective to the study of human behaviour; one that draws on a number of disciplines within the natural and social sciences, without any attempt to reduce one to the other, or deny the existence and importance of any particular discipline."
+  },
+  {
+    "objectID": "research/overview/evolution.html#related-content",
+    "href": "research/overview/evolution.html#related-content",
+    "title": "Evolutionary perspectives on human behaviour",
+    "section": "Related content",
+    "text": "Related content\n\nBarrett, L., Pollet, T.V. & Stulp, G. (2014). From computers to cultivation: reconceptualizing evolutionary psychology. Frontiers in Psychology 5: 1-14. Download\n\n\nStulp, G., Pollet, T.V. & Barrett, L. (2015). The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. Frontiers in Psychology 6(419):1-4. Download\n\n\nBarrett, L., Pollet, T.V. & Stulp, G. (2015). Evolved biocultural beings (who invented computers). Frontiers in Psychology 6:1047. Download\n\n\nBarrett, L. & Stulp, G. (in press). Evolutionary Psychology. International Encyclopedia of Anthropology. Wiley Online Library. Download\n\n\nStulp, G. & Barrett, L. (2016). Wealth, fertility, and adaptive behaviour in industrial populations. Philosophical Transactions of the Royal Society B 371: 20150153. Download\n\n\nBarrett, L. & Stulp, G. (2016). Revolution, Reconciliation, Integration: Is there a way to bring social and biological anthropology together? Evolutionary Anthropology 25: 175-182. Download\n\n\nStulp, G., Sear, R. & Barrett, L. (2016). The reproductive ecology of industrial societies, Part I: why measuring fertility matters. Human Nature 27(4): 422-444. Download\n\n\nBarrett, L & Stulp, G. (2019). Evolution and human behaviour: helping to make sense of modern life. Book chapter (pp 203-222) in: Genes and Behaviour: Beyond Nature-Nurture (eds D. Hosken, J. Hunt, N. Wedell). Wiley Press. Download\n\n\nStulp, G. & Sear, R. (2019). How might life history theory contribute to life course theory? Advances in Life Course Research 41: 100281. Download\n\n\nStulp, G & Barrett, L. (2021). Do data from large personal networks support cultural evolutionary ideas about kin and fertility? Social Sciences 10(5):177. https://doi.org/10.3390/socsci10050177. Download"
   },
   {
     "objectID": "posts/posts/2020-03-12-interview-for-bbc-about-secular-trend-in-height.html",
@@ -2489,21 +2524,21 @@
     "href": "resources/index.html",
     "title": "R[esources]",
     "section": "",
-    "text": "I love I sometimes write about what I’m doing and learning, mostly about , and it is central to much of the research I do. Here you can find some resources."
-  },
-  {
-    "objectID": "resources/index.html#r-packages",
-    "href": "resources/index.html#r-packages",
-    "title": "R[esources]",
-    "section": "R-packages",
-    "text": "R-packages\nBlabla"
+    "text": "I love  and do as much as I can through . Here you can find some materials that I have developed."
   },
   {
     "objectID": "resources/index.html#r-tutorials",
     "href": "resources/index.html#r-tutorials",
     "title": "R[esources]",
     "section": "R tutorials",
-    "text": "R tutorials\nBlabla"
+    "text": "R tutorials\n\nData visualisation cours\nData visualisation; short workshop\nData visualisation workshop\nNetwork data visualisation workshop\nR basics workshop"
+  },
+  {
+    "objectID": "resources/index.html#r-packages",
+    "href": "resources/index.html#r-packages",
+    "title": "R[esources]",
+    "section": "R-packages",
+    "text": "R-packages\n\nStulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.\n\n\nStulp G (2017). ggplotgui: Create Ggplots via a Graphical User Interface. https://CRAN.R-project.org/package=ggplotgui."
   },
   {
     "objectID": "other/about.html",

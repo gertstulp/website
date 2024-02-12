@@ -7,7 +7,7 @@ toc: true
 title-block-banner: true
 ---
 
-"Beter goed gejat dan slecht bedacht" means something like "it's better to 'steal' something good, then to come up with something bad" .
+"Beter goed gejat dan slecht bedacht" means something like "it's better to 'steal' something good, than to come up with something bad" .
 
 This website was stolen well, from: [Real World Data Science](https://realworlddatascience.net/)
 

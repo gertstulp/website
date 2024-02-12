@@ -6,7 +6,6 @@ categories:
   - Overview
   - Height
   - Evolution
-author: "Gert Stulp"
 date: "2018-03-16"
 toc: true
 image: ../../images/Evolution.png
