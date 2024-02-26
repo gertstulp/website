@@ -1,7 +1,7 @@
 ---
 title: "Poster prize for Lisa"
 description: |
-  Wat gedachten over kinderloosheid in Nederland naar aanleiding van een interview over het onderwerp 
+  Lisa won the best poster prize! 
 categories:
   - Fertility
   - Prediction

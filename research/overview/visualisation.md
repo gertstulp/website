@@ -7,7 +7,7 @@ categories:
   - Visualisation
 date: "2018-03-21"
 toc: true
-image: ../../images/R_viz.png
+image: ../../images/R_viz.gif
 image-alt: A visualistion from ESMvis
 language: 
     section-title-footnotes: References
