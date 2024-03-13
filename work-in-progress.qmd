@@ -14,8 +14,6 @@ title-block-banner: true
  
 * Stulp, G., Verhagen, M.D., Arpino, B. A plea for reporting out-of-sample predictive ability. Submitted to Quality & Quantity 
 
-* Van Tintelen, A. & Stulp, G., Explaining uncertainty in women's fertility preferences. Submitted to Heliyon
-
 * Xu, X. Van den Bosch, A., Gauthier, A., Stulp, G. Measuring the Response Quality of Open-Ended Questions in a Demographic Web Survey using Linguistic Complexity Features. Submitted to GESIS. 
 
 * Stulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies

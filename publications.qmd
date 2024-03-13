@@ -10,6 +10,10 @@ title-block-banner: true
 
 ### Recent or in press
 
+
+van Tintelen, A. M. G., & Stulp, G. (2024). Explaining uncertainty in women’s fertility preferences. *Heliyon* 10(6), e27610. https://doi.org/10.1016/j.heliyon.2024.e27610 <a href="https://doi.org/10.1016/j.heliyon.2024.e27610" target="_blank">**Download**</a> 
+
+
 Stulp, G., Top, L., Xu, X., & Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. *Royal Society Open Science* 10(12), 230988. https://doi.org/10.1098/rsos.230988 <a href="https://doi.org/10.1098/rsos.230988" target="_blank">**Download**</a> 
 
 ***
