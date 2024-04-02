@@ -9,22 +9,6 @@ sidebar: false
 ---
 
 
-You can download a pdf-version my [CV](www.gertstulp.com)
+Here you can find my [CV](../pdf/CV_Gert_Stulp_March_2024.pdf), including my educational and occupational history and a list of publications.
 
-## Education
-
-  
-<!-- <hr> -->
-
-## TEST
-
-
-## Education
-
-
-## Professional career
-
-
-## Grants, awards, nominations
-
-
+For a list of additional activities, some of which have occurred quite some time ago, and that seem less relevant or even embarrassing to include in my full CV, [see here](../pdf/CV_Gert_Stulp_March 2024_addendum.pdf).
