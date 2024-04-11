@@ -13,7 +13,7 @@ I love {{< fa brands r-project >}} and do as much as I can through {{< fa brands
 
 ## R tutorials
 
-- [Data visualisation cours](https://stulp.gmw.rug.nl/dataviz)
+- [Data visualisation course](https://stulp.gmw.rug.nl/dataviz)
 
 - [Data visualisation; short workshop](https://stulp.gmw.rug.nl/schier) 
 
