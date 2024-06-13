@@ -10,10 +10,22 @@ title-block-banner: true
 
 ### Recent or in press
 
+Sivak, E., Pankowska, P., Mendrik, A., Emery, T., Garcia-Bernardo, J., Höcük, S., Karpinska, K., Maineri, A., Mulder, J., Nissim, M., & Stulp, G. (2024). Combining the Strengths of Dutch Survey and Register Data in a Data Challenge to Predict Fertility (PreFer). *Journal of Computational Social Science*. https://doi.org/10.1007/s42001-024-00275-6 <a href="https://doi.org/10.1007/s42001-024-00275-6" target="_blank">**Download**</a> 
 
+***
+
+Eveline A. Crone, Thijs Bol, Barbara R. Braams, Mark de Rooij, Barbara Franke, Ingmar Franken, Valeria Gazzola, Berna Güroğlu, Hilde Huizenga, Hilleke Hulshoff Pol, Loes Keijsers, Christian Keysers, Lydia Krabbendam, Lucres Jansen, Arne Popma, Gert Stulp, Nienke van Atteveldt, Anna van Duijvenvoorde, René Veenstra. (2024). Growing Up Together in Society (GUTS): A team science effort to predict societal trajectories in adolescence and young adulthood.*Developmental Cognitive Neuroscience* 67: 101403. https://doi.org/10.1016/j.dcn.2024.101403 <a href="https://doi.org/10.1016/j.dcn.2024.101403" target="_blank">**Download**</a> 
+
+
+***
+
+Stadel, M., Bringmann, L. F., Stulp, G., Elmer, T., Verdonck, S., Mestdagh, M., & van Duijn, M. A. J. (2024). Capturing the Social Life of a Person by Integrating Experience-Sampling Methodology and Personal-Social-Network Assessments. *Advances in Methods and Practices in Psychological Science* 7(2): 25152459241244745. https://doi.org/10.1177/25152459241244745 <a href="https://doi.org/10.1177/25152459241244745" target="_blank">**Download**</a> 
+
+
+***
 van Tintelen, A. M. G., & Stulp, G. (2024). Explaining uncertainty in women’s fertility preferences. *Heliyon* 10(6), e27610. https://doi.org/10.1016/j.heliyon.2024.e27610 <a href="https://doi.org/10.1016/j.heliyon.2024.e27610" target="_blank">**Download**</a> 
 
-
+***
 Stulp, G., Top, L., Xu, X., & Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. *Royal Society Open Science* 10(12), 230988. https://doi.org/10.1098/rsos.230988 <a href="https://doi.org/10.1098/rsos.230988" target="_blank">**Download**</a> 
 
 ***

@@ -10,7 +10,111 @@
 <atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Tue, 12 Mar 2024 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 03 Jun 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Social mechanisms underlying whether people have children</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2024_toulouse.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Social mechanisms underlying whether people have children</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Institute for Advanced Study in Toulouse, France</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.iast.fr/11th-toulouse-economics-and-biology-workshop">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2024_06_04_TOULOUSE">here</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>I gave a talk on how the demographic transition relates to networks for the 11th Toulouse Economics and Biology Workshop - Inequality in Networks.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <guid>https://www.gertstulp.com/research/talks/2024_toulouse.html</guid>
+  <pubDate>Mon, 03 Jun 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>Growing Up Together in Society (GUTS): A team science effort to predict societal trajectories in adolescence and young adulthood</title>
+  <dc:creator>Eveline A. Crone, Thijs Bol, Barbara R. Braams, Mark de Rooij, Barbara Franke, Ingmar Franken, Valeria Gazzola, Berna Güroğlu, Hilde Huizenga, Hilleke Hulshoff Pol, Loes Keijsers, Christian Keysers, Lydia Krabbendam, Lucres Jansen, Arne Popma, Gert Stulp, Nienke van Atteveldt, Anna van Duijvenvoorde, René Veenstra</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2024_Crone_Development.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Growing Up Together in Society (GUTS): A team science effort to predict societal trajectories in adolescence and young adulthood</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Developmental Cognitive Neuroscience</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Eveline A. Crone, Thijs Bol, Barbara R. Braams, Mark de Rooij, Barbara Franke, Ingmar Franken, Valeria Gazzola, Berna Güroğlu, Hilde Huizenga, Hilleke Hulshoff Pol, Loes Keijsers, Christian Keysers, Lydia Krabbendam, Lucres Jansen, Arne Popma, Gert Stulp, Nienke van Atteveldt, Anna van Duijvenvoorde, René Veenstra</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://www.sciencedirect.com/science/article/pii/S1878929324000641">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Our society faces a great diversity of opportunities for youth. The 10-year Growing Up Together in Society (GUTS) program has the long-term goal to understand which combination of measures best predict societal trajectories, such as school success, mental health, well-being, and developing a sense of belonging in society. Our leading hypothesis is that self-regulation is key to how adolescents successfully navigate the demands of contemporary society. We aim to test these questions using socio-economic, questionnaire (including experience sampling methods), behavioral, brain (fMRI, sMRI, EEG), hormonal, and genetic measures in four large cohorts including adolescents and young adults. Two cohorts are designed as test and replication cohorts to test the developmental trajectory of self-regulation, including adolescents of different socioeconomic status thereby bridging individual, family, and societal perspectives. The third cohort consists of an entire social network to examine how neural and self-regulatory development influences and is influenced by whom adolescents and young adults choose to interact with. The fourth cohort includes youth with early signs of antisocial and delinquent behavior to understand patterns of societal development in individuals at the extreme ends of self-regulation and societal participation, and examines pathways into and out of delinquency. We will complement the newly collected cohorts with data from existing large-scale population-based and case-control cohorts. The study is embedded in a transdisciplinary approach that engages stakeholders throughout the design stage, with a strong focus on citizen science and youth participation in study design, data collection, and interpretation of results, to ensure optimal translation to youth in society.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2024_Crone_Development.html</guid>
+  <pubDate>Fri, 31 May 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer)</title>
+  <dc:creator>Elizaveta Sivak, Paulina Pankowska, Adriënne Mendrik, Tom Emery, Javier Garcia-Bernardo, Seyit Höcük, Kasia Karpinska, Angelica Maineri, Joris Mulder, Malvina Nissim, Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2024_Sivak_JCSS.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer)</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Journal of Computational Social Science</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Elizaveta Sivak, Paulina Pankowska, Adriënne Mendrik, Tom Emery, Javier Garcia-Bernardo, Seyit Höcük, Kasia Karpinska, Angelica Maineri, Joris Mulder, Malvina Nissim, Gert Stulp</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://link.springer.com/article/10.1007/s42001-024-00275-6">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The social sciences have produced an impressive body of research on determinants of fertility outcomes, or whether and when people have children. However, the strength of these determinants and underlying theories are rarely evaluated on their predictive ability on new data. This prevents us from systematically comparing studies, hindering the evaluation and accumulation of knowledge. In this paper, we present two datasets which can be used to study the predictability of fertility outcomes in the Netherlands. One dataset is based on the LISS panel, a longitudinal survey which includes thousands of variables on a wide range of topics, including individual preferences and values. The other is based on the Dutch register data which lacks attitudinal data but includes detailed information about the life courses of millions of Dutch residents. We provide information about the datasets and the samples, and describe the fertility outcome of interest. We also introduce the fertility prediction data challenge PreFer which is based on these datasets and will start in Spring 2024. We outline the ways in which measuring the predictability of fertility outcomes using these datasets and combining their strengths in the data challenge can advance our understanding of fertility behaviour and computational social science. We further provide details for participants on how to take part in the data challenge.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2024_Sivak_JCSS.html</guid>
+  <pubDate>Fri, 12 Apr 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>Capturing the Social Life of a Person by Integrating Experience-Sampling Methodology and Personal-Social-Network Assessments</title>
+  <dc:creator>Marie Stadel, Laura F. Bringmann, Gert Stulp, Timon Elmer, Stijn Verdonck, Merijn Mestdagh, Marijtje A. J. van Duijn</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2024_Stadel_Advances.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Stadel, M., Bringmann, L. F., Stulp, G., Elmer, T., Verdonck, S., Mestdagh, M., &amp; van Duijn, M. A. J. (2024). . ** 7(2): 25152459241244745. https://doi.org/10.1177/25152459241244745 <a href="https://doi.org/10.1177/25152459241244745" target="_blank"><strong>Download</strong></a></p>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Capturing the Social Life of a Person by Integrating Experience-Sampling Methodology and Personal-Social-Network Assessments</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Advances in Methods and Practices in Psychological Science</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Marie Stadel, Laura F. Bringmann, Gert Stulp, Timon Elmer, Stijn Verdonck, Merijn Mestdagh, Marijtje A. J. van Duijn</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://journals.sagepub.com/doi/full/10.1177/25152459241244745">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The daily social life of a person can be captured with different methodologies. Two methods that are especially promising are personal-social-network (PSN) data collection and experience-sampling methodology (ESM). Whereas PSN data collections ask participants to provide information on their social relationships and broader social environment, ESM studies collect intensive longitudinal data on social interactions in daily life using multiple short surveys per day. In combination, the two methods enable detailed insights into someone’s social life, including information on interactions with specific interaction partners from the personal network. Despite many potential uses of such data integration, there are few studies to date using the two methods in conjunction. This is likely due to their complexity and lack of software that allows capturing the full social life of someone while keeping the burden for participants and researchers sufficiently low. In this article, we report on the development of methodology and software for an ESM/PSN integration within the established ESM tool m-Path. We describe results of a first study using the developed tool that illustrate the feasibility of the proposed method combination and show that participants consider the assessments insightful. We further outline study-design choices and ethical considerations when combining the two methodologies. We hope to encourage applications of the presented methods in research and practice across different fields.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2024_Stadel_Advances.html</guid>
+  <pubDate>Thu, 11 Apr 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
 <item>
   <title>Explaining uncertainty in women’s fertility preferences</title>
   <dc:creator>Amke van Tintelen, Gert Stulp</dc:creator>
@@ -472,106 +576,6 @@
   <category>Publication</category>
   <guid>https://www.gertstulp.com/research/publications/2023_Stulp_History.html</guid>
   <pubDate>Wed, 22 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>FertNet: Process Data from the Social Networks and Fertility Survey</title>
-  <dc:creator>Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2023_Stulp_FertNet.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; FertNet: Process Data from the Social Networks and Fertility Survey</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>CRAN</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://cran.r-project.org/web/packages/FertNet/index.html">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Processes data from The Social Networks and Fertility Survey, downloaded from <a href="https://dataarchive.lissdata.nl" class="uri">https://dataarchive.lissdata.nl</a>, including correcting respondent errors and transforming network data into network objects to facilitate analyses and visualisation.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2023_Stulp_FertNet.html</guid>
-  <pubDate>Sun, 19 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Capturing the Dynamics of the Social Environment Through Experience Sampling Methods, Passive Sensing, and Egocentric Networks: Scoping Review</title>
-  <dc:creator>Anna Langener, Gert Stulp, Martien Kas, Laura Bringmann</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2023_Langener_JMIR.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Capturing the Dynamics of the Social Environment Through Experience Sampling Methods, Passive Sensing, and Egocentric Networks: Scoping Review</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>JMIR Mental Health</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Anna Langener, Gert Stulp, Martien Kas, Laura Bringmann</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://mental.jmir.org/2023/1/e42646">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Background: Social interactions are important for well-being, and therefore, researchers are increasingly attempting to capture people’s social environment. Many different disciplines have developed tools to measure the social environment, which can be highly variable over time. The experience sampling method (ESM) is often used in psychology to study the dynamics within a person and the social environment. In addition, passive sensing is often used to capture social behavior via sensors from smartphones or other wearable devices. Furthermore, sociologists use egocentric networks to track how social relationships are changing. Each of these methods is likely to tap into different but important parts of people’s social environment. Thus far, the development and implementation of these methods have occurred mostly separately from each other. Objective: Our aim was to synthesize the literature on how these methods are currently used to capture the changing social environment in relation to well-being and assess how to best combine these methods to study well-being. Methods: We conducted a scoping review according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. Results: We included 275 studies. In total, 3 important points follow from our review. First, each method captures a different but important part of the social environment at a different temporal resolution. Second, measures are rarely validated (&gt;70% of ESM studies and 50% of passive sensing studies were not validated), which undermines the robustness of the conclusions drawn. Third, a combination of methods is currently lacking (only 15/275, 5.5% of the studies combined ESM and passive sensing, and no studies combined all 3 methods) but is essential in understanding well-being. Conclusions: We highlight that the practice of using poorly validated measures hampers progress in understanding the relationship between the changing social environment and well-being. We conclude that different methods should be combined more often to reduce the participants’ burden and form a holistic perspective on the social environment.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2023_Langener_JMIR.html</guid>
-  <pubDate>Thu, 16 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Crisissignaleringsplan monitoren en visualiseren</title>
-  <dc:creator>Massi Aoudjan, Elisa van Delft, Date van der Veen, Laura Bringmann, Gert Stulp, Barbara Montagne</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2023_Aoudjan_gedragstherapie.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Crisissignaleringsplan monitoren en visualiseren</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Gedragstherapie</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Massi Aoudjan, Elisa van Delft, Date van der Veen, Laura Bringmann, Gert Stulp, Barbara Montagne</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="../../">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Patiënten met een borderline-persoonlijkheidsstoornis (BPS) zijn kwets- baar voor crises. Een crisissignaleringsplan (CSP) kan een crisis helpen voor- komen, maar voor het opstellen van een helpend CSP is inzicht nodig in de vroege signalen van een crisis. Dit inzicht ontbreekt vaak. Door gedurende een instabiele periode van de patiënt gebruik te maken van de experience sampling method (ESM) wordt persoonlijke en betrouw- bare informatie verzameld over de crisis, wat een goede basis kan zijn voor het opstellen van een CSP. In deze pilot onderzochten de auteurs de haal- baarheid en bruikbaarheid van deze methodiek. Het blijkt haalbaar te zijn om patiënten met BPS in een periode waarin er sprake is van een (dreigen- de) crisis driemaal daags een online vragenlijst in te laten vullen. De visuele terugkoppeling van de ESM-data aan de patiënt kan nieuwe en bruikbare inzichten opleveren in de onderliggende risicofactoren voor crisis. Bredere inzetbaarheid van de methodiek dient nader onderzocht te worden.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2023_Aoudjan_gedragstherapie.html</guid>
-  <pubDate>Thu, 09 Mar 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Fertility preferences in China in the twenty-first century</title>
-  <dc:creator>Rui Lu, Anne Gauthier, Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2023_Lu_JPR.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Fertility preferences in China in the twenty-first century</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Journal of Population Research</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Rui Lu, Anne Gauthier, Gert Stulp</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://link.springer.com/article/10.1007/s12546-023-09303-0">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>There is continuing debate on how low China’s fertility has reached and whether China has fallen into the “low fertility trap”. This paper addresses this debate by revisiting the trends in fertility preferences in the past decades in China based on a meta review. Moreover, the analysis contrasts distinct measurements of fertility preferences to capture different aspects of reproductive decision-making. This papers reviews 152 studies resulting in 137 estimates for the mean of preferred number of children, 104 estimates for the proportions of different numbers of children preferred and 66 estimates for the second-child preferences. We found that after the long-time decline of fertility preferences in the last century, the average family size remained at a low level but started to increase slowly since 2001. This upturn was observed for all three types of measurements of fertility preferences: ideal, desired, and planned family size. The results also indicate a strong two-child preference (more than 50% of respondents) in China, although 30% of people prefer one child and only a small fraction indicating an ideal family size for three or more children. Results on people’s preference for a second child were less consistent. We concluded that fertility is unlikely to increase rapidly in China even when the government adopts more relaxed family planning policy. Because the upward trend in fertility preferences was very minimal and the economic constraints will prevent many people to realise their preferences.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2023_Lu_JPR.html</guid>
-  <pubDate>Mon, 06 Mar 2023 23:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 </channel>

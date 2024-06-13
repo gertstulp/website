@@ -2,6 +2,7 @@
   {
     "listing": "/all-content.html",
     "items": [
+      "/posts/posts/2024-06-05-universiteit-van-nederland.html",
       "/posts/posts/2023-12-04-lisa-poster-prize.html",
       "/posts/posts/2023-09-13-childlessness.html",
       "/posts/posts/2023-08-24-density-plots.html",
@@ -38,6 +39,11 @@
       "/research/overview/visualisation.html",
       "/research/overview/evolution.html",
       "/research/overview/height.html",
+      "/posts/posts/2024-06-05-universiteit-van-nederland.html",
+      "/research/talks/2024_toulouse.html",
+      "/research/publications/2024_Crone_Development.html",
+      "/research/publications/2024_Sivak_JCSS.html",
+      "/research/publications/2024_Stadel_Advances.html",
       "/research/publications/2024_Stulp_Heliyon.html",
       "/research/publications/2024_Langener_timing.html",
       "/research/publications/2024_FertNet.html",
@@ -185,6 +191,7 @@
   {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/posts/2024-06-05-universiteit-van-nederland.html",
       "/posts/posts/2023-12-04-lisa-poster-prize.html",
       "/posts/posts/2023-09-13-childlessness.html",
       "/posts/posts/2023-08-24-density-plots.html",
@@ -215,6 +222,9 @@
       "/research/overview/visualisation.html",
       "/research/overview/evolution.html",
       "/research/overview/height.html",
+      "/research/publications/2024_Crone_Development.html",
+      "/research/publications/2024_Sivak_JCSS.html",
+      "/research/publications/2024_Stadel_Advances.html",
       "/research/publications/2024_Stulp_Heliyon.html",
       "/research/publications/2024_Langener_timing.html",
       "/research/publications/2024_FertNet.html",
@@ -287,6 +297,7 @@
       "/research/publications/2012_Stirrat_et_al_EHB_Face.html",
       "/research/publications/2011_Stulp_et_al_Biol_Lett_Scrub-jays.html",
       "/research/publications/2007_Spenader&Stulp_Comp_Sem_Antonymy.html",
+      "/research/talks/2024_toulouse.html",
       "/research/talks/2023_schiermonnikoog.html",
       "/research/talks/2023_ODISSEI_PREFER.html",
       "/research/talks/2023_DVD.html",

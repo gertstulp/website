@@ -1,0 +1,21 @@
+---
+title: "Video on why the Dutch are so tall for Universiteit van Nederland"
+description: |
+  I've made a video for the Universiteit van Nederland. It was fun. 
+categories:
+  - Height
+  - Outreach
+author: "Gert Stulp"
+date: '2024-06-04'
+toc: true
+image: ../../images/uvNL.png
+image-alt: I still have to find a figure for this. 
+language: 
+    section-title-footnotes: References
+---
+
+I've made a video for the Universiteit van Nederland. They were professionals. Happy with the result, except for the face of the main character. 
+
+You can find the video [here](https://www.youtube.com/watch?v=4sDFOPBn_J8)
+
+<iframe width="951" height="535" src="https://www.youtube.com/embed/4sDFOPBn_J8" title="Waarom zijn Nederlanders zo lang?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
