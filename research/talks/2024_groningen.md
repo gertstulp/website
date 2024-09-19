@@ -1,5 +1,5 @@
 ---
-title: Leveraging machine learning to understand fertility behaviour: what we learned from the Predicting Fertility (PreFer) data challenge
+title: "Leveraging machine learning to understand fertility behaviour: what we learned from the Predicting Fertility (PreFer) data challenge"
 description: |
   The first talk on the (preliminary) results from the PreFer data challenge! 
 categories:

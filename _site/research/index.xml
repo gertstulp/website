@@ -10,7 +10,35 @@
 <atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Thu, 22 Aug 2024 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 01 Sep 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Leveraging machine learning to understand fertility behaviour: what we learned from the Predicting Fertility (PreFer) data challenge</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2024_groningen.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Leveraging machine learning to understand fertility behaviour: what we learned from the Predicting Fertility (PreFer) data challenge</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Workshop on Causal Inference and Machine Learning, Groningen</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.groningenmetricsmeet.com/">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2024_06_04_TOULOUSE">here</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>I gave a talk about the first (preliminary) results from the PreFer data challenge at the Workshop on Causal Inference and Machine Learning, Groningen.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <guid>https://www.gertstulp.com/research/talks/2024_groningen.html</guid>
+  <pubDate>Sun, 01 Sep 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
 <item>
   <title>Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach</title>
   <dc:creator>Xiao Xu, Anne Gauthier, Gert Stulp, Antal van den Bosch</dc:creator>
@@ -60,34 +88,6 @@
   <guid>https://www.gertstulp.com/research/publications/2024_Langener_BRM.html</guid>
   <pubDate>Tue, 06 Aug 2024 22:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Social mechanisms underlying whether people have children</title>
-  <dc:creator>Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/talks/2024_groningen.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Social mechanisms underlying whether people have children</p>
-<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Institute for Advanced Study in Toulouse, France</p>
-<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.iast.fr/11th-toulouse-economics-and-biology-workshop">here</a> for website</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2024_06_04_TOULOUSE">here</a></p>
-</section>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>I gave a talk on how the demographic transition relates to networks for the 11th Toulouse Economics and Biology Workshop - Inequality in Networks.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Talk</category>
-  <guid>https://www.gertstulp.com/research/talks/2024_groningen.html</guid>
-  <pubDate>Mon, 03 Jun 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 <item>
   <title>Social mechanisms underlying whether people have children</title>
