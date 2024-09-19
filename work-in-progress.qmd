@@ -16,10 +16,8 @@ title-block-banner: true
 
 * Stulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies
 
-* Xiao Xu, Anne Gauthier, Gert Stulp, Antal van Den Bosch. [Xu, X., Gauthier. A, Stulp, G., van Den Bosch, A.]. Understanding narratives of uncertainty in fertility intentions of Dutch women: A neural topic modeling approach. under review at Social Science Computer Review.
 
 * Granholm, R., Gauthier, A., Stulp. G. Postponement, disruption, and prevalence: measuring the contributions of education and unions to the fertility gap by simulating the reproductive life courses of Dutch women. Submitted to Demographic Research. 
 
 * Stulp, G. Family and friends in personal networks of Dutch women. Handbook "Families as networks".
 
-* Langener et al. A Template and Tutorial for Preregistering Studies Using Passive Smartphone Measures. Revise and resubmit at Behavior Research Methods

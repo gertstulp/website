@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Xiao Xu, Anne Gauthier, Gert Stulp, Antal van den Bosch">
+<meta name="dcterms.date" content="2024-08-23">
+<meta name="description" content="Uncertainty in fertility intentions is a major obstacle to understanding contemporary trends in fertility decision-making and its outcomes. Quantifying this uncertainty by structural factors such as income, ethnicity, and housing conditions is recognized as insufficient. A recently proposed framework on subjective narratives has opened up a new way to gauge factors behind fertility decision-making and uncertainty. Through surveys, such narratives can be elicited with open-ended questions (OEQs). However, analyzing answers to OEQs typically involves extensive human coding, imposing constraints on sample size. Natural Language Processing (NLP) techniques assist researchers in grasping aspects of the underlying reasoning behind responses with much less human effort. In this study, using automatic neural topic modeling methods, we identify and interpret topics and themes underlying the narratives on fertility intention uncertainty of women in the Netherlands. We used Contextualized Topic Models (CTMs), a neural topic model using pre-trained representations of Dutch language, to conduct our analyses. Our results show that nine topics dominate the narratives about fertility planning, with age and health-related issues as the most prominent ones. In addition, we found that uncertainty in fertility intentions is not homogeneous, as women who feel uncertain due to real-life constraints and those who have no fertility plans at all put their stress on vastly different narratives.">
 
-<title>Gert Stulp - Working papers</title>
+<title>Gert Stulp - Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/faviconGS.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/faviconGS.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,10 +69,14 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="rwds.css">
-<meta property="og:title" content="Gert Stulp - Working papers">
-<meta property="og:description" content="A list of publications">
+<link rel="stylesheet" href="../../rwds.css">
+<meta property="og:title" content="Gert Stulp - Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach">
+<meta property="og:description" content="Uncertainty in fertility intentions is a major obstacle to understanding contemporary trends in fertility decision-making and its outcomes. Quantifying this uncertainty by structural factors such as income, ethnicity, and housing conditions is recognized as insufficient. A recently proposed framework on subjective narratives has opened up a new way to gauge factors behind fertility decision-making and uncertainty. Through surveys, such narratives can be elicited with open-ended questions (OEQs). However, analyzing answers to OEQs typically involves extensive human coding, imposing constraints on sample size. Natural Language Processing (NLP) techniques assist researchers in grasping aspects of the underlying reasoning behind responses with much less human effort. In this study, using automatic neural topic modeling methods, we identify and interpret topics and themes underlying the narratives on fertility intention uncertainty of women in the Netherlands. We used Contextualized Topic Models (CTMs), a neural topic model using pre-trained representations of Dutch language, to conduct our analyses. Our results show that nine topics dominate the narratives about fertility planning, with age and health-related issues as the most prominent ones. In addition, we found that uncertainty in fertility intentions is not homogeneous, as women who feel uncertain due to real-life constraints and those who have no fertility plans at all put their stress on vastly different narratives.">
+<meta property="og:image" content="https://www.gertstulp.com/images/new_pub.png">
 <meta property="og:site-name" content="Gert Stulp">
+<meta property="og:image:height" content="378">
+<meta property="og:image:width" content="560">
+<meta property="og:image:alt" content="New publication">
 </head>
 
 <body class="nav-fixed">
@@ -77,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">&nbsp;GERT<span class="icon-line"></span>STULP</span>
     </a>
   </div>
@@ -88,19 +97,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html" rel="" target="">
+    <a class="nav-link" href="../../research/index.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.html" rel="" target="">
+    <a class="nav-link" href="../../posts/index.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV/index.html" rel="" target="">
+    <a class="nav-link" href="../../CV/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources/index.html" rel="" target="">
+    <a class="nav-link" href="../../resources/index.html" rel="" target="">
  <span class="menu-text">R[esources]</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -109,11 +118,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-other">    
         <li>
-    <a class="dropdown-item" href="./other/about.html" rel="" target="">
+    <a class="dropdown-item" href="../../other/about.html" rel="" target="">
  <span class="dropdown-text">Some notes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./other/copypaste.html" rel="" target="">
+    <a class="dropdown-item" href="../../other/copypaste.html" rel="" target="">
  <span class="dropdown-text">copy-paste</span></a>
   </li>  
     </ul>
@@ -126,42 +135,65 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Working papers</h1>
-            <p class="subtitle lead">A list of publications</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Publication</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Uncertainty in fertility intentions is a major obstacle to understanding contemporary trends in fertility decision-making and its outcomes. Quantifying this uncertainty by structural factors such as income, ethnicity, and housing conditions is recognized as insufficient. A recently proposed framework on subjective narratives has opened up a new way to gauge factors behind fertility decision-making and uncertainty. Through surveys, such narratives can be elicited with open-ended questions (OEQs). However, analyzing answers to OEQs typically involves extensive human coding, imposing constraints on sample size. Natural Language Processing (NLP) techniques assist researchers in grasping aspects of the underlying reasoning behind responses with much less human effort. In this study, using automatic neural topic modeling methods, we identify and interpret topics and themes underlying the narratives on fertility intention uncertainty of women in the Netherlands. We used Contextualized Topic Models (CTMs), a neural topic model using pre-trained representations of Dutch language, to conduct our analyses. Our results show that nine topics dominate the narratives about fertility planning, with age and health-related issues as the most prominent ones. In addition, we found that uncertainty in fertility intentions is not homogeneous, as women who feel uncertain due to real-life constraints and those who have no fertility plans at all put their stress on vastly different narratives.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Xiao Xu, Anne Gauthier, Gert Stulp, Antal van den Bosch </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 23, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-<section id="submitted" class="level3">
-<h3 class="anchored" data-anchor-id="submitted">Submitted</h3>
-<ul>
-<li><p>Stulp, G., Verhagen, M.D., Arpino, B. A plea for reporting out-of-sample predictive ability. Submitted to Frontiers in Research Metrics and Analytics.</p></li>
-<li><p>Xu, X. Van den Bosch, A., Gauthier, A., Stulp, G. Measuring the Response Quality of Open-Ended Questions in a Demographic Web Survey using Linguistic Complexity Features. Submitted to GESIS.</p></li>
-<li><p>Stulp, G., Van Tintelen, A., Granholm, R. &amp; Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies</p></li>
-<li><p>Granholm, R., Gauthier, A., Stulp. G. Postponement, disruption, and prevalence: measuring the contributions of education and unions to the fertility gap by simulating the reproductive life courses of Dutch women. Submitted to Demographic Research.</p></li>
-<li><p>Stulp, G. Family and friends in personal networks of Dutch women. Handbook “Families as networks”.</p></li>
-</ul>
+</header>
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Social Science Computer Review</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Xiao Xu, Anne Gauthier, Gert Stulp, Antal van den Bosch</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://journals.sagepub.com/doi/full/10.1177/08944393241269406">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Uncertainty in fertility intentions is a major obstacle to understanding contemporary trends in fertility decision-making and its outcomes. Quantifying this uncertainty by structural factors such as income, ethnicity, and housing conditions is recognized as insufficient. A recently proposed framework on subjective narratives has opened up a new way to gauge factors behind fertility decision-making and uncertainty. Through surveys, such narratives can be elicited with open-ended questions (OEQs). However, analyzing answers to OEQs typically involves extensive human coding, imposing constraints on sample size. Natural Language Processing (NLP) techniques assist researchers in grasping aspects of the underlying reasoning behind responses with much less human effort. In this study, using automatic neural topic modeling methods, we identify and interpret topics and themes underlying the narratives on fertility intention uncertainty of women in the Netherlands. We used Contextualized Topic Models (CTMs), a neural topic model using pre-trained representations of Dutch language, to conduct our analyses. Our results show that nine topics dominate the narratives about fertility planning, with age and health-related issues as the most prominent ones. In addition, we found that uncertainty in fertility intentions is not homogeneous, as women who feel uncertain due to real-life constraints and those who have no fertility plans at all put their stress on vastly different narratives.</p>
 
 
 </section>

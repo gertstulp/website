@@ -10,16 +10,27 @@ title-block-banner: true
 
 ### Recent or in press
 
-Sivak, E., Pankowska, P., Mendrik, A., Emery, T., Garcia-Bernardo, J., Höcük, S., Karpinska, K., Maineri, A., Mulder, J., Nissim, M., & Stulp, G. (2024). Combining the Strengths of Dutch Survey and Register Data in a Data Challenge to Predict Fertility (PreFer). *Journal of Computational Social Science*. https://doi.org/10.1007/s42001-024-00275-6 <a href="https://doi.org/10.1007/s42001-024-00275-6" target="_blank">**Download**</a> 
-
-***
-
-Eveline A. Crone, Thijs Bol, Barbara R. Braams, Mark de Rooij, Barbara Franke, Ingmar Franken, Valeria Gazzola, Berna Güroğlu, Hilde Huizenga, Hilleke Hulshoff Pol, Loes Keijsers, Christian Keysers, Lydia Krabbendam, Lucres Jansen, Arne Popma, Gert Stulp, Nienke van Atteveldt, Anna van Duijvenvoorde, René Veenstra. (2024). Growing Up Together in Society (GUTS): A team science effort to predict societal trajectories in adolescence and young adulthood.*Developmental Cognitive Neuroscience* 67: 101403. https://doi.org/10.1016/j.dcn.2024.101403 <a href="https://doi.org/10.1016/j.dcn.2024.101403" target="_blank">**Download**</a> 
+Xu, X, Gauthier, A, Stulp, G, & van den Bosch, A. (2024). Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach. Social Science Computer Review. https://doi.org/10.1177/08944393241269406 <a href="https://doi.org/10.1177/08944393241269406" target="_blank">**Download**</a> 
 
 
 ***
 
-Stadel, M., Bringmann, L. F., Stulp, G., Elmer, T., Verdonck, S., Mestdagh, M., & van Duijn, M. A. J. (2024). Capturing the Social Life of a Person by Integrating Experience-Sampling Methodology and Personal-Social-Network Assessments. *Advances in Methods and Practices in Psychological Science* 7(2): 25152459241244745. https://doi.org/10.1177/25152459241244745 <a href="https://doi.org/10.1177/25152459241244745" target="_blank">**Download**</a> 
+Langener, AM, Siepe, BS, Elsherif, M, Niemeijer, K, Andresen, PK, Akre, S, Bringmann, LF, Cohen, ZD, Choukas, NR, Drexl, K, Fassi, L, Green, J, Hoffmann, T, Jagesar, RR, Kas, MJH, Kurten, S, Schoedel, R, Stulp, G, Turner, G & Jacobson, NC. A template and tutorial for preregistering studies using passive smartphone measures (2024). *Behavior Research Methods*.   https://doi.org/10.3758/s13428-024-02474-5 <a href="https://doi.org/10.3758/s13428-024-02474-5" target="_blank">**Download**</a> 
+
+
+
+## 2024
+
+Sivak, E, Pankowska, P, Mendrik, A, Emery, T, Garcia-Bernardo, J, Höcük, S, Karpinska, K, Maineri, A, Mulder, J, Nissim, M & Stulp, G. (2024). Combining the Strengths of Dutch Survey and Register Data in a Data Challenge to Predict Fertility (PreFer). *Journal of Computational Social Science*. https://doi.org/10.1007/s42001-024-00275-6 <a href="https://doi.org/10.1007/s42001-024-00275-6" target="_blank">**Download**</a> 
+
+***
+
+Crone, EA, Bol, T, Barbara R. Braams, BR, de Rooij, M, Franke, B, Franken, I, Gazzola, V, Güroğlu, B, Huizenga, H, Hulshoff Pol, H, Keijsers, L, Keysers, C, Krabbendam. L, Jansen, L, Popma, A, Stulp, G, van Atteveldt, N, van Duijvenvoorde, A, Veenstra, R. (2024). Growing Up Together in Society (GUTS): A team science effort to predict societal trajectories in adolescence and young adulthood.*Developmental Cognitive Neuroscience* 67: 101403. https://doi.org/10.1016/j.dcn.2024.101403 <a href="https://doi.org/10.1016/j.dcn.2024.101403" target="_blank">**Download**</a> 
+
+
+***
+
+Stadel, M, Bringmann, LF, Stulp, G, Elmer, T, Verdonck, S, Mestdagh, M, & van Duijn, MAJ. (2024). Capturing the Social Life of a Person by Integrating Experience-Sampling Methodology and Personal-Social-Network Assessments. *Advances in Methods and Practices in Psychological Science* 7(2): 25152459241244745. https://doi.org/10.1177/25152459241244745 <a href="https://doi.org/10.1177/25152459241244745" target="_blank">**Download**</a> 
 
 
 ***

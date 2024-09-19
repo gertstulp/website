@@ -10,7 +10,85 @@
 <atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Mon, 03 Jun 2024 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 22 Aug 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach</title>
+  <dc:creator>Xiao Xu, Anne Gauthier, Gert Stulp, Antal van den Bosch</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2024_Xu_SSCR.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Social Science Computer Review</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Xiao Xu, Anne Gauthier, Gert Stulp, Antal van den Bosch</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://journals.sagepub.com/doi/full/10.1177/08944393241269406">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Uncertainty in fertility intentions is a major obstacle to understanding contemporary trends in fertility decision-making and its outcomes. Quantifying this uncertainty by structural factors such as income, ethnicity, and housing conditions is recognized as insufficient. A recently proposed framework on subjective narratives has opened up a new way to gauge factors behind fertility decision-making and uncertainty. Through surveys, such narratives can be elicited with open-ended questions (OEQs). However, analyzing answers to OEQs typically involves extensive human coding, imposing constraints on sample size. Natural Language Processing (NLP) techniques assist researchers in grasping aspects of the underlying reasoning behind responses with much less human effort. In this study, using automatic neural topic modeling methods, we identify and interpret topics and themes underlying the narratives on fertility intention uncertainty of women in the Netherlands. We used Contextualized Topic Models (CTMs), a neural topic model using pre-trained representations of Dutch language, to conduct our analyses. Our results show that nine topics dominate the narratives about fertility planning, with age and health-related issues as the most prominent ones. In addition, we found that uncertainty in fertility intentions is not homogeneous, as women who feel uncertain due to real-life constraints and those who have no fertility plans at all put their stress on vastly different narratives.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2024_Xu_SSCR.html</guid>
+  <pubDate>Thu, 22 Aug 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>A template and tutorial for preregistering studies using passive smartphone measures</title>
+  <dc:creator>Anna M. Langener, Björn S. Siepe, Mahmoud Elsherif, Koen Niemeijer, Pia K. Andresen, Samir Akre, Laura F. Bringmann, Zachary D. Cohen, Nathaniel R. Choukas, Konstantin Drexl, Luisa Fassi, James Green, Tabea Hoffmann, Raj R. Jagesar, Martien J. H. Kas, Sebastian Kurten, Ramona Schoedel, Gert Stulp, Georgia Turner, Nicholas C. Jacobson</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2024_Langener_BRM.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; A template and tutorial for preregistering studies using passive smartphone measures</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Behavior Research Methods</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Anna M. Langener, Björn S. Siepe, Mahmoud Elsherif, Koen Niemeijer, Pia K. Andresen, Samir Akre, Laura F. Bringmann, Zachary D. Cohen, Nathaniel R. Choukas, Konstantin Drexl, Luisa Fassi, James Green, Tabea Hoffmann, Raj R. Jagesar, Martien J. H. Kas, Sebastian Kurten, Ramona Schoedel, Gert Stulp, Georgia Turner, Nicholas C. Jacobson</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://link.springer.com/article/10.3758/s13428-024-02474-5">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Passive smartphone measures hold significant potential and are increasingly employed in psychological and biomedical research to capture an individual’s behavior. These measures involve the near-continuous and unobtrusive collection of data from smartphones without requiring active input from participants. For example, GPS sensors are used to determine the (social) context of a person, and accelerometers to measure movement. However, utilizing passive smartphone measures presents methodological challenges during data collection and analysis. Researchers must make multiple decisions when working with such measures, which can result in different conclusions. Unfortunately, the transparency of these decision-making processes is often lacking. The implementation of open science practices is only beginning to emerge in digital phenotyping studies and varies widely across studies. Well-intentioned researchers may fail to report on some decisions due to the variety of choices that must be made. To address this issue and enhance reproducibility in digital phenotyping studies, we propose the adoption of preregistration as a way forward. Although there have been some attempts to preregister digital phenotyping studies, a template for registering such studies is currently missing. This could be problematic due to the high level of complexity that requires a well-structured template. Therefore, our objective was to develop a preregistration template that is easy to use and understandable for researchers. Additionally, we explain this template and provide resources to assist researchers in making informed decisions regarding data collection, cleaning, and analysis. Overall, we aim to make researchers’ choices explicit, enhance transparency, and elevate the standards for studies utilizing passive smartphone measures.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <guid>https://www.gertstulp.com/research/publications/2024_Langener_BRM.html</guid>
+  <pubDate>Tue, 06 Aug 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>Social mechanisms underlying whether people have children</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2024_groningen.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Social mechanisms underlying whether people have children</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Institute for Advanced Study in Toulouse, France</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.iast.fr/11th-toulouse-economics-and-biology-workshop">here</a> for website</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2024_06_04_TOULOUSE">here</a></p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>I gave a talk on how the demographic transition relates to networks for the 11th Toulouse Economics and Biology Workshop - Inequality in Networks.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <guid>https://www.gertstulp.com/research/talks/2024_groningen.html</guid>
+  <pubDate>Mon, 03 Jun 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
 <item>
   <title>Social mechanisms underlying whether people have children</title>
   <dc:creator>Gert Stulp</dc:creator>
@@ -482,100 +560,6 @@
   <category>Publication</category>
   <guid>https://www.gertstulp.com/research/publications/2023_Stulp_DR.html</guid>
   <pubDate>Thu, 07 Sep 2023 22:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Feedback About a Person’s Social Context - Personal Networks and Daily Social Interactions</title>
-  <dc:creator>Marie Stadel, Gert Stulp, Anna M. Langener, Timon Elmer, Marijtje A. J. van Duijn &amp; Laura F. Bringmann</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2023_Stadel_Feedback.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Feedback About a Person’s Social Context - Personal Networks and Daily Social Interactions</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Administration and Policy in Mental Health and Mental Health Services Research</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Marie Stadel, Gert Stulp, Anna M. Langener, Timon Elmer, Marijtje A. J. van Duijn &amp; Laura F. Bringmann</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://link.springer.com/article/10.1007/s10488-023-01293-8">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>The social context of a person, meaning their social relationships and daily social interactions, is an important factor for understanding their mental health. However, personalised feedback approaches to psychotherapy do not consider this factor sufficiently yet. Therefore, we developed an interactive feedback prototype focusing specifically on a person’s social relationships as captured with personal social networks (PSN) and daily social interactions as captured with experience sampling methodology (ESM). We describe the development of the prototype as well as two evaluation studies: Semi-structured interviews with students (N = 23) and a focus group discussion with five psychotherapy patients. Participants from both studies considered the prototype useful. The students considered participation in our study, which included social context assessment via PSN and ESM as well as a feedback session, insightful. However, it remains unclear how much insight the feedback procedure generated for the students beyond the insights they already gained from the assessments. The focus group patients indicated that in a clinical context, (social context) feedback may be especially useful to generate insight for the clinician and facilitate collaboration between patient and clinician. Furthermore, it became clear that the current feedback prototype requires explanations by a researcher or trained clinician and cannot function as a stand-alone intervention. As such, we discuss our feedback prototype as a starting point for future research and clinical implementation.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2023_Stadel_Feedback.html</guid>
-  <pubDate>Wed, 23 Aug 2023 22:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Prediction in the social sciences</title>
-  <dc:creator>Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/overview/prediction.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>The social sciences, understandably, focus on explaining and understanding phenomena. In traditional statistical models, “understanding” is typically achieved in the following way: A relatively small theoretical model is constructed (say, 5 variables), and associations between these variables are specified (typically drawn as arrows between variables in a model). Hypotheses often concern the strength of a particular arrow, which mostly comes down to whether this strength is different from zero (i.e., does X have an effect on Y given Z) in a sample, which in turn is mostly assessed through p-values. This approach has led and will lead to a sophisticated body of research, but it is not without problems. Whether an effect is non-zero or not is not particularly interesting; the p-value does not inform on whether an effect is important, and it is easy to ‘manipulate’ a p-value towards being below a magic threshold; good “in-sample models” may fail to predict unseen cases well. All of this means that even if we have a highly significant, non-zero effect, this does not necessarily mean we have good understanding.</p>
-<p>This is why recent research has argued that explanatory modelling should be complemented by predictive modelling. That is, there is great benefit to focus on how well a model predicts cases that the model has not seen before. This prediction may be done through machine learning, but this is not the key point for me.</p>
-<p>I hope that my (future) research will help in making this case clearly and convince social scientists of the advantages of taking out-of-sample prediction seriously and also how optimising this quantity can lead to increased understanding of the system.</p>
-<section id="prefer" class="level2">
-<h2 class="anchored" data-anchor-id="prefer">PreFer</h2>
-<p>One of the main ways in which I hope to do this, is the Predicting Fertility data challenge <a href="https://preferdatachallenge.nl">PreFer</a>:</p>
-<p><img src="https://www.gertstulp.com/images/PreFer_logo_LONG.png" class="img-fluid"></p>
-<p><a href="https://arxiv.org/abs/2402.00705">Here</a> you can find a preprint of the challenge:</p>
-<blockquote class="blockquote">
-<p>Sivak, E., Pankowska, P., Mendrik, A., Emery, T., Garcia-Bernardo, J., Hocuk, S., Karpinska, K., Maineri, A., Mulder, J., Nissim, M., and Stulp, G., 2024. Combining the Strengths of Dutch Survey and Register Data in a Data Challenge to Predict Fertility (PreFer). https://arxiv.org/abs/2402.00705</p>
-</blockquote>
-</section>
-<section id="related-content" class="level2">
-<h2 class="anchored" data-anchor-id="related-content">Related content</h2>
-<blockquote class="blockquote">
-<p>Stulp, G., Top, L., Xu, X., &amp; Sivak, E. (2023). A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences. Royal Society Open Science 10(12), 230988. <a href="https://doi.org/10.1098/rsos.230988">https://doi.org/10.1098/rsos.230988</a> [This is one of the studies where I use a data-driven approach to a sociological topic]</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Stulp, G., Verhagen, MD., Arpino, B. (submitted). A plea for reporting out-of-sample predictive accuracy.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Langener, A. M., Bringmann, L. F., Kas, M. J., &amp; Stulp, G. (2024). Predicting Mood Based on the Social Context Measured Through the Experience Sampling Method, Digital Phenotyping, and Social Networks. <em>Administration and Policy in Mental Health and Mental Health Services Research</em>. https://doi.org/10.1007/s10488-023-01328-0 <a href="https://doi.org/10.1007/s10488-023-01328-0" target="_blank"><strong>Download</strong></a></p>
-</blockquote>
-
-
-</section>
-
- ]]></description>
-  <category>Overview</category>
-  <category>Prediction</category>
-  <category>Machine learning</category>
-  <category>Data science</category>
-  <guid>https://www.gertstulp.com/research/overview/prediction.html</guid>
-  <pubDate>Sun, 25 Jun 2023 22:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/prediction.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Simulating the evolution of height in the Netherlands in recent history</title>
-  <dc:creator>Gert Stulp, Tyler Bonnel, Louise Barrett</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2023_Stulp_History.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Simulating the evolution of height in the Netherlands in recent history</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>The History of the Family</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp, Tyler Bonnel, Louise Barrett</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://www.tandfonline.com/doi/full/10.1080/1081602X.2023.2192193">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>The Dutch have a remarkable history when it comes to height. From being one of the shortest European populations in the 19th Century, the Dutch grew some 20 cm and are currently the tallest population in the world. Wealth, hygiene, and diet are well-established contributors to this major increase in height. Some have suggested that natural selection may also contribute to the trend, but evidence is weak. Here, we investigate the potential role of natural selection in the increase in height through simulations. We first ask what if natural selection was solely responsible for the observed increase in height? If the increase in average height was fully due to natural selection on male height, then across six consecutive generations, men who were two standard deviation above average height would need to have eight times more children on average. If selection acted only through those who have the opportunity to reproduce, then reproduction would need to be restricted to the tallest third (37%) of the population in order to give rise to the stark increase in height over time. No linear relationship between height and child mortality is able to account for the increase over time. We then present simulations based on previously observed estimates of partnership, mortality, selection and heritability and show that natural selection had a negligible effect (estimates from 0.07 to 0.36 cm) on the increase in height in the period 1850 to 2000. Our simulations highlight the plasticity of height and how remarkable the trend in height is in evolutionary terms. Only by using a combination of methods and insights from different disciplines, including biology, demography, and history are we potentially able to address how much of the increase in height is due to natural selection versus other causes.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2023_Stulp_History.html</guid>
-  <pubDate>Wed, 22 Mar 2023 23:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 </channel>
