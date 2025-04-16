@@ -10,6 +10,12 @@ title-block-banner: true
 
 ### Recent or in press
 
+Granholm, R, Gauthier, A & Stulp. G. (2025). Postponement, disruption, and prevalence: measuring the contributions of education and unions to the fertility gap by simulating the reproductive life courses of Dutch women. In press at *Demographic Research*. 
+
+Bringmann, LF, Tolmeijer, E, Piot, M, Mestdagh, M, Verdonck, S, Stulp, G, Waite, F, Isham, L, Staring, APB, Freeman, D, & van den Berg, D. (2025). Developing a qualitative and quantitative ambulatory assessment-based feedback system within cognitive behavioural interventions for people with persecutory beliefs. *Internet Interventions* 40, 100819. https://doi.org/10.1016/j.invent.2025.100819 <a href="https://doi.org/10.1016/j.invent.2025.100819" target="_blank">**Download**</a> 
+
+***
+
 Xu, X, Gauthier, A, Stulp, G, & van den Bosch, A. (2024). Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach. Social Science Computer Review. https://doi.org/10.1177/08944393241269406 <a href="https://doi.org/10.1177/08944393241269406" target="_blank">**Download**</a> 
 
 

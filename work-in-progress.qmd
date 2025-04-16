@@ -16,8 +16,5 @@ title-block-banner: true
 
 * Stulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies
 
-
-* Granholm, R., Gauthier, A., Stulp. G. Postponement, disruption, and prevalence: measuring the contributions of education and unions to the fertility gap by simulating the reproductive life courses of Dutch women. Submitted to Demographic Research. 
-
 * Stulp, G. Family and friends in personal networks of Dutch women. Handbook "Families as networks".
 
