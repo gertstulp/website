@@ -8,15 +8,21 @@ title-block-banner: true
 ---
 
 
-### Submitted
-
-* Stulp, G., Verhagen, M.D., Arpino, B. A plea for reporting out-of-sample predictive ability. Submitted to Frontiers in Research Metrics and Analytics. 
+### In preparation
 
 * Xu, X. Van den Bosch, A., Gauthier, A., Stulp, G. Measuring the Response Quality of Open-Ended Questions in a Demographic Web Survey using Linguistic Complexity Features. Submitted to GESIS. 
 
-* Stulp, G., Van Tintelen, A., Granholm, R. & Lippényi, Z. A microsimulation model of fertility shows that preferences cannot explain why highly educated women remain childless more often. Submit to Population Studies
+* Stulp, G., Granholm, R., Van Tintelen, A.  & Lippényi, Z. Quantifying the postponement in the age at which people start trying to conceive and its consequences. Submitted to Vienna Yearbook of Population Science
 
 * Stulp, G. Family and friends in personal networks of Dutch women. Handbook "Families as networks".
 
-*
+* Sivak, L. & Stulp, G. Introduction to the special issue on the PreFer data challenge. Prepare for special issue Journal of Computational Social Science. 
 
+* Sivak, L., Mendrik, A., Nissim, M. & Stulp, G.Successes and struggles with code-based submission for computational reproducibility: lessons from the PreFer data challenge. Prepare for special issue Journal of Computational Social Science.  
+
+* Stulp, G., Verhagen, M.D., Sivak, E. & Arpino, B. A plea for prediction. Prepare for special issue Journal of Computational Social Science. 
+
+* Vila Soler, P, Javier Garcia-Bernardo, J., Veenstra, R. & Gert Stulp. Predicting Fertility Preferences with Egocentric Network Data and Graph Neural Networks (GNNs)
+
+
+ 

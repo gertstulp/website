@@ -10,7 +10,38 @@
 <atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Wed, 09 Apr 2025 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 22 Apr 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Examining the relationships between education, coresidential unions, and the fertility gap by simulating the reproductive life courses of Dutch women</title>
+  <dc:creator>Rolf Granholm, Anne Gauthier, Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2025_Granholm.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Examining the relationships between education, coresidential unions, and the fertility gap by simulating the reproductive life courses of Dutch women</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Demographic Research</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Rolf Granholm, Anne Gauthier, Gert Stulp</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://www.demographic-research.org/articles/volume/52/24">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Background: Couples in Europe have fewer children than they intend to, resulting in a gap between intended family size and completed fertility. This is partly because first-pregnancy attempts are postponed to older reproductive ages, when giving birth is more difficult due to the decline in fecundity and increased probability of miscarriage. Modelling educational differences in prevalence, timing, and stability of coresidential unions together with reproductive behaviour and constraints provides us with information on how postponement relates to completed fertility.</p>
+<p>Objective: We measure the extent to which changes in education, union events, and physiology change the gap between intended family size and coresidential completed cohort fertility for Dutch women born during 1974–1984.</p>
+<p>Methods: We perform microsimulations including physiological parameters and detailed information on education and union events. Our model parameters are based on a range of representative data sources, including the Generations and Gender Survey and the Longitudinal Internet studies for the Social Sciences panel.</p>
+<p>Results: Counterfactual simulations revealed that increases in lifelong singlehood increased the fertility gap the most, followed by separation and divorce. Re-partnering rates reduced the gap slightly more than marriage rates. Highly educated women had larger fertility gaps, mainly because they cohabited less and later than low-educated women.</p>
+<p>Conclusions: Lifelong singlehood and increasing ages at entry into first coresidential union should receive more attention, given their strong positive associations with the fertility gap.</p>
+<p>Contribution: We are able to model and measure the degree to which education, unions, and physiology are associated with the gap between intended family size and completed cohort fertility. We advance existing microsimulation fertility models.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/research/publications/2025_Granholm.html</guid>
+  <pubDate>Tue, 22 Apr 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
 <item>
   <title>Developing a qualitative and quantitative ambulatory assessment-based feedback system within cognitive behavioural interventions for people with persecutory beliefs</title>
   <dc:creator>Laura F. Bringmann, Eva Tolmeijer, Maarten Piot, Merijn Mestdagh, Stijn Verdonck, Gert Stulp, Felicity Waite, Louise Isham, Anton P.B. Staring, Daniel Freeman, David van den Berg</dc:creator>
@@ -523,31 +554,6 @@
   <category>Publication</category>
   <guid>https://www.gertstulp.com/research/publications/2024_Langener_Mood.html</guid>
   <pubDate>Tue, 09 Jan 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences</title>
-  <dc:creator>Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2023_Stulp_RoySoc.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preference</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Royal Society Open Science</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp, Lars Top, Xiao Xu, Lisa Sivak</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://doi.org/10.1098/rsos.230988">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>People’s networks are considered key in explaining fertility outcomes—whether people want and have children. Existing research on social influences on fertility is limited because data often come from small networks or highly selective samples, only few network variables are considered, and the strength of network effects is not properly assessed. We use data from a representative sample of Dutch women reporting on over 18 000 relationships. A data-driven approach including many network characteristics accounted for 0 to 40% of the out-of-sample variation in different outcomes related to fertility preferences. Individual characteristics were more important for all outcomes than network variables. Network composition was also important, particularly those people in the network desiring children or those choosing to be childfree. Structural network characteristics, which feature prominently in social influence theories and are based on the relations between people in the networks, hardly mattered. We discuss to what extent our results provide support for different mechanisms of social influence, and the advantages and disadvantages of our data-driven approach in comparison to traditional approaches.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2023_Stulp_RoySoc.html</guid>
-  <pubDate>Tue, 19 Dec 2023 23:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 </channel>
