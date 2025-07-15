@@ -2826,5 +2826,26 @@
     "title": "Examining the relationships between education, coresidential unions, and the fertility gap by simulating the reproductive life courses of Dutch women",
     "section": "Abstract",
     "text": "Abstract\nBackground: Couples in Europe have fewer children than they intend to, resulting in a gap between intended family size and completed fertility. This is partly because first-pregnancy attempts are postponed to older reproductive ages, when giving birth is more difficult due to the decline in fecundity and increased probability of miscarriage. Modelling educational differences in prevalence, timing, and stability of coresidential unions together with reproductive behaviour and constraints provides us with information on how postponement relates to completed fertility.\nObjective: We measure the extent to which changes in education, union events, and physiology change the gap between intended family size and coresidential completed cohort fertility for Dutch women born during 1974–1984.\nMethods: We perform microsimulations including physiological parameters and detailed information on education and union events. Our model parameters are based on a range of representative data sources, including the Generations and Gender Survey and the Longitudinal Internet studies for the Social Sciences panel.\nResults: Counterfactual simulations revealed that increases in lifelong singlehood increased the fertility gap the most, followed by separation and divorce. Re-partnering rates reduced the gap slightly more than marriage rates. Highly educated women had larger fertility gaps, mainly because they cohabited less and later than low-educated women.\nConclusions: Lifelong singlehood and increasing ages at entry into first coresidential union should receive more attention, given their strong positive associations with the fertility gap.\nContribution: We are able to model and measure the degree to which education, unions, and physiology are associated with the gap between intended family size and completed cohort fertility. We advance existing microsimulation fertility models."
+  },
+  {
+    "objectID": "research/talks/2025_MAXPLANCK.html",
+    "href": "research/talks/2025_MAXPLANCK.html",
+    "title": "Exploring the limits of predicting births using survey and administrative data",
+    "section": "",
+    "text": "Max Planck Institute for Demographic Research\n      Rostock, Germany\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/2025_MAXPLANCK.html#summary",
+    "href": "research/talks/2025_MAXPLANCK.html#summary",
+    "title": "Exploring the limits of predicting births using survey and administrative data",
+    "section": "",
+    "text": "Max Planck Institute for Demographic Research\n      Rostock, Germany\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/2025_MAXPLANCK.html#description",
+    "href": "research/talks/2025_MAXPLANCK.html#description",
+    "title": "Exploring the limits of predicting births using survey and administrative data",
+    "section": "Description",
+    "text": "Description\nPredicting life outcomes is important because it can inform theory and enable targeted interventions. Unlike fields like climate science or medicine, social science struggles to predict lifecourse outcomes. Perhaps such outcomes are inherently unpredictable due to chance, or because conditions necessary for accurate predictions — large, high-quality datasets — are unmet. We study the predictability of one key life event — having a child within three years — under ideal conditions by organising the PreFer [Predicting Fertility] data challenge that draws on high-quality surveys and rich administrative records from the Netherlands. Over a hundred researchers applied advanced techniques to the prediction task, offering a rare test of the predictability of fertility. We show that predictions based on survey data outperform those based on administrative records, although the predictive ability was still far off the theoretical maximum. We show how we can capitalise on the information from different models and datasets. We end by discussing the role of prediction in the social sciences."
   }
 ]
