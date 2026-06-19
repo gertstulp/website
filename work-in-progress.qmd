@@ -12,7 +12,6 @@ title-block-banner: true
 
 * Xu, X. Van den Bosch, A., Gauthier, A., Stulp, G. Measuring the Response Quality of Open-Ended Questions in a Demographic Web Survey using Linguistic Complexity Features. Submitted to GESIS. 
 
-* Stulp, G., Granholm, R., Van Tintelen, A.  & Lippényi, Z. Quantifying the postponement in the age at which people start trying to conceive and its consequences. Submitted to Vienna Yearbook of Population Science
 
 * Stulp, G. Family and friends in personal networks of Dutch women. Handbook "Families as networks".
 

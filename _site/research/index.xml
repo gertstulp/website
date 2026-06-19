@@ -6,16 +6,108 @@
       version="2.0">
 <channel>
 <title>Gert Stulp</title>
-<link>https://www.gertstulp.com/research/index.html</link>
+<link>https://www.gertstulp.com/research/</link>
 <atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.433</generator>
-<lastBuildDate>Tue, 08 Jul 2025 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Tue, 09 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Quantifying the postponement in the age at first attempt to conceive and its consequences</title>
+  <dc:creator>Gert Stulp, Rolf Granholm, Amke M. G. van Tintelen, Zoltán Lippényi</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2026_Stulp_Vienna.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Quantifying the postponement in the age at first attempt to conceive and its consequences</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Vienna Yearbook of Population Research</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp, Rolf Granholm, Amke M. G. van Tintelen, Zoltán Lippényi</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://doi.org/10.1553/p-fzmf-d932">here</a></p>
+<section id="abstrac" class="level2">
+<h2 class="anchored" data-anchor-id="abstrac">Abstrac</h2>
+<p>The substantial rise in the age at first birth in recent decades suggests that people are delaying their first attempt to have a child. The age at first birth, however, may not accurately reflect when people first attempt to conceive, given age-related declines in the ability to get pregnant and to achieve a live birth. Through a microsimulation model incorporating biological parameters and sequential Approximate Bayesian Computation, we estimate the distribution of the age at first attempt to conceive from 1960 to 1980 based on the age at first birth derived from Dutch administrative data. Over this period, the average age at first conception attempt, as inferred by the models, increases by two years. Unexpectedly, the average duration to childbirth remains stable despite later conception attempts, which is partly explained by a selection effect at advanced ages favouring couples with higher fecundity, with less fecund couples having higher rates of childlessness. We assess the influence of model assumptions on our results and underscore the promise of Approximate Bayesian Computation for future demographic and fertility research.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/research/publications/2026_Stulp_Vienna.html</guid>
+  <pubDate>Tue, 09 Jun 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
+<item>
+  <title>Falling Fertility - Fears, Foundations and Fixes</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2026_amsterdam.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Falling Fertility: Fears, Foundations &amp; Fixes</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Amsterdam Reproduction &amp; Development Symposium</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.amsterdamumc.org/en/research/institutes/amsterdam-reproduction-development/events/ard-symposium-2026.-the-birth-crash-reproduction-in-an-age-of-demographic-change">here</a> for website</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>In this presentation, I talked about the decline in fertility, its causes, and its consequences.</p>
+<p><em>Fotografie: Martijn Gijsbertsen</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/research/talks/2026_amsterdam.html</guid>
+  <pubDate>Wed, 03 Jun 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/ARD.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Microsimulation reveals that medically assisted reproduction is unlikely to compensate for cohort fertility decline due to increasing maternal ages</title>
+  <dc:creator>Rolf Granholm, Astrid Cantineau, Annemieke Hoek, Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/publications/2026_Granholm.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Microsimulation reveals that medically assisted reproduction is unlikely to compensate for cohort fertility decline due to increasing maternal ages</p>
+<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Human Reproduction</em></p>
+<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Rolf Granholm, Astrid Cantineau, Annemieke Hoek, Gert Stulp</p>
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://doi.org/10.1093/humrep/deag006">here</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>STUDY QUESTION Can medically assisted reproduction (MAR) compensate for completed cohort fertility (CCF) decline within coresidential unions due to increasing maternal ages among Dutch women born during 1974–1984?</p>
+<p>SUMMARY ANSWER MAR is unlikely to compensate for cohort fertility decline within coresidential unions due to continued increase in maternal ages in our sample cohort of Dutch women born during 1974–1984, even under ideal conditions.</p>
+<p>WHAT IS KNOWN ALREADY The pregnancy- and live birth rates for both expectant management and MAR decline at older reproductive ages. Some infertile couples can conceive naturally without undergoing treatment by trying to conceive for a longer period of time, which complicates estimating the contribution of MAR to cohort fertility.</p>
+<p>STUDY DESIGN, SIZE, DURATION We developed a microsimulation model, which includes MAR, that simulates the reproductive life courses of women. We simulate a sample of 1 000 000 women representing the 1974–1984 Dutch birth cohort. Sample sizes for the input parameters varied from hundreds to thousands to hundreds of thousands depending on the parameter and source (surveys, clinical studies, panel data, population registers).</p>
+<p>PARTICIPANTS/MATERIALS, SETTING, METHOD Our Monte Carlo microsimulation model uses probability distributions and parameters based on representative data sources to determine a woman’s transitions through union and reproductive events across her reproductive life course. We assess the contribution of various components of the MAR process to CCF within coresidential unions and estimate the net contributions of MAR to CCF with counterfactual simulations.</p>
+<p>MAIN RESULTS AND THE ROLE OF CHANCE Increases in the maximum female age at MAR treatment, the time to starting IUI treatment, and the number of IUI cycles did not noticeably increase CCF. Out of the hypothetical policy levers that were adjusted, increasing the share of eligible women who took up MAR from 0% to 100% increased CCF linearly by 0.06 children. Increasing the waiting time to ART treatment after infertility diagnosis from 1 to 12 months reduced CCF by 0.01. Increasing the number of reimbursed IVF/ICSI cycles from 0 to 6 increased CCF by 0.05. The increase tapered off after cycle number 2, and levelled off after cycle number 4. Minimum ages at which MAR treatment was started that were between 20 and 30 resulted in near-identical patterns of change in CCF from the adjustment in the potential policy levers, whereas both the CCF levels and rate of increase or decline were reduced at age 35 years, and further at age 40 years. The main influences on the lower CCF levels and slower rate or increase or decline were the reduction in MAR pregnancy rates at advanced reproductive ages, the increasing probability of intrauterine mortality with age, and time spent trying to conceive naturally before starting MAR treatment. The net contribution of MAR (0.043 children per woman, 2.5% to non-MAR CCF) was 33% smaller than the observed MAR birth share of CCF (0.064 children per woman, 3.7% of simulated CCF including MAR). The relative contribution of MAR was strongest at ages 35–39 (6.0%) and at age 40 years and above (8.6%), and weakest at ages 20–24 (0%) and 25–29 years (1.0%). In absolute number of children born, most of the contribution of MAR occurred at ages 30–34 (0.016 children) and ages 35–39 years (0.015). The Monte Carlo variation in the simulation model was measured to be around ±0.001 based on 10 simulations of 1 000 000 women. Parameter uncertainty was accounted for where possible by allowing parameters to vary within nonparametrically bootstrapped values generated from the sample data.</p>
+<p>LIMITATIONS, REASONS FOR CAUTION Our model cannot fully capture the complexity of the fertility and MAR processes with regards to factors like infertility diagnosis, partner characteristics, and health status. Due to missing information, an extensive number of parameters, and limited sample sizes when estimating some of the parameters; the model output deviates slightly from the reference data. We cannot establish causality due to endogeneity in the modelling. We are not entirely confident in the zero contribution of IUI, because clinical data suggest that IUI pregnancy rates are higher than expectant management pregnancy rates, but the quality of that clinical data is low and sparse. The scope of the study is limited to births within coresidential unions, because information on unions and births outside of coresidential union was insufficient for modelling purposes.</p>
+<p>WIDER IMPLICATIONS OF THE FINDINGS While MAR remains an important tool to address infertility, our results suggest that it is unlikely to compensate for population fertility decline attributable to postponement of childbearing to older reproductive ages. Failing to account for the counterfactual case that some couples who undergo MAR may conceive naturally given longer expectant management may lead to overestimation of the contribution MAR can make to population fertility.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Publication</category>
+  <category>Fertility</category>
+  <guid>https://www.gertstulp.com/research/publications/2026_Granholm.html</guid>
+  <pubDate>Tue, 17 Feb 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
+</item>
 <item>
   <title>Exploring the limits of predicting births using survey and administrative data</title>
   <dc:creator>Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/talks/2025_MAXPLANCK.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -45,6 +137,7 @@
   <dc:creator>Rolf Granholm, Anne Gauthier, Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/publications/2025_Granholm.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -79,6 +172,7 @@
 
 
 
+
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Developing a qualitative and quantitative ambulatory assessment-based feedback system within cognitive behavioural interventions for people with persecutory beliefs</p>
 <p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Internet Interventions</em></p>
 <p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Laura F. Bringmann, Eva Tolmeijer, Maarten Piot, Merijn Mestdagh, Stijn Verdonck, Gert Stulp, Felicity Waite, Louise Isham, Anton P.B. Staring, Daniel Freeman, David van den Berg</p>
@@ -101,6 +195,7 @@
   <dc:creator>Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/talks/2025_IGO.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -132,6 +227,7 @@
 
 
 
+
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Social mechanisms underlying whether people have children</p>
@@ -157,6 +253,7 @@
   <dc:creator>Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/talks/2025_DVD.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -190,6 +287,7 @@
 
 
 
+
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; How predictable is having a child in the next three years? Results of the first data challenge in population research</p>
@@ -219,6 +317,7 @@
 
 
 
+
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; ODISSEI conference</p>
@@ -245,6 +344,7 @@
   <dc:creator>Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/talks/2024_complexity.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -279,6 +379,7 @@
 
 
 
+
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Leveraging machine learning to understand fertility behaviour: what we learned from the Predicting Fertility (PreFer) data challenge</p>
@@ -307,6 +408,7 @@
 
 
 
+
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Understanding Narratives of Uncertainty in Fertility Intentions of Dutch Women: A Neural Topic Modeling Approach</p>
 <p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Social Science Computer Review</em></p>
 <p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Xiao Xu, Anne Gauthier, Gert Stulp, Antal van den Bosch</p>
@@ -332,6 +434,7 @@
 
 
 
+
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; A template and tutorial for preregistering studies using passive smartphone measures</p>
 <p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Behavior Research Methods</em></p>
 <p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Anna M. Langener, Björn S. Siepe, Mahmoud Elsherif, Koen Niemeijer, Pia K. Andresen, Samir Akre, Laura F. Bringmann, Zachary D. Cohen, Nathaniel R. Choukas, Konstantin Drexl, Luisa Fassi, James Green, Tabea Hoffmann, Raj R. Jagesar, Martien J. H. Kas, Sebastian Kurten, Ramona Schoedel, Gert Stulp, Georgia Turner, Nicholas C. Jacobson</p>
@@ -354,6 +457,7 @@
   <dc:creator>Gert Stulp</dc:creator>
   <link>https://www.gertstulp.com/research/talks/2024_toulouse.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -385,6 +489,7 @@
 
 
 
+
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Growing Up Together in Society (GUTS): A team science effort to predict societal trajectories in adolescence and young adulthood</p>
 <p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Developmental Cognitive Neuroscience</em></p>
 <p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Eveline A. Crone, Thijs Bol, Barbara R. Braams, Mark de Rooij, Barbara Franke, Ingmar Franken, Valeria Gazzola, Berna Güroğlu, Hilde Huizenga, Hilleke Hulshoff Pol, Loes Keijsers, Christian Keysers, Lydia Krabbendam, Lucres Jansen, Arne Popma, Gert Stulp, Nienke van Atteveldt, Anna van Duijvenvoorde, René Veenstra</p>
@@ -410,6 +515,7 @@
 
 
 
+
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer)</p>
 <p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Journal of Computational Social Science</em></p>
 <p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Elizaveta Sivak, Paulina Pankowska, Adriënne Mendrik, Tom Emery, Javier Garcia-Bernardo, Seyit Höcük, Kasia Karpinska, Angelica Maineri, Joris Mulder, Malvina Nissim, Gert Stulp</p>
@@ -432,6 +538,7 @@
   <dc:creator>Marie Stadel, Laura F. Bringmann, Gert Stulp, Timon Elmer, Stijn Verdonck, Merijn Mestdagh, Marijtje A. J. van Duijn</dc:creator>
   <link>https://www.gertstulp.com/research/publications/2024_Stadel_Advances.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -461,6 +568,7 @@
 
 
 
+
 <p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Explaining uncertainty in women’s fertility preferences</p>
 <p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Heliyon</em></p>
 <p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Amke van Tintelen, Gert Stulp</p>
@@ -477,88 +585,6 @@
   <guid>https://www.gertstulp.com/research/publications/2024_Stulp_Heliyon.html</guid>
   <pubDate>Tue, 12 Mar 2024 23:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>It’s All About Timing: Exploring Different Temporal Resolutions for Analyzing Digital-Phenotyping Data</title>
-  <dc:creator>Langener, A. M., Stulp, G., Jacobson, N. C., Costanzo, A., Jagesar, R. R., Kas, M. J., &amp; Bringmann, L. F.</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2024_Langener_timing.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; It’s All About Timing: Exploring Different Temporal Resolutions for Analyzing Digital-Phenotyping Data</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Advances in Methods and Practices in Psychological Science</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Langener, A. M., Stulp, G., Jacobson, N. C., Costanzo, A., Jagesar, R. R., Kas, M. J., &amp; Bringmann, L. F.</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://doi.org/10.1177/25152459231202677">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>The use of smartphones and wearable sensors to passively collect data on behavior has great potential for better understanding psychological well-being and mental disorders with minimal burden. However, there are important methodological challenges that may hinder the widespread adoption of these passive measures. A crucial one is the issue of timescale: The chosen temporal resolution for summarizing and analyzing the data may affect how results are interpreted. Despite its importance, the choice of temporal resolution is rarely justified. In this study, we aim to improve current standards for analyzing digital-phenotyping data by addressing the time-related decisions faced by researchers. For illustrative purposes, we use data from 10 students whose behavior (e.g., GPS, app usage) was recorded for 28 days through the Behapp application on their mobile phones. In parallel, the participants actively answered questionnaires on their phones about their mood several times a day. We provide a walk-through on how to study different timescales by doing individualized correlation analyses and random-forest prediction models. By doing so, we demonstrate how choosing different resolutions can lead to different conclusions. Therefore, we propose conducting a multiverse analysis to investigate the consequences of choosing different temporal resolutions. This will improve current standards for analyzing digital-phenotyping data and may help combat the replications crisis caused in part by researchers making implicit decisions.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2024_Langener_timing.html</guid>
-  <pubDate>Thu, 18 Jan 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>FertNet: Process Data from the Social Networks and Fertility Survey</title>
-  <dc:creator>Stulp, G.</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2024_FertNet.html</link>
-  <description><![CDATA[ 
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; FertNet: Process Data from the Social Networks and Fertility Survey</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>CRAN</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Gert Stulp</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download package <a href="https://CRAN.R-project.org/package=FertNet">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>I’ve made minor changes to the FertNet package – the package developed to deal with the Social Networks and Fertility Study. The biggest change is that I updated the citation to include the paper describing the study.</p>
-<blockquote class="blockquote">
-<p>Stulp, G. (2023). FertNet: Process data from the social networks and fertility survey. https://CRAN.R-project.org/package=FertNet.</p>
-</blockquote>
-<p>The package is described here: &gt; Stulp, G. (2023). Describing the Dutch Social Networks and Fertility Study and how to process it. <em>Demographic Research</em> 49(19), 493-512. https://www.demographic-research.org/articles/volume/49/19 <a href="https://www.demographic-research.org/articles/volume/49/19" target="_blank"><strong>Download</strong></a></p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2024_FertNet.html</guid>
-  <pubDate>Wed, 17 Jan 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/Rlogo.svg" medium="image" type="image/svg+xml"/>
-</item>
-<item>
-  <title>Life history theory and human behaviour</title>
-  <dc:creator>Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/talks/2023_schiermonnikoog.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Life history theory and human behaviour</p>
-<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; Herders Hut, Schiermonnikoog</p>
-<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.rug.nl/research/ecology-and-evolution/phdcourses/lifehistorytheory?lang=en">here</a> for website</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download materials <a href="../../pdf/2024_Schiermonnikoog.pdf">here</a></p>
-</section>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>I gave a talk on life history theory and human behaviour for a group of talented biology PhD-students. The location was exciting!</p>
-
-
-</section>
-
- ]]></description>
-  <category>Talk</category>
-  <guid>https://www.gertstulp.com/research/talks/2023_schiermonnikoog.html</guid>
-  <pubDate>Tue, 16 Jan 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_event.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 </channel>
 </rss>
