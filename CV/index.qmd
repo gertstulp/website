@@ -9,6 +9,8 @@ sidebar: false
 ---
 
 
-Here you can find my [CV](../pdf/CV_Gert_Stulp_March_2024.pdf), including my educational and occupational history and a list of publications.
+Here you can find a short, relevant [CV](../pdf/CV_Stulp_short_june_2026.pdf).
 
-For a list of additional activities, some of which have occurred quite some time ago, and that seem less relevant or even embarrassing to include in my full CV, [see here](../pdf/CV_Gert_Stulp_March 2024_addendum.pdf).
+For a full CV, including additional activities, some of which have occurred quite some time ago, and that seem less relevant or even embarrassing [see here](../pdf/CV_Stulp_full_june_2026.pdf).
+
+If you're just interested in my publications, please go [here](https://www.gertstulp.com/publications). 
