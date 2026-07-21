@@ -10,7 +10,39 @@
 <atom:link href="https://www.gertstulp.com/research/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 09 Jun 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Exploring the limits of predicting births using survey and administrative data</title>
+  <dc:creator>Gert Stulp</dc:creator>
+  <link>https://www.gertstulp.com/research/talks/2026_rotterdam.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Exploring the limits of predicting births using survey and administrative data</p>
+<p><i class="fa-solid fa-map-marker" aria-label="map-marker"></i> &nbsp;&nbsp;&nbsp;&nbsp; International Population Data Linkage Network conference [Rotterdam]</p>
+<p><i class="fa-solid fa-window-maximize" aria-label="window-maximize"></i> &nbsp;&nbsp;&nbsp;&nbsp; Click <a href="https://www.amsterdamumc.org/en/research/institutes/amsterdam-reproduction-development/events/ard-symposium-2026.-the-birth-crash-reproduction-in-an-age-of-demographic-change">here</a> for website</p>
+</section>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>In this presentation, I talked about the decline in fertility, its causes, and its consequences.</p>
+<p><em>Fotografie: Martijn Gijsbertsen</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Talk</category>
+  <category>Fertility</category>
+  <category>Prediction</category>
+  <category>Keynote</category>
+  <guid>https://www.gertstulp.com/research/talks/2026_rotterdam.html</guid>
+  <pubDate>Wed, 15 Jul 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://www.gertstulp.com/images/rotterdam.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Quantifying the postponement in the age at first attempt to conceive and its consequences</title>
   <dc:creator>Gert Stulp, Rolf Granholm, Amke M. G. van Tintelen, Zoltán Lippényi</dc:creator>
@@ -64,6 +96,7 @@
  ]]></description>
   <category>Talk</category>
   <category>Fertility</category>
+  <category>Keynote</category>
   <guid>https://www.gertstulp.com/research/talks/2026_amsterdam.html</guid>
   <pubDate>Wed, 03 Jun 2026 22:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/ARD.jpg" medium="image" type="image/jpeg"/>
@@ -558,32 +591,6 @@
   <category>Publication</category>
   <guid>https://www.gertstulp.com/research/publications/2024_Stadel_Advances.html</guid>
   <pubDate>Thu, 11 Apr 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
-</item>
-<item>
-  <title>Explaining uncertainty in women’s fertility preferences</title>
-  <dc:creator>Amke van Tintelen, Gert Stulp</dc:creator>
-  <link>https://www.gertstulp.com/research/publications/2024_Stulp_Heliyon.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><br> <i class="fa-solid fa-podcast" aria-label="podcast"></i> &nbsp;&nbsp;&nbsp;&nbsp; Explaining uncertainty in women’s fertility preferences</p>
-<p><i class="fa-solid fa-book" aria-label="book"></i> &nbsp;&nbsp;&nbsp;&nbsp; <em>Heliyon</em></p>
-<p><i class="fa-solid fa-users" aria-label="users"></i> &nbsp;&nbsp;&nbsp; Amke van Tintelen, Gert Stulp</p>
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;&nbsp;&nbsp;&nbsp; Download manuscript <a href="https://www.sciencedirect.com/science/article/pii/S2405844024036417?via%3Dihub">here</a></p>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>People’s fertility preferences are often considered an important determinant of fertility. What is often neglected in studies of preferred fertility, is the uncertainty that people may have about their preferences. In this study, using data on Dutch women through the Longitudinal Internet studies for the Social Sciences (collected early 2018), we examined women’s fertility preferences and asked detailed questions about the certainty of these preferences. We also examined whether women agreed with their partner on preferred family size, and to what extent partner (dis)agreement shaped uncertainty. We show that Dutch women expressed much uncertainty about their fertility preferences, with only one-third feeling strongly about their preferences. Uncertainty strongly increased when women preferred higher numbers of children, whereas already having children reduced it. Women who wanted no children were most certain about their preference. Higher preferred family sizes also led to more disagreement with the partner about these preferences, and greater partner disagreement, in turn, led to more uncertainty. These findings imply that people are more likely to downgrade their fertility preferences than to increase them, as women are more certain about their preferences for lower numbers of children and are more open to family sizes below than above their preferred choice. Partner disagreement is often resolved by not having (more) children, lowering realised fertility. Hence, these findings provide another explanation for why many people have fewer children than desired.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Publication</category>
-  <guid>https://www.gertstulp.com/research/publications/2024_Stulp_Heliyon.html</guid>
-  <pubDate>Tue, 12 Mar 2024 23:00:00 GMT</pubDate>
   <media:content url="https://www.gertstulp.com/images/new_pub.png" medium="image" type="image/png" height="97" width="144"/>
 </item>
 </channel>

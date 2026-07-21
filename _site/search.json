@@ -2896,5 +2896,26 @@
     "title": "EVS",
     "section": "",
     "text": "library(readxl)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.3     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n\nd &lt;- read_xlsx(\"EVS.xlsx\")\n\n\norder &lt;- c(\"none\", \"1child\", \"2children\", \"3children\", \"4children\", \"5children\", \n           \"6children\", \"7children\", \"8children\", \"9children\", \"10ormore\")\n\nd %&gt;% \n  gather(\"15\":\"100\", key = \"age\", value = \"N \") %&gt;%\n  rename(\"preference\" = \"age: respondent (constructed)\",\n         \"N\" = \"N \") %&gt;%\n  mutate(preference = factor(preference, levels = order),\n         preference = fct_recode(preference, \n                                 \"1\" = \"1child\", \n                                 \"2\" = \"2children\", \n                                 \"3\" = \"3children\", \n                                 \"4\" = \"4children\", \n                                 \"5+\" = \"5children\", \n                                 \"5+\" = \"6children\", \n                                 \"5+\" = \"7children\", \n                                 \"5+\" = \"8children\", \n                                 \"5+\" = \"9children\",\n                                 \"5+\" = \"10ormore\")) -&gt; long\n\nlong &lt;- long %&gt;% filter(age &gt;= \"18\" & age &lt;= \"35\" & preference != \"none\")\n\nsm &lt;- long %&gt;% \n  dplyr::group_by(Study, preference) %&gt;%\n  dplyr::summarise(N_C = sum(N, na.rm = TRUE)) %&gt;%\n  group_by(Study) %&gt;% \n  mutate(N_S = sum(N_C, na.rm = TRUE),\n         prop = round(N_C * 100 / N_S, 0))\n\n`summarise()` has grouped output by 'Study'. You can override using the\n`.groups` argument.\n\n\n\nstds &lt;- c(\"EVS1981\", \"ISSP1988\", \"EVS1990\", \"ISSP1994\", \"GGP2003\", \"GGP2006\")\n\nggplot(sm, aes(x = preference, y = prop, fill = preference)) +\n  geom_col() +\n  facet_wrap(~ factor(Study, levels = stds), nrow = 1) +\n  guides(fill = FALSE) +\n  scale_fill_viridis_d()\n\nWarning: The `&lt;scale&gt;` argument of `guides()` cannot be `FALSE`. Use \"none\" instead as\nof ggplot2 3.3.4.\n\n\n\n\n\n\n\n\n\n\nsm &lt;- sm %&gt;%\n  mutate(year = case_when(\n    Study == \"EVS1981\" ~ 1981,\n    Study == \"ISSP1988\" ~ 1988,\n    Study == \"EVS1990\" ~ 1990,\n    Study == \"ISSP1994\" ~ 1994,\n    Study == \"GGP2003\" ~ 2003,\n    Study == \"GGP2006\" ~ 2006\n  ))\n\nggplot(sm, aes(x = year, y = prop, colour = preference)) +\n  geom_point() +\n  geom_line() +\n  #guides(fill = FALSE) +\n  scale_colour_viridis_d()"
+  },
+  {
+    "objectID": "research/talks/2026_rotterdam.html",
+    "href": "research/talks/2026_rotterdam.html",
+    "title": "Exploring the limits of predicting births using survey and administrative data",
+    "section": "",
+    "text": "Exploring the limits of predicting births using survey and administrative data\n      International Population Data Linkage Network conference [Rotterdam]\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/2026_rotterdam.html#summary",
+    "href": "research/talks/2026_rotterdam.html#summary",
+    "title": "Exploring the limits of predicting births using survey and administrative data",
+    "section": "",
+    "text": "Exploring the limits of predicting births using survey and administrative data\n      International Population Data Linkage Network conference [Rotterdam]\n      Click here for website"
+  },
+  {
+    "objectID": "research/talks/2026_rotterdam.html#description",
+    "href": "research/talks/2026_rotterdam.html#description",
+    "title": "Exploring the limits of predicting births using survey and administrative data",
+    "section": "Description",
+    "text": "Description\nIn this presentation, I talked about the decline in fertility, its causes, and its consequences.\nFotografie: Martijn Gijsbertsen"
   }
 ]
